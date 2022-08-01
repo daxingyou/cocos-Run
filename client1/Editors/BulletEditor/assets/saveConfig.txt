@@ -1,0 +1,21 @@
+{
+	"savePath":	"E:\\\\work\\\\client\\\\Editors\\\\BulletEditor\\\\BulletGroupConfig\\\\",
+	"bulletConfigPath": "E:\\\\work\\\\client\\\\Editors\\\\BulletEditor\\\\BulletConfig\\\\",
+	"syncPath": "E:\\\\work\\\\client\\\\RunX\\\\assets\\\\scripts\\\\config\\\\ConfigRunXBullet.js",
+	"syncResPath": "E:\\\\work\\\\client\\\\RunX\\\\assets\\\\",
+	"targetResPath": "E:\\\\work\\\\client\\\\Editors\\\\BulletEditor\\\\assets\\\\",
+	"syncList":{
+		"effects":{
+			"src": "resources-static\\\\textures-packed\\\\effects\\\\",
+			"target" : "effects\\\\"
+		},
+		"prefab":{
+			"src": "resources\\\\prefab\\\\bullet\\\\",
+			"target" : "resources\\\\prefabs\\\\bullets\\\\"
+		},
+		"anim":{
+			"src": "resources-static\\\\anim\\\\bullet\\\\",
+			"target" : "anim\\\\"
+		}
+	}
+}

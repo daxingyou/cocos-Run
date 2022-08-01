@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "83a007da-e10f-443f-bbb3-63567c43670e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1509,
+  "height": 429,
+  "platformSettings": {},
+  "subMetas": {
+    "LiShanLaoMu_ActiveSkill_Effect_Buff": {
+      "ver": "1.0.6",
+      "uuid": "1e8fb48d-6539-4657-9647-35a2b7ed25af",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "83a007da-e10f-443f-bbb3-63567c43670e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1505,
+      "height": 425,
+      "rawWidth": 1509,
+      "rawHeight": 429,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

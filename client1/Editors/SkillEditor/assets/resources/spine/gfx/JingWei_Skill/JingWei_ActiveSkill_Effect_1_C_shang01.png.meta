@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c75fd9ed-7cb5-4b3c-b485-40c7f3d65c82",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2048,
+  "height": 256,
+  "platformSettings": {},
+  "subMetas": {
+    "JingWei_ActiveSkill_Effect_1_C_shang01": {
+      "ver": "1.0.6",
+      "uuid": "eb77e61a-e525-4871-aef1-f8a608307aa9",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c75fd9ed-7cb5-4b3c-b485-40c7f3d65c82",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -38.5,
+      "offsetY": 10,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1967,
+      "height": 232,
+      "rawWidth": 2048,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+"skeleton": { "hash": "DIhkOD3hI3WSMJqgliTGuXpo/lk", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "skill_C", "parent": "root" },
+	{ "name": "skill_dbz", "parent": "skill_C" },
+	{ "name": "ba_down2", "parent": "skill_dbz" },
+	{ "name": "ba_dl1", "parent": "skill_dbz" },
+	{ "name": "ba_dl2", "parent": "skill_dbz" },
+	{ "name": "ba_ks2", "parent": "skill_dbz" }
+],
+"slots": [
+	{ "name": "effect1/ZhuRong_Effect1_dbz/Effect1_dbz_dl3", "bone": "ba_dl1" },
+	{ "name": "effect1/ZhuRong_Effect1_dbz/Effect1_dbz_dl4", "bone": "ba_dl2" },
+	{ "name": "effect1/ZhuRong_Effect1_dbz/Effect1_dbz_ks2", "bone": "ba_ks2" },
+	{ "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_101", "bone": "ba_down2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_101": {
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_74": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_76": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_78": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_80": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_82": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_84": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_86": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_88": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_90": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_92": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_94": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_96": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_98": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_100": { "width": 780, "height": 360 },
+				"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_102": { "width": 780, "height": 360 }
+			},
+			"effect1/ZhuRong_Effect1_dbz/Effect1_dbz_dl3": {
+				"effect1/ZhuRong_Effect1_dbz/Effect1_dbz_dl1": { "width": 750, "height": 250 }
+			},
+			"effect1/ZhuRong_Effect1_dbz/Effect1_dbz_dl4": {
+				"effect1/ZhuRong_Effect1_dbz/Effect1_dbz_dl2": { "width": 285, "height": 114 }
+			},
+			"effect1/ZhuRong_Effect1_dbz/Effect1_dbz_ks2": {
+				"effect1/ZhuRong_Effect1_dbz/Effect1_dbz_ks": { "width": 500, "height": 167 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_101": {
+				"attachment": [
+					{ "time": 2.4667, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_74" },
+					{ "time": 2.5333, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_76" },
+					{ "time": 2.6, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_78" },
+					{ "time": 2.6667, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_80" },
+					{ "time": 2.7333, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_82" },
+					{ "time": 2.8, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_84" },
+					{ "time": 2.8667, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_86" },
+					{ "time": 2.9333, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_88" },
+					{ "time": 3, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_90" },
+					{ "time": 3.0667, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_92" },
+					{ "time": 3.1333, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_94" },
+					{ "time": 3.2, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_96" },
+					{ "time": 3.2667, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_98" },
+					{ "time": 3.3333, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_100" },
+					{ "time": 3.4, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_bz_down/Effect1_bz_down_102" },
+					{ "time": 3.4667, "name": null }
+				]
+			},
+			"effect1/ZhuRong_Effect1_dbz/Effect1_dbz_dl3": {
+				"color": [
+					{ "time": 3.5, "color": "ffffffff" },
+					{ "time": 3.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.5, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_dbz_dl1" }
+				]
+			},
+			"effect1/ZhuRong_Effect1_dbz/Effect1_dbz_dl4": {
+				"color": [
+					{ "time": 3.3333, "color": "ffffffff" },
+					{ "time": 3.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.5, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_dbz_dl2" }
+				]
+			},
+			"effect1/ZhuRong_Effect1_dbz/Effect1_dbz_ks2": {
+				"color": [
+					{ "time": 2.6, "color": "ffffffff" },
+					{ "time": 2.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.4667, "name": "effect1/ZhuRong_Effect1_dbz/Effect1_dbz_ks" }
+				]
+			}
+		},
+		"bones": {
+			"ba_dl1": {
+				"translate": [
+					{ "time": 2.5, "y": -22.66 }
+				],
+				"scale": [
+					{ "time": 2.5, "x": 4, "y": 4 }
+				]
+			},
+			"ba_dl2": {
+				"translate": [
+					{ "time": 2.5, "x": 75.36, "y": 3.72 }
+				],
+				"scale": [
+					{ "time": 2.5, "x": 4, "y": 4 }
+				]
+			},
+			"ba_down2": {
+				"translate": [
+					{ "time": 2.4667, "y": 296.73 }
+				],
+				"scale": [
+					{ "time": 2.4667, "x": 6, "y": 6 }
+				]
+			},
+			"ba_ks2": {
+				"scale": [
+					{ "time": 2.4667, "x": 4, "y": 4 },
+					{ "time": 2.5, "x": 6, "y": 6 },
+					{ "time": 2.5333, "x": 9, "y": 9 },
+					{ "time": 2.8333, "x": 10, "y": 10 }
+				]
+			}
+		}
+	}
+}
+}

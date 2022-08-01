@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "f717c851-e391-438b-87a9-d7904661c68e",
+  "importer": "sprite-atlas",
+  "rawTextureUuid": "a3bbf913-e7af-4258-8ff1-1d9301ca8e46",
+  "size": {
+    "width": 128,
+    "height": 1024
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "effect_270_0001.png": {
+      "ver": "1.0.6",
+      "uuid": "ab8166e9-2193-49e9-92a5-8dd89929fbb7",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a3bbf913-e7af-4258-8ff1-1d9301ca8e46",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 110,
+      "height": 535,
+      "rawWidth": 110,
+      "rawHeight": 535,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

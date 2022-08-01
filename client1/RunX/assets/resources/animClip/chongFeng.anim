@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "chongFeng",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.08333333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "718317f8-c66c-41fc-9b5b-1bf21921027f"
+            }
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "8c0e8feb-889e-4b40-9705-625a4bc74d75"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "879d2710-1b63-437a-9130-8ec9533c0ab0"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "df55832f-7714-4838-8b35-46e70e5872ae"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "b5f1e352-6408-459c-83ef-d780f6eeb684"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

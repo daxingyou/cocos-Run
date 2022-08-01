@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1fbcc8a7-e40b-48a3-b674-02d6d24b7c09",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 789,
+  "height": 603,
+  "platformSettings": {},
+  "subMetas": {
+    "HanZhiXian_ActiveSkill_Effect_1_A_Xia": {
+      "ver": "1.0.6",
+      "uuid": "d611b5c3-5d92-477c-94f2-930c971af1ba",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1fbcc8a7-e40b-48a3-b674-02d6d24b7c09",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 785,
+      "height": 599,
+      "rawWidth": 789,
+      "rawHeight": 603,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="1.1.3413" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
+ <tileset firstgid="1" name="run_stones" tilewidth="128" tileheight="128" tilecount="10" columns="5">
+  <image source="../../textures/parkour/tiledImage/run_stones.png" width="640" height="256"/>
+ </tileset>
+ <tileset firstgid="11" source="../tiledImage/run_basic32.tsx"/>
+ <tileset firstgid="17" source="../tiledImage/run_chapter5.tsx"/>
+ <tileset firstgid="273" name="run_item32" tilewidth="32" tileheight="32" tilecount="7" columns="7">
+  <image source="../../textures/parkour/tiledImage/run_item32.png" width="224" height="32"/>
+ </tileset>
+ <layer id="9" name="floor" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1UVTJFEQReFufLDhb+Ns8dnC4O7uPrgP7u4OZ8O6isoIeIt7Ir5V9ntkC1GhkFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUrWrUoBZ1qEcDGtH0g3t95vp+rpWKNKQjA93oQS/60I8BDGIImchCNnIC3G8979p+rpeLPOSjAP8wjRnMYg7zWMAiClGEYvwJcL/1vGv7uV4JSvEXZdjEFraxg13sYR8HKEcFKlEV4H7redf2s+b1vLHOm9GCVrThEle4xg1ucYd7PKAdHehEV4D7redd288693reWOfDGMEoxnx8fuOYwCSmAtxvPe/1//vd+1nnXs8b63wJy1jBqo/vdw3r+I+NAPdbz7u2n3Xu9Xu1zg9xhGOc+Pj8TnGGc1wEuN963rX9rHOv92OdP+IJz3jx8fpXvOEdofDX77eed20/6zzM34hAJKIQjRjEIi5sn/9CPBKQ6OP1SUjGb6QEuN963rX9rPMPTHBuEw==
+  </data>
+ </layer>
+ <layer id="10" name="shade" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEKgDAMBdDu6v2vq4vgIMY21BZ8D7I14fOXlgIAAAAAAAAAAAAAAAAAAPzRdswSzJq8n92fOd/Mtoq3LR1c72f3IyPyzaymu1NNB3f3s/uRL/PNrKW705sOnu5n9yNf5MuK/pvs9M7Xe390vtH9A9DHDuRxBVk=
+  </data>
+ </layer>
+ <layer id="11" name="loot" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEOwCAIAEB9QtP//7VjO9jBVggxd4uLIgkQWgMAAAAAAAAAAAAAAAAg2tlz/jn6+IQobz23qhef7/7GqDoX1fJhbKc6rZjHr/dWxKigen6MZdZtdj9G7dHZvLJiRKqeHwAAtwuEOwNR
+  </data>
+ </layer>
+ <layer id="12" name="stones" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Dh3zQKdpOQVkETAAAAAAAAAAAAAAAAAAAAAPhnrgMAQLVSqAAC
+  </data>
+ </layer>
+</map>

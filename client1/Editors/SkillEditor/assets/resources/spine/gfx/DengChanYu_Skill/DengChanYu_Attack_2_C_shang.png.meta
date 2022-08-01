@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "99b420ed-222c-47e7-be2c-035f59b1e31f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 468,
+  "height": 268,
+  "platformSettings": {},
+  "subMetas": {
+    "DengChanYu_Attack_2_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "a3314f35-90ec-4427-aa03-ca4400a4557d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "99b420ed-222c-47e7-be2c-035f59b1e31f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 464,
+      "height": 264,
+      "rawWidth": 468,
+      "rawHeight": 268,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

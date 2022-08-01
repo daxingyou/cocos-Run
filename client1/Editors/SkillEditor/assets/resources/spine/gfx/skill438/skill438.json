@@ -1,0 +1,181 @@
+{
+"skeleton": { "hash": "EMosXRRRl95V2ZfzdYy3nBh5Bho", "spine": "3.8.99", "images": "./images/", "audio": "D:/beifen/TB4/西游第三批/夸父" },
+"bones": [
+	{ "name": "root", "scaleX": 0.5266, "scaleY": 0.5266 },
+	{
+		"name": "atkb_daoguang0012",
+		"parent": "root",
+		"length": 232.29,
+		"rotation": 90,
+		"x": 926.51,
+		"y": 0.06,
+		"color": "f7ff03ff"
+	},
+	{ "name": "di", "parent": "root", "x": 212.33, "y": -0.32 }
+],
+"slots": [
+	{ "name": "atkb_daoguang0012", "bone": "atkb_daoguang0012", "color": "b57db5ff", "dark": "4a1344" },
+	{ "name": "atkb_daoguang12", "bone": "atkb_daoguang0012", "color": "b57db5ff", "dark": "4a1344", "blend": "additive" },
+	{ "name": "di", "bone": "di", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"atkb_daoguang0012": {
+				"atkb_daoguang0010": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -6.01, -370.71, -6.01, 676.29, 675.99, 676.29, 675.99, -370.71 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1047,
+					"height": 682
+				},
+				"atkb_daoguang0011": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -6.01, -370.71, -6.01, 676.29, 675.99, 676.29, 675.99, -370.71 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1047,
+					"height": 682
+				},
+				"atkb_daoguang0013": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -6.01, -370.71, -6.01, 676.29, 675.99, 676.29, 675.99, -370.71 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1047,
+					"height": 682
+				},
+				"atkb_daoguang0015": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -6.01, -370.71, -6.01, 676.29, 675.99, 676.29, 675.99, -370.71 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1047,
+					"height": 682
+				}
+			},
+			"atkb_daoguang12": {
+				"atkb_daoguang0010": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -6.01, -370.71, -6.01, 676.29, 675.99, 676.29, 675.99, -370.71 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1047,
+					"height": 682
+				},
+				"atkb_daoguang0011": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -6.01, -370.71, -6.01, 676.29, 675.99, 676.29, 675.99, -370.71 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1047,
+					"height": 682
+				},
+				"atkb_daoguang0013": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -6.01, -370.71, -6.01, 676.29, 675.99, 676.29, 675.99, -370.71 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1047,
+					"height": 682
+				},
+				"atkb_daoguang0015": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -6.01, -370.71, -6.01, 676.29, 675.99, 676.29, 675.99, -370.71 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1047,
+					"height": 682
+				}
+			},
+			"di": {
+				"di": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.56, -0.04, -45.44, -0.04, -45.44, 25.96, 42.56, 25.96 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 88,
+					"height": 26
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill438": {
+		"slots": {
+			"atkb_daoguang0012": {
+				"attachment": [
+					{ "name": "atkb_daoguang0010" },
+					{ "time": 0.0333, "name": "atkb_daoguang0011" },
+					{ "time": 0.1333, "name": "atkb_daoguang0013" },
+					{ "time": 0.2, "name": "atkb_daoguang0015" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"atkb_daoguang12": {
+				"attachment": [
+					{ "name": "atkb_daoguang0010" },
+					{ "time": 0.0333, "name": "atkb_daoguang0011" },
+					{ "time": 0.1333, "name": "atkb_daoguang0013" },
+					{ "time": 0.2, "name": "atkb_daoguang0015" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"di": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "di" }
+				]
+			}
+		},
+		"bones": {
+			"atkb_daoguang0012": {
+				"translate": [
+					{ "x": -130.68, "y": -2.38 }
+				],
+				"scale": [
+					{ "x": 1.28, "y": 1.28 }
+				]
+			},
+			"di": {
+				"translate": [
+					{ "time": 0.0333, "x": 575.29, "y": -4.59 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 6.005, "y": 11.909 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4, "name": "K" }
+		]
+	}
+}
+}

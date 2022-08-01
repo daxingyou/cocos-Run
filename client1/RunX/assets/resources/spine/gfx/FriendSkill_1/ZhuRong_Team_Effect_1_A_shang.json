@@ -1,0 +1,185 @@
+{
+"skeleton": { "hash": "lAIAro8wCC2YA3SBPFsYt552Vr4", "spine": "3.8.99", "images": "./image/", "audio": "I:/项目/外包/祝融_技能特效输出" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "skill_A", "parent": "root" },
+	{ "name": "skill_xlhuo", "parent": "skill_A", "scaleX": 4, "scaleY": 4 },
+	{ "name": "skill_xlcd", "parent": "skill_A", "scaleX": 4, "scaleY": 4 },
+	{ "name": "skill_xld", "parent": "skill_A", "scaleX": 2, "scaleY": 2 },
+	{ "name": "skill_xlhuo2", "parent": "skill_A", "scaleX": 4, "scaleY": 4 }
+],
+"slots": [
+	{ "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_00", "bone": "skill_xlhuo" },
+	{ "name": "effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_69", "bone": "skill_xld" },
+	{ "name": "effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_71", "bone": "skill_xlcd" },
+	{ "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_0", "bone": "skill_xlhuo2", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_71": {
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_71": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_72": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_73": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_74": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_75": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_76": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_77": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_78": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_79": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_80": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_81": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_82": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_83": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_84": { "width": 250, "height": 175 },
+				"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_85": { "width": 250, "height": 175 }
+			},
+			"effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_69": {
+				"effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_69": { "width": 150, "height": 500 },
+				"effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_70": { "width": 150, "height": 500 },
+				"effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_71": { "width": 150, "height": 500 },
+				"effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_73": { "width": 150, "height": 500 },
+				"effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_75": { "width": 150, "height": 500 },
+				"effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_77": { "width": 150, "height": 500 },
+				"effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_79": { "width": 150, "height": 500 }
+			},
+			"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_0": {
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_00": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_02": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_04": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_06": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_08": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_10": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_12": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_14": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_16": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_18": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_20": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_22": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_24": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_26": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_28": { "width": 250, "height": 250 }
+			},
+			"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_00": {
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_00": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_02": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_04": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_06": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_08": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_10": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_12": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_14": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_16": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_18": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_20": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_22": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_24": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_26": { "width": 250, "height": 250 },
+				"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_28": { "width": 250, "height": 250 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_71": {
+				"attachment": [
+					{ "time": 0.3667, "name": "effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_71" },
+					{ "time": 0.4, "name": "effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_72" },
+					{ "time": 0.4333, "name": "effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_73" },
+					{ "time": 0.4667, "name": "effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_74" },
+					{ "time": 0.5, "name": "effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_75" },
+					{ "time": 0.5667, "name": "effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_77" },
+					{ "time": 0.6333, "name": "effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_79" },
+					{ "time": 0.7, "name": "effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_81" },
+					{ "time": 0.7667, "name": "effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_83" },
+					{ "time": 0.8333, "name": "effect1/ZhuRong_Effect1_xlcd/ZhuRong_Effect1_xlcd_85" },
+					{ "time": 0.9, "name": null }
+				]
+			},
+			"effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_69": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_69" },
+					{ "time": 0.3333, "name": "effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_70" },
+					{ "time": 0.3667, "name": "effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_71" },
+					{ "time": 0.4333, "name": "effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_73" },
+					{ "time": 0.5, "name": "effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_75" },
+					{ "time": 0.5667, "name": "effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_77" },
+					{ "time": 0.6333, "name": "effect1/ZhuRong_Effect1_xld/ZhuRong_Effect1_xld_79" }
+				]
+			},
+			"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_0": {
+				"color": [
+					{ "color": "ffffff9b" },
+					{ "time": 0.1667, "color": "ffffffd2" },
+					{ "time": 0.2, "color": "ffffff80" }
+				],
+				"attachment": [
+					{ "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_16" },
+					{ "time": 0.0667, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_18" },
+					{ "time": 0.1333, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_20" },
+					{ "time": 0.2, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_22" },
+					{ "time": 0.2667, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_24" },
+					{ "time": 0.3333, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_26" },
+					{ "time": 0.4, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_28" },
+					{ "time": 0.4667, "name": null }
+				]
+			},
+			"effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_00": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffffd2" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_16" },
+					{ "time": 0.1, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_18" },
+					{ "time": 0.1667, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_20" },
+					{ "time": 0.2333, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_22" },
+					{ "time": 0.3, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_24" },
+					{ "time": 0.3667, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_26" },
+					{ "time": 0.4333, "name": "effect1/ZhuRong_Effect1_xlhuo/ZhuRong_Effect1_xlhuo_28" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"skill_xlhuo": {
+				"translate": [
+					{ "y": 154.08 }
+				],
+				"scale": [
+					{ "x": 0.659, "y": 0.659 }
+				]
+			},
+			"skill_xld": {
+				"translate": [
+					{ "x": -0.97, "y": 275.1 },
+					{ "time": 0.1667, "x": -0.97, "y": 284.52 },
+					{ "time": 0.3, "x": -3.54, "y": 292.22 },
+					{ "time": 0.3333, "x": -3.54, "y": 294.79 },
+					{ "time": 0.3667, "x": -3.54, "y": 289.36 }
+				]
+			},
+			"skill_xlcd": {
+				"translate": [
+					{ "time": 0.3667, "x": -19.54, "y": 147.29 }
+				]
+			},
+			"skill_xlhuo2": {
+				"translate": [
+					{ "y": 154.08 }
+				],
+				"scale": [
+					{ "x": 0.659, "y": 0.659 }
+				]
+			}
+		}
+	}
+}
+}

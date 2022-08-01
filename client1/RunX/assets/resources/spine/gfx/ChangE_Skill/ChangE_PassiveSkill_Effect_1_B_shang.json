@@ -1,0 +1,298 @@
+{
+"skeleton": { "hash": "41lLqCwGzAHmuyl1+AZvy6/AiSg", "spine": "3.8.99", "images": "", "audio": "D:/阿拆/wb/xq/2022冲鸭/月月需求/九天玄女项目/第五批给风眠0307/SSR-嫦娥-a/嫦娥导出" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root", "color": "4a00ffff" },
+	{ "name": "canyue", "parent": "effect", "color": "4a00ffff" },
+	{ "name": "manyue", "parent": "effect", "color": "4a00ffff" },
+	{ "name": "qiehuan1", "parent": "effect", "color": "4a00ffff" },
+	{ "name": "qiehuan2", "parent": "effect", "color": "4a00ffff" },
+	{ "name": "qiehuan3", "parent": "effect", "color": "4a00ffff" },
+	{ "name": "yishang", "parent": "effect", "color": "4a00ffff" }
+],
+"slots": [
+	{ "name": "images/effect1/canyue/cy_22", "bone": "canyue" },
+	{ "name": "images/effect1/manyue/my_55", "bone": "manyue" },
+	{ "name": "images/effect1/yishang/ys_90", "bone": "yishang" },
+	{ "name": "images/effect1/qiehuan1/qh1_09", "bone": "qiehuan1", "blend": "additive" },
+	{ "name": "images/effect1/qiehuan2/qh2_42", "bone": "qiehuan2", "blend": "additive" },
+	{ "name": "images/effect1/qiehuan3/qh3_78", "bone": "qiehuan3", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"images/effect1/canyue/cy_22": {
+				"images/effect1/canyue/cy_22": { "width": 100, "height": 100 }
+			},
+			"images/effect1/manyue/my_55": {
+				"images/effect1/manyue/my_55": { "width": 100, "height": 100 }
+			},
+			"images/effect1/qiehuan1/qh1_09": {
+				"images/effect1/qiehuan1/qh1_09": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan1/qh1_10": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan1/qh1_11": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan1/qh1_12": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan1/qh1_13": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan1/qh1_14": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan1/qh1_15": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan1/qh1_16": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan1/qh1_17": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan1/qh1_18": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan1/qh1_19": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan1/qh1_20": { "width": 250, "height": 250 }
+			},
+			"images/effect1/qiehuan2/qh2_42": {
+				"images/effect1/qiehuan2/qh2_42": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan2/qh2_43": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan2/qh2_44": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan2/qh2_45": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan2/qh2_46": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan2/qh2_47": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan2/qh2_48": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan2/qh2_49": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan2/qh2_50": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan2/qh2_51": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan2/qh2_52": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan2/qh2_53": { "width": 250, "height": 250 }
+			},
+			"images/effect1/qiehuan3/qh3_78": {
+				"images/effect1/qiehuan3/qh3_78": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan3/qh3_79": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan3/qh3_80": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan3/qh3_81": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan3/qh3_82": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan3/qh3_83": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan3/qh3_84": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan3/qh3_85": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan3/qh3_86": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan3/qh3_87": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan3/qh3_88": { "width": 250, "height": 250 },
+				"images/effect1/qiehuan3/qh3_89": { "width": 250, "height": 250 }
+			},
+			"images/effect1/yishang/ys_90": {
+				"images/effect1/yishang/ys_90": { "width": 100, "height": 100 }
+			}
+		}
+	}
+],
+"animations": {
+	"canyue_A": {
+		"slots": {
+			"images/effect1/canyue/cy_22": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "images/effect1/canyue/cy_22" }
+				]
+			},
+			"images/effect1/qiehuan1/qh1_09": {
+				"attachment": [
+					{ "name": "images/effect1/qiehuan1/qh1_09" },
+					{ "time": 0.0333, "name": "images/effect1/qiehuan1/qh1_10" },
+					{ "time": 0.0667, "name": "images/effect1/qiehuan1/qh1_11" },
+					{ "time": 0.1, "name": "images/effect1/qiehuan1/qh1_12" },
+					{ "time": 0.1333, "name": "images/effect1/qiehuan1/qh1_13" },
+					{ "time": 0.1667, "name": "images/effect1/qiehuan1/qh1_14" },
+					{ "time": 0.2, "name": "images/effect1/qiehuan1/qh1_15" },
+					{ "time": 0.2333, "name": "images/effect1/qiehuan1/qh1_16" },
+					{ "time": 0.2667, "name": "images/effect1/qiehuan1/qh1_17" },
+					{ "time": 0.3, "name": "images/effect1/qiehuan1/qh1_18" },
+					{ "time": 0.3333, "name": "images/effect1/qiehuan1/qh1_19" },
+					{ "time": 0.3667, "name": "images/effect1/qiehuan1/qh1_20" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"qiehuan1": {
+				"translate": [
+					{ "y": 320.19 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			},
+			"canyue": {
+				"translate": [
+					{ "y": 318.84 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 },
+					{ "time": 0.3667, "x": 1.6, "y": 1.6 }
+				]
+			}
+		}
+	},
+	"canyue_B": {
+		"slots": {
+			"images/effect1/canyue/cy_22": {
+				"attachment": [
+					{ "name": "images/effect1/canyue/cy_22" }
+				]
+			}
+		},
+		"bones": {
+			"qiehuan1": {
+				"translate": [
+					{ "y": 320.19 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			},
+			"canyue": {
+				"translate": [
+					{ "y": 318.84 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.55, "y": 1.55, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	},
+	"manyue_A": {
+		"slots": {
+			"images/effect1/manyue/my_55": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "images/effect1/manyue/my_55" }
+				]
+			},
+			"images/effect1/qiehuan2/qh2_42": {
+				"attachment": [
+					{ "name": "images/effect1/qiehuan2/qh2_42" },
+					{ "time": 0.0333, "name": "images/effect1/qiehuan2/qh2_43" },
+					{ "time": 0.0667, "name": "images/effect1/qiehuan2/qh2_44" },
+					{ "time": 0.1, "name": "images/effect1/qiehuan2/qh2_45" },
+					{ "time": 0.1333, "name": "images/effect1/qiehuan2/qh2_46" },
+					{ "time": 0.1667, "name": "images/effect1/qiehuan2/qh2_47" },
+					{ "time": 0.2, "name": "images/effect1/qiehuan2/qh2_48" },
+					{ "time": 0.2333, "name": "images/effect1/qiehuan2/qh2_49" },
+					{ "time": 0.2667, "name": "images/effect1/qiehuan2/qh2_50" },
+					{ "time": 0.3, "name": "images/effect1/qiehuan2/qh2_51" },
+					{ "time": 0.3333, "name": "images/effect1/qiehuan2/qh2_52" },
+					{ "time": 0.3667, "name": "images/effect1/qiehuan2/qh2_53" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"manyue": {
+				"translate": [
+					{ "y": 318.84 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 },
+					{ "time": 0.4667, "x": 1.6, "y": 1.6 }
+				]
+			},
+			"qiehuan2": {
+				"translate": [
+					{ "y": 318.84 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	},
+	"manyue_B": {
+		"slots": {
+			"images/effect1/manyue/my_55": {
+				"attachment": [
+					{ "name": "images/effect1/manyue/my_55" }
+				]
+			}
+		},
+		"bones": {
+			"manyue": {
+				"translate": [
+					{ "y": 318.84 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.55, "y": 1.55, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"qiehuan2": {
+				"translate": [
+					{ "y": 318.84 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			},
+			"qiehuan1": {
+				"translate": [
+					{ "y": 320.19 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	},
+	"yishang": {
+		"slots": {
+			"images/effect1/qiehuan3/qh3_78": {
+				"attachment": [
+					{ "name": "images/effect1/qiehuan3/qh3_78" },
+					{ "time": 0.0333, "name": "images/effect1/qiehuan3/qh3_79" },
+					{ "time": 0.0667, "name": "images/effect1/qiehuan3/qh3_80" },
+					{ "time": 0.1, "name": "images/effect1/qiehuan3/qh3_81" },
+					{ "time": 0.1333, "name": "images/effect1/qiehuan3/qh3_82" },
+					{ "time": 0.1667, "name": "images/effect1/qiehuan3/qh3_83" },
+					{ "time": 0.2, "name": "images/effect1/qiehuan3/qh3_84" },
+					{ "time": 0.2333, "name": "images/effect1/qiehuan3/qh3_85" },
+					{ "time": 0.2667, "name": "images/effect1/qiehuan3/qh3_86" },
+					{ "time": 0.3, "name": "images/effect1/qiehuan3/qh3_87" },
+					{ "time": 0.3333, "name": "images/effect1/qiehuan3/qh3_88" },
+					{ "time": 0.3667, "name": "images/effect1/qiehuan3/qh3_89" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"images/effect1/yishang/ys_90": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8667, "color": "ffffffff" },
+					{ "time": 1.0667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "images/effect1/yishang/ys_90" }
+				]
+			}
+		},
+		"bones": {
+			"yishang": {
+				"translate": [
+					{ "x": 4.01, "y": 318.84 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 },
+					{ "time": 0.3667, "x": 1.6, "y": 1.6 },
+					{ "time": 0.7667, "x": 1.5, "y": 1.5 },
+					{ "time": 1.0667, "x": 1.6, "y": 1.6 }
+				]
+			},
+			"qiehuan3": {
+				"translate": [
+					{ "y": 318.84 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

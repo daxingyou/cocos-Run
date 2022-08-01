@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9e870f40-a6d6-45c5-9f64-97fc0f00a292",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 441,
+  "height": 448,
+  "platformSettings": {},
+  "subMetas": {
+    "hero_thecurtain_backgroud2": {
+      "ver": "1.0.6",
+      "uuid": "6a515e60-21c8-4902-9d83-8b0c5a597367",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9e870f40-a6d6-45c5-9f64-97fc0f00a292",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 441,
+      "height": 448,
+      "rawWidth": 441,
+      "rawHeight": 448,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

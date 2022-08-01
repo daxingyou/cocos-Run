@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "15dbf870-386d-4ded-95b4-08756d688343",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 52,
+  "height": 28,
+  "platformSettings": {},
+  "subMetas": {
+    "ShangDian_font_daoju2": {
+      "ver": "1.0.6",
+      "uuid": "52b17a3c-eab8-489b-b26b-8fe406f56afd",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "15dbf870-386d-4ded-95b4-08756d688343",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 52,
+      "height": 28,
+      "rawWidth": 52,
+      "rawHeight": 28,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

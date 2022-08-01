@@ -1,0 +1,296 @@
+{
+"skeleton": { "hash": "hIyJiYhue8iuzpwYr20NDAveWdk", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "ActiveSkill_Effect_1", "parent": "eft" },
+	{ "name": "faqiu2", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "huoxing", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "huoxing2", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "smoke", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "huan", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "huan2", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "kuosan", "parent": "ActiveSkill_Effect_1" }
+],
+"slots": [
+	{ "name": "faqiu2", "bone": "faqiu2", "blend": "additive" },
+	{ "name": "huoxing", "bone": "huoxing", "blend": "additive" },
+	{ "name": "huoxing2", "bone": "huoxing2", "blend": "additive" },
+	{ "name": "smoke", "bone": "smoke", "blend": "additive" },
+	{ "name": "huan", "bone": "huan", "blend": "additive" },
+	{ "name": "huan2", "bone": "huan2", "blend": "additive" },
+	{ "name": "kuosan", "bone": "kuosan", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"faqiu2": {
+				"eft/PassiveSkill_Effect_1/faqiu/faqiu_0027": { "width": 600, "height": 600 }
+			},
+			"huan": {
+				"eft/PassiveSkill_Effect_1/huan/huan_0053": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0055": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0057": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0059": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0061": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0065": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0067": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0069": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0071": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0075": { "width": 600, "height": 600 }
+			},
+			"huan2": {
+				"eft/PassiveSkill_Effect_1/huan/huan_0053": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0055": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0057": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0059": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0061": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0065": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0067": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0069": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0071": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huan/huan_0075": { "width": 600, "height": 600 }
+			},
+			"huoxing": {
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0054": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0056": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0058": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0060": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0062": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0064": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0066": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0068": { "width": 600, "height": 600 }
+			},
+			"huoxing2": {
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0054": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0056": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0058": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0060": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0062": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0064": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0066": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/huoxing/huoxing_0068": { "width": 600, "height": 600 }
+			},
+			"kuosan": {
+				"eft/PassiveSkill_Effect_1/kuosan/kuosan_117": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/kuosan/kuosan_120": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/kuosan/kuosan_123": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/kuosan/kuosan_126": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/kuosan/kuosan_129": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/kuosan/kuosan_132": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/kuosan/kuosan_135": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/kuosan/kuosan_138": { "width": 600, "height": 600 }
+			},
+			"smoke": {
+				"eft/PassiveSkill_Effect_1/smoke/smoke_0056": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/smoke/smoke_0060": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/smoke/smoke_0064": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/smoke/smoke_0068": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/smoke/smoke_0072": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/smoke/smoke_0076": { "width": 600, "height": 600 }
+			}
+		}
+	}
+],
+"animations": {
+	"Release": {
+		"slots": {
+			"faqiu2": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "eft/PassiveSkill_Effect_1/faqiu/faqiu_0027" },
+					{ "time": 0.4333, "name": null }
+				]
+			},
+			"huan": {
+				"color": [
+					{ "time": 1.5667, "color": "ffffffff" },
+					{ "time": 1.9333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0053" },
+					{ "time": 0.4, "name": "eft/PassiveSkill_Effect_1/huan/huan_0055" },
+					{ "time": 0.4667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0057" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0059" },
+					{ "time": 0.6, "name": "eft/PassiveSkill_Effect_1/huan/huan_0061" },
+					{ "time": 0.7333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0065" },
+					{ "time": 0.8, "name": "eft/PassiveSkill_Effect_1/huan/huan_0067" },
+					{ "time": 0.8667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0069" },
+					{ "time": 0.9333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0071" },
+					{ "time": 1.0667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0075" },
+					{ "time": 1.1333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0057" },
+					{ "time": 1.2, "name": "eft/PassiveSkill_Effect_1/huan/huan_0059" },
+					{ "time": 1.2667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0061" },
+					{ "time": 1.4, "name": "eft/PassiveSkill_Effect_1/huan/huan_0065" },
+					{ "time": 1.4667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0067" },
+					{ "time": 1.5333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0069" },
+					{ "time": 1.6, "name": "eft/PassiveSkill_Effect_1/huan/huan_0071" },
+					{ "time": 1.7333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0075" },
+					{ "time": 1.8, "name": "eft/PassiveSkill_Effect_1/huan/huan_0057" },
+					{ "time": 1.8667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0059" },
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"huan2": {
+				"color": [
+					{ "time": 2.6, "color": "ffffffff" },
+					{ "time": 2.9667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.3667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0053" },
+					{ "time": 1.4333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0055" },
+					{ "time": 1.5, "name": "eft/PassiveSkill_Effect_1/huan/huan_0057" },
+					{ "time": 1.5667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0059" },
+					{ "time": 1.6333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0061" },
+					{ "time": 1.7667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0065" },
+					{ "time": 1.8333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0067" },
+					{ "time": 1.9, "name": "eft/PassiveSkill_Effect_1/huan/huan_0069" },
+					{ "time": 1.9667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0071" },
+					{ "time": 2.1, "name": "eft/PassiveSkill_Effect_1/huan/huan_0075" },
+					{ "time": 2.1667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0057" },
+					{ "time": 2.2333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0059" },
+					{ "time": 2.3, "name": "eft/PassiveSkill_Effect_1/huan/huan_0061" },
+					{ "time": 2.4333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0065" },
+					{ "time": 2.5, "name": "eft/PassiveSkill_Effect_1/huan/huan_0067" },
+					{ "time": 2.5667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0069" },
+					{ "time": 2.6333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0071" },
+					{ "time": 2.7667, "name": "eft/PassiveSkill_Effect_1/huan/huan_0075" },
+					{ "time": 2.8333, "name": "eft/PassiveSkill_Effect_1/huan/huan_0057" },
+					{ "time": 2.9, "name": "eft/PassiveSkill_Effect_1/huan/huan_0059" },
+					{ "time": 2.9667, "name": null }
+				]
+			},
+			"huoxing": {
+				"attachment": [
+					{ "time": 0.3667, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0054" },
+					{ "time": 0.4333, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0056" },
+					{ "time": 0.5, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0058" },
+					{ "time": 0.5667, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0060" },
+					{ "time": 0.6333, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0062" },
+					{ "time": 0.7, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0064" },
+					{ "time": 0.7667, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0066" },
+					{ "time": 0.8333, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0068" },
+					{ "time": 0.8667, "name": null }
+				]
+			},
+			"huoxing2": {
+				"attachment": [
+					{ "time": 0.4667, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0054" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0056" },
+					{ "time": 0.6, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0058" },
+					{ "time": 0.6667, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0060" },
+					{ "time": 0.7333, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0062" },
+					{ "time": 0.8, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0064" },
+					{ "time": 0.8667, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0066" },
+					{ "time": 0.9333, "name": "eft/PassiveSkill_Effect_1/huoxing/huoxing_0068" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"kuosan": {
+				"attachment": [
+					{ "time": 2.4667, "name": "eft/PassiveSkill_Effect_1/kuosan/kuosan_117" },
+					{ "time": 2.5667, "name": "eft/PassiveSkill_Effect_1/kuosan/kuosan_120" },
+					{ "time": 2.6667, "name": "eft/PassiveSkill_Effect_1/kuosan/kuosan_123" },
+					{ "time": 2.7667, "name": "eft/PassiveSkill_Effect_1/kuosan/kuosan_126" },
+					{ "time": 2.8667, "name": "eft/PassiveSkill_Effect_1/kuosan/kuosan_129" },
+					{ "time": 2.9667, "name": "eft/PassiveSkill_Effect_1/kuosan/kuosan_132" },
+					{ "time": 3.0667, "name": "eft/PassiveSkill_Effect_1/kuosan/kuosan_135" },
+					{ "time": 3.1667, "name": "eft/PassiveSkill_Effect_1/kuosan/kuosan_138" },
+					{ "time": 3.3, "name": null }
+				]
+			},
+			"smoke": {
+				"attachment": [
+					{ "time": 0.4333, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0056" },
+					{ "time": 0.5667, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0060" },
+					{ "time": 0.7, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0064" },
+					{ "time": 0.8333, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0068" },
+					{ "time": 0.9667, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0072" },
+					{ "time": 1.1, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0076" },
+					{ "time": 1.2, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0056" },
+					{ "time": 1.3, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0060" },
+					{ "time": 1.3667, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0064" },
+					{ "time": 1.4667, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0068" },
+					{ "time": 1.5333, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0072" },
+					{ "time": 1.6333, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0076" },
+					{ "time": 1.7, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0056" },
+					{ "time": 1.8, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0060" },
+					{ "time": 1.8333, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0064" },
+					{ "time": 1.9333, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0068" },
+					{ "time": 2, "name": "eft/PassiveSkill_Effect_1/smoke/smoke_0072" },
+					{ "time": 2.0667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"faqiu2": {
+				"translate": [
+					{ "time": 0.1667, "x": -93.19, "y": 2293.43, "curve": 0, "c2": 0.27, "c3": 0.75 },
+					{ "time": 0.3667, "x": -93.19, "y": 391.06 }
+				],
+				"scale": [
+					{ "x": 4, "y": -4 }
+				]
+			},
+			"huoxing": {
+				"translate": [
+					{ "time": 0.3667, "x": -113.33, "y": 467.48 }
+				],
+				"scale": [
+					{ "time": 0.3667, "x": 4, "y": 4 }
+				]
+			},
+			"huoxing2": {
+				"translate": [
+					{ "time": 0.4667, "x": 61.39, "y": 613.86 }
+				],
+				"scale": [
+					{ "time": 0.4667, "x": -5.6, "y": 5.6 }
+				]
+			},
+			"smoke": {
+				"translate": [
+					{ "time": 0.4333, "y": 104.4, "curve": "stepped" },
+					{ "time": 1.7, "y": 104.4, "curve": 0, "c2": 0.43, "c3": 0.47 },
+					{ "time": 2.0667, "y": 39.15 }
+				],
+				"scale": [
+					{ "time": 0.4333, "x": 6, "y": 6, "curve": "stepped" },
+					{ "time": 1.7, "x": 6, "y": 6, "curve": 0, "c2": 0.43, "c3": 0.47 },
+					{ "time": 2.0667 }
+				]
+			},
+			"huan": {
+				"translate": [
+					{ "time": 0.2667, "x": -60.9, "y": 87 }
+				],
+				"scale": [
+					{ "time": 0.2667, "x": 5, "y": 4.88 }
+				]
+			},
+			"huan2": {
+				"translate": [
+					{ "time": 1.3, "x": -65.25, "y": 73.95, "curve": 0, "c2": 0.37, "c3": 0.486 },
+					{ "time": 2.3, "x": -60.9, "y": 43.5 }
+				],
+				"scale": [
+					{ "time": 1.3, "x": 6, "y": 5.88, "curve": 0, "c2": 0.37, "c3": 0.486 },
+					{ "time": 2.3, "y": 1.44 }
+				]
+			},
+			"kuosan": {
+				"translate": [
+					{ "time": 2.3667, "x": 56.66, "y": 80.27 }
+				],
+				"scale": [
+					{ "time": 2.3667, "x": 8.8, "y": 8.8 }
+				]
+			}
+		}
+	}
+}
+}

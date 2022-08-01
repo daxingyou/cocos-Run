@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "44e4b62b-fe94-46db-8967-7800c8d86065",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 205,
+  "height": 178,
+  "platformSettings": {},
+  "subMetas": {
+    "hero_Hexagoncombatforce": {
+      "ver": "1.0.6",
+      "uuid": "5daf9ef3-ff24-4772-8b1b-8897f81fdbc7",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "44e4b62b-fe94-46db-8967-7800c8d86065",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 205,
+      "height": 178,
+      "rawWidth": 205,
+      "rawHeight": 178,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

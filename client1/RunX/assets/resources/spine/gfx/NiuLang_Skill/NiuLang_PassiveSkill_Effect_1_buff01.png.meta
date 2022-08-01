@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a9de130c-1da5-4a62-98a9-730608c232aa",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 343,
+  "height": 194,
+  "platformSettings": {},
+  "subMetas": {
+    "NiuLang_PassiveSkill_Effect_1_buff01": {
+      "ver": "1.0.6",
+      "uuid": "023c2457-0bda-49aa-beb5-177ffafff344",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a9de130c-1da5-4a62-98a9-730608c232aa",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 339,
+      "height": 190,
+      "rawWidth": 343,
+      "rawHeight": 194,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

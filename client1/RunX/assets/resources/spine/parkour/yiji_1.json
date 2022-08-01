@@ -1,0 +1,152 @@
+{
+"skeleton": {
+	"hash": "4/6I3v1FfazPeSX6Q1gX9GCNTQs",
+	"spine": "3.8.99",
+	"x": -29.31,
+	"y": -2.98,
+	"width": 59.4,
+	"height": 122.4,
+	"images": "./images/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone8", "parent": "root", "scaleX": 0.3, "scaleY": 0.3 },
+	{ "name": "bone", "parent": "bone8", "length": 139.77, "rotation": 90 },
+	{ "name": "bone2", "parent": "bone8", "x": -4.23, "y": 4.11 },
+	{ "name": "bone3", "parent": "bone2" },
+	{ "name": "bone4", "parent": "bone8", "x": -4.23, "y": 4.11 },
+	{ "name": "bone5", "parent": "bone4" },
+	{ "name": "bone6", "parent": "bone8", "x": -4.23, "y": 4.11 },
+	{ "name": "bone7", "parent": "bone6" }
+],
+"slots": [
+	{ "name": "yiji_a_01", "bone": "bone", "attachment": "yiji_a_04" },
+	{ "name": "yiji_a_02a", "bone": "bone3" },
+	{ "name": "yiji_a_02a2", "bone": "bone5" },
+	{ "name": "yiji_a_02a3", "bone": "bone7" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yiji_a_01": {
+				"yiji_a_01": { "x": 60.21, "y": 4.12, "rotation": -90, "width": 186, "height": 144 },
+				"yiji_a_02": { "x": 121.07, "y": -6.02, "rotation": -90, "width": 205, "height": 267 },
+				"yiji_a_03": { "x": 163.4, "y": 0.13, "rotation": -90, "width": 194, "height": 346 },
+				"yiji_a_04": { "x": 194.05, "y": -1.31, "rotation": -90, "width": 198, "height": 408 }
+			},
+			"yiji_a_02a": {
+				"yiji_a_02a": { "width": 35, "height": 34 }
+			},
+			"yiji_a_02a2": {
+				"yiji_a_02c": { "width": 42, "height": 43 }
+			},
+			"yiji_a_02a3": {
+				"yiji_a_02b": { "width": 37, "height": 39 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"yiji_a_01": {
+				"attachment": [
+					{ "name": "yiji_a_01" }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"yiji_a_01": {
+				"attachment": [
+					{ "name": "yiji_a_01" },
+					{ "time": 0.0667, "name": "yiji_a_02" },
+					{ "time": 0.1333, "name": "yiji_a_03" },
+					{ "time": 0.2, "name": "yiji_a_04" }
+				]
+			},
+			"yiji_a_02a": {
+				"attachment": [
+					{ "time": 0.0667, "name": "yiji_a_02a" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"yiji_a_02a2": {
+				"attachment": [
+					{ "time": 0.0667, "name": "yiji_a_02c" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"yiji_a_02a3": {
+				"attachment": [
+					{ "time": 0.0667, "name": "yiji_a_02b" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "time": 0.2 },
+					{ "time": 0.2667, "x": 1.208 },
+					{ "time": 0.3333 }
+				]
+			},
+			"bone7": {
+				"rotate": [
+					{ "time": 0.0667 },
+					{ "time": 0.3333, "angle": -177.35 }
+				],
+				"translate": [
+					{ "time": 0.0667 },
+					{ "time": 0.1333, "y": 164.59 },
+					{ "time": 0.3333 }
+				]
+			},
+			"bone5": {
+				"rotate": [
+					{ "time": 0.0667 },
+					{ "time": 0.3333, "angle": -64.99 }
+				],
+				"translate": [
+					{ "time": 0.0667 },
+					{ "time": 0.2333, "y": 49.05 },
+					{ "time": 0.3333 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "time": 0.0667 },
+					{ "time": 0.3333, "angle": 92.2 }
+				],
+				"translate": [
+					{ "time": 0.0667 },
+					{ "time": 0.2, "y": 88.29 },
+					{ "time": 0.3333 }
+				]
+			},
+			"bone6": {
+				"translate": [
+					{ "time": 0.0667 },
+					{ "time": 0.3333, "x": 186.39 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "time": 0.0667 },
+					{ "time": 0.3333, "x": 321.55 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0.0667 },
+					{ "time": 0.3333, "x": -272.5 }
+				]
+			}
+		}
+	},
+	"animation3": {}
+}
+}

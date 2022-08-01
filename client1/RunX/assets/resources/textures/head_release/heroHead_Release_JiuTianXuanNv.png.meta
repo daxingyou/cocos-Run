@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4d7a1a5c-2ca6-4f2e-8efd-1d27c34f1a8d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 200,
+  "height": 100,
+  "platformSettings": {},
+  "subMetas": {
+    "heroHead_Release_JiuTianXuanNv": {
+      "ver": "1.0.6",
+      "uuid": "bc9a0b21-d522-4c43-8e1f-ff90c9b5fd8c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4d7a1a5c-2ca6-4f2e-8efd-1d27c34f1a8d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 200,
+      "height": 100,
+      "rawWidth": 200,
+      "rawHeight": 100,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+"skeleton": { "hash": "snHh2VbY7t2yGLy7CGJeV92hD7g", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/女娲" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.63, "scaleY": 0.63 },
+	{ "name": "c1", "parent": "bone", "x": 60.9, "y": -424.45 }
+],
+"slots": [
+	{ "name": "c1", "bone": "c1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"c1": {
+				"c1": { "width": 550, "height": 400 },
+				"c2": { "width": 550, "height": 400 },
+				"c3": { "width": 550, "height": 400 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill68": {
+		"slots": {
+			"c1": {
+				"attachment": [
+					{ "name": "c1" },
+					{ "time": 0.0667, "name": "c2" },
+					{ "time": 0.1333, "name": "c3" },
+					{ "time": 0.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"c1": {
+				"rotate": [
+					{ "angle": -31.45 }
+				],
+				"translate": [
+					{ "x": 92.05, "y": 768.39 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 1.2333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "k" }
+		]
+	}
+}
+}

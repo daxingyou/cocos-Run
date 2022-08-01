@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "f55f17d5-746e-4909-9489-c8890449c914",
+  "importer": "sprite-atlas",
+  "rawTextureUuid": "ab4d393a-1642-465d-8c0b-65c4d3cc09bb",
+  "size": {
+    "width": 256,
+    "height": 256
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "BOSS_060_0001.png": {
+      "ver": "1.0.6",
+      "uuid": "a31ef247-8346-46e8-a7aa-0250c659df74",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ab4d393a-1642-465d-8c0b-65c4d3cc09bb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 176,
+      "height": 175,
+      "rawWidth": 176,
+      "rawHeight": 175,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

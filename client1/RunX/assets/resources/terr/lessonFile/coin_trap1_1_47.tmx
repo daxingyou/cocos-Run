@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="1.1.3413" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
+ <tileset firstgid="1" name="run_stones" tilewidth="128" tileheight="128" tilecount="10" columns="5">
+  <image source="../../textures/parkour/tiledImage/run_stones.png" width="640" height="256"/>
+ </tileset>
+ <tileset firstgid="11" source="../tiledImage/run_basic32.tsx"/>
+ <tileset firstgid="17" source="../tiledImage/run_chapter5.tsx"/>
+ <tileset firstgid="273" name="run_item32" tilewidth="32" tileheight="32" tilecount="7" columns="7">
+  <image source="../../textures/parkour/tiledImage/run_item32.png" width="224" height="32"/>
+ </tileset>
+ <layer id="9" name="floor" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt18dvFDEYxuFZeod/kc6VzoXeO1d6Cb333gmE3jskhE5oofcFfnuIZI1W60H72WRX7ys9l7HkmbHH/jxJoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKYpve6IO+6If+GICBhtcHRXsbJZ3BGIKhGIbhGIGRhtdHRXsbJZ3xmICJmITJmIKphtenRXub1ptt2I4d2Ild2I092JuhfTTGYCzGxX10pUimYwZmYhaO4ThOoBYncQp1OJ2hfTbmYC7mRXwPpXjmYwEWYhGu4Cqu4Tpu4CZu4XaG9sVYgqVYFu81KjbLsQI1WIlVWI01WGvQvg7rsQEb8RCP8BhP8BTP8BwvMrRvwmZswdYA41FtKbce+tr3YT8O4CDe4wM+4hM+4wu+4luG9kM4jCM4avB81RjLeuhrP4OzOIfziX99+ub3Ai7iEi4bPJ9bz6sllvXQ134Hd3EP95Py1289GvAAjQbP59bzSo57jrWsh772JrzEK7xOyp/fN3iLZrwzeD63nlfyOnbPsZb10Nf+HT/wE78M+svjN/4UXipnW8//5zq2PMe69TD0/HZmDrqgK7oZzEd6fi3recs6zjLe1v8ZludYy3roa7fen7szpz3QE70Mvhe3nmc5l4f6z7A8x1qOd6Xvz4X121LPs5zLQ/1nWJ5jLcc79v4cYv2mv5nGEuMZ6j/D8hxrOd6x92fr9Vs4j6e/mVLn8lD/GZb7ZMz129r353yRPkv1G2qcctyzDdqiHdqjAzqiU87f7u6T7vott99/ua/F/dJrzaK/dJ+l+g01Tn8B08MG8w==
+  </data>
+ </layer>
+ <layer id="10" name="shade" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2TsKwCAQQEH7xPtfN5VVfkKMrjIDthJ4yCpJCQAAAAAAAAAAAADqbZ0WAEST0/f5tnf/amrkhntpHEvLtoXGMfzRttD4WYt5OPo9aJ5f+/NczWa1xtqerdJY23uzN9b23ayNta03onH0e+xqev1v0gcgtgNgxwZl
+  </data>
+ </layer>
+ <layer id="11" name="loot" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1jEKACEMBEB9gv//rIW1INyhrsw0tnFJSEoBAAAAAAAAAACAM1rd874g6U+7a0zIZCa5dt6iF9f9lZXdxld6YZ2s4E52HeQxn5DH3MK93MMAADB0T08C0Q==
+  </data>
+ </layer>
+ <layer id="12" name="stones" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzrENACAMBLGkYf+RGQGlIi/Z3XVXBQAAAAAAAAAAAAAAAAB7nN8DQ2m/AACQrB8NAOS4Ru8ADw==
+  </data>
+ </layer>
+</map>

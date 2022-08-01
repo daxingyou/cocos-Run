@@ -1,0 +1,123 @@
+{
+"skeleton": { "hash": "UwhRR1WyLJ3jXR1WRshiXp4k8es", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/牛魔王" },
+"bones": [
+	{ "name": "root", "y": 1.36 },
+	{ "name": "bone", "parent": "root", "y": -1.36, "scaleX": 0.1405, "scaleY": 0.1405 },
+	{ "name": "tx_quan", "parent": "bone", "x": -1715.67, "y": 1639.26 },
+	{
+		"name": "bd0001",
+		"parent": "bone",
+		"length": 194.57,
+		"rotation": 90.45,
+		"x": 2506.65,
+		"y": 646.92,
+		"color": "e900ffff"
+	},
+	{ "name": "tx", "parent": "bone", "length": 71.83, "rotation": 88.7, "x": 2647.4, "y": 636.08 }
+],
+"slots": [
+	{ "name": "tx_quan", "bone": "tx_quan", "dark": "692968" },
+	{ "name": "bd0001", "bone": "bd0001", "dark": "692968" },
+	{ "name": "tx", "bone": "tx", "dark": "692968" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bd0001": {
+				"ultabaofaguang0001": { "x": 238.49, "y": 30.51, "rotation": -90.45, "width": 415, "height": 501 },
+				"ultabaofaguang0003": { "x": 238.49, "y": 30.51, "rotation": -90.45, "width": 415, "height": 501 },
+				"ultabaofaguang0004": { "x": 238.49, "y": 30.51, "rotation": -90.45, "width": 415, "height": 501 },
+				"ultabaofaguang0005": { "x": 238.49, "y": 30.51, "rotation": -90.45, "width": 415, "height": 501 },
+				"ultabaofaguang0006": { "x": 238.49, "y": 30.51, "rotation": -90.45, "width": 415, "height": 501 }
+			},
+			"tx": {
+				"tx": { "x": 59.23, "y": -0.81, "rotation": -88.7, "width": 220, "height": 159 }
+			},
+			"tx_quan": {
+				"tx_quan": { "x": -2.78, "y": 0.45, "width": 182, "height": 182 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill58": {
+		"slots": {
+			"bd0001": {
+				"attachment": [
+					{ "name": "ultabaofaguang0001" },
+					{ "time": 0.0333, "name": "ultabaofaguang0003" },
+					{ "time": 0.0667, "name": "ultabaofaguang0004" },
+					{ "time": 0.1, "name": "ultabaofaguang0005" },
+					{ "time": 0.1333, "name": "ultabaofaguang0006" },
+					{ "time": 0.1667, "name": null }
+				]
+			},
+			"tx": {
+				"twoColor": [
+					{ "light": "b822adff", "dark": "da59d7", "curve": "stepped" },
+					{ "time": 0.0333, "light": "b822adff", "dark": "da59d7" },
+					{ "time": 0.1333, "light": "b821ad00", "dark": "da59d7" }
+				],
+				"attachment": [
+					{ "name": "tx" }
+				]
+			},
+			"tx_quan": {
+				"twoColor": [
+					{ "time": 0.0333, "light": "ffffffff", "dark": "692968" },
+					{ "time": 0.2, "light": "ffffff00", "dark": "692968" }
+				],
+				"attachment": [
+					{ "name": "tx_quan" }
+				]
+			}
+		},
+		"bones": {
+			"bd0001": {
+				"rotate": [
+					{ "angle": 77.44 }
+				],
+				"translate": [
+					{ "x": -1102.29, "y": 776 }
+				],
+				"scale": [
+					{ "x": 5.185, "y": 5.185 }
+				]
+			},
+			"tx": {
+				"rotate": [
+					{ "angle": 82.25 }
+				],
+				"translate": [
+					{ "x": -1198.75, "y": 839.26 }
+				],
+				"scale": [
+					{ "curve": 0, "c3": 0.75 },
+					{ "time": 0.1333, "x": 7.303, "y": 7.303 }
+				]
+			},
+			"tx_quan": {
+				"translate": [
+					{ "x": 3274.3, "y": -139.39 }
+				],
+				"scale": [
+					{ "x": 1.96, "y": 5.433 },
+					{ "time": 0.1333, "x": 5.761, "y": 15.968 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4, "name": "k" }
+		]
+	}
+}
+}

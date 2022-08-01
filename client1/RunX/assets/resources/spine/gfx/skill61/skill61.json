@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "poVA4qT7xkCg2e1jLwtE0WZgypA", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/牛魔王" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.1405, "scaleY": 0.1405 },
+	{ "name": "yw2", "parent": "bone", "length": 195.94, "rotation": 177.21, "x": 230.95, "y": -558.46 }
+],
+"slots": [
+	{ "name": "yw2", "bone": "yw2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yw2": {
+				"yw1": { "x": 139.78, "y": -14.43, "rotation": -177.21, "width": 337, "height": 116 },
+				"yw2": { "x": 139.78, "y": -14.43, "rotation": -177.21, "width": 337, "height": 116 },
+				"yw3": { "x": 139.78, "y": -14.43, "rotation": -177.21, "width": 337, "height": 116 },
+				"yw4": { "x": 139.78, "y": -14.43, "rotation": -177.21, "width": 337, "height": 116 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill61": {
+		"slots": {
+			"yw2": {
+				"attachment": [
+					{ "name": "yw1" },
+					{ "time": 0.0333, "name": "yw2" },
+					{ "time": 0.0667, "name": "yw3" },
+					{ "time": 0.1, "name": "yw4" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.2333, "name": "yw1" },
+					{ "time": 0.2667, "name": "yw2" },
+					{ "time": 0.3, "name": "yw3" },
+					{ "time": 0.3333, "name": "yw4" },
+					{ "time": 0.3667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"yw2": {
+				"translate": [
+					{ "x": -581.39, "y": 681.77 }
+				],
+				"scale": [
+					{ "x": 5.372, "y": 5.372 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0.4 }
+				]
+			}
+		}
+	}
+}
+}

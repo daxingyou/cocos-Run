@@ -1,0 +1,53 @@
+{
+"skeleton": { "hash": "oJzXFhTHuWvDtraSPGaR4zOKYQs", "spine": "3.8.99", "images": "", "audio": "D:/阿拆/wb/xq/2022冲鸭/月月需求/九天玄女项目/2.21灞波儿奔/灞波儿奔导出" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root", "color": "00ffeeff" },
+	{ "name": "dg", "parent": "effect", "color": "00ffeeff" }
+],
+"slots": [
+	{ "name": "images/attack1/dg/dg_15", "bone": "dg" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"images/attack1/dg/dg_15": {
+				"images/attack1/dg/dg_15": { "width": 240, "height": 200 },
+				"images/attack1/dg/dg_16": { "width": 240, "height": 200 },
+				"images/attack1/dg/dg_18": { "width": 240, "height": 200 },
+				"images/attack1/dg/dg_19": { "width": 240, "height": 200 },
+				"images/attack1/dg/dg_21": { "width": 240, "height": 200 },
+				"images/attack1/dg/dg_22": { "width": 240, "height": 200 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"images/attack1/dg/dg_15": {
+				"attachment": [
+					{ "time": 0.5, "name": "images/attack1/dg/dg_15" },
+					{ "time": 0.5333, "name": "images/attack1/dg/dg_16" },
+					{ "time": 0.5667, "name": "images/attack1/dg/dg_18" },
+					{ "time": 0.6333, "name": "images/attack1/dg/dg_19" },
+					{ "time": 0.6667, "name": "images/attack1/dg/dg_21" },
+					{ "time": 0.7333, "name": "images/attack1/dg/dg_22" },
+					{ "time": 0.8, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"dg": {
+				"translate": [
+					{ "time": 0.5, "y": 105.49 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 1.8, "y": 1.8 }
+				]
+			}
+		}
+	}
+}
+}

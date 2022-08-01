@@ -1,0 +1,137 @@
+{
+"skeleton": { "hash": "+fKj2YUukN83b64KI8fdikpCyhE", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4694, "scaleY": 0.4694 },
+	{ "name": "diyan0004", "parent": "root", "length": 92.64, "rotation": 90.88, "x": 43.8, "y": -12.08 }
+],
+"slots": [
+	{ "name": "diyan0004", "bone": "diyan0004" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"diyan0004": {
+				"diyan0001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -20.32, -219.14, -13.62, 216.81, 151.36, 214.27, 144.66, -221.68 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 436,
+					"height": 165
+				},
+				"diyan0002": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -20.32, -219.14, -13.62, 216.81, 151.36, 214.27, 144.66, -221.68 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 436,
+					"height": 165
+				},
+				"diyan0003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -20.32, -219.14, -13.62, 216.81, 151.36, 214.27, 144.66, -221.68 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 436,
+					"height": 165
+				},
+				"diyan0004": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -20.32, -219.14, -13.62, 216.81, 151.36, 214.27, 144.66, -221.68 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 436,
+					"height": 165
+				},
+				"diyan0005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -20.32, -219.14, -13.62, 216.81, 151.36, 214.27, 144.66, -221.68 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 436,
+					"height": 165
+				},
+				"diyan0006": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -20.32, -219.14, -13.62, 216.81, 151.36, 214.27, 144.66, -221.68 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 436,
+					"height": 165
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill480": {
+		"slots": {
+			"diyan0004": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "diyan0001" },
+					{ "time": 0.0667, "name": "diyan0002" },
+					{ "time": 0.1, "name": "diyan0003" },
+					{ "time": 0.1333, "name": "diyan0004" },
+					{ "time": 0.1667, "name": "diyan0005" },
+					{ "time": 0.2, "name": "diyan0006" },
+					{ "time": 0.2333, "name": "diyan0001" },
+					{ "time": 0.2667, "name": "diyan0002" },
+					{ "time": 0.3, "name": "diyan0003" },
+					{ "time": 0.3333, "name": "diyan0004" },
+					{ "time": 0.3667, "name": "diyan0005" },
+					{ "time": 0.4, "name": "diyan0006" },
+					{ "time": 0.4333, "name": "diyan0001" },
+					{ "time": 0.4667, "name": "diyan0002" },
+					{ "time": 0.5, "name": "diyan0003" },
+					{ "time": 0.5333, "name": "diyan0004" },
+					{ "time": 0.5667, "name": "diyan0005" },
+					{ "time": 0.6, "name": "diyan0006" },
+					{ "time": 0.6333, "name": "diyan0001" },
+					{ "time": 0.6667, "name": "diyan0002" },
+					{ "time": 0.7, "name": "diyan0003" },
+					{ "time": 0.7333, "name": "diyan0004" },
+					{ "time": 0.7667, "name": "diyan0005" },
+					{ "time": 0.8, "name": "diyan0006" }
+				]
+			}
+		},
+		"bones": {
+			"diyan0004": {
+				"translate": [
+					{ "time": 0.0333, "x": -15.4, "y": -79.2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 2.133, "y": 2.133, "curve": "stepped" },
+					{ "time": 0.5333, "x": 2.133, "y": 2.133, "curve": 0, "c3": 0.75 },
+					{ "time": 0.7667, "x": 3.401, "y": 3.401 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0667, "name": "K" }
+		]
+	}
+}
+}

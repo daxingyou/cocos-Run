@@ -1,0 +1,64 @@
+{
+"skeleton": { "hash": "y2tDsgqZMMCF7Q+Uxd9RIDIG8h0", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4843, "scaleY": 0.4843 },
+	{ "name": "yy0001", "parent": "root", "length": 108.56, "rotation": 178.77, "x": 120.88, "y": -98.35 }
+],
+"slots": [
+	{ "name": "yy0001", "bone": "yy0001" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yy0001": {
+				"yy0001": { "x": 81.05, "y": -30.94, "rotation": -178.77, "width": 346, "height": 120 },
+				"yy0003": { "x": 81.05, "y": -30.94, "rotation": -178.77, "width": 346, "height": 120 },
+				"yy0005": { "x": 81.05, "y": -30.94, "rotation": -178.77, "width": 346, "height": 120 },
+				"yy0007": { "x": 81.05, "y": -30.94, "rotation": -178.77, "width": 346, "height": 120 },
+				"yy0009": { "x": 81.05, "y": -30.94, "rotation": -178.77, "width": 346, "height": 120 },
+				"yy0011": { "x": 81.05, "y": -30.94, "rotation": -178.77, "width": 346, "height": 120 },
+				"yy0013": { "x": 81.05, "y": -30.94, "rotation": -178.77, "width": 346, "height": 120 },
+				"yy0015": { "x": 81.05, "y": -30.94, "rotation": -178.77, "width": 346, "height": 120 },
+				"yy0017": { "x": 81.05, "y": -30.94, "rotation": -178.77, "width": 346, "height": 120 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill185": {
+		"slots": {
+			"yy0001": {
+				"attachment": [
+					{ "name": "yy0001" },
+					{ "time": 0.0333, "name": "yy0003" },
+					{ "time": 0.0667, "name": "yy0005" },
+					{ "time": 0.1, "name": "yy0007" },
+					{ "time": 0.1333, "name": "yy0009" },
+					{ "time": 0.1667, "name": "yy0011" },
+					{ "time": 0.2, "name": "yy0013" },
+					{ "time": 0.2333, "name": "yy0015" },
+					{ "time": 0.2667, "name": "yy0017" },
+					{ "time": 0.3, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"yy0001": {
+				"translate": [
+					{ "x": 313.06, "y": 88.69 }
+				],
+				"scale": [
+					{ "x": 2.888, "y": 2.888 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "K" }
+		]
+	}
+}
+}

@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "W61jg0heAxnfns41HGUSER8Jr3Y", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/奔波儿灞" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.45, "scaleY": 0.45 },
+	{ "name": "yw1", "parent": "bone", "length": 194.4, "rotation": 180, "x": -140.84, "y": -151.52 }
+],
+"slots": [
+	{ "name": "yw1", "bone": "yw1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yw1": {
+				"yw1": { "x": 140.09, "y": -39.04, "rotation": -180, "width": 337, "height": 116 },
+				"yw2": { "x": 140.09, "y": -39.04, "rotation": -180, "width": 337, "height": 116 },
+				"yw3": { "x": 140.09, "y": -39.04, "rotation": -180, "width": 337, "height": 116 },
+				"yw4": { "x": 140.09, "y": -39.04, "rotation": -180, "width": 337, "height": 116 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill17": {
+		"slots": {
+			"yw1": {
+				"attachment": [
+					{ "name": "yw1" },
+					{ "time": 0.0333, "name": "yw2" },
+					{ "time": 0.0667, "name": "yw3" },
+					{ "time": 0.1, "name": "yw4" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.2, "name": "yw1" },
+					{ "time": 0.2333, "name": "yw2" },
+					{ "time": 0.2667, "name": "yw3" },
+					{ "time": 0.3, "name": "yw4" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"yw1": {
+				"translate": [
+					{ "x": -17.22, "y": 177.86 }
+				],
+				"scale": [
+					{ "x": 1.293, "y": 1.293 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0.4027 }
+				]
+			}
+		}
+	}
+}
+}

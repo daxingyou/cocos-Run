@@ -1,0 +1,15 @@
+{
+  "name": "res-find-repeat",
+  "version": "0.0.1",
+  "description": "资源查重",
+  "author": "lixu",
+  "main": "main.js",
+  "main-menu": {
+    "Packages/ResFindRepeat/FindByFileName": {
+      "message": "res-find-repeat:find"
+    },
+    "Packages/ResFindRepeat/FindByContent": {
+      "message": "res-find-repeat:findByContent"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+"skeleton": { "hash": "iOhMeUkn6n/tw2Kin8MF0fMikpY", "spine": "3.8.99", "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "rotation": -0.13 },
+	{ "name": "bone2", "parent": "root" },
+	{ "name": "bone3", "parent": "root" }
+],
+"slots": [
+	{ "name": "images/zhuzi", "bone": "bone3" },
+	{ "name": "images/glow", "bone": "bone2", "blend": "additive" },
+	{ "name": "images/zhuzichuxian/0_00000", "bone": "bone" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"images/glow": {
+				"images/glow": { "width": 256, "height": 256 }
+			},
+			"images/zhuzi": {
+				"images/zhuzi": { "width": 80, "height": 80 }
+			},
+			"images/zhuzichuxian/0_00000": {
+				"images/zhuzichuxian/0_00000": { "width": 300, "height": 300 },
+				"images/zhuzichuxian/0_00001": { "width": 300, "height": 300 },
+				"images/zhuzichuxian/0_00002": { "width": 300, "height": 300 },
+				"images/zhuzichuxian/0_00003": { "width": 300, "height": 300 },
+				"images/zhuzichuxian/0_00004": { "width": 300, "height": 300 },
+				"images/zhuzichuxian/0_00005": { "width": 300, "height": 300 },
+				"images/zhuzichuxian/0_00006": { "width": 300, "height": 300 },
+				"images/zhuzichuxian/0_00007": { "width": 300, "height": 300 },
+				"images/zhuzichuxian/0_00008": { "width": 300, "height": 300 },
+				"images/zhuzichuxian/0_00009": { "width": 300, "height": 300 },
+				"images/zhuzichuxian/0_00010": { "width": 300, "height": 300 },
+				"images/zhuzichuxian/0_00011": { "width": 300, "height": 300 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation1": {
+		"slots": {
+			"images/glow": {
+				"color": [
+					{ "color": "12b78dff" },
+					{ "time": 0.0667, "color": "12b78d7e" },
+					{ "time": 0.4333, "color": "12b78d00" }
+				],
+				"attachment": [
+					{ "name": "images/glow" }
+				]
+			},
+			"images/zhuzi": {
+				"attachment": [
+					{ "name": "images/zhuzi" }
+				]
+			},
+			"images/zhuzichuxian/0_00000": {
+				"attachment": [
+					{ "name": "images/zhuzichuxian/0_00000" },
+					{ "time": 0.0333, "name": "images/zhuzichuxian/0_00001" },
+					{ "time": 0.0667, "name": "images/zhuzichuxian/0_00002" },
+					{ "time": 0.1, "name": "images/zhuzichuxian/0_00003" },
+					{ "time": 0.1333, "name": "images/zhuzichuxian/0_00004" },
+					{ "time": 0.1667, "name": "images/zhuzichuxian/0_00005" },
+					{ "time": 0.2, "name": "images/zhuzichuxian/0_00006" },
+					{ "time": 0.2333, "name": "images/zhuzichuxian/0_00007" },
+					{ "time": 0.2667, "name": "images/zhuzichuxian/0_00008" },
+					{ "time": 0.3, "name": "images/zhuzichuxian/0_00009" },
+					{ "time": 0.3333, "name": "images/zhuzichuxian/0_00010" },
+					{ "time": 0.3667, "name": "images/zhuzichuxian/0_00011" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 1.308, "y": 1.308 },
+					{ "time": 0.2333, "x": 1.423, "y": 1.423 },
+					{ "time": 0.4333, "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"images/zhuzi": {
+				"attachment": [
+					{ "name": "images/zhuzi" }
+				]
+			}
+		},
+		"bones": {
+			"bone3": {
+				"translate": [
+					{},
+					{ "time": 0.6667, "y": 20 },
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	},
+	"animation3": {
+		"slots": {
+			"images/zhuzi": {
+				"attachment": [
+					{ "name": "images/zhuzi" }
+				]
+			},
+			"images/zhuzichuxian/0_00000": {
+				"attachment": [
+					{ "name": "images/zhuzichuxian/0_00000" },
+					{ "time": 0.0333, "name": "images/zhuzichuxian/0_00001" },
+					{ "time": 0.0667, "name": "images/zhuzichuxian/0_00002" },
+					{ "time": 0.1, "name": "images/zhuzichuxian/0_00003" },
+					{ "time": 0.1333, "name": "images/zhuzichuxian/0_00004" },
+					{ "time": 0.1667, "name": "images/zhuzichuxian/0_00005" },
+					{ "time": 0.2, "name": "images/zhuzichuxian/0_00006" },
+					{ "time": 0.2333, "name": "images/zhuzichuxian/0_00007" },
+					{ "time": 0.2667, "name": "images/zhuzichuxian/0_00008" },
+					{ "time": 0.3, "name": "images/zhuzichuxian/0_00009" },
+					{ "time": 0.3333, "name": "images/zhuzichuxian/0_00010" },
+					{ "time": 0.3667, "name": "images/zhuzichuxian/0_00011" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone3": {
+				"scale": [
+					{},
+					{ "time": 0.3, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="1.1.3413" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="1">
+ <tileset firstgid="1" name="run_stones" tilewidth="128" tileheight="128" tilecount="10" columns="5">
+  <image source="../../textures/parkour/tiledImage/run_stones.png" width="640" height="256"/>
+ </tileset>
+ <tileset firstgid="11" source="../tiledImage/run_basic32.tsx"/>
+ <tileset firstgid="17" source="../tiledImage/run_chapter5.tsx"/>
+ <tileset firstgid="273" name="run_item32" tilewidth="32" tileheight="32" tilecount="7" columns="7">
+  <image source="../../textures/parkour/tiledImage/run_item32.png" width="224" height="32"/>
+ </tileset>
+ <layer id="17" name="floor" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt19k3VWEch/FzQjIk/2KZupUMtyiholuF3JqHlDEyK5kylaGEMsucSHluzoWLY797sc9ZrO+z1udiv7/XdtZ6L/Z6XS6llFJKKaWUUkoppZRSSimllFJKKaWUUkr5q9u4gyhEIwaxiNO67XXPs7f9dw3P5CKLxz0k4D4SkYRkrdte9zx7259ieCYXWSrSkI4HeIgMPNK67XXPs7f9mYZnopRSSqnLne5HvlvX/ehqr5/nflSNGrxCLV7jDepQf8bf6X7ku3U796MsZOMxnqAN7ehAJ7rQjR704ilykItnNv6P8k95eI4XyMcwPmEEoxjDOCbwGQUoxEsU+f7nKpsVowSlKMN3zGEeC/iBn1jEEspRgUpU+eH3qtNZfU8b0IgmNGML29jBLvawj984wFu0oBXvDN6vubNzq+/pe3xAHz4anG8/BjCIIYP3a+7s3Op7+gWTmMK0wfnO4Cu+Ydbg/Zo7O7f6ni5jBatYMzjfdWzgFzYN3q+5s3Or8/qDQxzhr8H+Y/zDf7jc1vs1d3bu5gyuIQCBCMJ1BOMGQhCKMIS7rfffRARuIdJgv+bOzk8AC10dpw==
+  </data>
+ </layer>
+ <layer id="18" name="shade" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEKwCAMBdDsrfe/bifnosVGyXvwN4fAh2AiAAAAAAAAAAAAAFjhkl8DAADsK/teqBaglhbve+FOm44v2sBbHZ9lpNtOx2eY6bbTcb7V/+zsO6F6ANjTAxizDR0=
+  </data>
+ </layer>
+ <layer id="19" name="loot" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1rEJACAMBEAdwf2XtRdBIihR7hq78PAkWAoAAAAAAAAAAAAAAACjVmMv79AtwJy7+Kdob3qG9832OPoHPnkLdrOsMmabc0umnLoFACCqA55xBg0=
+  </data>
+ </layer>
+ <layer id="20" name="stones" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt18ENADAIAzFe7D8yQ1QVQbI/WSFXBQAAAAAAAAAAAKRo+2UBAIB7kv/9duNoJAAA4IVmAABSDET/Ab0=
+  </data>
+ </layer>
+</map>

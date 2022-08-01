@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3a9c6901-f6cf-462a-894b-d4b225efa35b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 81,
+  "height": 368,
+  "platformSettings": {},
+  "subMetas": {
+    "NvWag_PassiveSkill_Effect_1_A_shang": {
+      "ver": "1.0.6",
+      "uuid": "a3c06c67-7723-4725-a183-c3e40e501b7b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3a9c6901-f6cf-462a-894b-d4b225efa35b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 77,
+      "height": 364,
+      "rawWidth": 81,
+      "rawHeight": 368,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

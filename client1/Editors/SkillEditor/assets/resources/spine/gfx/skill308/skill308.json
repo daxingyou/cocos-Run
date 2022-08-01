@@ -1,0 +1,66 @@
+{
+"skeleton": { "hash": "4Rvm4CUiwYgCydbRxEB8xn3FCmI", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4692, "scaleY": 0.4692 },
+	{ "name": "2_00000", "parent": "root", "x": 385.55, "y": 156.77 }
+],
+"slots": [
+	{ "name": "2_00000", "bone": "2_00000", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"2_00000": {
+				"2_00000": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 151.36, -143.2, -148.64, -143.2, -148.64, 156.8, 151.36, 156.8 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 300,
+					"height": 300
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill308": {
+		"slots": {
+			"2_00000": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "2_00000" }
+				]
+			}
+		},
+		"bones": {
+			"2_00000": {
+				"rotate": [
+					{ "curve": 0, "c3": 0.75 },
+					{ "time": 0.2, "angle": -99.3 }
+				],
+				"translate": [
+					{ "x": -86.17, "y": 345.87 },
+					{ "time": 0.1, "x": -1.07, "y": 420.06 }
+				],
+				"scale": [
+					{ "x": 1.481, "y": 1.481, "curve": 0, "c3": 0.75 },
+					{ "time": 0.1, "x": 5.001, "y": 5.001 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "K" }
+		]
+	}
+}
+}

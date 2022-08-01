@@ -1,0 +1,94 @@
+{
+"skeleton": { "hash": "HkuDWiWYC0bUbxR7N7R+a4f++sk", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/精卫" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.483, "scaleY": 0.483 },
+	{
+		"name": "sha1",
+		"parent": "bone",
+		"length": 69.58,
+		"rotation": 90,
+		"x": 459,
+		"y": 8.1,
+		"color": "ff7100ff"
+	}
+],
+"slots": [
+	{ "name": "sha1", "bone": "sha1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"sha1": {
+				"sha0001": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0002": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0003": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0004": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0005": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0006": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0007": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0008": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0009": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0010": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0011": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0012": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0013": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0014": { "rotation": -90, "width": 200, "height": 208 },
+				"sha0015": { "rotation": -90, "width": 200, "height": 208 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"JingWei_Skill_02": {
+		"slots": {
+			"sha1": {
+				"attachment": [
+					{ "name": "sha0001" },
+					{ "time": 0.0333, "name": "sha0002" },
+					{ "time": 0.0667, "name": "sha0003" },
+					{ "time": 0.1, "name": "sha0004" },
+					{ "time": 0.1333, "name": "sha0005" },
+					{ "time": 0.1667, "name": "sha0006" },
+					{ "time": 0.2, "name": "sha0007" },
+					{ "time": 0.2333, "name": "sha0008" },
+					{ "time": 0.2667, "name": "sha0009" },
+					{ "time": 0.3, "name": "sha0010" },
+					{ "time": 0.3333, "name": "sha0011" },
+					{ "time": 0.3667, "name": "sha0012" },
+					{ "time": 0.4, "name": "sha0013" },
+					{ "time": 0.4333, "name": "sha0014" },
+					{ "time": 0.4667, "name": "sha0015" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"sha1": {
+				"rotate": [
+					{ "angle": -53.39 }
+				],
+				"translate": [
+					{ "x": -670.49, "y": 562.35 }
+				],
+				"scale": [
+					{ "x": 1.543, "y": 1.543 },
+					{ "time": 0.4333, "x": 2.535, "y": 2.535 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 1.3667 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4667, "name": "k" }
+		]
+	}
+}
+}

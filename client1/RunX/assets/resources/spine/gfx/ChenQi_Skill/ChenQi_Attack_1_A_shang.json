@@ -1,0 +1,44 @@
+{
+"skeleton": { "hash": "Gx0XKmzazw6mx0dijtS4k0US9fM", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "ChenQi", "scaleX": 2, "scaleY": 2 },
+	{ "name": "ChenQi_Attack_1_A_shang", "parent": "ChenQi" }
+],
+"slots": [
+	{ "name": "ChenQi_Attack_1_A_shang", "bone": "ChenQi_Attack_1_A_shang" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ChenQi_Attack_1_A_shang": {
+				"cq_dg_01_00": { "width": 350, "height": 260 },
+				"cq_dg_01_01": { "width": 350, "height": 260 },
+				"cq_dg_01_02": { "width": 350, "height": 260 },
+				"cq_dg_01_03": { "width": 350, "height": 260 },
+				"cq_dg_01_04": { "width": 350, "height": 260 }
+			}
+		}
+	}
+],
+"animations": {
+	"ChenQi_Attack_1_A_shang": {
+		"slots": {
+			"ChenQi_Attack_1_A_shang": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "cq_dg_01_00" },
+					{ "time": 0.0333, "name": "cq_dg_01_01" },
+					{ "time": 0.0667, "name": "cq_dg_01_02" },
+					{ "time": 0.1, "name": "cq_dg_01_03" },
+					{ "time": 0.1333, "name": "cq_dg_01_04" },
+					{ "time": 0.2667, "name": null }
+				]
+			}
+		}
+	}
+}
+}

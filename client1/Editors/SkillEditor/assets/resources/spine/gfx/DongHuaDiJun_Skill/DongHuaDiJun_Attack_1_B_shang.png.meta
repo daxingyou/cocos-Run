@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1a0386be-ba5d-4212-b92f-622695b8df63",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 130,
+  "height": 130,
+  "platformSettings": {},
+  "subMetas": {
+    "DongHuaDiJun_Attack_1_B_shang": {
+      "ver": "1.0.6",
+      "uuid": "479064bf-7eeb-4f0f-b7e1-a9dcd22f20a4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1a0386be-ba5d-4212-b92f-622695b8df63",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -36.5,
+      "trimX": 2,
+      "trimY": 75,
+      "width": 126,
+      "height": 53,
+      "rawWidth": 130,
+      "rawHeight": 130,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

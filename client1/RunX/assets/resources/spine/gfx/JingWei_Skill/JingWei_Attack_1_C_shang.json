@@ -1,0 +1,103 @@
+{
+"skeleton": { "hash": "bRNgr4PU17XqGgu3rXxkD1fi26g", "spine": "3.8.99", "images": "./images/", "audio": "Z:/进行中的项目/张晨阳动效项目/第三批/特效项目/SR-精卫-a/特效" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "sj", "parent": "root" },
+	{ "name": "zha_00000", "parent": "sj" },
+	{ "name": "zhuabaodian_00000", "parent": "sj" },
+	{ "name": "guanxian_00011", "parent": "root", "rotation": -18.36, "x": 4.67, "y": 5.49 }
+],
+"slots": [
+	{ "name": "zha_00000", "bone": "zha_00000" },
+	{ "name": "zhuabaodian_00000", "bone": "zhuabaodian_00000", "blend": "additive" },
+	{ "name": "guanxian_00011", "bone": "guanxian_00011", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"guanxian_00011": {
+				"guanxian_00011": { "x": -2.71, "y": -6.68, "rotation": 18.36, "width": 400, "height": 155 },
+				"guanxian_00012": { "x": -2.71, "y": -6.68, "rotation": 18.36, "width": 400, "height": 155 },
+				"guanxian_00013": { "x": -2.71, "y": -6.68, "rotation": 18.36, "width": 400, "height": 155 }
+			},
+			"zha_00000": {
+				"zha_00000": { "width": 240, "height": 240 },
+				"zha_00001": { "width": 240, "height": 240 },
+				"zha_00002": { "width": 240, "height": 240 },
+				"zha_00003": { "width": 240, "height": 240 },
+				"zha_00004": { "width": 240, "height": 240 }
+			},
+			"zhuabaodian_00000": {
+				"zhuabaodian_00000": { "width": 350, "height": 260 },
+				"zhuabaodian_00001": { "scaleX": 2, "scaleY": 2, "width": 175, "height": 130 },
+				"zhuabaodian_00002": { "scaleX": 2, "scaleY": 2, "width": 175, "height": 130 },
+				"zhuabaodian_00003": { "scaleX": 2, "scaleY": 2, "width": 175, "height": 130 },
+				"zhuabaodian_00004": { "scaleX": 2, "scaleY": 2, "width": 175, "height": 130 },
+				"zhuabaodian_00005": { "scaleX": 2, "scaleY": 2, "width": 175, "height": 130 },
+				"zhuabaodian_00006": { "scaleX": 2, "scaleY": 2, "width": 175, "height": 130 },
+				"zhuabaodian_00007": { "scaleX": 2, "scaleY": 2, "width": 175, "height": 130 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"guanxian_00011": {
+				"attachment": [
+					{ "time": 0.0667, "name": "guanxian_00011" },
+					{ "time": 0.1333, "name": "guanxian_00012" },
+					{ "time": 0.2, "name": "guanxian_00013" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"zha_00000": {
+				"attachment": [
+					{ "name": "zha_00000" },
+					{ "time": 0.0333, "name": "zha_00001" },
+					{ "time": 0.0667, "name": "zha_00002" },
+					{ "time": 0.1, "name": "zha_00003" },
+					{ "time": 0.1333, "name": "zha_00004" },
+					{ "time": 0.1667, "name": null }
+				]
+			},
+			"zhuabaodian_00000": {
+				"attachment": [
+					{ "name": "zhuabaodian_00000" },
+					{ "time": 0.0667, "name": "zhuabaodian_00001" },
+					{ "time": 0.1333, "name": "zhuabaodian_00002" },
+					{ "time": 0.2, "name": "zhuabaodian_00003" },
+					{ "time": 0.2667, "name": "zhuabaodian_00004" },
+					{ "time": 0.3333, "name": "zhuabaodian_00005" },
+					{ "time": 0.4, "name": "zhuabaodian_00006" },
+					{ "time": 0.4667, "name": "zhuabaodian_00007" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"sj": {
+				"translate": [
+					{ "y": 57.96 }
+				],
+				"scale": [
+					{ "x": 2.029, "y": 2.029 }
+				]
+			},
+			"guanxian_00011": {
+				"rotate": [
+					{ "time": 0.0667, "angle": 38.19 }
+				],
+				"translate": [
+					{ "time": 0.0667, "x": -8.54, "y": 4.11 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 3.082, "curve": 0, "c2": 0.59, "c3": 0.75 },
+					{ "time": 0.2, "x": 3.955 }
+				]
+			}
+		}
+	}
+}
+}

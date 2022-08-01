@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6976b88c-ac6d-4045-ab3e-1811eca4966d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 195,
+  "height": 248,
+  "platformSettings": {},
+  "subMetas": {
+    "LiShanLaoMu_Attack_2_B_shang": {
+      "ver": "1.0.6",
+      "uuid": "c8724aaf-2fc5-4da3-ad94-f56837df2d7f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6976b88c-ac6d-4045-ab3e-1811eca4966d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 191,
+      "height": 244,
+      "rawWidth": 195,
+      "rawHeight": 248,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

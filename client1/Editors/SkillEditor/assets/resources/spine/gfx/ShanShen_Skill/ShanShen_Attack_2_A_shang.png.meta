@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "41d7a121-f06a-4e7d-9f26-013f1d19417f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 473,
+  "height": 141,
+  "platformSettings": {},
+  "subMetas": {
+    "ShanShen_Attack_2_A_shang": {
+      "ver": "1.0.6",
+      "uuid": "9ba335ae-64be-4416-a37d-e8e373edc8e1",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "41d7a121-f06a-4e7d-9f26-013f1d19417f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 469,
+      "height": 137,
+      "rawWidth": 473,
+      "rawHeight": 141,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

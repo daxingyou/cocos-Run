@@ -1,0 +1,20 @@
+{
+    "ignores": [
+    ],
+    "specials": [{
+            "file": "resources-static/textures-unpacked/hero-view/heroview_bg",
+            "settings": "etc2-rgb-slow"
+        },
+        {
+            "file": "resources-static/textures-unpacked/lesson/lesson_bg",
+            "settings": "etc2-rgb-slow"
+        }
+    ],
+    "compressDirs": [{
+        "dir": "resources-static/textures-unpacked",
+        "settings": "etc2-slow"
+    },{
+        "dir": "resources/textures",
+        "settings": "etc2-slow"
+    }]
+}

@@ -1,0 +1,67 @@
+{
+"skeleton": {
+	"hash": "57wgBrIA7UZdt5zmTRc1OMlGiw4",
+	"spine": "3.8.99",
+	"x": -52.11,
+	"y": -154.98,
+	"width": 374.01,
+	"height": 125.85,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.4967, "scaleY": 0.4967 },
+	{ "name": "bone6", "parent": "root", "x": 268.54, "y": -193.87, "scaleY": 0.336 },
+	{ "name": "12", "parent": "bone6", "x": -2.37, "y": 28.53 }
+],
+"slots": [
+	{ "name": "10", "bone": "12", "attachment": "2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"10": {
+				"2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 381.92, -380.12, -371.08, -380.12, -371.08, 373.88, 381.92, 373.88 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 373,
+					"height": 374
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill277": {
+		"bones": {
+			"12": {
+				"rotate": [
+					{},
+					{ "time": 0.3667, "angle": -90.22 },
+					{ "time": 0.7333, "angle": -172.95 },
+					{ "time": 1.1333, "angle": 90.14 },
+					{ "time": 1.5 }
+				]
+			},
+			"bone6": {
+				"translate": [
+					{ "x": -266.88, "y": 176.53 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7667, "x": 1.162, "y": 1.162, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5011 }
+				]
+			}
+		}
+	}
+}
+}

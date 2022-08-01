@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e0b40ce5-4ea3-4ce7-af9e-54d54d86c89e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 804,
+  "height": 773,
+  "platformSettings": {},
+  "subMetas": {
+    "JuLingShen_ActiveSkill_Effect_1_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "5d528146-9983-4a5b-bb87-60ecd2c9e76a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e0b40ce5-4ea3-4ce7-af9e-54d54d86c89e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 800,
+      "height": 769,
+      "rawWidth": 804,
+      "rawHeight": 773,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+"skeleton": { "hash": "pf2FGHCnGaicV+3ZS00Kpd8eaRQ", "spine": "3.8.95", "images": "./images/", "audio": "H:/波波外包/new/太白金星/SSR-太白金星" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "ActiveSkill_Effect_1", "parent": "eft" },
+	{ "name": "hdbuff", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "fx_shouji", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "hudun_lizi", "parent": "ActiveSkill_Effect_1" }
+],
+"slots": [
+	{ "name": "hdbuff", "bone": "hdbuff", "blend": "additive" },
+	{ "name": "fx_shouji", "bone": "fx_shouji", "blend": "additive" },
+	{ "name": "hudun_lizi", "bone": "hudun_lizi", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fx_shouji": {
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0021": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0023": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0025": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0027": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0029": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0031": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0033": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0035": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0037": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0039": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0041": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0043": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0045": { "width": 600, "height": 600 }
+			},
+			"hdbuff": {
+				"eft/ActiveSkill_Effect_1/buff/hdbuff_0022": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/buff/hdbuff_0024": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/buff/hdbuff_0026": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/buff/hdbuff_0028": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/buff/hdbuff_0030": { "width": 300, "height": 300 }
+			},
+			"hudun_lizi": {
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0022": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0025": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0028": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0031": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0034": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0037": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0040": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0043": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0046": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0049": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0052": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0055": { "width": 300, "height": 300 },
+				"eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0058": { "width": 300, "height": 300 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack2": {
+		"slots": {
+			"fx_shouji": {
+				"attachment": [
+					{ "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0021" },
+					{ "time": 0.0667, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0023" },
+					{ "time": 0.1333, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0025" },
+					{ "time": 0.2, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0027" },
+					{ "time": 0.2667, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0029" },
+					{ "time": 0.3333, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0031" },
+					{ "time": 0.4, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0033" },
+					{ "time": 0.4667, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0035" },
+					{ "time": 0.5333, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0037" },
+					{ "time": 0.6, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0039" },
+					{ "time": 0.6667, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0041" },
+					{ "time": 0.7333, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0043" },
+					{ "time": 0.8, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0045" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"hdbuff": {
+				"color": [
+					{ "color": "ffffff80" },
+					{ "time": 0.2667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.2667, "color": "ffffffff" },
+					{ "time": 2.5667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0022" },
+					{ "time": 0.0667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0024" },
+					{ "time": 0.1333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0026" },
+					{ "time": 0.2, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0028" },
+					{ "time": 0.2667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0030" },
+					{ "time": 0.3333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0022" },
+					{ "time": 0.4, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0024" },
+					{ "time": 0.4667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0026" },
+					{ "time": 0.5333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0028" },
+					{ "time": 0.6, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0030" },
+					{ "time": 0.6667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0022" },
+					{ "time": 0.7333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0024" },
+					{ "time": 0.8, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0026" },
+					{ "time": 0.8667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0028" },
+					{ "time": 0.9333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0030" },
+					{ "time": 1, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0022" },
+					{ "time": 1.0667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0024" },
+					{ "time": 1.1333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0026" },
+					{ "time": 1.2, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0028" },
+					{ "time": 1.2667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0030" },
+					{ "time": 1.3333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0022" },
+					{ "time": 1.4, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0024" },
+					{ "time": 1.4667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0026" },
+					{ "time": 1.5333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0028" },
+					{ "time": 1.6, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0030" },
+					{ "time": 1.6667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0022" },
+					{ "time": 1.7333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0024" },
+					{ "time": 1.8, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0026" },
+					{ "time": 1.8667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0028" },
+					{ "time": 1.9333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0030" },
+					{ "time": 2, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0022" },
+					{ "time": 2.0667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0024" },
+					{ "time": 2.1333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0026" },
+					{ "time": 2.2, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0028" },
+					{ "time": 2.2667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0030" },
+					{ "time": 2.3333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0022" },
+					{ "time": 2.4, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0024" },
+					{ "time": 2.4667, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0026" },
+					{ "time": 2.5333, "name": "eft/ActiveSkill_Effect_1/buff/hdbuff_0028" },
+					{ "time": 2.5667, "name": null }
+				]
+			},
+			"hudun_lizi": {
+				"color": [
+					{ "time": 2.2667, "color": "ffffffff" },
+					{ "time": 2.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0022" },
+					{ "time": 0.1333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0025" },
+					{ "time": 0.2333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0028" },
+					{ "time": 0.3333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0031" },
+					{ "time": 0.4333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0034" },
+					{ "time": 0.5333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0037" },
+					{ "time": 0.6333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0040" },
+					{ "time": 0.7333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0043" },
+					{ "time": 0.8333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0046" },
+					{ "time": 0.9333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0049" },
+					{ "time": 1.0333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0052" },
+					{ "time": 1.1333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0055" },
+					{ "time": 1.2333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0058" },
+					{ "time": 1.3333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0022" },
+					{ "time": 1.4333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0025" },
+					{ "time": 1.5333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0028" },
+					{ "time": 1.6333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0031" },
+					{ "time": 1.7333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0034" },
+					{ "time": 1.8333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0037" },
+					{ "time": 1.9333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0040" },
+					{ "time": 2.0333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0043" },
+					{ "time": 2.1333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0046" },
+					{ "time": 2.2333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0049" },
+					{ "time": 2.3333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0052" },
+					{ "time": 2.4333, "name": "eft/ActiveSkill_Effect_1/hudun_lizi/hudun_lizi_0055" },
+					{ "time": 2.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"hdbuff": {
+				"translate": [
+					{ "x": 4.12, "y": 341.33 }
+				],
+				"scale": [
+					{ "x": 4, "y": 4 }
+				]
+			},
+			"fx_shouji": {
+				"translate": [
+					{ "x": 4.12, "y": 341.33 }
+				],
+				"scale": [
+					{ "x": 2.5, "y": 2.5 }
+				]
+			},
+			"hudun_lizi": {
+				"translate": [
+					{ "time": 0.0333, "x": -38.5, "y": 341.33 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 4, "y": 4 }
+				]
+			}
+		}
+	}
+}
+}

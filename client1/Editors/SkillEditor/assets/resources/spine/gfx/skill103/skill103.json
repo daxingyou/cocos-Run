@@ -1,0 +1,78 @@
+{
+"skeleton": { "hash": "WMG4Cr2KYGboVK1IEyfVyainaq8", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/土地" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.46, "scaleY": 0.46 },
+	{ "name": "qi", "parent": "bone", "length": 66.17, "rotation": 178.35, "x": -6.33, "y": -69.91 },
+	{
+		"name": "qi2",
+		"parent": "bone",
+		"length": 66.17,
+		"rotation": -179.49,
+		"x": 3.85,
+		"y": -69.91,
+		"scaleX": -1
+	}
+],
+"slots": [
+	{ "name": "qi", "bone": "qi" },
+	{ "name": "qi2", "bone": "qi2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"qi": {
+				"qi": { "x": 70.08, "y": -17.51, "rotation": -178.35, "width": 150, "height": 86 }
+			},
+			"qi2": {
+				"qi": { "x": 70.08, "y": -17.51, "rotation": -178.35, "width": 150, "height": 86 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill103": {
+		"slots": {
+			"qi": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "qi" }
+				]
+			},
+			"qi2": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "qi" }
+				]
+			}
+		},
+		"bones": {
+			"qi2": {
+				"translate": [
+					{ "time": 0.3333, "x": 64.7, "y": 85.59 }
+				],
+				"scale": [
+					{ "time": 0.3333 },
+					{ "time": 0.5333, "x": 2.697, "y": 2.697 }
+				]
+			},
+			"qi": {
+				"translate": [
+					{ "time": 0.3333, "x": -61.25, "y": 92.06 }
+				],
+				"scale": [
+					{ "time": 0.3333 },
+					{ "time": 0.5333, "x": 2.699, "y": 2.699 }
+				]
+			}
+		}
+	}
+}
+}

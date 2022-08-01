@@ -1,0 +1,92 @@
+{
+"skeleton": { "hash": "pdlgdoSszTEOmKg+9hLtec8KPLA", "spine": "3.8.99", "images": "./images/", "audio": "D:/beifen/TB4/西游第三批整合/妲己" },
+"bones": [
+	{ "name": "root", "scaleX": 0.5575, "scaleY": 0.5575 },
+	{ "name": "yw2", "parent": "root", "length": 149.2, "rotation": 178.54, "x": 93.4, "y": -154.04 }
+],
+"slots": [
+	{ "name": "yw2", "bone": "yw2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yw2": {
+				"yw1": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -32.02, 6, 304.87, 14.56, 307.82, -101.4, -29.07, -109.97 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 337,
+					"height": 116
+				},
+				"yw2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -32.02, 6, 304.87, 14.56, 307.82, -101.4, -29.07, -109.97 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 337,
+					"height": 116
+				},
+				"yw3": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -32.02, 6, 304.87, 14.56, 307.82, -101.4, -29.07, -109.97 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 337,
+					"height": 116
+				},
+				"yw4": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -32.02, 6, 304.87, 14.56, 307.82, -101.4, -29.07, -109.97 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 337,
+					"height": 116
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill283": {
+		"slots": {
+			"yw2": {
+				"attachment": [
+					{ "name": "yw1" },
+					{ "time": 0.0333, "name": "yw2" },
+					{ "time": 0.0667, "name": "yw3" },
+					{ "time": 0.1, "name": "yw4" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.2, "name": "yw1" },
+					{ "time": 0.2333, "name": "yw2" },
+					{ "time": 0.2667, "name": "yw3" },
+					{ "time": 0.3, "name": "yw4" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"yw2": {
+				"translate": [
+					{ "x": -86.75, "y": 152.21 }
+				],
+				"scale": [
+					{ "x": 1.126 }
+				]
+			}
+		}
+	}
+}
+}

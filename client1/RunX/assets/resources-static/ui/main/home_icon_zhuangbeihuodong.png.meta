@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "cb1bcbe7-cfad-4a6b-a531-ee7507dd5cd3",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 100,
+  "height": 100,
+  "platformSettings": {},
+  "subMetas": {
+    "home_icon_zhuangbeihuodong": {
+      "ver": "1.0.6",
+      "uuid": "1e5c614f-c798-492d-8684-e4b01ee91236",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "cb1bcbe7-cfad-4a6b-a531-ee7507dd5cd3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": -2.5,
+      "trimX": 2,
+      "trimY": 5,
+      "width": 98,
+      "height": 95,
+      "rawWidth": 100,
+      "rawHeight": 100,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e08f9d80-d8b4-4088-a254-52227d217ecc",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 34,
+  "height": 34,
+  "platformSettings": {},
+  "subMetas": {
+    "pop_shang_Unlocked": {
+      "ver": "1.0.6",
+      "uuid": "1e8b48d3-fa51-47be-b951-27f065f1826e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e08f9d80-d8b4-4088-a254-52227d217ecc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": -1,
+      "trimX": 6,
+      "trimY": 3,
+      "width": 26,
+      "height": 30,
+      "rawWidth": 34,
+      "rawHeight": 34,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+"skeleton": { "hash": "oqBRGOsPH1u5h4n5tpGv+ocBdeI", "spine": "3.8.99", "images": "", "audio": "G:/特效世界/外包/陈奇郑伦/chenqi_spine/chenqi_attack02" },
+"bones": [
+	{ "name": "ChenQi_Attack_2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "ChenQi_Attack_2_B_shang", "parent": "ChenQi_Attack_2" }
+],
+"slots": [
+	{ "name": "ChenQi_Attack_2_B_shang", "bone": "ChenQi_Attack_2_B_shang" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ChenQi_Attack_2_B_shang": {
+				"images/cq_attack02_ls_00": { "width": 520, "height": 160 },
+				"images/cq_attack02_ls_01": { "width": 520, "height": 160 },
+				"images/cq_attack02_ls_02": { "width": 520, "height": 160 },
+				"images/cq_attack02_ls_03": { "width": 520, "height": 160 },
+				"images/cq_attack02_ls_04": { "width": 520, "height": 160 },
+				"images/cq_attack02_ls_05": { "width": 520, "height": 160 },
+				"images/cq_attack02_ls_06": { "width": 520, "height": 160 },
+				"images/cq_attack02_ls_07": { "width": 520, "height": 160 },
+				"images/cq_attack02_ls_08": { "width": 520, "height": 160 }
+			}
+		}
+	}
+],
+"animations": {
+	"ChenQi_Attack_2_B_shang": {
+		"slots": {
+			"ChenQi_Attack_2_B_shang": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "images/cq_attack02_ls_01" },
+					{ "time": 0.0333, "name": "images/cq_attack02_ls_01" },
+					{ "time": 0.0667, "name": "images/cq_attack02_ls_02" },
+					{ "time": 0.1, "name": "images/cq_attack02_ls_03" },
+					{ "time": 0.1333, "name": "images/cq_attack02_ls_04" },
+					{ "time": 0.1667, "name": "images/cq_attack02_ls_05" },
+					{ "time": 0.3, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ChenQi_Attack_2_B_shang": {
+				"translate": [
+					{ "x": -27.47 },
+					{ "time": 0.0333, "curve": "stepped" },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 0.2, "x": 20.93, "y": 13.08, "curve": "stepped" },
+					{ "time": 0.2333, "curve": "stepped" },
+					{ "time": 0.2667, "x": 27.47, "y": -15.7 }
+				],
+				"scale": [
+					{ "x": 0.712, "y": 0.608 },
+					{ "time": 0.0333, "curve": "stepped" },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 0.2, "y": -1, "curve": "stepped" },
+					{ "time": 0.2333, "curve": "stepped" },
+					{ "time": 0.2667, "y": -1 }
+				]
+			}
+		}
+	}
+}
+}

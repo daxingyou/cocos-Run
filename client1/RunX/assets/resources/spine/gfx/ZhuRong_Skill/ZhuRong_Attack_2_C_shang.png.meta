@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "afc8dda8-8048-4e46-b4b6-78aad011c437",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 512,
+  "height": 512,
+  "platformSettings": {},
+  "subMetas": {
+    "ZhuRong_Attack_2_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "cea1c13a-01cc-4bff-b4af-0cff81a15aa8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "afc8dda8-8048-4e46-b4b6-78aad011c437",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -16,
+      "offsetY": 27.5,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 476,
+      "height": 453,
+      "rawWidth": 512,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

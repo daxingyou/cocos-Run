@@ -1,0 +1,871 @@
+{
+"skeleton": { "hash": "H9qNWStu4bBqxm2z6wqCu3OlJOU", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.5007, "scaleY": 0.5007 },
+	{ "name": "line0009", "parent": "root", "x": 161.83, "y": 691.2, "color": "ff0000ff" },
+	{ "name": "line9", "parent": "root", "rotation": 41.06, "x": 161.83, "y": 691.2, "color": "ff0000ff" },
+	{ "name": "taxi_chun_shou_xuanqiu_0023", "parent": "root", "x": 358.82, "y": 553.11 },
+	{ "name": "2_00000", "parent": "root", "x": 473.98, "y": 440.92 },
+	{ "name": "guang_00005", "parent": "root", "length": 76.16, "rotation": -28.74, "x": 850.88, "y": 482.16 },
+	{ "name": "yw2", "parent": "root", "length": 144.27, "rotation": 180, "x": 32.79, "y": -1.78 }
+],
+"slots": [
+	{ "name": "line0009", "bone": "line0009" },
+	{ "name": "line10", "bone": "line9" },
+	{ "name": "line9", "bone": "line0009", "blend": "additive" },
+	{ "name": "line11", "bone": "line9", "blend": "additive" },
+	{ "name": "taxi_chun_shou_xuanqiu_0023", "bone": "taxi_chun_shou_xuanqiu_0023" },
+	{ "name": "2_00000", "bone": "2_00000", "blend": "additive" },
+	{ "name": "guang_00005", "bone": "guang_00005", "blend": "additive" },
+	{ "name": "yw2", "bone": "yw2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"2_00000": {
+				"2_00000": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 152.01, -146.8, -147.99, -146.8, -147.99, 153.2, 152.01, 153.2 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 300,
+					"height": 300
+				}
+			},
+			"guang_00005": {
+				"guang_00000": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 173.78, -50.69, -50.69, -173.78, -173.78, 50.69, 50.69, 173.78 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 173.78, -50.69, -50.69, -173.78, -173.78, 50.69, 50.69, 173.78 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00002": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 173.78, -50.69, -50.69, -173.78, -173.78, 50.69, 50.69, 173.78 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 173.78, -50.69, -50.69, -173.78, -173.78, 50.69, 50.69, 173.78 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00004": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 173.78, -50.69, -50.69, -173.78, -173.78, 50.69, 50.69, 173.78 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 173.78, -50.69, -50.69, -173.78, -173.78, 50.69, 50.69, 173.78 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00006": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 173.78, -50.69, -50.69, -173.78, -173.78, 50.69, 50.69, 173.78 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00007": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 173.78, -50.69, -50.69, -173.78, -173.78, 50.69, 50.69, 173.78 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				}
+			},
+			"line0009": {
+				"line0001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0007": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0009": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0011": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0013": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0015": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				}
+			},
+			"line9": {
+				"line0001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0007": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0009": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0011": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0013": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0015": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				}
+			},
+			"line10": {
+				"line0001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0007": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0009": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0011": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0013": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0015": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				}
+			},
+			"line11": {
+				"line0001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0007": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0009": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0011": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0013": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				},
+				"line0015": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 124.5, -58, -124.5, -58, -124.5, 58, 124.5, 58 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 249,
+					"height": 116
+				}
+			},
+			"taxi_chun_shou_xuanqiu_0023": {
+				"taxi_chun_shou_xuanqiu_0001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0007": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0009": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0011": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0013": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0015": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0017": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0019": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0021": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0023": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0025": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0027": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0029": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				},
+				"taxi_chun_shou_xuanqiu_0031": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 42.5, -42, -42.5, -42, -42.5, 42, 42.5, 42 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 85,
+					"height": 84
+				}
+			},
+			"yw2": {
+				"yw1": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -3.95, 6.63, 333.05, 6.63, 333.05, -109.37, -3.95, -109.37 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 337,
+					"height": 116
+				},
+				"yw2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -3.95, 6.63, 333.05, 6.63, 333.05, -109.37, -3.95, -109.37 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 337,
+					"height": 116
+				},
+				"yw3": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -3.95, 6.63, 333.05, 6.63, 333.05, -109.37, -3.95, -109.37 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 337,
+					"height": 116
+				},
+				"yw4": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -3.95, 6.63, 333.05, 6.63, 333.05, -109.37, -3.95, -109.37 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 337,
+					"height": 116
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill475": {
+		"slots": {
+			"2_00000": {
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4, "name": "2_00000" }
+				]
+			},
+			"line0009": {
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "line0001" },
+					{ "time": 0.0416, "name": "line0003" },
+					{ "time": 0.0831, "name": "line0005" },
+					{ "time": 0.1247, "name": "line0007" },
+					{ "time": 0.1662, "name": "line0009" },
+					{ "time": 0.2078, "name": "line0011" },
+					{ "time": 0.2493, "name": "line0013" },
+					{ "time": 0.2909, "name": "line0015" },
+					{ "time": 0.3325, "name": "line0001" },
+					{ "time": 0.374, "name": "line0003" },
+					{ "time": 0.4156, "name": "line0005" },
+					{ "time": 0.4571, "name": "line0007" },
+					{ "time": 0.4987, "name": "line0009" },
+					{ "time": 0.5402, "name": "line0011" },
+					{ "time": 0.5818, "name": "line0013" },
+					{ "time": 0.6234, "name": "line0015" },
+					{ "time": 0.6649, "name": "line0001" },
+					{ "time": 0.7065, "name": "line0003" },
+					{ "time": 0.748, "name": "line0005" }
+				]
+			},
+			"line9": {
+				"color": [
+					{ "color": "ffffff3d", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff3d" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "line0001" },
+					{ "time": 0.0416, "name": "line0003" },
+					{ "time": 0.0831, "name": "line0005" },
+					{ "time": 0.1247, "name": "line0007" },
+					{ "time": 0.1662, "name": "line0009" },
+					{ "time": 0.2078, "name": "line0011" },
+					{ "time": 0.2493, "name": "line0013" },
+					{ "time": 0.2909, "name": "line0015" },
+					{ "time": 0.3325, "name": "line0001" },
+					{ "time": 0.374, "name": "line0003" },
+					{ "time": 0.4156, "name": "line0005" },
+					{ "time": 0.4571, "name": "line0007" },
+					{ "time": 0.4987, "name": "line0009" },
+					{ "time": 0.5402, "name": "line0011" },
+					{ "time": 0.5818, "name": "line0013" },
+					{ "time": 0.6234, "name": "line0015" },
+					{ "time": 0.6649, "name": "line0001" },
+					{ "time": 0.7065, "name": "line0003" },
+					{ "time": 0.748, "name": "line0005" }
+				]
+			},
+			"line10": {
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "line0009" },
+					{ "time": 0.0333, "name": "line0011" },
+					{ "time": 0.0667, "name": "line0013" },
+					{ "time": 0.1, "name": "line0015" },
+					{ "time": 0.1333, "name": "line0001" },
+					{ "time": 0.1667, "name": "line0003" },
+					{ "time": 0.2, "name": "line0005" },
+					{ "time": 0.2333, "name": "line0007" },
+					{ "time": 0.2667, "name": "line0009" },
+					{ "time": 0.3, "name": "line0011" },
+					{ "time": 0.3333, "name": "line0013" },
+					{ "time": 0.3667, "name": "line0015" },
+					{ "time": 0.4, "name": "line0001" },
+					{ "time": 0.4333, "name": "line0003" },
+					{ "time": 0.4667, "name": "line0005" },
+					{ "time": 0.5, "name": "line0007" },
+					{ "time": 0.5333, "name": "line0009" },
+					{ "time": 0.5667, "name": "line0011" },
+					{ "time": 0.6, "name": "line0013" }
+				]
+			},
+			"line11": {
+				"color": [
+					{ "color": "ffffff17", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff17" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "line0009" },
+					{ "time": 0.0333, "name": "line0011" },
+					{ "time": 0.0667, "name": "line0013" },
+					{ "time": 0.1, "name": "line0015" },
+					{ "time": 0.1333, "name": "line0001" },
+					{ "time": 0.1667, "name": "line0003" },
+					{ "time": 0.2, "name": "line0005" },
+					{ "time": 0.2333, "name": "line0007" },
+					{ "time": 0.2667, "name": "line0009" },
+					{ "time": 0.3, "name": "line0011" },
+					{ "time": 0.3333, "name": "line0013" },
+					{ "time": 0.3667, "name": "line0015" },
+					{ "time": 0.4, "name": "line0001" },
+					{ "time": 0.4333, "name": "line0003" },
+					{ "time": 0.4667, "name": "line0005" },
+					{ "time": 0.5, "name": "line0007" },
+					{ "time": 0.5333, "name": "line0009" },
+					{ "time": 0.5667, "name": "line0011" },
+					{ "time": 0.6, "name": "line0013" }
+				]
+			},
+			"taxi_chun_shou_xuanqiu_0023": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.5667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "taxi_chun_shou_xuanqiu_0001" },
+					{ "time": 0.0259, "name": "taxi_chun_shou_xuanqiu_0003" },
+					{ "time": 0.0519, "name": "taxi_chun_shou_xuanqiu_0005" },
+					{ "time": 0.0778, "name": "taxi_chun_shou_xuanqiu_0007" },
+					{ "time": 0.1037, "name": "taxi_chun_shou_xuanqiu_0009" },
+					{ "time": 0.1297, "name": "taxi_chun_shou_xuanqiu_0011" },
+					{ "time": 0.1556, "name": "taxi_chun_shou_xuanqiu_0013" },
+					{ "time": 0.1816, "name": "taxi_chun_shou_xuanqiu_0015" },
+					{ "time": 0.2075, "name": "taxi_chun_shou_xuanqiu_0017" },
+					{ "time": 0.2333, "name": "taxi_chun_shou_xuanqiu_0019" },
+					{ "time": 0.2594, "name": "taxi_chun_shou_xuanqiu_0021" },
+					{ "time": 0.2853, "name": "taxi_chun_shou_xuanqiu_0023" },
+					{ "time": 0.3112, "name": "taxi_chun_shou_xuanqiu_0025" },
+					{ "time": 0.3372, "name": "taxi_chun_shou_xuanqiu_0027" },
+					{ "time": 0.3631, "name": "taxi_chun_shou_xuanqiu_0029" },
+					{ "time": 0.389, "name": "taxi_chun_shou_xuanqiu_0031" },
+					{ "time": 0.415, "name": "taxi_chun_shou_xuanqiu_0001" },
+					{ "time": 0.4409, "name": "taxi_chun_shou_xuanqiu_0003" },
+					{ "time": 0.4667, "name": "taxi_chun_shou_xuanqiu_0005" },
+					{ "time": 0.4928, "name": "taxi_chun_shou_xuanqiu_0007" },
+					{ "time": 0.5187, "name": "taxi_chun_shou_xuanqiu_0009" },
+					{ "time": 0.5447, "name": "taxi_chun_shou_xuanqiu_0011" },
+					{ "time": 0.5706, "name": "taxi_chun_shou_xuanqiu_0013" },
+					{ "time": 0.5965, "name": "taxi_chun_shou_xuanqiu_0015" }
+				]
+			}
+		},
+		"bones": {
+			"line9": {
+				"rotate": [
+					{ "angle": -173.17 }
+				],
+				"translate": [
+					{ "x": 127.87, "y": -134.07, "curve": 0.347 },
+					{ "time": 0.1333, "x": 65.68, "y": -229.75, "curve": 0, "c3": 0.75 },
+					{ "time": 0.4, "x": -93.39, "y": 124.26 }
+				],
+				"scale": [
+					{ "x": 1.829, "y": 1.829, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1.829, "y": 1.829, "curve": 0.403, "c2": 0.6, "c3": 0.761 },
+					{ "time": 0.5667, "x": 7.199, "y": 7.199 }
+				]
+			},
+			"taxi_chun_shou_xuanqiu_0023": {
+				"translate": [
+					{ "x": -98.16, "y": 14.82, "curve": 0.347 },
+					{ "time": 0.1333, "x": -160.35, "y": -80.86, "curve": 0, "c3": 0.75 },
+					{ "time": 0.4, "x": -319.42, "y": 273.15 }
+				],
+				"scale": [
+					{ "x": 2.72, "y": 2.72, "curve": "stepped" },
+					{ "time": 0.3667, "x": 2.72, "y": 2.72, "curve": 0, "c3": 0.75 },
+					{ "time": 0.5667, "x": 8.039, "y": 8.039 }
+				]
+			},
+			"line0009": {
+				"rotate": [
+					{ "angle": -22.65 }
+				],
+				"translate": [
+					{ "x": 83.05, "y": -139.42, "curve": 0.347 },
+					{ "time": 0.1333, "x": 20.86, "y": -235.1, "curve": 0, "c3": 0.75 },
+					{ "time": 0.4, "x": -138.21, "y": 118.91 }
+				],
+				"scale": [
+					{ "x": 1.75, "y": 1.75, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1.75, "y": 1.75, "curve": 0.403, "c2": 0.6, "c3": 0.761 },
+					{ "time": 0.5667, "x": 6.888, "y": 6.888 }
+				]
+			},
+			"2_00000": {
+				"translate": [
+					{ "time": 0.4, "x": -444.99, "y": 386.29 }
+				],
+				"scale": [
+					{ "time": 0.4 },
+					{ "time": 0.6333, "x": 3.901, "y": 3.901 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.7607 }
+		]
+	}
+}
+}

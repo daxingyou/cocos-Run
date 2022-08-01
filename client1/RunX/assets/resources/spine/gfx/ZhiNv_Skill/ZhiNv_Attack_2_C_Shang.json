@@ -1,0 +1,41 @@
+{
+"skeleton": { "hash": "Ui12lQeTrnxsDkzV0DYh1CvuXGQ", "spine": "3.8.99", "images": "./images/", "audio": "H:/波波外包/new/织女/Spine" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "atk2", "parent": "root" },
+	{ "name": "hit", "parent": "atk2", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "hit", "bone": "hit", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"hit": {
+				"ZhiNv_Attack_1/hit/hit_0007": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/hit/hit_0009": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/hit/hit_0011": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/hit/hit_0013": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/hit/hit_0015": { "width": 500, "height": 500 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack3": {
+		"slots": {
+			"hit": {
+				"attachment": [
+					{ "name": "ZhiNv_Attack_1/hit/hit_0007" },
+					{ "time": 0.0667, "name": "ZhiNv_Attack_1/hit/hit_0009" },
+					{ "time": 0.1333, "name": "ZhiNv_Attack_1/hit/hit_0011" },
+					{ "time": 0.2, "name": "ZhiNv_Attack_1/hit/hit_0013" },
+					{ "time": 0.2667, "name": "ZhiNv_Attack_1/hit/hit_0015" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		}
+	}
+}
+}

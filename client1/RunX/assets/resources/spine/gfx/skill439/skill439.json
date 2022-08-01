@@ -1,0 +1,145 @@
+{
+"skeleton": { "hash": "YXEsnxUzwTHsBCUVcfbDBBoGAYg", "spine": "3.8.99", "images": "./images/", "audio": "D:/beifen/TB4/西游第三批/夸父" },
+"bones": [
+	{ "name": "root", "scaleX": 0.5266, "scaleY": 0.5266 },
+	{
+		"name": "guang_00005",
+		"parent": "root",
+		"length": 99.92,
+		"rotation": -34.01,
+		"x": 384.03,
+		"y": 555.54,
+		"color": "54ff00ff"
+	}
+],
+"slots": [
+	{ "name": "guang_00005", "bone": "guang_00005", "color": "d07ed1ff", "dark": "624161", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"guang_00005": {
+				"guang_00001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 177.7, -34.52, -34.52, -177.7, -177.7, 34.52, 34.52, 177.7 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 177.7, -34.52, -34.52, -177.7, -177.7, 34.52, 34.52, 177.7 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 177.7, -34.52, -34.52, -177.7, -177.7, 34.52, 34.52, 177.7 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00007": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 177.7, -34.52, -34.52, -177.7, -177.7, 34.52, 34.52, 177.7 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00009": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 177.7, -34.52, -34.52, -177.7, -177.7, 34.52, 34.52, 177.7 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00011": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 177.7, -34.52, -34.52, -177.7, -177.7, 34.52, 34.52, 177.7 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00013": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 177.7, -34.52, -34.52, -177.7, -177.7, 34.52, 34.52, 177.7 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				},
+				"guang_00015": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 177.7, -34.52, -34.52, -177.7, -177.7, 34.52, 34.52, 177.7 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill439": {
+		"slots": {
+			"guang_00005": {
+				"attachment": [
+					{ "name": "guang_00001" },
+					{ "time": 0.0333, "name": "guang_00003" },
+					{ "time": 0.0667, "name": "guang_00005" },
+					{ "time": 0.1, "name": "guang_00007" },
+					{ "time": 0.1333, "name": "guang_00009" },
+					{ "time": 0.1667, "name": "guang_00011" },
+					{ "time": 0.2, "name": "guang_00013" },
+					{ "time": 0.2333, "name": "guang_00015" },
+					{ "time": 0.2667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guang_00005": {
+				"rotate": [
+					{ "angle": -54.89 }
+				],
+				"translate": [
+					{ "x": -72.56, "y": -13.73 }
+				],
+				"scale": [
+					{ "x": 5.502, "y": 5.502 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.6667, "name": "K" }
+		]
+	}
+}
+}

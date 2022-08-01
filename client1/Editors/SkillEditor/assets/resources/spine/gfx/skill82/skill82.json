@@ -1,0 +1,101 @@
+{
+"skeleton": { "hash": "2shnartj6U0rRP1d5vUtMkjTWkI", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/山神" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.28, "scaleY": 0.28 },
+	{
+		"name": "t1",
+		"parent": "bone",
+		"length": 153.13,
+		"rotation": 177.32,
+		"x": -1908.94,
+		"y": 338.25,
+		"scaleX": 0.28,
+		"scaleY": 0.28
+	},
+	{ "name": "hx", "parent": "bone", "length": 132.14, "rotation": 90, "x": -1948.39, "y": -8 }
+],
+"slots": [
+	{ "name": "t1", "bone": "t1" },
+	{ "name": "hx", "bone": "hx", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"hx": {
+				"hx": { "x": 114.53, "y": 0.51, "rotation": -90, "width": 424, "height": 282 }
+			},
+			"t1": {
+				"t1": { "x": 151.43, "y": 0.55, "rotation": 2.49, "width": 220, "height": 216 },
+				"t2": { "x": 151.43, "y": 0.55, "rotation": 2.49, "width": 236, "height": 236 },
+				"t3": { "x": 151.43, "y": 0.55, "rotation": 2.49, "width": 236, "height": 240 },
+				"t4": { "x": 151.43, "y": 0.55, "rotation": 2.49, "width": 220, "height": 244 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill82": {
+		"slots": {
+			"hx": {
+				"color": [
+					{ "time": 0.0667, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "hx" }
+				]
+			},
+			"t1": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "t1" },
+					{ "time": 0.0667, "name": "t2" },
+					{ "time": 0.1, "name": "t3" },
+					{ "time": 0.1333, "name": "t4" }
+				]
+			}
+		},
+		"bones": {
+			"t1": {
+				"rotate": [
+					{ "angle": -43.63 }
+				],
+				"translate": [
+					{ "x": 3524.3, "y": -476.03 }
+				],
+				"scale": [
+					{ "x": 4.377, "y": 4.377 }
+				]
+			},
+			"hx": {
+				"translate": [
+					{ "x": 3376.54, "y": 1.8 }
+				],
+				"scale": [
+					{ "curve": 0, "c3": 0.75 },
+					{ "time": 0.1667, "x": 3.951, "y": 3.951 }
+				],
+				"shear": [
+					{ "x": 31.12 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 1.1667 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5333, "name": "k" }
+		]
+	}
+}
+}

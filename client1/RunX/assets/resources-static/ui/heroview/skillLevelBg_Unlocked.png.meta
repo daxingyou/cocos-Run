@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b304c976-b4cd-4e22-b789-50f8b401dd6d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 60,
+  "height": 28,
+  "platformSettings": {},
+  "subMetas": {
+    "skillLevelBg_Unlocked": {
+      "ver": "1.0.6",
+      "uuid": "af065843-715b-4504-a4bf-530d9ef0033e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b304c976-b4cd-4e22-b789-50f8b401dd6d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 60,
+      "height": 28,
+      "rawWidth": 60,
+      "rawHeight": 28,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

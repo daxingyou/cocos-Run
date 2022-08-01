@@ -1,0 +1,57 @@
+{
+"skeleton": { "hash": "pFz8So4n59xufFitRU6mw3+hkDc", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/女娲" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.63, "scaleY": 0.63 },
+	{ "name": "yanwu0002", "parent": "bone", "length": 142.69, "rotation": 180, "x": -253.57, "y": 7.58 }
+],
+"slots": [
+	{ "name": "yanwu0002", "bone": "yanwu0002" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yanwu0002": {
+				"yanwu0001": { "x": 236.75, "y": -36.56, "rotation": -180, "width": 500, "height": 199 },
+				"yanwu0002": { "x": 236.75, "y": -36.56, "rotation": -180, "width": 500, "height": 199 },
+				"yanwu0003": { "x": 236.75, "y": -36.56, "rotation": -180, "width": 500, "height": 199 },
+				"yanwu0004": { "x": 236.75, "y": -36.56, "rotation": -180, "width": 500, "height": 199 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill76": {
+		"slots": {
+			"yanwu0002": {
+				"attachment": [
+					{ "name": "yanwu0001" },
+					{ "time": 0.0333, "name": "yanwu0002" },
+					{ "time": 0.0667, "name": "yanwu0003" },
+					{ "time": 0.1, "name": "yanwu0004" },
+					{ "time": 0.1333, "name": "yanwu0001" },
+					{ "time": 0.1667, "name": "yanwu0002" },
+					{ "time": 0.2, "name": "yanwu0003" },
+					{ "time": 0.2333, "name": "yanwu0004" },
+					{ "time": 0.2667, "name": "yanwu0001" },
+					{ "time": 0.3, "name": "yanwu0002" },
+					{ "time": 0.3333, "name": "yanwu0003" },
+					{ "time": 0.3667, "name": "yanwu0004" },
+					{ "time": 0.4, "name": "yanwu0001" }
+				]
+			}
+		},
+		"bones": {
+			"yanwu0002": {
+				"translate": [
+					{ "x": 249.01, "y": 1.36 }
+				],
+				"scale": [
+					{ "x": 1.209, "y": 1.667 }
+				]
+			}
+		}
+	}
+}
+}

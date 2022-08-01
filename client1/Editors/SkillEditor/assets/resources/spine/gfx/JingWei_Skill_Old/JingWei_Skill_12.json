@@ -1,0 +1,137 @@
+{
+"skeleton": { "hash": "tsEjDoJfliVY8Q4xhuA9sCBlV7U", "spine": "3.8.99", "images": "./atk2/", "audio": "F:/7.29/跑酷项目-动作特效10个/精卫/atk2" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone2", "parent": "root", "scaleX": 0.483, "scaleY": 0.483 },
+	{ "name": "bone", "parent": "bone2", "x": 137.05, "y": 3.11 },
+	{ "name": "shazi0001", "parent": "bone", "x": -137.15, "y": -8.2 },
+	{ "name": "sss", "parent": "bone", "x": -72.62, "y": -74.28, "color": "0fff00ff" },
+	{ "name": "sss2", "parent": "bone", "x": -186.59, "y": -111, "color": "0fff00ff" },
+	{ "name": "sss3", "parent": "bone", "x": -125.39, "y": -200.08, "color": "0fff00ff" }
+],
+"slots": [
+	{ "name": "shazi0001", "bone": "shazi0001" },
+	{ "name": "sss", "bone": "sss" },
+	{ "name": "sss2", "bone": "sss2" },
+	{ "name": "sss3", "bone": "sss3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"shazi0001": {
+				"shazi0001": { "width": 550, "height": 400 },
+				"shazi0002": { "width": 550, "height": 400 },
+				"shazi0003": { "width": 550, "height": 400 },
+				"shazi0004": { "width": 550, "height": 400 },
+				"shazi0005": { "width": 550, "height": 400 },
+				"shazi0006": { "width": 550, "height": 400 },
+				"shazi0007": { "width": 550, "height": 400 },
+				"shazi0008": { "width": 550, "height": 400 },
+				"shazi0009": { "width": 550, "height": 400 },
+				"shazi0010": { "width": 550, "height": 400 },
+				"shazi0011": { "width": 550, "height": 400 },
+				"shazi0012": { "width": 550, "height": 400 },
+				"shazi0013": { "width": 550, "height": 400 }
+			},
+			"sss": {
+				"sss": { "x": -7.74, "y": 0.45, "width": 108, "height": 162 }
+			},
+			"sss2": {
+				"sss": { "x": -7.74, "y": 0.45, "width": 108, "height": 162 }
+			},
+			"sss3": {
+				"sss": { "x": -7.74, "y": 0.45, "width": 108, "height": 162 }
+			}
+		}
+	}
+],
+"animations": {
+	"JingWei_Skill_12": {
+		"slots": {
+			"shazi0001": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.5667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "shazi0001" },
+					{ "time": 0.1, "name": "shazi0002" },
+					{ "time": 0.1333, "name": "shazi0003" },
+					{ "time": 0.1667, "name": "shazi0004" },
+					{ "time": 0.2, "name": "shazi0005" },
+					{ "time": 0.2333, "name": "shazi0006" },
+					{ "time": 0.2667, "name": "shazi0007" },
+					{ "time": 0.3, "name": "shazi0008" },
+					{ "time": 0.3333, "name": "shazi0009" },
+					{ "time": 0.3667, "name": "shazi0010" },
+					{ "time": 0.4, "name": "shazi0011" },
+					{ "time": 0.4333, "name": "shazi0012" },
+					{ "time": 0.4667, "name": "shazi0013" }
+				]
+			},
+			"sss": {
+				"color": [
+					{ "time": 0.5667, "color": "ffffffff" },
+					{ "time": 0.8667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3, "name": "sss" }
+				]
+			},
+			"sss2": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3, "name": "sss" }
+				]
+			},
+			"sss3": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3, "name": "sss" }
+				]
+			}
+		},
+		"bones": {
+			"shazi0001": {
+				"scale": [
+					{ "x": 0.209, "y": 0.209 },
+					{ "time": 0.0667 }
+				]
+			},
+			"sss": {
+				"translate": [
+					{ "time": 0.3, "x": -0.86, "y": 84.67 },
+					{ "time": 0.8667, "x": -0.86, "y": 43.2 }
+				]
+			},
+			"sss2": {
+				"translate": [
+					{ "time": 0.3, "x": -0.86, "y": 84.67 },
+					{ "time": 0.9333, "x": -0.86, "y": 25.92 }
+				]
+			},
+			"sss3": {
+				"translate": [
+					{ "time": 0.3, "x": 2.59, "y": 193.54 },
+					{ "time": 0.9333, "x": 2.59, "y": 23.33 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "x": 175.7, "y": 454.93 }
+				],
+				"scale": [
+					{ "x": 2.131, "y": 2.131 }
+				]
+			}
+		}
+	}
+}
+}

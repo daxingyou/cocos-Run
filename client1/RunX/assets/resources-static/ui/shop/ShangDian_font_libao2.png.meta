@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7ffd4a25-ccb8-484a-b203-08f73db529fe",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 52,
+  "height": 28,
+  "platformSettings": {},
+  "subMetas": {
+    "ShangDian_font_libao2": {
+      "ver": "1.0.6",
+      "uuid": "e494679b-b56a-44a6-b1d2-4c5b3015f08e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7ffd4a25-ccb8-484a-b203-08f73db529fe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 52,
+      "height": 28,
+      "rawWidth": 52,
+      "rawHeight": 28,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

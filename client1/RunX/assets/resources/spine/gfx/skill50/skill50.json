@@ -1,0 +1,89 @@
+{
+"skeleton": { "hash": "g5aMrBaOfnkSPPTzFLJ4M9/nXpo", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/孔宣" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.49, "scaleY": 0.49 },
+	{ "name": "qi", "parent": "bone", "length": 68.82, "rotation": 178.09, "x": -433.36, "y": 10.37 },
+	{
+		"name": "qi2",
+		"parent": "bone",
+		"length": 68.82,
+		"rotation": 178.09,
+		"x": 269.2,
+		"y": 15.68,
+		"scaleX": -1
+	}
+],
+"slots": [
+	{ "name": "qi", "bone": "qi" },
+	{ "name": "qi2", "bone": "qi2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"qi": {
+				"qi": { "x": 68.64, "y": -19.9, "rotation": -178.09, "width": 150, "height": 86 }
+			},
+			"qi2": {
+				"qi": { "x": 68.64, "y": -19.9, "rotation": -178.09, "width": 150, "height": 86 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill50": {
+		"slots": {
+			"qi": {
+				"color": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "qi" }
+				]
+			},
+			"qi2": {
+				"color": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "qi" }
+				]
+			}
+		},
+		"bones": {
+			"qi2": {
+				"translate": [
+					{ "x": 18.09 }
+				],
+				"scale": [
+					{ "curve": 0.02, "c3": 0.75 },
+					{ "time": 0.2333, "x": 3.909, "y": 3.261 }
+				]
+			},
+			"qi": {
+				"translate": [
+					{ "x": 117.61 }
+				],
+				"scale": [
+					{ "curve": 0.02, "c3": 0.75 },
+					{ "time": 0.2333, "x": 3.71, "y": 3.066 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 1.3333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "k" }
+		]
+	}
+}
+}

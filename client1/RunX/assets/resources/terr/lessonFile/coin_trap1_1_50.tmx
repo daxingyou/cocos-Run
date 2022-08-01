@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="1.1.3413" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="25" nextobjectid="1">
+ <tileset firstgid="1" name="run_stones" tilewidth="128" tileheight="128" tilecount="10" columns="5">
+  <image source="../../textures/parkour/tiledImage/run_stones.png" width="640" height="256"/>
+ </tileset>
+ <tileset firstgid="11" source="../tiledImage/run_basic32.tsx"/>
+ <tileset firstgid="17" source="../tiledImage/run_chapter5.tsx"/>
+ <tileset firstgid="273" name="run_item32" tilewidth="32" tileheight="32" tilecount="7" columns="7">
+  <image source="../../textures/parkour/tiledImage/run_item32.png" width="224" height="32"/>
+ </tileset>
+ <layer id="21" name="floor" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt17dOw2AYRmEbQrlNOiuEttICt0HPSg0rnZUWWGkJK52Rs3i0ZEsW0h/OkZ7B3+vNk6PIzMzMzMzMzMzMzMzMzMzMzMzMzIquB73oQz8GMIgh77nvyXPa+8MZv0mRjWAUZYxhHBOY9J77njynvT+V8ZsU2TRmMIs5zKOCBe+578lz2vuLGb+JmZmZhZ3/R3939/+ote/+H7X23f8js//VEpaxglWsYR0bqLoHv29iC9vYwS72UMO+e/D7AQ5xhGOc4BRnOHcPfr/AJa5wjRvUcYs79+D3ezzgEU94RgNNvLgHv7/iDe/4wCe+8I0f9+D3OI6iNrSjhA50ogvdsXvo+y/Mnj0G
+  </data>
+ </layer>
+ <layer id="22" name="shade" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt18ENADAIAzH+7L8vM/QBVMKWbockAgAAAAAAAAAAAIAXqdEAAIB/bf+FawEAAH229778KYCLCpR/DRE=
+  </data>
+ </layer>
+ <layer id="23" name="loot" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENACAMA7D2BCT+v5WRC1AlYi/pnCytAgAAAAAAAAAAUu2+9+rMTDDdsW0BAHjBv/gv2wIAAAAAQIYDJpcFkg==
+  </data>
+ </layer>
+ <layer id="24" name="stones" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt17ENADAIwDD6/9M9AbG0gOwtJyQCAAAAAAAAAAAAeO0kDQAAQF32WtsbAACY7fdTbGsAoL8Lly4AKA==
+  </data>
+ </layer>
+</map>

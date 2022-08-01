@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0f0874c6-d430-4850-8b7f-16542bb434cc",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 256,
+  "platformSettings": {},
+  "subMetas": {
+    "ZhuRong_Attack_1_A_xia": {
+      "ver": "1.0.6",
+      "uuid": "2964c78c-aa71-4295-a59a-a1e0648041b8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0f0874c6-d430-4850-8b7f-16542bb434cc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -62.5,
+      "offsetY": 19,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 895,
+      "height": 214,
+      "rawWidth": 1024,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

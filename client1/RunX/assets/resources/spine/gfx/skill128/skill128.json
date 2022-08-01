@@ -1,0 +1,319 @@
+{
+"skeleton": { "hash": "eVBHdgyjHyseesVuev5YZVupFJo", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone6", "parent": "root", "x": -0.99, "y": 50.98 },
+	{ "name": "bd5_07", "parent": "root", "x": 355.64, "y": 985.89 },
+	{ "name": "bd5_7", "parent": "root", "x": 355.64, "y": 976.65 },
+	{ "name": "bd5_8", "parent": "root", "x": 355.64, "y": 961.78 },
+	{ "name": "Aphrodite_tx_1", "parent": "root", "x": 618.83, "y": 797.7 },
+	{ "name": "2_00000", "parent": "root", "x": 618.03, "y": 900.66 }
+],
+"slots": [
+	{ "name": "bd5_07", "bone": "bd5_07", "blend": "additive" },
+	{ "name": "bd5_7", "bone": "bd5_7", "blend": "additive" },
+	{ "name": "bd5_8", "bone": "bd5_8", "blend": "additive" },
+	{ "name": "Aphrodite_tx_1", "bone": "Aphrodite_tx_1", "blend": "additive" },
+	{ "name": "2_00000", "bone": "2_00000", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"2_00000": {
+				"2_00000": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 149.66, -146.91, -150.34, -146.91, -150.34, 153.09, 149.66, 153.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 106,
+					"height": 106
+				}
+			},
+			"Aphrodite_tx_1": {
+				"Aphrodite_tx_1": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 148.33, -85.91, -113.67, -85.91, -113.67, 69.09, 148.33, 69.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 93,
+					"height": 55
+				},
+				"Aphrodite_tx_2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 148.33, -85.91, -113.67, -85.91, -113.67, 69.09, 148.33, 69.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 93,
+					"height": 55
+				},
+				"Aphrodite_tx_3": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 148.33, -85.91, -113.67, -85.91, -113.67, 69.09, 148.33, 69.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 93,
+					"height": 55
+				},
+				"Aphrodite_tx_4": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 148.33, -85.91, -113.67, -85.91, -113.67, 69.09, 148.33, 69.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 93,
+					"height": 55
+				}
+			},
+			"bd5_07": {
+				"bd5_04": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_06": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_07": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_08": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				}
+			},
+			"bd5_7": {
+				"bd5_04": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_06": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_07": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_08": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				}
+			},
+			"bd5_8": {
+				"bd5_04": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_06": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_07": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_08": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill128": {
+		"slots": {
+			"2_00000": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "2_00000" }
+				]
+			},
+			"Aphrodite_tx_1": {
+				"attachment": [
+					{ "name": "Aphrodite_tx_1" },
+					{ "time": 0.0667, "name": "Aphrodite_tx_2" },
+					{ "time": 0.1, "name": "Aphrodite_tx_3" },
+					{ "time": 0.1667, "name": "Aphrodite_tx_4" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"bd5_07": {
+				"attachment": [
+					{ "time": 0.0667, "name": "bd5_04" },
+					{ "time": 0.1333, "name": "bd5_06" },
+					{ "time": 0.2, "name": "bd5_07" },
+					{ "time": 0.2667, "name": "bd5_08" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"bd5_7": {
+				"attachment": [
+					{ "time": 0.0667, "name": "bd5_04" },
+					{ "time": 0.1333, "name": "bd5_06" },
+					{ "time": 0.2, "name": "bd5_07" },
+					{ "time": 0.2667, "name": "bd5_08" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"bd5_8": {
+				"attachment": [
+					{ "name": "bd5_04" },
+					{ "time": 0.0667, "name": "bd5_06" },
+					{ "time": 0.1333, "name": "bd5_07" },
+					{ "time": 0.2, "name": "bd5_08" },
+					{ "time": 0.2667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Aphrodite_tx_1": {
+				"translate": [
+					{ "x": -263.6, "y": 19.18 }
+				],
+				"scale": [
+					{ "x": 2.049, "y": 2.049 }
+				]
+			},
+			"2_00000": {
+				"rotate": [
+					{ "curve": 0, "c3": 0.75 },
+					{ "time": 0.2667, "angle": -81.6 }
+				],
+				"translate": [
+					{ "x": -259.97, "y": -84.03 }
+				],
+				"scale": [
+					{ "x": 1.378, "y": 1.378 },
+					{ "time": 0.2667, "x": 3.09, "y": 3.09 }
+				]
+			},
+			"bd5_8": {
+				"rotate": [
+					{ "angle": 28.77 }
+				],
+				"translate": [
+					{ "x": -3.97, "y": -152.65 }
+				],
+				"scale": [
+					{ "x": 1.854, "y": 1.854 }
+				]
+			},
+			"bd5_07": {
+				"rotate": [
+					{ "time": 0.0667, "angle": -107.58 }
+				],
+				"translate": [
+					{ "time": 0.0667, "x": 43.46, "y": -101.45 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 2.296, "y": 2.296 }
+				]
+			},
+			"bd5_7": {
+				"rotate": [
+					{ "time": 0.0667, "angle": -39.54 }
+				],
+				"translate": [
+					{ "time": 0.0667, "x": -10.95, "y": -152.06 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 2.587, "y": 2.587 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4333, "name": "K" }
+		]
+	}
+}
+}

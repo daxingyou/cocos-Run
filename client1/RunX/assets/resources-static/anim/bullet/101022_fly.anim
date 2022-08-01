@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "101022_fly",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3333333333333333,
+  "sample": 18,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "e0466706-db14-4ce9-a787-75822141c90f"
+            }
+          },
+          {
+            "frame": 0.05555555555555555,
+            "value": {
+              "__uuid__": "a5bac7df-c0f1-401f-90b1-94ea9cf37f6f"
+            }
+          },
+          {
+            "frame": 0.1111111111111111,
+            "value": {
+              "__uuid__": "907cbed0-feff-431e-bef4-d827357aba97"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "980f3148-6f78-4e9f-960e-fed49aacbfff"
+            }
+          },
+          {
+            "frame": 0.2222222222222222,
+            "value": {
+              "__uuid__": "25940021-fc2c-4073-9f83-3ac687058c5a"
+            }
+          },
+          {
+            "frame": 0.2777777777777778,
+            "value": {
+              "__uuid__": "86b92bec-baac-431a-8557-bc7bc8e219c9"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

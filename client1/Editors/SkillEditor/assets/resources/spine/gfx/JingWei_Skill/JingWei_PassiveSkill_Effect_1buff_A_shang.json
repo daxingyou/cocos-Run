@@ -1,0 +1,86 @@
+{
+"skeleton": { "hash": "TsvfHpbVyJ1+x2zthroH8zMuaek", "spine": "3.8.99", "images": "./images/", "audio": "Z:/进行中的项目/张晨阳动效项目/第三批/特效项目/SR-精卫-a/特效" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "shitou/shitu_01", "parent": "root" }
+],
+"slots": [
+	{ "name": "shitou/shitu_01", "bone": "shitou/shitu_01" },
+	{ "name": "shitou/shitu_5", "bone": "shitou/shitu_01", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"shitou/shitu_01": {
+				"shitou/shitu_02": { "width": 125, "height": 125 },
+				"shitou/shitu_04": { "width": 125, "height": 125 },
+				"shitou/shitu_06": { "width": 125, "height": 125 }
+			},
+			"shitou/shitu_5": {
+				"shitou/shitu_02": { "width": 125, "height": 125 },
+				"shitou/shitu_04": { "width": 125, "height": 125 },
+				"shitou/shitu_06": { "width": 125, "height": 125 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"shitou/shitu_01": {
+				"color": [
+					{ "color": "ff6b06ff" }
+				],
+				"attachment": [
+					{ "name": "shitou/shitu_02" },
+					{ "time": 0.0667, "name": "shitou/shitu_04" },
+					{ "time": 0.1333, "name": "shitou/shitu_06" },
+					{ "time": 0.2, "name": "shitou/shitu_02" },
+					{ "time": 0.2667, "name": "shitou/shitu_04" },
+					{ "time": 0.3333, "name": "shitou/shitu_06" },
+					{ "time": 0.4, "name": "shitou/shitu_02" },
+					{ "time": 0.4667, "name": "shitou/shitu_04" },
+					{ "time": 0.5333, "name": "shitou/shitu_06" },
+					{ "time": 0.6, "name": "shitou/shitu_02" },
+					{ "time": 0.6667, "name": "shitou/shitu_04" },
+					{ "time": 0.7333, "name": "shitou/shitu_06" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"shitou/shitu_5": {
+				"attachment": [
+					{ "name": "shitou/shitu_02" },
+					{ "time": 0.0667, "name": "shitou/shitu_04" },
+					{ "time": 0.1333, "name": "shitou/shitu_06" },
+					{ "time": 0.2, "name": "shitou/shitu_02" },
+					{ "time": 0.2667, "name": "shitou/shitu_04" },
+					{ "time": 0.3333, "name": "shitou/shitu_06" },
+					{ "time": 0.4, "name": "shitou/shitu_02" },
+					{ "time": 0.4667, "name": "shitou/shitu_04" },
+					{ "time": 0.5333, "name": "shitou/shitu_06" },
+					{ "time": 0.6, "name": "shitou/shitu_02" },
+					{ "time": 0.6667, "name": "shitou/shitu_04" },
+					{ "time": 0.7333, "name": "shitou/shitu_06" },
+					{ "time": 0.8333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shitou/shitu_01": {
+				"rotate": [
+					{ "angle": -63.55 }
+				],
+				"translate": [
+					{ "x": -1.7, "y": 1.1 },
+					{ "time": 0.5, "x": -1.1, "y": 7.6 },
+					{ "time": 0.8333, "x": -1.5, "y": 3.27 }
+				],
+				"scale": [
+					{ "x": 0.77, "y": 0.77 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,51 @@
+{
+"skeleton": { "hash": "qwemY1qcb2PSTd64czfigC+Yx6w", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "attack1_dg", "parent": "root", "scaleX": 4, "scaleY": 4 }
+],
+"slots": [
+	{ "name": "attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_00", "bone": "attack1_dg" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_00": {
+				"attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_00": { "width": 350, "height": 250 },
+				"attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_01": { "width": 350, "height": 250 },
+				"attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_02": { "width": 350, "height": 250 },
+				"attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_03": { "width": 350, "height": 250 },
+				"attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_05": { "width": 350, "height": 250 },
+				"attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_07": { "width": 350, "height": 250 },
+				"attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_09": { "width": 350, "height": 250 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_00": {
+				"attachment": [
+					{ "name": "attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_00" },
+					{ "time": 0.0333, "name": "attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_01" },
+					{ "time": 0.0667, "name": "attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_02" },
+					{ "time": 0.1, "name": "attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_03" },
+					{ "time": 0.1667, "name": "attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_05" },
+					{ "time": 0.2333, "name": "attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_07" },
+					{ "time": 0.3, "name": "attack/ZhuRong_Attack1_dg/ZhuRong_Attack1_dg_09" },
+					{ "time": 0.3667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"attack1_dg": {
+				"translate": [
+					{ "x": 103.78, "y": 337.18 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a2d82a55-2804-4e0c-a5b3-4e19773d6364",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 100,
+  "height": 100,
+  "platformSettings": {},
+  "subMetas": {
+    "icon_jifentubiao": {
+      "ver": "1.0.6",
+      "uuid": "d1ca5d16-b591-4e66-996b-ea3782a0c6de",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a2d82a55-2804-4e0c-a5b3-4e19773d6364",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 5,
+      "offsetY": -4.5,
+      "trimX": 22,
+      "trimY": 11,
+      "width": 66,
+      "height": 87,
+      "rawWidth": 100,
+      "rawHeight": 100,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+"skeleton": { "hash": "paV35DUAgAO+3Z+6K2HRHaipK6w", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4503, "scaleY": 0.4503 },
+	{ "name": "guang_001", "parent": "root", "length": 72.45, "rotation": 180, "x": 212.36, "y": -47.51 }
+],
+"slots": [
+	{ "name": "guang_001", "bone": "guang_001", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"guang_001": {
+				"guang_001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -2.04, 15.75, 125.96, 15.75, 125.96, -16.25, -2.04, -16.25 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 128,
+					"height": 32
+				},
+				"guang_005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -2.04, 15.75, 125.96, 15.75, 125.96, -16.25, -2.04, -16.25 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 128,
+					"height": 32
+				},
+				"guang_009": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -2.04, 15.75, 125.96, 15.75, 125.96, -16.25, -2.04, -16.25 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 128,
+					"height": 32
+				},
+				"guang_010": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -2.04, 15.75, 125.96, 15.75, 125.96, -16.25, -2.04, -16.25 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 128,
+					"height": 32
+				},
+				"guang_011": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -2.04, 15.75, 125.96, 15.75, 125.96, -16.25, -2.04, -16.25 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 128,
+					"height": 32
+				},
+				"guang_013": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -2.04, 15.75, 125.96, 15.75, 125.96, -16.25, -2.04, -16.25 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 128,
+					"height": 32
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill416": {
+		"slots": {
+			"guang_001": {
+				"attachment": [
+					{ "name": "guang_001" },
+					{ "time": 0.0333, "name": "guang_005" },
+					{ "time": 0.0667, "name": "guang_009" },
+					{ "time": 0.1, "name": "guang_010" },
+					{ "time": 0.1333, "name": "guang_013" },
+					{ "time": 0.1667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guang_001": {
+				"rotate": [
+					{ "angle": -2.36 }
+				],
+				"translate": [
+					{ "x": 194.32, "y": 586.71 }
+				],
+				"scale": [
+					{ "x": 5.864, "y": 4.629 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3, "name": "K" }
+		]
+	}
+}
+}

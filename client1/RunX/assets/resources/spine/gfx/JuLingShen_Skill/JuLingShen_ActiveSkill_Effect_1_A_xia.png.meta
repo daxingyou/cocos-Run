@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "670fd246-1ed2-4a3a-83df-3000cfd91984",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 499,
+  "height": 203,
+  "platformSettings": {},
+  "subMetas": {
+    "JuLingShen_ActiveSkill_Effect_1_A_xia": {
+      "ver": "1.0.6",
+      "uuid": "0df7f5b3-99e4-4f8e-b932-abcc0c53c7d5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "670fd246-1ed2-4a3a-83df-3000cfd91984",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 7,
+      "offsetY": 0,
+      "trimX": 16,
+      "trimY": 2,
+      "width": 481,
+      "height": 199,
+      "rawWidth": 499,
+      "rawHeight": 203,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

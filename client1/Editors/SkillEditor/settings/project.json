@@ -1,0 +1,111 @@
+{
+  "group-list": [
+    "default",
+    "outside",
+    "land",
+    "reward",
+    "actor",
+    "trap",
+    "parkour_default",
+    "bullet"
+  ],
+  "collision-matrix": [
+    [
+      false
+    ],
+    [
+      false,
+      false,
+      null,
+      null,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      null,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      null,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      null,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "excluded-modules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "SafeArea"
+  ],
+  "preview-port": 7488,
+  "design-resolution-width": 1280,
+  "design-resolution-height": 720,
+  "fit-width": false,
+  "fit-height": true,
+  "use-project-simulator-setting": false,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "width": 960,
+    "height": 640
+  },
+  "clear-simulator-cache": true,
+  "facebook": {
+    "appID": "",
+    "audience": {
+      "enable": false
+    },
+    "enable": false,
+    "live": {
+      "enable": false
+    }
+  },
+  "start-scene": "7e57f6aa-d6f1-456a-8c25-29b3498e954e",
+  "migrate-history": [
+    "cloud-function"
+  ],
+  "last-module-event-record-time": 1619157834182,
+  "assets-sort-type": "ext"
+}

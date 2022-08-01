@@ -1,0 +1,161 @@
+{
+"skeleton": { "hash": "wnV8fV/Je/xavHPNqc4X4/SXpIY", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4967, "scaleY": 0.4967 },
+	{ "name": "bone6", "parent": "root", "x": 268.54, "y": -193.87, "scaleY": 0.336 },
+	{ "name": "12", "parent": "bone6", "x": -2.37, "y": 28.53 },
+	{ "name": "taxi_atk4_dixiao_0005", "parent": "root", "length": 76.62, "rotation": 90.91, "x": 20.41, "y": -156.07 }
+],
+"slots": [
+	{ "name": "10", "bone": "12" },
+	{ "name": "taxi_atk4_dixiao_0005", "bone": "taxi_atk4_dixiao_0005" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"10": {
+				"2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 381.92, -380.12, -371.08, -380.12, -371.08, 373.88, 381.92, 373.88 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 373,
+					"height": 374
+				}
+			},
+			"taxi_atk4_dixiao_0005": {
+				"taxi_atk4_dixiao_0002": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -90.55, -223.09, -83.43, 225.85, 90.55, 223.09, 83.43, -225.85 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 223,
+					"height": 86
+				},
+				"taxi_atk4_dixiao_0003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -90.55, -223.09, -83.43, 225.85, 90.55, 223.09, 83.43, -225.85 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 223,
+					"height": 86
+				},
+				"taxi_atk4_dixiao_0004": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -90.55, -223.09, -83.43, 225.85, 90.55, 223.09, 83.43, -225.85 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 223,
+					"height": 86
+				},
+				"taxi_atk4_dixiao_0005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -90.55, -223.09, -83.43, 225.85, 90.55, 223.09, 83.43, -225.85 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 223,
+					"height": 86
+				},
+				"taxi_atk4_dixiao_0006": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -90.55, -223.09, -83.43, 225.85, 90.55, 223.09, 83.43, -225.85 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 223,
+					"height": 86
+				},
+				"taxi_atk4_dixiao_0007": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -90.55, -223.09, -83.43, 225.85, 90.55, 223.09, 83.43, -225.85 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 223,
+					"height": 86
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill276": {
+		"slots": {
+			"10": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "2" }
+				]
+			},
+			"taxi_atk4_dixiao_0005": {
+				"attachment": [
+					{ "name": "taxi_atk4_dixiao_0002" },
+					{ "time": 0.0667, "name": "taxi_atk4_dixiao_0003" },
+					{ "time": 0.1333, "name": "taxi_atk4_dixiao_0004" },
+					{ "time": 0.2, "name": "taxi_atk4_dixiao_0005" },
+					{ "time": 0.2667, "name": "taxi_atk4_dixiao_0006" },
+					{ "time": 0.3333, "name": "taxi_atk4_dixiao_0007" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone6": {
+				"translate": [
+					{ "x": -266.88, "y": 176.53 },
+					{ "time": 0.3667, "x": -248.52, "y": 176.53 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "x": 1.34, "y": 1.34 }
+				]
+			},
+			"12": {
+				"rotate": [
+					{},
+					{ "time": 0.2667, "angle": -90.22 },
+					{ "time": 0.5333, "angle": -172.95 },
+					{ "time": 0.8333, "angle": 90.14 },
+					{ "time": 1.1 }
+				]
+			},
+			"taxi_atk4_dixiao_0005": {
+				"translate": [
+					{ "x": -4.04, "y": 165.56 }
+				],
+				"scale": [
+					{ "x": 1.66, "y": 1.727, "curve": 0, "c3": 0.75 },
+					{ "time": 0.3333, "x": 2.371, "y": 2.467 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "10", "offset": 1 }
+				]
+			},
+			{ "time": 0.6126 }
+		]
+	}
+}
+}

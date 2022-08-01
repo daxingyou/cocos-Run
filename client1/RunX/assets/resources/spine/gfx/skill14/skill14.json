@@ -1,0 +1,66 @@
+{
+"skeleton": { "hash": "baDZtViLiYaGunz8qe8Z4c1c7lo", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/奔波儿灞" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.45, "scaleY": 0.45 },
+	{
+		"name": "b1",
+		"parent": "bone",
+		"length": 40.31,
+		"rotation": 178.21,
+		"x": 512.92,
+		"y": 54.77,
+		"color": "6400ffff"
+	}
+],
+"slots": [
+	{ "name": "b1", "bone": "b1", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"b1": {
+				"b1": { "rotation": -178.21, "width": 56, "height": 124 },
+				"b2": { "rotation": -178.21, "width": 55, "height": 128 },
+				"b3": { "rotation": -178.21, "width": 53, "height": 126 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill14": {
+		"slots": {
+			"b1": {
+				"attachment": [
+					{ "name": "b1" },
+					{ "time": 0.0667, "name": "b2" },
+					{ "time": 0.1333, "name": "b3" },
+					{ "time": 0.1667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"b1": {
+				"translate": [
+					{ "x": -154.49, "y": 506.01 }
+				],
+				"scale": [
+					{ "x": 8.157, "y": 3.211 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4667, "name": "k" }
+		]
+	}
+}
+}

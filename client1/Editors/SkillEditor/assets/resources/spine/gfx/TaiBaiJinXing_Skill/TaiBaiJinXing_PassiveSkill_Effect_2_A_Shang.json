@@ -1,0 +1,226 @@
+{
+"skeleton": { "hash": "rC3dCVBJiR4yfCn22CqrSMsh984", "spine": "3.8.95", "images": "./images/", "audio": "H:/波波外包/new/太白金星/SSR-太白金星" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "PassiveSkill_Effect_2", "parent": "eft" },
+	{ "name": "guangquan_4", "parent": "PassiveSkill_Effect_2" },
+	{ "name": "guangquan_2R3", "parent": "guangquan_4" },
+	{ "name": "guangquan_1_2", "parent": "PassiveSkill_Effect_2" },
+	{ "name": "guangquan_1R2", "parent": "guangquan_1_2" }
+],
+"slots": [
+	{ "name": "guangquan_6", "bone": "guangquan_2R3", "blend": "additive" },
+	{ "name": "guangquan_1R2", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R3", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R4", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R6", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R7", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R8", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R9", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R10", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R11", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R12", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R13", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R14", "bone": "guangquan_1R2", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"guangquan_1R2": {
+				"eft/attack1/guangquan_1_0000A": { "x": 83.49, "y": 68.75, "rotation": -51.32, "width": 63, "height": 29 }
+			},
+			"guangquan_1R3": {
+				"eft/attack1/guangquan_1_0000A": { "x": 109.15, "y": 18.52, "rotation": -81.4, "width": 63, "height": 29 }
+			},
+			"guangquan_1R4": {
+				"eft/attack1/guangquan_1_0000A": { "x": 102.06, "y": -42.63, "rotation": -114.06, "width": 63, "height": 29 }
+			},
+			"guangquan_1R6": {
+				"eft/attack1/guangquan_1_0000A": { "x": 68.75, "y": -86.86, "rotation": -145.56, "width": 63, "height": 29 }
+			},
+			"guangquan_1R7": {
+				"eft/attack1/guangquan_1_0000A": { "x": 17.43, "y": -110.34, "rotation": -172.3, "width": 63, "height": 29 }
+			},
+			"guangquan_1R8": {
+				"eft/attack1/guangquan_1_0000A": { "x": -38.81, "y": -103.79, "rotation": 154.98, "width": 63, "height": 29 }
+			},
+			"guangquan_1R9": {
+				"eft/attack1/guangquan_1_0000A": { "x": -83.04, "y": -71.03, "rotation": 127.09, "width": 63, "height": 29 }
+			},
+			"guangquan_1R10": {
+				"eft/attack1/guangquan_1_0000A": { "x": -108.15, "y": -20.79, "rotation": 97.43, "width": 63, "height": 29 }
+			},
+			"guangquan_1R11": {
+				"eft/attack1/guangquan_1_0000A": { "x": -102.69, "y": 36.54, "rotation": 67.27, "width": 63, "height": 29 }
+			},
+			"guangquan_1R12": {
+				"eft/attack1/guangquan_1_0000A": { "x": -69.93, "y": 81.31, "rotation": 38.03, "width": 63, "height": 29 }
+			},
+			"guangquan_1R13": {
+				"eft/attack1/guangquan_1_0000A": { "x": -18.61, "y": 105.88, "rotation": 5.89, "width": 63, "height": 29 }
+			},
+			"guangquan_1R14": {
+				"eft/attack1/guangquan_1_0000A": { "x": 36.54, "y": 100.96, "rotation": -22.68, "width": 63, "height": 29 }
+			},
+			"guangquan_6": {
+				"eft/attack1/guangquan_2_0000": { "width": 600, "height": 600 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack3": {
+		"slots": {
+			"guangquan_1R2": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R3": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R4": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R6": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R7": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R8": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R9": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R10": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R11": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R12": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R13": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R14": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_6": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "eft/attack1/guangquan_2_0000" },
+					{ "time": 0.8333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guangquan_2R3": {
+				"rotate": [
+					{ "curve": 0, "c2": 0.22, "c3": 0.75 },
+					{ "time": 0.9, "angle": -90 }
+				]
+			},
+			"guangquan_4": {
+				"scale": [
+					{ "time": 0.1333, "x": 1.5, "y": 0.6, "curve": 0, "c2": 0.22, "c3": 0.75 },
+					{ "time": 0.4667, "x": 3, "y": 1.2 }
+				]
+			},
+			"guangquan_1_2": {
+				"scale": [
+					{ "x": 1.1, "y": 0.44, "curve": 0, "c2": 0.22, "c3": 0.75 },
+					{ "time": 0.3, "x": 4, "y": 1.6 }
+				]
+			},
+			"guangquan_1R2": {
+				"rotate": [
+					{ "curve": 0, "c2": 0.3, "c3": 0.75 },
+					{ "time": 0.9, "angle": 90 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 1.4667 }
+		]
+	}
+}
+}

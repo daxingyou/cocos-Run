@@ -1,0 +1,80 @@
+{
+"skeleton": { "hash": "9OwMRdH3VQm7iesjhvllAGcNTNI", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/奔波儿灞" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.45, "scaleY": 0.45 },
+	{
+		"name": "3",
+		"parent": "bone",
+		"length": 98,
+		"rotation": 0.64,
+		"x": 527.25,
+		"y": 358.13,
+		"color": "0042ffff"
+	}
+],
+"slots": [
+	{ "name": "1", "bone": "3" },
+	{ "name": "2", "bone": "3", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"1": { "x": 93.87, "y": 0.2, "rotation": -0.64, "width": 260, "height": 80 }
+			},
+			"2": {
+				"1": { "x": 93.87, "y": 0.2, "rotation": -0.64, "width": 260, "height": 80 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill11": {
+		"slots": {
+			"1": {
+				"color": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "1" }
+				]
+			},
+			"2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "1" }
+				]
+			}
+		},
+		"bones": {
+			"3": {
+				"translate": [
+					{ "x": -783.32, "y": 27.36 }
+				],
+				"scale": [
+					{ "x": 3.115, "y": 1.318, "curve": 0.02, "c3": 0.75 },
+					{ "time": 0.1, "x": 6.921, "y": 6.274 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0.7333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3, "name": "k" }
+		]
+	}
+}
+}

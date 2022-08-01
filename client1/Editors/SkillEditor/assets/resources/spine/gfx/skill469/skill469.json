@@ -1,0 +1,131 @@
+{
+"skeleton": { "hash": "LS37YH/G5mYKVBQqQeA7EXslNt0", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.5007, "scaleY": 0.5007 },
+	{ "name": "bone2", "parent": "root", "x": 111.06, "y": -126.38 },
+	{
+		"name": "weapon2",
+		"parent": "bone2",
+		"length": 125.79,
+		"rotation": -18.14,
+		"x": -8.99,
+		"y": -15.43,
+		"color": "c200ffff"
+	}
+],
+"slots": [
+	{ "name": "weapon2", "bone": "weapon2" },
+	{ "name": "weaponc", "bone": "weapon2" },
+	{ "name": "weaponc2", "bone": "weapon2", "color": "ffffff54", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"weapon2": {
+				"weapon": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 429.31, -65.56, -225.45, -280.05, -320.4, 9.79, 334.36, 224.28 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 689,
+					"height": 305
+				}
+			},
+			"weaponc": {
+				"weaponc": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 523.57, -217.52, -218.62, -460.65, -451.79, 251.13, 290.4, 494.26 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 781,
+					"height": 749
+				}
+			},
+			"weaponc2": {
+				"weaponc": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 523.57, -217.52, -218.62, -460.65, -451.79, 251.13, 290.4, 494.26 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 781,
+					"height": 749
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill469": {
+		"slots": {
+			"weapon2": {
+				"attachment": [
+					{ "name": "weapon" },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"weaponc": {
+				"attachment": [
+					{ "name": "weaponc" },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"weaponc2": {
+				"attachment": [
+					{ "name": "weaponc" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"weapon2": {
+				"rotate": [
+					{},
+					{ "time": 0.0333, "angle": 101.82 },
+					{ "time": 0.0667, "angle": -158.37 },
+					{ "time": 0.1333, "angle": -61.73 },
+					{ "time": 0.1667 },
+					{ "time": 0.2, "angle": 101.82 },
+					{ "time": 0.2333, "angle": -158.37 },
+					{ "time": 0.3, "angle": -61.73 },
+					{ "time": 0.3333 },
+					{ "time": 0.3667, "angle": 101.82 },
+					{ "time": 0.4, "angle": -158.37 },
+					{ "time": 0.4667, "angle": -61.73 },
+					{ "time": 0.5 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "angle": 87.11 },
+					{ "time": 0.5, "angle": 91.78 }
+				],
+				"translate": [
+					{ "x": 362.68, "y": 611.34 },
+					{ "time": 0.1667, "x": 617.17, "y": 611.34, "curve": "stepped" },
+					{ "time": 0.4333, "x": 617.17, "y": 611.34 },
+					{ "time": 0.5, "x": 366.28, "y": 592.85 }
+				],
+				"scale": [
+					{ "y": 0.725 },
+					{ "time": 0.1667, "x": 1.43, "y": 1.036, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1.43, "y": 1.036 },
+					{ "time": 0.5 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "K" }
+		]
+	}
+}
+}

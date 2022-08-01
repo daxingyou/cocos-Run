@@ -1,0 +1,70 @@
+{
+"skeleton": { "hash": "rPsLNuUP4Xtr15jYR2N8kTnYmRI", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/土地" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.46, "scaleY": 0.46 },
+	{
+		"name": "yanwu0003",
+		"parent": "bone",
+		"length": 149.41,
+		"rotation": 179.36,
+		"x": 265.07,
+		"y": -235.09,
+		"color": "cee42cff"
+	}
+],
+"slots": [
+	{ "name": "yanwu0003", "bone": "yanwu0003" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yanwu0003": {
+				"yanwu0001": { "x": 235.04, "y": -38.89, "rotation": -179.36, "width": 500, "height": 199 },
+				"yanwu0002": { "x": 235.04, "y": -38.89, "rotation": -179.36, "width": 500, "height": 199 },
+				"yanwu0003": { "x": 235.04, "y": -38.89, "rotation": -179.36, "width": 500, "height": 199 },
+				"yanwu0004": { "x": 235.04, "y": -38.89, "rotation": -179.36, "width": 500, "height": 199 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill99": {
+		"slots": {
+			"yanwu0003": {
+				"attachment": [
+					{ "name": "yanwu0001" },
+					{ "time": 0.0306, "name": "yanwu0002" },
+					{ "time": 0.0612, "name": "yanwu0003" },
+					{ "time": 0.0919, "name": "yanwu0004" },
+					{ "time": 0.1225, "name": "yanwu0001" },
+					{ "time": 0.1531, "name": "yanwu0002" },
+					{ "time": 0.1837, "name": "yanwu0003" },
+					{ "time": 0.2143, "name": "yanwu0004" },
+					{ "time": 0.245, "name": "yanwu0001" },
+					{ "time": 0.2756, "name": "yanwu0002" },
+					{ "time": 0.3062, "name": "yanwu0003" },
+					{ "time": 0.3368, "name": "yanwu0004" },
+					{ "time": 0.3674, "name": "yanwu0001" }
+				]
+			}
+		},
+		"bones": {
+			"yanwu0003": {
+				"translate": [
+					{ "x": -229.86, "y": 238.68 }
+				],
+				"scale": [
+					{ "x": 1.438, "y": 2.234 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0.3737 }
+				]
+			}
+		}
+	}
+}
+}

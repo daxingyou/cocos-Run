@@ -1,0 +1,127 @@
+{
+"skeleton": { "hash": "LtpQYtyspppNQdzFpYjlMtGFzL4", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/女娲" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.63, "scaleY": 0.63 },
+	{ "name": "atk2_daoguang10001", "parent": "bone", "x": 570.32, "y": 207.51, "color": "f6ff00ff" },
+	{ "name": "atk2_daoguang20001", "parent": "bone", "x": 692.44, "y": 199.28, "color": "ffed00ff" },
+	{ "name": "atkdaoguang_ult0002", "parent": "bone", "x": 815.92, "y": 209.43, "color": "fff200ff" }
+],
+"slots": [
+	{ "name": "atk2_daoguang10001", "bone": "atk2_daoguang10001" },
+	{ "name": "atk2_daoguang20001", "bone": "atk2_daoguang20001" },
+	{ "name": "atkdaoguang_ult0002", "bone": "atkdaoguang_ult0002" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"atk2_daoguang10001": {
+				"atk2_daoguang10001": { "x": -152.42, "y": -55.18, "width": 388, "height": 343 },
+				"atk2_daoguang10002": { "x": -152.42, "y": -55.18, "width": 388, "height": 343 },
+				"atk2_daoguang10003": { "x": -152.42, "y": -55.18, "width": 388, "height": 343 },
+				"atk2_daoguang10004": { "x": -152.42, "y": -55.18, "width": 388, "height": 343 },
+				"atk2_daoguang10005": { "x": -152.42, "y": -55.18, "width": 388, "height": 343 }
+			},
+			"atk2_daoguang20001": {
+				"atk2_daoguang20001": { "x": -57.87, "y": -5.66, "width": 570, "height": 198 },
+				"atk2_daoguang20002": { "x": -57.87, "y": -5.66, "width": 570, "height": 198 },
+				"atk2_daoguang20003": { "x": -57.87, "y": -5.66, "width": 570, "height": 198 },
+				"atk2_daoguang20004": { "x": -57.87, "y": -5.66, "width": 570, "height": 198 },
+				"atk2_daoguang20005": { "x": -57.87, "y": -5.66, "width": 570, "height": 198 }
+			},
+			"atkdaoguang_ult0002": {
+				"atkdaoguang_ult0001": { "x": -110.64, "y": 50.67, "width": 701, "height": 534 },
+				"atkdaoguang_ult0002": { "x": -110.64, "y": 50.67, "width": 701, "height": 534 },
+				"atkdaoguang_ult0003": { "x": -110.64, "y": 50.67, "width": 701, "height": 534 },
+				"atkdaoguang_ult0004": { "x": -110.64, "y": 50.67, "width": 701, "height": 534 },
+				"atkdaoguang_ult0005": { "x": -110.64, "y": 50.67, "width": 701, "height": 534 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill72": {
+		"slots": {
+			"atk2_daoguang10001": {
+				"attachment": [
+					{ "name": "atk2_daoguang10001" },
+					{ "time": 0.0667, "name": "atk2_daoguang10002" },
+					{ "time": 0.1667, "name": "atk2_daoguang10003" },
+					{ "time": 0.2, "name": "atk2_daoguang10004" },
+					{ "time": 0.2667, "name": "atk2_daoguang10005" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"atk2_daoguang20001": {
+				"attachment": [
+					{ "time": 0.2667, "name": "atk2_daoguang20001" },
+					{ "time": 0.3333, "name": "atk2_daoguang20002" },
+					{ "time": 0.4, "name": "atk2_daoguang20003" },
+					{ "time": 0.4333, "name": "atk2_daoguang20004" },
+					{ "time": 0.4667, "name": "atk2_daoguang20005" },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"atkdaoguang_ult0002": {
+				"attachment": [
+					{ "time": 0.7, "name": "atkdaoguang_ult0001" },
+					{ "time": 0.7667, "name": "atkdaoguang_ult0002" },
+					{ "time": 0.8333, "name": "atkdaoguang_ult0003" },
+					{ "time": 0.9, "name": "atkdaoguang_ult0004" },
+					{ "time": 0.9333, "name": "atkdaoguang_ult0005" },
+					{ "time": 0.9667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 1.0333, "curve": 0.244, "c3": 0.702, "c4": 0.8 },
+					{ "time": 1.5, "angle": -0.12, "curve": 0.364, "c2": 0.64, "c3": 0.701 },
+					{ "time": 1.5667 }
+				]
+			},
+			"atk2_daoguang10001": {
+				"translate": [
+					{ "x": 32.97, "y": 136, "curve": 0, "c3": 0.75 },
+					{ "time": 0.3, "x": 90.52, "y": 136 }
+				],
+				"scale": [
+					{ "x": 1.634, "y": 1.634 }
+				]
+			},
+			"atk2_daoguang20001": {
+				"rotate": [
+					{ "time": 0.2667, "angle": 42.35 }
+				],
+				"translate": [
+					{ "time": 0.2667, "x": -375.55, "y": 240.86, "curve": 0, "c3": 0.75 },
+					{ "time": 0.4333, "x": -281, "y": 240.86 }
+				],
+				"scale": [
+					{ "time": 0.2667, "x": 1.872, "y": 1.872 }
+				]
+			},
+			"atkdaoguang_ult0002": {
+				"rotate": [
+					{ "time": 0.7, "angle": 6.9 }
+				],
+				"translate": [
+					{ "time": 0.7, "x": -356.46, "y": 62.25 },
+					{ "time": 0.7667, "x": -242.27, "y": 107.01 }
+				],
+				"scale": [
+					{ "time": 0.7, "x": 1.353, "y": 1.353 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "k" }
+		]
+	}
+}
+}

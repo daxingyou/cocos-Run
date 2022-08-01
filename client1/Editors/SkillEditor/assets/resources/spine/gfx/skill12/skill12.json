@@ -1,0 +1,71 @@
+{
+"skeleton": { "hash": "AzkDtHj1Z1Pw9KiBYonEWfvudLc", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/奔波儿灞" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.45, "scaleY": 0.45 },
+	{ "name": "zhuanA0002", "parent": "bone", "x": 1060.84, "y": 571.25, "shearX": -7.15, "shearY": -1.79 }
+],
+"slots": [
+	{ "name": "zhuanA0002", "bone": "zhuanA0002" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"zhuanA0002": {
+				"zhuanA0002": { "x": 10.44, "y": 3.53, "width": 650, "height": 420 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill12": {
+		"slots": {
+			"zhuanA0002": {
+				"color": [
+					{ "time": 0.2949, "color": "ffffffff" },
+					{ "time": 0.3539, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.118, "name": "zhuanA0002" },
+					{ "time": 0.3539, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"zhuanA0002": {
+				"rotate": [
+					{ "time": 0.118 },
+					{ "time": 0.1769, "angle": 95.29 },
+					{ "time": 0.2064, "angle": 179.71 },
+					{ "time": 0.2949, "angle": -95.74 },
+					{ "time": 0.3539 }
+				],
+				"translate": [
+					{ "time": 0.118, "x": -1106.28, "y": -348.99, "curve": 0.027, "c3": 0.456, "c4": 0.47 },
+					{
+						"time": 0.2064,
+						"x": -1079.05,
+						"y": -43.54,
+						"curve": 0.314,
+						"c2": 0.34,
+						"c3": 0.673,
+						"c4": 0.71
+					},
+					{ "time": 0.2949, "x": -1162.14, "y": 323.59, "curve": 0.401, "c2": 0.59, "c3": 0.765 },
+					{ "time": 0.3539, "x": -1315.06, "y": 340.55, "curve": 0.25 },
+					{ "time": 0.3834, "x": -1304.73, "y": 276 }
+				],
+				"scale": [
+					{ "time": 0.118, "x": 1.601, "y": 1.601 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

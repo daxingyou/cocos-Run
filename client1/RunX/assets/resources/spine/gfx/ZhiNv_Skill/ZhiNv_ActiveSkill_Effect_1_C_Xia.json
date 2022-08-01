@@ -1,0 +1,49 @@
+{
+"skeleton": { "hash": "zd+s4tqG0F4AHSBc8EH9smG3Pg8", "spine": "3.8.99", "images": "./images/", "audio": "G:/波波外包/new/织女/Spine" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "release", "parent": "root" },
+	{ "name": "bigbird_hit", "parent": "release" },
+	{ "name": "dilie", "parent": "bigbird_hit", "scaleX": 4, "scaleY": 4 }
+],
+"slots": [
+	{ "name": "dilie", "bone": "dilie", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"dilie": {
+				"ZhiNv_ActiveSkill_Effect_1/dilie_0066": { "width": 500, "height": 500 }
+			}
+		}
+	}
+],
+"animations": {
+	"Release": {
+		"slots": {
+			"dilie": {
+				"color": [
+					{ "time": 0.5667, "color": "ffffffff" },
+					{ "time": 1.1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "ZhiNv_ActiveSkill_Effect_1/dilie_0066" }
+				]
+			}
+		},
+		"bones": {
+			"dilie": {
+				"translate": [
+					{ "y": -65.42 }
+				],
+				"scale": [
+					{ "x": 0.5, "y": 0.5 },
+					{ "time": 0.0667, "x": 0.635, "y": 0.635 },
+					{ "time": 0.1 }
+				]
+			}
+		}
+	}
+}
+}

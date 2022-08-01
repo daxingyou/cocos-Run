@@ -1,0 +1,263 @@
+{
+"skeleton": { "hash": "jpTCU5StOWKMN0rV/g8I85HhUpc", "spine": "3.8.99", "images": "./images/", "audio": "H:/波波外包/new/太白金星/SSR-太白金星" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "ActiveSkill_Effect_1", "parent": "eft" },
+	{ "name": "jqxt_1", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "jqxt_1_2", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "jqxt_2", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "jqpath", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "jqpath2", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "bowen", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "faqiu", "parent": "ActiveSkill_Effect_1" }
+],
+"slots": [
+	{ "name": "jqxt_1", "bone": "jqxt_1", "blend": "additive" },
+	{ "name": "jqxt_1_2", "bone": "jqxt_1_2", "blend": "additive" },
+	{ "name": "jqxt_11", "bone": "jqxt_1", "blend": "additive" },
+	{ "name": "jqxt_2", "bone": "jqxt_2", "blend": "additive" },
+	{ "name": "jqpath", "bone": "jqpath", "blend": "additive" },
+	{ "name": "jqpath2", "bone": "jqpath2", "blend": "additive" },
+	{ "name": "bowen", "bone": "bowen" },
+	{ "name": "faqiu", "bone": "faqiu", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bowen": {
+				"eft/PassiveSkill_Effect_1/bowen/bowen_0017": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/bowen/bowen_0020": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/bowen/bowen_0026": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/bowen/bowen_0029": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/bowen/bowen_0032": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/bowen/bowen_0035": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/bowen/bowen_0038": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/bowen/bowen_0041": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/bowen/bowen_0044": { "width": 600, "height": 600 }
+			},
+			"faqiu": {
+				"eft/PassiveSkill_Effect_1/faqiu/faqiu_0027": { "width": 600, "height": 600 }
+			},
+			"jqpath": {
+				"eft/PassiveSkill_Effect_1/jqpath/jqpath_0010": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqpath/jqpath_0012": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqpath/jqpath_0014": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqpath/jqpath_0016": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqpath/jqpath_0018": { "width": 600, "height": 600 }
+			},
+			"jqpath2": {
+				"eft/PassiveSkill_Effect_1/jqpath/jqpath_0010": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqpath/jqpath_0012": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqpath/jqpath_0014": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqpath/jqpath_0016": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqpath/jqpath_0018": { "width": 600, "height": 600 }
+			},
+			"jqxt_1": {
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0010": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0012": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0014": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0016": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0018": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0020": { "width": 600, "height": 600 }
+			},
+			"jqxt_1_2": {
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0010": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0012": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0014": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0016": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0018": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0020": { "width": 600, "height": 600 }
+			},
+			"jqxt_2": {
+				"eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0010": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0012": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0014": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0016": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0018": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0020": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0022": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0024": { "width": 600, "height": 600 }
+			},
+			"jqxt_11": {
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0010": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0012": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0014": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0016": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0018": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0020": { "width": 600, "height": 600 }
+			}
+		}
+	}
+],
+"animations": {
+	"Release": {
+		"slots": {
+			"bowen": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.5667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2667, "name": "eft/PassiveSkill_Effect_1/bowen/bowen_0017" },
+					{ "time": 0.7, "name": "eft/PassiveSkill_Effect_1/bowen/bowen_0020" },
+					{ "time": 0.8333, "name": "eft/PassiveSkill_Effect_1/bowen/bowen_0026" },
+					{ "time": 0.9667, "name": "eft/PassiveSkill_Effect_1/bowen/bowen_0029" },
+					{ "time": 1.0667, "name": "eft/PassiveSkill_Effect_1/bowen/bowen_0032" },
+					{ "time": 1.1667, "name": "eft/PassiveSkill_Effect_1/bowen/bowen_0035" },
+					{ "time": 1.2667, "name": "eft/PassiveSkill_Effect_1/bowen/bowen_0038" },
+					{ "time": 1.3667, "name": "eft/PassiveSkill_Effect_1/bowen/bowen_0041" },
+					{ "time": 1.4667, "name": "eft/PassiveSkill_Effect_1/bowen/bowen_0044" },
+					{ "time": 1.7, "name": null }
+				]
+			},
+			"faqiu": {
+				"color": [
+					{ "time": 1.0333, "color": "ffffffff" },
+					{ "time": 1.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.7667, "name": "eft/PassiveSkill_Effect_1/faqiu/faqiu_0027" },
+					{ "time": 1.2, "name": null }
+				]
+			},
+			"jqpath": {
+				"attachment": [
+					{ "time": 0.3333, "name": "eft/PassiveSkill_Effect_1/jqpath/jqpath_0010" },
+					{ "time": 0.4, "name": "eft/PassiveSkill_Effect_1/jqpath/jqpath_0012" },
+					{ "time": 0.4667, "name": "eft/PassiveSkill_Effect_1/jqpath/jqpath_0014" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_1/jqpath/jqpath_0016" },
+					{ "time": 0.6, "name": "eft/PassiveSkill_Effect_1/jqpath/jqpath_0018" },
+					{ "time": 0.7, "name": null }
+				]
+			},
+			"jqpath2": {
+				"color": [
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.8667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4667, "name": "eft/PassiveSkill_Effect_1/jqpath/jqpath_0010" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_1/jqpath/jqpath_0012" },
+					{ "time": 0.6, "name": "eft/PassiveSkill_Effect_1/jqpath/jqpath_0014" },
+					{ "time": 0.6667, "name": "eft/PassiveSkill_Effect_1/jqpath/jqpath_0016" },
+					{ "time": 0.7333, "name": "eft/PassiveSkill_Effect_1/jqpath/jqpath_0018" },
+					{ "time": 0.8667, "name": null }
+				]
+			},
+			"jqxt_1": {
+				"attachment": [
+					{ "time": 0.3333, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0010" },
+					{ "time": 0.4, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0012" },
+					{ "time": 0.4667, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0014" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0016" },
+					{ "time": 0.6, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0018" },
+					{ "time": 0.6667, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0020" },
+					{ "time": 0.7, "name": null }
+				]
+			},
+			"jqxt_1_2": {
+				"attachment": [
+					{ "time": 0.4333, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0010" },
+					{ "time": 0.5, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0012" },
+					{ "time": 0.5667, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0014" },
+					{ "time": 0.6333, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0016" },
+					{ "time": 0.7, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0018" },
+					{ "time": 0.7667, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0020" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"jqxt_2": {
+				"attachment": [
+					{ "time": 0.3333, "name": "eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0010" },
+					{ "time": 0.4, "name": "eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0012" },
+					{ "time": 0.4667, "name": "eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0014" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0016" },
+					{ "time": 0.6, "name": "eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0018" },
+					{ "time": 0.6667, "name": "eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0020" },
+					{ "time": 0.7333, "name": "eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0022" },
+					{ "time": 0.8, "name": "eft/PassiveSkill_Effect_1/jqxt_2/jqxt_2_0024" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"jqxt_11": {
+				"attachment": [
+					{ "time": 0.3333, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0010" },
+					{ "time": 0.4, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0012" },
+					{ "time": 0.4667, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0014" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0016" },
+					{ "time": 0.6, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0018" },
+					{ "time": 0.6667, "name": "eft/PassiveSkill_Effect_1/jqxt_1/jqxt_1_0020" },
+					{ "time": 0.7, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"jqxt_1": {
+				"translate": [
+					{ "time": 0.3333, "x": 247.05, "y": 449.55 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 9.6, "y": 8 }
+				]
+			},
+			"jqxt_1_2": {
+				"translate": [
+					{ "time": 0.4333, "x": -89.12, "y": 271.81 }
+				],
+				"scale": [
+					{ "time": 0.4333, "x": -6.84, "y": 6.84 }
+				]
+			},
+			"jqxt_2": {
+				"translate": [
+					{ "time": 0.3333, "y": 301.39 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 4, "y": 4 }
+				]
+			},
+			"jqpath": {
+				"rotate": [
+					{ "time": 0.3333, "angle": -15 }
+				],
+				"translate": [
+					{ "time": 0.3333, "x": 556.42, "y": 479.14 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 3.2, "y": 3.2 }
+				]
+			},
+			"jqpath2": {
+				"rotate": [
+					{ "time": 0.4667, "angle": 24.26 }
+				],
+				"translate": [
+					{ "time": 0.4667, "x": -405.72, "y": 479.14 }
+				],
+				"scale": [
+					{ "time": 0.4667, "x": -2.8, "y": 3.2 }
+				]
+			},
+			"bowen": {
+				"scale": [
+					{ "time": 0.2667, "x": 6, "y": 6 }
+				]
+			},
+			"faqiu": {
+				"translate": [
+					{ "time": 0.7667, "y": 87.71, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2, "y": 1706.75 }
+				],
+				"scale": [
+					{ "time": 0.7667, "x": 0.5 },
+					{ "time": 1.2, "x": 4, "y": 4 }
+				]
+			}
+		}
+	}
+}
+}

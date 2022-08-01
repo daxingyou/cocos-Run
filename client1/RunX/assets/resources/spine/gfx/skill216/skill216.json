@@ -1,0 +1,66 @@
+{
+"skeleton": { "hash": "jJShDzlEJt3/wR86enldKndD8Ek", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "rotation": 0.06, "scaleX": 0.4996, "scaleY": 0.4996 },
+	{ "name": "diqi0013", "parent": "root", "length": 101.1, "rotation": 89.38, "x": -1.12, "y": -12.77 },
+	{ "name": "qi", "parent": "root", "x": 191.49, "y": -117.12 }
+],
+"slots": [
+	{ "name": "diqi0013", "bone": "diqi0013", "blend": "additive" },
+	{ "name": "qi", "bone": "qi" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"diqi0013": {
+				"diqi0001": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0003": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0005": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0007": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0009": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0011": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0013": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0015": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0017": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0019": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 }
+			},
+			"qi": {
+				"qi": { "x": -67.78, "y": 20.34, "width": 150, "height": 86 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill216": {
+		"slots": {
+			"qi": {
+				"color": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "qi" }
+				]
+			}
+		},
+		"bones": {
+			"qi": {
+				"translate": [
+					{ "x": 379.41, "y": 121.66 }
+				],
+				"scale": [
+					{ "x": -0.708, "y": 0.708, "curve": 0.02, "c3": 0.75 },
+					{ "time": 0.2333, "x": -3.797, "y": 3.593 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.6667, "name": "K" }
+		]
+	}
+}
+}

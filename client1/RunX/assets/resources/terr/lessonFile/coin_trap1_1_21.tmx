@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="1.1.3413" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="25" nextobjectid="1">
+ <tileset firstgid="1" source="../tiledImage/run_stones.tsx"/>
+ <tileset firstgid="11" source="../tiledImage/run_basic32.tsx"/>
+ <tileset firstgid="17" source="../tiledImage/run_chapter5.tsx"/>
+ <tileset firstgid="273" source="../tiledImage/run_item32.tsx"/>
+ <layer id="21" name="floor" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1zdPw1AYRmGb/jfprIEEWKnh71ACrIRQVnpWOiudkePBkpWMtqzc6DzSWe473fGLIkmSJEmSJEmSJEmSJEmS1K/GaYImaYqmaYZmC3yfK+036lSheVqgKtVokZYKfF8u7TfqtEKrtEbrtEGbVC/wfau030iSJHVL7pX0vshzn2R375Pekdwr6X2R5z7J7t4nvSO5V9L7Is99kt29TyRJ/WKbdmiX9qhB+3RAh+7B70fUpGNq0Qmd0hmduwe/X9AlXdE13dAt3VHbPfj9nh7okZ7omV7old7cg9/f6YM+6Yu+6Yd+6c89+D2Oo2iABmmIhmmERmksdg99/wco/jY1
+  </data>
+ </layer>
+ <layer id="22" name="shade" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2ckJAAAIA0H/9t+vNfjxgBnYIkIiAAAAAAAAAAAAAPgohwIAAOiyTwAAgG+mfhftBMBNBdKXBzk=
+  </data>
+ </layer>
+ <layer id="23" name="loot" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2cENwCAIAEAdod1/WFdorRQxdx9+hEB4EFoDAAAAAAAAAABY7+7ZFfDU1d/FLzn4j55DPfYW6rG3tbhR6oq4UchnFgAARJr9W/h37M9sAQDOMgDUGgMt
+  </data>
+ </layer>
+ <layer id="24" name="stones" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Ad+NfMPQUkpFXQBAAAAAAAAAAAAAAAAAAAAADaXAcAgNcWbLAABQ==
+  </data>
+ </layer>
+</map>

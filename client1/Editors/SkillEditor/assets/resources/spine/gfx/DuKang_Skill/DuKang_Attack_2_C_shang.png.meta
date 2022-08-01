@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "520dacfd-ca2c-4e18-9a6a-97e54e3f6ed5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 456,
+  "height": 513,
+  "platformSettings": {},
+  "subMetas": {
+    "DuKang_Attack_2_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "054fd0ce-1792-4d70-a9da-05506dea1f76",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "520dacfd-ca2c-4e18-9a6a-97e54e3f6ed5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 452,
+      "height": 509,
+      "rawWidth": 456,
+      "rawHeight": 513,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

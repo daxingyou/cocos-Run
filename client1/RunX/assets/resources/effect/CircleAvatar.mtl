@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.Material",
+  "_name": "CircleAvatar",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "3658b41d-f5f2-42ae-96f3-d6d6a542d9dc"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "blur": 0.01
+      },
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}

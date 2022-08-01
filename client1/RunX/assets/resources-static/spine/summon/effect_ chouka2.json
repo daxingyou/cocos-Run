@@ -1,0 +1,33 @@
+{
+"skeleton": {
+	"hash": "boYj8HeepqIL/waAlT1X55Jobqo",
+	"spine": "3.8.99",
+	"x": -640,
+	"y": -360,
+	"width": 1280,
+	"height": 720,
+	"images": "./images/",
+	"audio": "C:/Users/EDY/Desktop/新建文件夹/抽卡 - 副本/scr"
+},
+"bones": [
+	{ "name": "root", "x": 6.58, "y": 1.1 },
+	{ "name": "changjing", "parent": "root", "x": -6.58, "y": -1.1 },
+	{ "name": "changjing1111", "parent": "changjing" }
+],
+"slots": [
+	{ "name": "2222", "bone": "changjing1111", "attachment": "22" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"2222": {
+				"22": { "width": 1560, "height": 720 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

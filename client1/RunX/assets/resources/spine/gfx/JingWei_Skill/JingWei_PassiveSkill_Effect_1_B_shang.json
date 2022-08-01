@@ -1,0 +1,62 @@
+{
+"skeleton": { "hash": "Dg1pSDz+GGVXDq7dwdTI8/0NQdA", "spine": "3.8.99", "images": "./images/", "audio": "Z:/进行中的项目/张晨阳动效项目/第三批/特效项目/SR-精卫-a/特效" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "shitou/shitu_1", "parent": "root" }
+],
+"slots": [
+	{ "name": "shitou/shitu_1", "bone": "shitou/shitu_1" },
+	{ "name": "shitou/shitu_2", "bone": "shitou/shitu_1", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"shitou/shitu_1": {
+				"shitou/shitu_12": { "width": 125, "height": 125 }
+			},
+			"shitou/shitu_2": {
+				"shitou/shitu_12": { "width": 125, "height": 125 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"shitou/shitu_1": {
+				"attachment": [
+					{ "name": "shitou/shitu_12" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"shitou/shitu_2": {
+				"color": [
+					{ "color": "ffffff6d", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff6d" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "shitou/shitu_12" },
+					{ "time": 0.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shitou/shitu_1": {
+				"rotate": [
+					{ "angle": 53.61 }
+				],
+				"translate": [
+					{ "x": -1160.16, "y": 927.09, "curve": "stepped" },
+					{ "time": 0.0333, "x": -1160.16, "y": 927.09, "curve": 0, "c2": 0.58, "c3": 0.75 },
+					{ "time": 0.2, "x": 10.27, "y": 9.77 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

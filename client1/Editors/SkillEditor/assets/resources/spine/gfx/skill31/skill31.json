@@ -1,0 +1,94 @@
+{
+"skeleton": { "hash": "jCr9oPvDSWvFkgGYK+it6NIGrGk", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/伏羲" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.462, "scaleY": 0.462 },
+	{ "name": "diqi0017", "parent": "bone", "length": 106.23, "rotation": 90.66, "x": -420.51, "y": -211.75 }
+],
+"slots": [
+	{ "name": "diqi0017", "bone": "diqi0017", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"diqi0017": {
+				"diqi0001": { "x": 111.08, "y": -3.72, "rotation": -90.66, "width": 550, "height": 255 },
+				"diqi0003": { "x": 111.08, "y": -3.72, "rotation": -90.66, "width": 550, "height": 255 },
+				"diqi0005": { "x": 111.08, "y": -3.72, "rotation": -90.66, "width": 550, "height": 255 },
+				"diqi0007": { "x": 111.08, "y": -3.72, "rotation": -90.66, "width": 550, "height": 255 },
+				"diqi0009": { "x": 111.08, "y": -3.72, "rotation": -90.66, "width": 550, "height": 255 },
+				"diqi0011": { "x": 111.08, "y": -3.72, "rotation": -90.66, "width": 550, "height": 255 },
+				"diqi0013": { "x": 111.08, "y": -3.72, "rotation": -90.66, "width": 550, "height": 255 },
+				"diqi0015": { "x": 111.08, "y": -3.72, "rotation": -90.66, "width": 550, "height": 255 },
+				"diqi0017": { "x": 111.08, "y": -3.72, "rotation": -90.66, "width": 550, "height": 255 },
+				"diqi0019": { "x": 111.08, "y": -3.72, "rotation": -90.66, "width": 550, "height": 255 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill31": {
+		"slots": {
+			"diqi0017": {
+				"color": [
+					{ "color": "ffc365ff" }
+				],
+				"attachment": [
+					{ "name": "diqi0001" },
+					{ "time": 0.0333, "name": "diqi0003" },
+					{ "time": 0.0667, "name": "diqi0005" },
+					{ "time": 0.1, "name": "diqi0007" },
+					{ "time": 0.1333, "name": "diqi0009" },
+					{ "time": 0.1667, "name": "diqi0011" },
+					{ "time": 0.2, "name": "diqi0013" },
+					{ "time": 0.2333, "name": "diqi0015" },
+					{ "time": 0.2667, "name": "diqi0017" },
+					{ "time": 0.3, "name": "diqi0019" },
+					{ "time": 0.3333, "name": "diqi0001" },
+					{ "time": 0.3667, "name": "diqi0003" },
+					{ "time": 0.4, "name": "diqi0005" },
+					{ "time": 0.4333, "name": "diqi0007" },
+					{ "time": 0.4667, "name": "diqi0009" },
+					{ "time": 0.5, "name": "diqi0011" },
+					{ "time": 0.5333, "name": "diqi0013" },
+					{ "time": 0.5667, "name": "diqi0015" },
+					{ "time": 0.6, "name": "diqi0017" },
+					{ "time": 0.6333, "name": "diqi0019" },
+					{ "time": 0.6667, "name": "diqi0001" },
+					{ "time": 0.7, "name": "diqi0003" },
+					{ "time": 0.7333, "name": "diqi0005" },
+					{ "time": 0.7667, "name": "diqi0007" },
+					{ "time": 0.8, "name": "diqi0009" },
+					{ "time": 0.8333, "name": "diqi0011" },
+					{ "time": 0.8667, "name": "diqi0013" },
+					{ "time": 0.9, "name": "diqi0015" },
+					{ "time": 0.9333, "name": "diqi0017" },
+					{ "time": 0.9667, "name": "diqi0019" },
+					{ "time": 1, "name": "diqi0001" },
+					{ "time": 1.0333, "name": "diqi0003" },
+					{ "time": 1.0667, "name": "diqi0005" },
+					{ "time": 1.1, "name": "diqi0007" },
+					{ "time": 1.1333, "name": "diqi0009" },
+					{ "time": 1.1667, "name": "diqi0011" },
+					{ "time": 1.2, "name": "diqi0013" },
+					{ "time": 1.2333, "name": "diqi0015" },
+					{ "time": 1.2667, "name": "diqi0017" },
+					{ "time": 1.3, "name": "diqi0019" },
+					{ "time": 1.3333, "name": "diqi0001" }
+				]
+			}
+		},
+		"bones": {
+			"diqi0017": {
+				"translate": [
+					{ "x": 408.51, "y": 192.55 }
+				],
+				"scale": [
+					{ "x": 1.813, "y": 1.813 }
+				]
+			}
+		}
+	}
+}
+}

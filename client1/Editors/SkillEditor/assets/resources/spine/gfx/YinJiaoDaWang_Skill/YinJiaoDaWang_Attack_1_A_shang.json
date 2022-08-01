@@ -1,0 +1,66 @@
+{
+"skeleton": { "hash": "6u4vtmCAC/mugcnJMRXni/Cbpyo", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "attack_04_A_shang", "parent": "eft" }
+],
+"slots": [
+	{ "name": "eft/attack2/attack2_xuli/attack2_xuli_00024", "bone": "attack_04_A_shang" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"eft/attack2/attack2_xuli/attack2_xuli_00024": {
+				"eft/attack2/attack2_xuli/attack2_xuli_00024": { "x": 0.5, "width": 356, "height": 322 },
+				"eft/attack2/attack2_xuli/attack2_xuli_00025": { "x": 0.5, "width": 356, "height": 322 },
+				"eft/attack2/attack2_xuli/attack2_xuli_00027": { "x": 0.5, "width": 356, "height": 322 },
+				"eft/attack2/attack2_xuli/attack2_xuli_00028": { "x": 0.5, "width": 356, "height": 322 },
+				"eft/attack2/attack2_xuli/attack2_xuli_00030": { "x": 0.5, "width": 356, "height": 322 },
+				"eft/attack2/attack2_xuli/attack2_xuli_00033": { "x": 0.5, "width": 356, "height": 322 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack4": {
+		"slots": {
+			"eft/attack2/attack2_xuli/attack2_xuli_00024": {
+				"color": [
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.5667, "name": "eft/attack2/attack2_xuli/attack2_xuli_00024" },
+					{ "time": 0.6, "name": "eft/attack2/attack2_xuli/attack2_xuli_00025" },
+					{ "time": 0.6333, "name": "eft/attack2/attack2_xuli/attack2_xuli_00027" },
+					{ "time": 0.6667, "name": "eft/attack2/attack2_xuli/attack2_xuli_00028" },
+					{ "time": 0.7, "name": "eft/attack2/attack2_xuli/attack2_xuli_00030" },
+					{ "time": 0.7333, "name": "eft/attack2/attack2_xuli/attack2_xuli_00033" },
+					{ "time": 1.0333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"attack_04_A_shang": {
+				"rotate": [
+					{ "time": 0.7333 },
+					{ "time": 0.9333, "angle": -3 }
+				],
+				"translate": [
+					{ "y": 304.2 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 1.0667 }
+				]
+			}
+		}
+	}
+}
+}

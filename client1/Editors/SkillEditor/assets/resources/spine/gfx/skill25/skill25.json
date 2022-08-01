@@ -1,0 +1,136 @@
+{
+"skeleton": { "hash": "sgOFZM/pdaoESKEXEilBPsFwj6Y", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/伏羲" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.462, "scaleY": 0.462 },
+	{ "name": "bone9", "parent": "bone", "x": 290.35, "y": 406.38, "color": "ffa430ff" },
+	{
+		"name": "g5",
+		"parent": "bone9",
+		"x": 2.87,
+		"y": 20.06,
+		"scaleX": 0.2319,
+		"scaleY": 0.2319,
+		"color": "ffa430ff"
+	},
+	{ "name": "k1", "parent": "bone", "x": -325.35, "y": -245.82, "color": "7aff00ff" }
+],
+"slots": [
+	{ "name": "k1", "bone": "k1" },
+	{ "name": "k2", "bone": "k1" },
+	{ "name": "k4", "bone": "k1" },
+	{ "name": "g5", "bone": "g5" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"g5": {
+				"g3": { "x": 10.69, "y": 9.83, "width": 268, "height": 247 }
+			},
+			"k1": {
+				"k1": { "width": 320, "height": 323 }
+			},
+			"k2": {
+				"k2": { "width": 397, "height": 401 }
+			},
+			"k4": {
+				"k3": { "width": 472, "height": 476 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill25": {
+		"slots": {
+			"g5": {
+				"color": [
+					{ "time": 0.4333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "g3" }
+				]
+			},
+			"k1": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "k1" }
+				]
+			},
+			"k2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0333, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "k2" }
+				]
+			},
+			"k4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "k3" }
+				]
+			}
+		},
+		"bones": {
+			"g5": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -87.42 },
+					{ "time": 0.6667, "angle": -173.77 }
+				],
+				"translate": [
+					{ "x": 51.32 }
+				],
+				"scale": [
+					{ "x": 17.814, "y": 17.814 }
+				]
+			},
+			"bone9": {
+				"translate": [
+					{ "x": -284.43, "y": -403.96 }
+				],
+				"scale": [
+					{ "x": 0.392, "y": 0.118, "curve": 0, "c3": 0.75 },
+					{ "time": 0.1333, "x": 0.944, "y": 0.285 }
+				]
+			},
+			"k1": {
+				"translate": [
+					{ "x": 373.87, "y": 258.21 }
+				],
+				"scale": [
+					{ "x": 2.804, "y": 1.096 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 1.3333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5, "name": "k" }
+		]
+	}
+}
+}

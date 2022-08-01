@@ -1,0 +1,988 @@
+{
+"skeleton": { "hash": "qdmc6hHEF/vRAbsctxY26K3BVqI", "spine": "3.8.99", "images": "./images/", "audio": "H:/波波外包/new/SSR_05银角大王" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "skill_03_A_shang", "parent": "eft" },
+	{ "name": "xulibd", "parent": "skill_03_A_shang", "scaleX": 4, "scaleY": 4 },
+	{ "name": "xuliball", "parent": "skill_03_A_shang" },
+	{ "name": "chongjibo", "parent": "skill_03_A_shang", "x": 12.44, "scaleX": 2, "scaleY": 2 },
+	{ "name": "xuli_light", "parent": "skill_03_A_shang" },
+	{ "name": "chongji_ks_all", "parent": "skill_03_A_shang" },
+	{ "name": "chongji_kuosan", "parent": "chongji_ks_all", "scaleX": 2, "scaleY": 2 },
+	{ "name": "chongji_kuosan2", "parent": "chongji_ks_all", "scaleX": 2, "scaleY": 2 },
+	{ "name": "xuli_path", "parent": "skill_03_A_shang" },
+	{ "name": "xuli_path2", "parent": "skill_03_A_shang" },
+	{ "name": "shandian", "parent": "skill_03_A_shang", "scaleX": 2, "scaleY": 2 },
+	{ "name": "shandian2", "parent": "skill_03_A_shang", "scaleX": 2, "scaleY": 2 },
+	{ "name": "shandian3", "parent": "skill_03_A_shang", "scaleX": 2, "scaleY": 2 },
+	{ "name": "shandian4", "parent": "skill_03_A_shang", "scaleX": 2, "scaleY": 2 },
+	{ "name": "shandian5", "parent": "skill_03_A_shang", "scaleX": 2, "scaleY": 2 },
+	{ "name": "cjb_path", "parent": "skill_03_A_shang", "scaleX": 2, "scaleY": 2 },
+	{ "name": "cjb_path2", "parent": "skill_03_A_shang", "scaleX": 2, "scaleY": 2 },
+	{ "name": "cjb_path3", "parent": "skill_03_A_shang", "scaleX": 2, "scaleY": 2 },
+	{ "name": "cjb_path4", "parent": "skill_03_A_shang", "scaleX": 2, "scaleY": 2 },
+	{ "name": "smoke", "parent": "skill_03_A_shang", "scaleX": 2, "scaleY": 2 },
+	{ "name": "baoping", "parent": "skill_03_A_shang", "scaleX": 468, "scaleY": 216 }
+],
+"slots": [
+	{ "name": "xulibd", "bone": "xulibd", "blend": "additive" },
+	{ "name": "xuliball", "bone": "xuliball" },
+	{ "name": "chongjibo", "bone": "chongjibo" },
+	{ "name": "xuli_light", "bone": "xuli_light", "blend": "additive" },
+	{ "name": "chongji_kuosan", "bone": "chongji_kuosan", "blend": "additive" },
+	{ "name": "chongji_kuosan3", "bone": "chongji_kuosan", "blend": "additive" },
+	{ "name": "chongji_kuosan6", "bone": "chongji_kuosan", "blend": "additive" },
+	{ "name": "chongji_kuosan2", "bone": "chongji_kuosan2", "blend": "additive" },
+	{ "name": "chongji_kuosan4", "bone": "chongji_kuosan2", "blend": "additive" },
+	{ "name": "chongji_kuosan5", "bone": "chongji_kuosan2", "blend": "additive" },
+	{ "name": "xuli_path", "bone": "xuli_path", "blend": "additive" },
+	{ "name": "xuli_path2", "bone": "xuli_path2", "blend": "additive" },
+	{ "name": "shandian", "bone": "shandian", "color": "ffffff85", "blend": "additive" },
+	{ "name": "shandian2", "bone": "shandian2", "color": "ffffff85", "blend": "additive" },
+	{ "name": "shandian4", "bone": "shandian4", "color": "ffffff85", "blend": "additive" },
+	{ "name": "shandian3", "bone": "shandian3", "color": "ffffff85", "blend": "additive" },
+	{ "name": "shandian5", "bone": "shandian5", "color": "ffffff85", "blend": "additive" },
+	{ "name": "cjb_path", "bone": "cjb_path", "color": "ffffffc6" },
+	{ "name": "cjb_path3", "bone": "cjb_path2", "color": "ffffffc6" },
+	{ "name": "cjb_path2", "bone": "cjb_path", "color": "ffffff81", "blend": "additive" },
+	{ "name": "cjb_path5", "bone": "cjb_path3", "color": "ffffff81", "blend": "additive" },
+	{ "name": "cjb_path6", "bone": "cjb_path4", "color": "ffffff81", "blend": "additive" },
+	{ "name": "cjb_path4", "bone": "cjb_path2", "color": "ffffff81", "blend": "additive" },
+	{ "name": "smoke", "bone": "smoke", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"chongji_kuosan": {
+				"eft/skill3/chongji_kuosan/chongji_kuosan_49": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_50": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_51": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_52": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_53": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_54": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_55": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_56": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_57": { "width": 400, "height": 400 }
+			},
+			"chongji_kuosan2": {
+				"eft/skill3/chongji_kuosan/chongji_kuosan_49": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_50": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_51": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_52": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_53": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_54": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_55": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_56": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_57": { "width": 400, "height": 400 }
+			},
+			"chongji_kuosan3": {
+				"eft/skill3/chongji_kuosan/chongji_kuosan_49": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_50": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_51": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_52": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_53": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_54": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_55": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_56": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_57": { "width": 400, "height": 400 }
+			},
+			"chongji_kuosan4": {
+				"eft/skill3/chongji_kuosan/chongji_kuosan_49": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_50": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_51": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_52": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_53": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_54": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_55": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_56": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_57": { "width": 400, "height": 400 }
+			},
+			"chongji_kuosan5": {
+				"eft/skill3/chongji_kuosan/chongji_kuosan_49": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_50": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_51": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_52": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_53": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_54": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_55": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_56": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_57": { "width": 400, "height": 400 }
+			},
+			"chongji_kuosan6": {
+				"eft/skill3/chongji_kuosan/chongji_kuosan_49": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_50": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_51": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_52": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_53": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_54": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_55": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_56": { "width": 400, "height": 400 },
+				"eft/skill3/chongji_kuosan/chongji_kuosan_57": { "width": 400, "height": 400 }
+			},
+			"chongjibo": {
+				"eft/skill3/chongjibo/chongjibo_49": { "x": 213.23, "width": 450, "height": 200 },
+				"eft/skill3/chongjibo/chongjibo_50": { "x": 213.23, "width": 450, "height": 200 },
+				"eft/skill3/chongjibo/chongjibo_51": { "x": 213.23, "width": 450, "height": 200 },
+				"eft/skill3/chongjibo/chongjibo_52": { "x": 213.23, "width": 450, "height": 200 },
+				"eft/skill3/chongjibo/chongjibo_53": { "x": 213.23, "width": 450, "height": 200 },
+				"eft/skill3/chongjibo/chongjibo_54": { "x": 213.23, "width": 450, "height": 200 },
+				"eft/skill3/chongjibo/chongjibo_55": { "x": 213.23, "width": 450, "height": 200 },
+				"eft/skill3/chongjibo/chongjibo_56": { "x": 213.23, "width": 450, "height": 200 },
+				"eft/skill3/chongjibo/chongjibo_57": { "x": 213.23, "width": 450, "height": 200 },
+				"eft/skill3/chongjibo/chongjibo_58": { "x": 213.23, "width": 450, "height": 200 },
+				"eft/skill3/chongjibo/chongjibo_59": { "x": 213.23, "width": 450, "height": 200 }
+			},
+			"cjb_path": {
+				"eft/skill3/cjb_path/cjb_path_50": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_53": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_56": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_59": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_62": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_65": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_68": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_71": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_74": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_77": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_80": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_83": { "x": 10, "width": 400, "height": 400 }
+			},
+			"cjb_path2": {
+				"eft/skill3/cjb_path/cjb_path_50": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_53": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_56": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_59": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_62": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_65": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_68": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_71": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_74": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_77": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_80": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_83": { "x": 10, "width": 400, "height": 400 }
+			},
+			"cjb_path3": {
+				"eft/skill3/cjb_path/cjb_path_50": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_53": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_56": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_59": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_62": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_65": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_68": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_71": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_74": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_77": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_80": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_83": { "x": 10, "width": 400, "height": 400 }
+			},
+			"cjb_path4": {
+				"eft/skill3/cjb_path/cjb_path_50": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_53": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_56": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_59": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_62": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_65": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_68": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_71": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_74": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_77": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_80": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_83": { "x": 10, "width": 400, "height": 400 }
+			},
+			"cjb_path5": {
+				"eft/skill3/cjb_path/cjb_path_50": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_53": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_56": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_59": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_62": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_65": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_68": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_71": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_74": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_77": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_80": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_83": { "x": 10, "width": 400, "height": 400 }
+			},
+			"cjb_path6": {
+				"eft/skill3/cjb_path/cjb_path_50": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_53": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_56": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_59": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_62": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_65": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_68": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_71": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_74": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_77": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_80": { "x": 10, "width": 400, "height": 400 },
+				"eft/skill3/cjb_path/cjb_path_83": { "x": 10, "width": 400, "height": 400 }
+			},
+			"shandian": {
+				"eft/skill3/shandian/shandian_48": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_50": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_52": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_54": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_56": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_58": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_60": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_62": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_64": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_66": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_68": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_70": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_72": { "width": 400, "height": 400 }
+			},
+			"shandian2": {
+				"eft/skill3/shandian/shandian_48": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_50": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_52": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_54": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_56": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_58": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_60": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_62": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_64": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_66": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_68": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_70": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_72": { "width": 400, "height": 400 }
+			},
+			"shandian3": {
+				"eft/skill3/shandian/shandian_48": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_50": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_52": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_54": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_56": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_58": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_60": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_62": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_64": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_66": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_68": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_70": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_72": { "width": 400, "height": 400 }
+			},
+			"shandian4": {
+				"eft/skill3/shandian/shandian_48": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_50": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_52": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_54": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_56": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_58": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_60": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_62": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_64": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_66": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_68": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_70": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_72": { "width": 400, "height": 400 }
+			},
+			"shandian5": {
+				"eft/skill3/shandian/shandian_48": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_50": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_52": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_54": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_56": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_58": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_60": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_62": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_64": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_66": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_68": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_70": { "width": 400, "height": 400 },
+				"eft/skill3/shandian/shandian_72": { "width": 400, "height": 400 }
+			},
+			"smoke": {
+				"eft/skill3/smoke/smoke_49": { "width": 400, "height": 400 },
+				"eft/skill3/smoke/smoke_51": { "width": 400, "height": 400 },
+				"eft/skill3/smoke/smoke_53": { "width": 400, "height": 400 },
+				"eft/skill3/smoke/smoke_55": { "width": 400, "height": 400 },
+				"eft/skill3/smoke/smoke_57": { "width": 400, "height": 400 },
+				"eft/skill3/smoke/smoke_59": { "width": 400, "height": 400 },
+				"eft/skill3/smoke/smoke_61": { "width": 400, "height": 400 },
+				"eft/skill3/smoke/smoke_63": { "width": 400, "height": 400 },
+				"eft/skill3/smoke/smoke_65": { "width": 400, "height": 400 }
+			},
+			"xuli_light": {
+				"eft/skill3/xuli_light/xuli_light_49": { "width": 800, "height": 800 }
+			},
+			"xuli_path": {
+				"eft/skill3/xuli_path/xuli_path_14": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_16": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_18": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_20": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_22": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_24": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_26": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_28": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_30": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_32": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_34": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_36": { "width": 800, "height": 800 }
+			},
+			"xuli_path2": {
+				"eft/skill3/xuli_path/xuli_path_14": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_16": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_18": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_20": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_22": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_24": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_26": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_28": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_30": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_32": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_34": { "width": 800, "height": 800 },
+				"eft/skill3/xuli_path/xuli_path_36": { "width": 800, "height": 800 }
+			},
+			"xuliball": {
+				"eft/skill3/xuliball/xuliball_24": { "width": 800, "height": 800 }
+			},
+			"xulibd": {
+				"eft/skill3/xulibd/xulibd_12": { "width": 200, "height": 200 },
+				"eft/skill3/xulibd/xulibd_13": { "width": 200, "height": 200 },
+				"eft/skill3/xulibd/xulibd_14": { "width": 200, "height": 200 },
+				"eft/skill3/xulibd/xulibd_15": { "width": 200, "height": 200 },
+				"eft/skill3/xulibd/xulibd_16": { "width": 200, "height": 200 },
+				"eft/skill3/xulibd/xulibd_17": { "width": 200, "height": 200 },
+				"eft/skill3/xulibd/xulibd_18": { "width": 200, "height": 200 },
+				"eft/skill3/xulibd/xulibd_19": { "width": 200, "height": 200 },
+				"eft/skill3/xulibd/xulibd_20": { "width": 200, "height": 200 }
+			}
+		}
+	}
+],
+"animations": {
+	"Skill3": {
+		"slots": {
+			"chongji_kuosan": {
+				"attachment": [
+					{ "time": 1.2333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_49" },
+					{ "time": 1.2667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_50" },
+					{ "time": 1.3, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_51" },
+					{ "time": 1.3333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_52" },
+					{ "time": 1.3667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_53" },
+					{ "time": 1.4, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_54" },
+					{ "time": 1.4333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_55" },
+					{ "time": 1.4667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_56" },
+					{ "time": 1.5, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_57" },
+					{ "time": 1.5333, "name": null }
+				]
+			},
+			"chongji_kuosan2": {
+				"attachment": [
+					{ "time": 1.2333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_49" },
+					{ "time": 1.2667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_50" },
+					{ "time": 1.3, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_51" },
+					{ "time": 1.3333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_52" },
+					{ "time": 1.3667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_53" },
+					{ "time": 1.4, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_54" },
+					{ "time": 1.4333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_55" },
+					{ "time": 1.4667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_56" },
+					{ "time": 1.5, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_57" },
+					{ "time": 1.5333, "name": null }
+				]
+			},
+			"chongji_kuosan3": {
+				"attachment": [
+					{ "time": 1.5, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_49" },
+					{ "time": 1.5333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_50" },
+					{ "time": 1.5667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_51" },
+					{ "time": 1.6, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_52" },
+					{ "time": 1.6333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_53" },
+					{ "time": 1.6667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_54" },
+					{ "time": 1.7, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_55" },
+					{ "time": 1.7333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_56" },
+					{ "time": 1.7667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_57" },
+					{ "time": 1.8, "name": null }
+				]
+			},
+			"chongji_kuosan4": {
+				"attachment": [
+					{ "time": 1.5, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_49" },
+					{ "time": 1.5333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_50" },
+					{ "time": 1.5667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_51" },
+					{ "time": 1.6, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_52" },
+					{ "time": 1.6333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_53" },
+					{ "time": 1.6667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_54" },
+					{ "time": 1.7, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_55" },
+					{ "time": 1.7333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_56" },
+					{ "time": 1.7667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_57" },
+					{ "time": 1.8, "name": null }
+				]
+			},
+			"chongji_kuosan5": {
+				"attachment": [
+					{ "time": 1.7667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_49" },
+					{ "time": 1.8, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_50" },
+					{ "time": 1.8333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_51" },
+					{ "time": 1.8667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_52" },
+					{ "time": 1.9, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_53" },
+					{ "time": 1.9333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_54" },
+					{ "time": 1.9667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_55" },
+					{ "time": 2, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_56" },
+					{ "time": 2.0333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_57" },
+					{ "time": 2.0667, "name": null }
+				]
+			},
+			"chongji_kuosan6": {
+				"attachment": [
+					{ "time": 1.7667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_49" },
+					{ "time": 1.8, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_50" },
+					{ "time": 1.8333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_51" },
+					{ "time": 1.8667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_52" },
+					{ "time": 1.9, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_53" },
+					{ "time": 1.9333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_54" },
+					{ "time": 1.9667, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_55" },
+					{ "time": 2, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_56" },
+					{ "time": 2.0333, "name": "eft/skill3/chongji_kuosan/chongji_kuosan_57" },
+					{ "time": 2.0667, "name": null }
+				]
+			},
+			"chongjibo": {
+				"attachment": [
+					{ "time": 1.2333, "name": "eft/skill3/chongjibo/chongjibo_49" },
+					{ "time": 1.2667, "name": "eft/skill3/chongjibo/chongjibo_50" },
+					{ "time": 1.3, "name": "eft/skill3/chongjibo/chongjibo_51" },
+					{ "time": 1.3333, "name": "eft/skill3/chongjibo/chongjibo_52" },
+					{ "time": 1.3667, "name": "eft/skill3/chongjibo/chongjibo_53" },
+					{ "time": 1.4, "name": "eft/skill3/chongjibo/chongjibo_54" },
+					{ "time": 1.4333, "name": "eft/skill3/chongjibo/chongjibo_55" },
+					{ "time": 1.4667, "name": "eft/skill3/chongjibo/chongjibo_56" },
+					{ "time": 1.5, "name": "eft/skill3/chongjibo/chongjibo_57" },
+					{ "time": 1.5333, "name": "eft/skill3/chongjibo/chongjibo_58" },
+					{ "time": 1.5667, "name": "eft/skill3/chongjibo/chongjibo_59" },
+					{ "time": 1.6, "name": "eft/skill3/chongjibo/chongjibo_49" },
+					{ "time": 1.6333, "name": "eft/skill3/chongjibo/chongjibo_50" },
+					{ "time": 1.6667, "name": "eft/skill3/chongjibo/chongjibo_51" },
+					{ "time": 1.7, "name": "eft/skill3/chongjibo/chongjibo_52" },
+					{ "time": 1.7333, "name": "eft/skill3/chongjibo/chongjibo_53" },
+					{ "time": 1.7667, "name": "eft/skill3/chongjibo/chongjibo_54" },
+					{ "time": 1.8, "name": "eft/skill3/chongjibo/chongjibo_55" },
+					{ "time": 1.8333, "name": "eft/skill3/chongjibo/chongjibo_56" },
+					{ "time": 1.8667, "name": "eft/skill3/chongjibo/chongjibo_57" },
+					{ "time": 1.9, "name": "eft/skill3/chongjibo/chongjibo_58" },
+					{ "time": 1.9333, "name": "eft/skill3/chongjibo/chongjibo_59" },
+					{ "time": 1.9667, "name": "eft/skill3/chongjibo/chongjibo_49" },
+					{ "time": 2, "name": "eft/skill3/chongjibo/chongjibo_50" },
+					{ "time": 2.0333, "name": "eft/skill3/chongjibo/chongjibo_51" },
+					{ "time": 2.0667, "name": "eft/skill3/chongjibo/chongjibo_52" },
+					{ "time": 2.1, "name": "eft/skill3/chongjibo/chongjibo_53" },
+					{ "time": 2.1333, "name": "eft/skill3/chongjibo/chongjibo_54" },
+					{ "time": 2.1667, "name": "eft/skill3/chongjibo/chongjibo_55" },
+					{ "time": 2.2, "name": "eft/skill3/chongjibo/chongjibo_56" },
+					{ "time": 2.2333, "name": "eft/skill3/chongjibo/chongjibo_57" },
+					{ "time": 2.2667, "name": "eft/skill3/chongjibo/chongjibo_58" },
+					{ "time": 2.3, "name": "eft/skill3/chongjibo/chongjibo_59" },
+					{ "time": 2.3333, "name": "eft/skill3/chongjibo/chongjibo_49" },
+					{ "time": 2.3667, "name": "eft/skill3/chongjibo/chongjibo_50" },
+					{ "time": 2.4, "name": "eft/skill3/chongjibo/chongjibo_51" },
+					{ "time": 2.4333, "name": null }
+				]
+			},
+			"cjb_path": {
+				"attachment": [
+					{ "time": 1.2667, "name": "eft/skill3/cjb_path/cjb_path_50" },
+					{ "time": 1.3667, "name": "eft/skill3/cjb_path/cjb_path_53" },
+					{ "time": 1.4667, "name": "eft/skill3/cjb_path/cjb_path_56" },
+					{ "time": 1.5667, "name": "eft/skill3/cjb_path/cjb_path_59" },
+					{ "time": 1.6667, "name": "eft/skill3/cjb_path/cjb_path_62" },
+					{ "time": 1.7667, "name": "eft/skill3/cjb_path/cjb_path_65" },
+					{ "time": 1.8667, "name": "eft/skill3/cjb_path/cjb_path_68" },
+					{ "time": 1.9667, "name": "eft/skill3/cjb_path/cjb_path_71" },
+					{ "time": 2.0667, "name": "eft/skill3/cjb_path/cjb_path_74" },
+					{ "time": 2.1667, "name": "eft/skill3/cjb_path/cjb_path_77" },
+					{ "time": 2.2667, "name": "eft/skill3/cjb_path/cjb_path_80" },
+					{ "time": 2.3667, "name": "eft/skill3/cjb_path/cjb_path_83" },
+					{ "time": 2.4, "name": null }
+				]
+			},
+			"cjb_path2": {
+				"attachment": [
+					{ "time": 1.2667, "name": "eft/skill3/cjb_path/cjb_path_50" },
+					{ "time": 1.3667, "name": "eft/skill3/cjb_path/cjb_path_53" },
+					{ "time": 1.4667, "name": "eft/skill3/cjb_path/cjb_path_56" },
+					{ "time": 1.5667, "name": "eft/skill3/cjb_path/cjb_path_59" },
+					{ "time": 1.6667, "name": "eft/skill3/cjb_path/cjb_path_62" },
+					{ "time": 1.7667, "name": "eft/skill3/cjb_path/cjb_path_65" },
+					{ "time": 1.8667, "name": "eft/skill3/cjb_path/cjb_path_68" },
+					{ "time": 1.9667, "name": "eft/skill3/cjb_path/cjb_path_71" },
+					{ "time": 2.0667, "name": "eft/skill3/cjb_path/cjb_path_74" },
+					{ "time": 2.1667, "name": "eft/skill3/cjb_path/cjb_path_77" },
+					{ "time": 2.2667, "name": "eft/skill3/cjb_path/cjb_path_80" },
+					{ "time": 2.3667, "name": "eft/skill3/cjb_path/cjb_path_83" },
+					{ "time": 2.4, "name": null }
+				]
+			},
+			"cjb_path3": {
+				"attachment": [
+					{ "time": 1.3667, "name": "eft/skill3/cjb_path/cjb_path_50" },
+					{ "time": 1.4667, "name": "eft/skill3/cjb_path/cjb_path_53" },
+					{ "time": 1.5667, "name": "eft/skill3/cjb_path/cjb_path_56" },
+					{ "time": 1.6667, "name": "eft/skill3/cjb_path/cjb_path_59" },
+					{ "time": 1.7667, "name": "eft/skill3/cjb_path/cjb_path_62" },
+					{ "time": 1.8667, "name": "eft/skill3/cjb_path/cjb_path_65" },
+					{ "time": 1.9667, "name": "eft/skill3/cjb_path/cjb_path_68" },
+					{ "time": 2.0667, "name": "eft/skill3/cjb_path/cjb_path_71" },
+					{ "time": 2.1667, "name": "eft/skill3/cjb_path/cjb_path_74" },
+					{ "time": 2.2667, "name": "eft/skill3/cjb_path/cjb_path_77" },
+					{ "time": 2.3667, "name": "eft/skill3/cjb_path/cjb_path_80" },
+					{ "time": 2.4667, "name": "eft/skill3/cjb_path/cjb_path_83" },
+					{ "time": 2.5, "name": null }
+				]
+			},
+			"cjb_path4": {
+				"attachment": [
+					{ "time": 1.3667, "name": "eft/skill3/cjb_path/cjb_path_50" },
+					{ "time": 1.4667, "name": "eft/skill3/cjb_path/cjb_path_53" },
+					{ "time": 1.5667, "name": "eft/skill3/cjb_path/cjb_path_56" },
+					{ "time": 1.6667, "name": "eft/skill3/cjb_path/cjb_path_59" },
+					{ "time": 1.7667, "name": "eft/skill3/cjb_path/cjb_path_62" },
+					{ "time": 1.8667, "name": "eft/skill3/cjb_path/cjb_path_65" },
+					{ "time": 1.9667, "name": "eft/skill3/cjb_path/cjb_path_68" },
+					{ "time": 2.0667, "name": "eft/skill3/cjb_path/cjb_path_71" },
+					{ "time": 2.1667, "name": "eft/skill3/cjb_path/cjb_path_74" },
+					{ "time": 2.2667, "name": "eft/skill3/cjb_path/cjb_path_77" },
+					{ "time": 2.3667, "name": "eft/skill3/cjb_path/cjb_path_80" },
+					{ "time": 2.4667, "name": "eft/skill3/cjb_path/cjb_path_83" },
+					{ "time": 2.5, "name": null }
+				]
+			},
+			"cjb_path5": {
+				"attachment": [
+					{ "time": 1.4667, "name": "eft/skill3/cjb_path/cjb_path_50" },
+					{ "time": 1.5667, "name": "eft/skill3/cjb_path/cjb_path_53" },
+					{ "time": 1.6667, "name": "eft/skill3/cjb_path/cjb_path_56" },
+					{ "time": 1.7667, "name": "eft/skill3/cjb_path/cjb_path_59" },
+					{ "time": 1.8667, "name": "eft/skill3/cjb_path/cjb_path_62" },
+					{ "time": 1.9667, "name": "eft/skill3/cjb_path/cjb_path_65" },
+					{ "time": 2.0667, "name": "eft/skill3/cjb_path/cjb_path_68" },
+					{ "time": 2.1667, "name": "eft/skill3/cjb_path/cjb_path_71" },
+					{ "time": 2.2667, "name": "eft/skill3/cjb_path/cjb_path_74" },
+					{ "time": 2.3667, "name": "eft/skill3/cjb_path/cjb_path_77" },
+					{ "time": 2.4667, "name": "eft/skill3/cjb_path/cjb_path_80" },
+					{ "time": 2.5667, "name": "eft/skill3/cjb_path/cjb_path_83" },
+					{ "time": 2.6, "name": null }
+				]
+			},
+			"cjb_path6": {
+				"attachment": [
+					{ "time": 1.6, "name": "eft/skill3/cjb_path/cjb_path_50" },
+					{ "time": 1.7, "name": "eft/skill3/cjb_path/cjb_path_53" },
+					{ "time": 1.8, "name": "eft/skill3/cjb_path/cjb_path_56" },
+					{ "time": 1.9, "name": "eft/skill3/cjb_path/cjb_path_59" },
+					{ "time": 2, "name": "eft/skill3/cjb_path/cjb_path_62" },
+					{ "time": 2.1, "name": "eft/skill3/cjb_path/cjb_path_65" },
+					{ "time": 2.2, "name": "eft/skill3/cjb_path/cjb_path_68" },
+					{ "time": 2.3, "name": "eft/skill3/cjb_path/cjb_path_71" },
+					{ "time": 2.4, "name": "eft/skill3/cjb_path/cjb_path_74" },
+					{ "time": 2.5, "name": "eft/skill3/cjb_path/cjb_path_77" },
+					{ "time": 2.6, "name": "eft/skill3/cjb_path/cjb_path_80" },
+					{ "time": 2.7, "name": "eft/skill3/cjb_path/cjb_path_83" },
+					{ "time": 2.7333, "name": null }
+				]
+			},
+			"shandian": {
+				"attachment": [
+					{ "time": 1.2, "name": "eft/skill3/shandian/shandian_48" },
+					{ "time": 1.2667, "name": "eft/skill3/shandian/shandian_50" },
+					{ "time": 1.3333, "name": "eft/skill3/shandian/shandian_52" },
+					{ "time": 1.4, "name": "eft/skill3/shandian/shandian_54" },
+					{ "time": 1.4667, "name": "eft/skill3/shandian/shandian_56" },
+					{ "time": 1.5333, "name": "eft/skill3/shandian/shandian_58" },
+					{ "time": 1.6, "name": "eft/skill3/shandian/shandian_60" },
+					{ "time": 1.6667, "name": "eft/skill3/shandian/shandian_62" },
+					{ "time": 1.7333, "name": "eft/skill3/shandian/shandian_64" },
+					{ "time": 1.8, "name": "eft/skill3/shandian/shandian_66" },
+					{ "time": 1.8667, "name": "eft/skill3/shandian/shandian_68" },
+					{ "time": 1.9333, "name": "eft/skill3/shandian/shandian_70" },
+					{ "time": 2, "name": "eft/skill3/shandian/shandian_72" },
+					{ "time": 2.0333, "name": null }
+				]
+			},
+			"shandian2": {
+				"attachment": [
+					{ "time": 1.3667, "name": "eft/skill3/shandian/shandian_48" },
+					{ "time": 1.4333, "name": "eft/skill3/shandian/shandian_50" },
+					{ "time": 1.5, "name": "eft/skill3/shandian/shandian_52" },
+					{ "time": 1.5667, "name": "eft/skill3/shandian/shandian_54" },
+					{ "time": 1.6333, "name": "eft/skill3/shandian/shandian_56" },
+					{ "time": 1.7, "name": "eft/skill3/shandian/shandian_58" },
+					{ "time": 1.7667, "name": "eft/skill3/shandian/shandian_60" },
+					{ "time": 1.8333, "name": "eft/skill3/shandian/shandian_62" },
+					{ "time": 1.9, "name": "eft/skill3/shandian/shandian_64" },
+					{ "time": 1.9667, "name": "eft/skill3/shandian/shandian_66" },
+					{ "time": 2.0333, "name": "eft/skill3/shandian/shandian_68" },
+					{ "time": 2.1, "name": "eft/skill3/shandian/shandian_70" },
+					{ "time": 2.1667, "name": "eft/skill3/shandian/shandian_72" },
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"shandian3": {
+				"attachment": [
+					{ "time": 1.5, "name": "eft/skill3/shandian/shandian_48" },
+					{ "time": 1.5667, "name": "eft/skill3/shandian/shandian_50" },
+					{ "time": 1.6333, "name": "eft/skill3/shandian/shandian_52" },
+					{ "time": 1.7, "name": "eft/skill3/shandian/shandian_54" },
+					{ "time": 1.7667, "name": "eft/skill3/shandian/shandian_56" },
+					{ "time": 1.8333, "name": "eft/skill3/shandian/shandian_58" },
+					{ "time": 1.9, "name": "eft/skill3/shandian/shandian_60" },
+					{ "time": 1.9667, "name": "eft/skill3/shandian/shandian_62" },
+					{ "time": 2.0333, "name": "eft/skill3/shandian/shandian_64" },
+					{ "time": 2.1, "name": "eft/skill3/shandian/shandian_66" },
+					{ "time": 2.1667, "name": "eft/skill3/shandian/shandian_68" },
+					{ "time": 2.2333, "name": "eft/skill3/shandian/shandian_70" },
+					{ "time": 2.3, "name": "eft/skill3/shandian/shandian_72" },
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"shandian4": {
+				"attachment": [
+					{ "time": 1.6667, "name": "eft/skill3/shandian/shandian_48" },
+					{ "time": 1.7333, "name": "eft/skill3/shandian/shandian_50" },
+					{ "time": 1.8, "name": "eft/skill3/shandian/shandian_52" },
+					{ "time": 1.8667, "name": "eft/skill3/shandian/shandian_54" },
+					{ "time": 1.9333, "name": "eft/skill3/shandian/shandian_56" },
+					{ "time": 2, "name": "eft/skill3/shandian/shandian_58" },
+					{ "time": 2.0667, "name": "eft/skill3/shandian/shandian_60" },
+					{ "time": 2.1333, "name": "eft/skill3/shandian/shandian_62" },
+					{ "time": 2.2, "name": "eft/skill3/shandian/shandian_64" },
+					{ "time": 2.2667, "name": "eft/skill3/shandian/shandian_66" },
+					{ "time": 2.3333, "name": "eft/skill3/shandian/shandian_68" },
+					{ "time": 2.4, "name": "eft/skill3/shandian/shandian_70" },
+					{ "time": 2.4667, "name": "eft/skill3/shandian/shandian_72" },
+					{ "time": 2.5, "name": null }
+				]
+			},
+			"shandian5": {
+				"attachment": [
+					{ "time": 1.7667, "name": "eft/skill3/shandian/shandian_48" },
+					{ "time": 1.8333, "name": "eft/skill3/shandian/shandian_50" },
+					{ "time": 1.9, "name": "eft/skill3/shandian/shandian_52" },
+					{ "time": 1.9667, "name": "eft/skill3/shandian/shandian_54" },
+					{ "time": 2.0333, "name": "eft/skill3/shandian/shandian_56" },
+					{ "time": 2.1, "name": "eft/skill3/shandian/shandian_58" },
+					{ "time": 2.1667, "name": "eft/skill3/shandian/shandian_60" },
+					{ "time": 2.2333, "name": "eft/skill3/shandian/shandian_62" },
+					{ "time": 2.3, "name": "eft/skill3/shandian/shandian_64" },
+					{ "time": 2.3667, "name": "eft/skill3/shandian/shandian_66" },
+					{ "time": 2.4333, "name": "eft/skill3/shandian/shandian_68" },
+					{ "time": 2.5, "name": "eft/skill3/shandian/shandian_70" },
+					{ "time": 2.5667, "name": "eft/skill3/shandian/shandian_72" },
+					{ "time": 2.6, "name": null }
+				]
+			},
+			"smoke": {
+				"attachment": [
+					{ "time": 1.2333, "name": "eft/skill3/smoke/smoke_49" },
+					{ "time": 1.3, "name": "eft/skill3/smoke/smoke_51" },
+					{ "time": 1.3667, "name": "eft/skill3/smoke/smoke_53" },
+					{ "time": 1.4333, "name": "eft/skill3/smoke/smoke_55" },
+					{ "time": 1.5, "name": "eft/skill3/smoke/smoke_57" },
+					{ "time": 1.5667, "name": "eft/skill3/smoke/smoke_59" },
+					{ "time": 1.6333, "name": "eft/skill3/smoke/smoke_61" },
+					{ "time": 1.7, "name": "eft/skill3/smoke/smoke_63" },
+					{ "time": 1.7667, "name": "eft/skill3/smoke/smoke_65" },
+					{ "time": 1.8, "name": null }
+				]
+			},
+			"xuli_light": {
+				"color": [
+					{ "time": 2.4, "color": "ffffffff" },
+					{ "time": 2.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.2333, "name": "eft/skill3/xuli_light/xuli_light_49" },
+					{ "time": 2.5333, "name": null }
+				]
+			},
+			"xuli_path": {
+				"attachment": [
+					{ "time": 0.0667, "name": "eft/skill3/xuli_path/xuli_path_14" },
+					{ "time": 0.1333, "name": "eft/skill3/xuli_path/xuli_path_16" },
+					{ "time": 0.2, "name": "eft/skill3/xuli_path/xuli_path_18" },
+					{ "time": 0.2667, "name": "eft/skill3/xuli_path/xuli_path_20" },
+					{ "time": 0.3333, "name": "eft/skill3/xuli_path/xuli_path_22" },
+					{ "time": 0.4, "name": "eft/skill3/xuli_path/xuli_path_24" },
+					{ "time": 0.4667, "name": "eft/skill3/xuli_path/xuli_path_26" },
+					{ "time": 0.5333, "name": "eft/skill3/xuli_path/xuli_path_28" },
+					{ "time": 0.6, "name": "eft/skill3/xuli_path/xuli_path_30" },
+					{ "time": 0.6667, "name": "eft/skill3/xuli_path/xuli_path_32" },
+					{ "time": 0.7333, "name": "eft/skill3/xuli_path/xuli_path_34" },
+					{ "time": 0.8, "name": "eft/skill3/xuli_path/xuli_path_36" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"xuli_path2": {
+				"attachment": [
+					{ "time": 0.6333, "name": "eft/skill3/xuli_path/xuli_path_14" },
+					{ "time": 0.7, "name": "eft/skill3/xuli_path/xuli_path_16" },
+					{ "time": 0.7667, "name": "eft/skill3/xuli_path/xuli_path_18" },
+					{ "time": 0.8333, "name": "eft/skill3/xuli_path/xuli_path_20" },
+					{ "time": 0.9, "name": "eft/skill3/xuli_path/xuli_path_22" },
+					{ "time": 0.9667, "name": "eft/skill3/xuli_path/xuli_path_24" },
+					{ "time": 1.0333, "name": "eft/skill3/xuli_path/xuli_path_26" },
+					{ "time": 1.1, "name": "eft/skill3/xuli_path/xuli_path_28" },
+					{ "time": 1.1667, "name": "eft/skill3/xuli_path/xuli_path_30" },
+					{ "time": 1.2333, "name": "eft/skill3/xuli_path/xuli_path_32" },
+					{ "time": 1.3, "name": "eft/skill3/xuli_path/xuli_path_34" },
+					{ "time": 1.3667, "name": "eft/skill3/xuli_path/xuli_path_36" },
+					{ "time": 1.4, "name": null }
+				]
+			},
+			"xuliball": {
+				"color": [
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "eft/skill3/xuliball/xuliball_24" },
+					{ "time": 2.6667, "name": null }
+				]
+			},
+			"xulibd": {
+				"attachment": [
+					{ "name": "eft/skill3/xulibd/xulibd_12" },
+					{ "time": 0.0333, "name": "eft/skill3/xulibd/xulibd_13" },
+					{ "time": 0.0667, "name": "eft/skill3/xulibd/xulibd_14" },
+					{ "time": 0.1, "name": "eft/skill3/xulibd/xulibd_15" },
+					{ "time": 0.1333, "name": "eft/skill3/xulibd/xulibd_16" },
+					{ "time": 0.1667, "name": "eft/skill3/xulibd/xulibd_17" },
+					{ "time": 0.2, "name": "eft/skill3/xulibd/xulibd_18" },
+					{ "time": 0.2333, "name": "eft/skill3/xulibd/xulibd_19" },
+					{ "time": 0.2667, "name": "eft/skill3/xulibd/xulibd_20" },
+					{ "time": 0.3, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"xulibd": {
+				"translate": [
+					{ "x": 35.59, "y": 197.7 }
+				],
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			},
+			"xuliball": {
+				"rotate": [
+					{ "time": 0.1 },
+					{ "time": 0.4, "angle": 90 },
+					{ "time": 0.7333, "angle": 180 },
+					{ "time": 1, "angle": -90 },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 1.3667 },
+					{ "time": 1.7, "angle": 90 },
+					{ "time": 2.0333, "angle": 180 },
+					{ "time": 2.3333, "angle": -90 },
+					{ "time": 2.6667 }
+				],
+				"translate": [
+					{ "time": 0.1, "x": 618.62, "y": 203.32 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 0.8, "y": 0.8 },
+					{ "time": 0.2667, "x": 1.5, "y": 1.5 },
+					{ "time": 1.0667, "x": 2, "y": 2 },
+					{ "time": 2.2667, "x": 2.6, "y": 2.6 },
+					{ "time": 2.6667, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"chongjibo": {
+				"translate": [
+					{ "time": 1.2333, "x": 636.46, "y": 185.27 }
+				],
+				"scale": [
+					{ "time": 1.2333, "x": 0.8 },
+					{ "time": 1.2667, "x": 2, "y": 3 },
+					{ "time": 1.3667, "x": 4, "y": 4, "curve": "stepped" },
+					{ "time": 2.1667, "x": 4, "y": 4 },
+					{ "time": 2.2, "x": 4, "y": 5 },
+					{ "time": 2.4333, "x": 4, "y": 0 }
+				]
+			},
+			"xuli_light": {
+				"translate": [
+					{ "time": 1.2333, "x": 625.05, "y": 211.82 }
+				],
+				"scale": [
+					{ "time": 1.2333, "x": 4, "y": 4 },
+					{ "time": 1.2667, "x": 3.4, "y": 3.4 },
+					{ "time": 1.3, "x": 4, "y": 4 },
+					{ "time": 1.3333, "x": 3.4, "y": 3.4 },
+					{ "time": 1.3667, "x": 4, "y": 4 },
+					{ "time": 1.4, "x": 3.4, "y": 3.4 },
+					{ "time": 1.4333, "x": 4, "y": 4 },
+					{ "time": 1.4667, "x": 3.4, "y": 3.4 },
+					{ "time": 1.5, "x": 4, "y": 4 },
+					{ "time": 1.5333, "x": 3.4, "y": 3.4 },
+					{ "time": 1.5667, "x": 4, "y": 4 },
+					{ "time": 1.6, "x": 3.4, "y": 3.4 },
+					{ "time": 1.6333, "x": 4, "y": 4 },
+					{ "time": 1.6667, "x": 3.4, "y": 3.4 },
+					{ "time": 1.7, "x": 4, "y": 4 },
+					{ "time": 1.7333, "x": 3.4, "y": 3.4 },
+					{ "time": 1.7667, "x": 4, "y": 4 },
+					{ "time": 1.8, "x": 3.4, "y": 3.4 },
+					{ "time": 1.8333, "x": 4, "y": 4 },
+					{ "time": 1.8667, "x": 3.4, "y": 3.4 },
+					{ "time": 1.9, "x": 4, "y": 4 },
+					{ "time": 1.9333, "x": 3.4, "y": 3.4 },
+					{ "time": 1.9667, "x": 4, "y": 4 },
+					{ "time": 2, "x": 3.4, "y": 3.4 },
+					{ "time": 2.0333, "x": 4, "y": 4 },
+					{ "time": 2.0667, "x": 3.4, "y": 3.4 },
+					{ "time": 2.1, "x": 4, "y": 4 },
+					{ "time": 2.1333, "x": 3.4, "y": 3.4 },
+					{ "time": 2.1667, "x": 4, "y": 4 },
+					{ "time": 2.2, "x": 3.4, "y": 3.4 },
+					{ "time": 2.2333, "x": 4, "y": 4 },
+					{ "time": 2.2667, "x": 3.4, "y": 3.4 },
+					{ "time": 2.3, "x": 4, "y": 4 },
+					{ "time": 2.3333, "x": 3.4, "y": 3.4 },
+					{ "time": 2.3667, "x": 4, "y": 4 },
+					{ "time": 2.4, "x": 3.4, "y": 3.4 },
+					{ "time": 2.4333, "x": 2, "y": 2 }
+				]
+			},
+			"chongji_kuosan": {
+				"translate": [
+					{ "time": 1.2333, "x": 13.28, "y": 305.2 }
+				],
+				"scale": [
+					{ "time": 1.2333, "x": 3.48, "y": 2.84 }
+				]
+			},
+			"chongji_kuosan2": {
+				"translate": [
+					{ "time": 1.2333, "x": -315.25, "y": 288.97 }
+				],
+				"scale": [
+					{ "time": 1.2333, "x": 5.76, "y": 1.5 }
+				]
+			},
+			"xuli_path": {
+				"translate": [
+					{ "time": 0.0667, "x": 700.4, "y": 208.12 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 4, "y": 4 }
+				]
+			},
+			"xuli_path2": {
+				"rotate": [
+					{ "time": 0.6333, "angle": -124 }
+				],
+				"translate": [
+					{ "time": 0.6333, "x": 606.3, "y": 170.16 }
+				],
+				"scale": [
+					{ "time": 0.6333, "x": 4, "y": 4 }
+				]
+			},
+			"shandian": {
+				"translate": [
+					{ "time": 1.2, "x": 716.31, "y": 211.37 },
+					{ "time": 1.2333, "x": 597.24, "y": 126.49 },
+					{ "time": 1.6333, "x": 716.31, "y": 169.37 }
+				],
+				"scale": [
+					{ "time": 1.2, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"shandian2": {
+				"translate": [
+					{ "time": 1.2333, "x": -119.07, "y": -81.65 },
+					{ "time": 1.3667, "x": 1590.31, "y": 257.84 }
+				],
+				"scale": [
+					{ "time": 1.3667, "x": 4.12, "y": 3.22 }
+				]
+			},
+			"shandian3": {
+				"translate": [
+					{ "time": 1.2333, "x": -119.07, "y": -81.65 },
+					{ "time": 1.4667, "x": 76.81, "y": 76.81 },
+					{ "time": 1.5, "x": 2757.06, "y": 257.84 }
+				],
+				"scale": [
+					{ "time": 1.5, "x": 4.12, "y": 3.22 }
+				]
+			},
+			"shandian4": {
+				"translate": [
+					{ "time": 1.2333, "x": -119.07, "y": -81.65 },
+					{ "time": 1.4667, "x": 76.81, "y": 76.81 },
+					{ "time": 1.6333, "x": 76.81, "y": 3.18 },
+					{ "time": 1.6667, "x": 1399.83, "y": 257.84 }
+				],
+				"scale": [
+					{ "time": 1.6667, "x": 2.98, "y": 1.66 }
+				]
+			},
+			"shandian5": {
+				"translate": [
+					{ "time": 1.2333, "x": -119.07, "y": -81.65 },
+					{ "time": 1.4667, "x": 76.81, "y": 76.81 },
+					{ "time": 1.6333, "x": 76.81, "y": 3.18 },
+					{ "time": 1.7667, "x": 2219.42, "y": 257.84 }
+				],
+				"scale": [
+					{ "time": 1.7667, "x": 3.52, "y": -1.46 }
+				]
+			},
+			"cjb_path": {
+				"translate": [
+					{ "time": 1.2333, "x": -119.07, "y": -81.65 },
+					{ "time": 1.2667, "x": 1294.81, "y": 279.18 }
+				],
+				"scale": [
+					{ "time": 1.2667, "x": 6, "y": 2.84 }
+				]
+			},
+			"cjb_path2": {
+				"translate": [
+					{ "time": 1.2333, "x": -119.07, "y": -81.65 },
+					{ "time": 1.3667, "x": 2572.81, "y": 279.18 }
+				],
+				"scale": [
+					{ "time": 1.3667, "x": 6, "y": -2.5 }
+				]
+			},
+			"cjb_path3": {
+				"translate": [
+					{ "time": 1.2333, "x": -119.07, "y": -81.65 },
+					{ "time": 1.4667, "x": 1184.43, "y": 279.18 }
+				],
+				"scale": [
+					{ "time": 1.4667, "x": 7.1, "y": 2 }
+				]
+			},
+			"cjb_path4": {
+				"translate": [
+					{ "time": 1.2333, "x": -119.07, "y": -81.65 },
+					{ "time": 1.4667, "x": 76.81, "y": 76.81 },
+					{ "time": 1.6, "x": 2572.81, "y": 279.18 }
+				],
+				"scale": [
+					{ "time": 1.6, "x": 6, "y": -2.5 }
+				]
+			},
+			"smoke": {
+				"translate": [
+					{ "time": 1.2333, "x": 282.1, "y": -5.07 },
+					{ "time": 1.4667, "x": 293.74, "y": -5.07 }
+				],
+				"scale": [
+					{ "time": 1.2333, "x": 3.2, "y": 2.4 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 3.4 }
+				]
+			}
+		}
+	}
+}
+}

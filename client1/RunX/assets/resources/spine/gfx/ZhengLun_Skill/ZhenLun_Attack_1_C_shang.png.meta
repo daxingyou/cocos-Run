@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5a93341e-55c8-40c9-9c06-0f93aafe91a3",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 390,
+  "height": 364,
+  "platformSettings": {},
+  "subMetas": {
+    "ZhenLun_Attack_1_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "bcd8d51f-1cae-49b3-bedd-65717ddc2364",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5a93341e-55c8-40c9-9c06-0f93aafe91a3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 386,
+      "height": 360,
+      "rawWidth": 390,
+      "rawHeight": 364,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

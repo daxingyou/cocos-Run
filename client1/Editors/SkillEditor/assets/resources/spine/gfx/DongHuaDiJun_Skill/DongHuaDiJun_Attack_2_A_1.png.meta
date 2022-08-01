@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d7cf8e44-8d35-40af-b9fd-badedff2842d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 714,
+  "height": 714,
+  "platformSettings": {},
+  "subMetas": {
+    "DongHuaDiJun_Attack_2_A_1": {
+      "ver": "1.0.6",
+      "uuid": "f9f9b30b-3e99-4f29-9dd9-eac0caa0a6c2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d7cf8e44-8d35-40af-b9fd-badedff2842d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -6.5,
+      "trimX": 2,
+      "trimY": 15,
+      "width": 710,
+      "height": 697,
+      "rawWidth": 714,
+      "rawHeight": 714,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

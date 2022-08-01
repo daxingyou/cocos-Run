@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9a4753eb-5561-4890-8294-001d2c6f9219",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 534,
+  "height": 23,
+  "platformSettings": {},
+  "subMetas": {
+    "hero_theshelf_thebase": {
+      "ver": "1.0.6",
+      "uuid": "e34ef5cc-522b-4f2b-b0a1-6102016194e8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9a4753eb-5561-4890-8294-001d2c6f9219",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 534,
+      "height": 23,
+      "rawWidth": 534,
+      "rawHeight": 23,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 24,
+      "borderRight": 21,
+      "subMetas": {}
+    }
+  }
+}

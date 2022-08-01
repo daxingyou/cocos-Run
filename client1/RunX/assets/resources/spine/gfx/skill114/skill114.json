@@ -1,0 +1,80 @@
+{
+"skeleton": { "hash": "+eTSGYwbn7iPwmQU24ZuO7XXorE", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.525, "scaleY": 0.525 },
+	{
+		"name": "ultsmoke0001",
+		"parent": "bone",
+		"length": 74.16,
+		"rotation": 91.66,
+		"x": -403.67,
+		"y": -55.65,
+		"color": "001bffff"
+	}
+],
+"slots": [
+	{ "name": "ultsmoke0001", "bone": "ultsmoke0001" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ultsmoke0001": {
+				"ultsmoke0001": { "x": 69.04, "y": -4.19, "rotation": -91.66, "width": 346, "height": 132 },
+				"ultsmoke0002": { "x": 69.04, "y": -4.19, "rotation": -91.66, "width": 346, "height": 132 },
+				"ultsmoke0003": { "x": 69.04, "y": -4.19, "rotation": -91.66, "width": 346, "height": 132 },
+				"ultsmoke0004": { "x": 69.04, "y": -4.19, "rotation": -91.66, "width": 346, "height": 132 },
+				"ultsmoke0005": { "x": 69.04, "y": -4.19, "rotation": -91.66, "width": 346, "height": 132 },
+				"ultsmoke0006": { "x": 69.04, "y": -4.19, "rotation": -91.66, "width": 346, "height": 132 },
+				"ultsmoke0007": { "x": 69.04, "y": -4.19, "rotation": -91.66, "width": 346, "height": 132 },
+				"ultsmoke0008": { "x": 69.04, "y": -4.19, "rotation": -91.66, "width": 346, "height": 132 },
+				"ultsmoke0009": { "x": 69.04, "y": -4.19, "rotation": -91.66, "width": 346, "height": 132 },
+				"ultsmoke0010": { "x": 69.04, "y": -4.19, "rotation": -91.66, "width": 346, "height": 132 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill114": {
+		"slots": {
+			"ultsmoke0001": {
+				"attachment": [
+					{ "name": "ultsmoke0001" },
+					{ "time": 0.0667, "name": "ultsmoke0002" },
+					{ "time": 0.1333, "name": "ultsmoke0003" },
+					{ "time": 0.2, "name": "ultsmoke0004" },
+					{ "time": 0.2333, "name": "ultsmoke0005" },
+					{ "time": 0.2667, "name": "ultsmoke0006" },
+					{ "time": 0.3, "name": "ultsmoke0007" },
+					{ "time": 0.3333, "name": "ultsmoke0008" },
+					{ "time": 0.3667, "name": "ultsmoke0009" },
+					{ "time": 0.4, "name": "ultsmoke0010" },
+					{ "time": 0.4333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ultsmoke0001": {
+				"translate": [
+					{ "x": 393.74, "y": -26.1 }
+				],
+				"scale": [
+					{ "x": 2.541, "y": 2.541 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 1.3333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.6, "name": "K" }
+		]
+	}
+}
+}

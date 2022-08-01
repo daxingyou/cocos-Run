@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ac170473-be63-4208-a5d5-ea0b4978edbf",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2048,
+  "height": 512,
+  "platformSettings": {},
+  "subMetas": {
+    "XieZiJing_Attack_2_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "6f61d6bd-b179-4995-9246-a1536081905b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ac170473-be63-4208-a5d5-ea0b4978edbf",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -70.5,
+      "offsetY": 4,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1903,
+      "height": 500,
+      "rawWidth": 2048,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

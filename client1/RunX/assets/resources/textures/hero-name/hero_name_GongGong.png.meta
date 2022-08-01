@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1327cd0d-dfa6-4c98-854f-321c234d6cd2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 63,
+  "height": 240,
+  "platformSettings": {},
+  "subMetas": {
+    "hero_name_GongGong": {
+      "ver": "1.0.6",
+      "uuid": "f79ef92b-df4a-4153-8b2f-8c596a154874",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1327cd0d-dfa6-4c98-854f-321c234d6cd2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 65,
+      "trimX": 4,
+      "trimY": 0,
+      "width": 54,
+      "height": 110,
+      "rawWidth": 63,
+      "rawHeight": 240,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

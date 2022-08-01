@@ -1,0 +1,135 @@
+{
+"skeleton": { "hash": "zxE343KMfFukZoJdMrhMaL2AxFs", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/山神" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.28, "scaleY": 0.28 },
+	{ "name": "yan3", "parent": "bone", "x": -498.72, "y": -182.3, "color": "ff0000ff" },
+	{ "name": "yan4", "parent": "bone", "x": -397.93, "y": -175.19, "color": "ff0000ff" },
+	{ "name": "yan5", "parent": "bone", "x": -306.63, "y": -177.56, "color": "ff0000ff" },
+	{ "name": "yan7", "parent": "bone", "x": -73.05, "y": -198.9, "color": "ff0000ff" }
+],
+"slots": [
+	{ "name": "yan3", "bone": "yan3" },
+	{ "name": "yan4", "bone": "yan4" },
+	{ "name": "yan5", "bone": "yan5" },
+	{ "name": "yan7", "bone": "yan7" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yan3": {
+				"yan3": { "x": -0.99, "y": -0.88, "rotation": -88.76, "width": 164, "height": 167 }
+			},
+			"yan4": {
+				"yan4": { "x": -0.99, "y": -0.88, "rotation": -88.76, "width": 134, "height": 139 }
+			},
+			"yan5": {
+				"yan3": { "x": -0.99, "y": -0.88, "rotation": -88.76, "width": 164, "height": 167 }
+			},
+			"yan7": {
+				"yan4": { "x": -0.99, "y": -0.88, "rotation": -88.76, "width": 134, "height": 139 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill88": {
+		"slots": {
+			"yan3": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "yan3" }
+				]
+			},
+			"yan4": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "yan4" }
+				]
+			},
+			"yan5": {
+				"color": [
+					{ "time": 0.4333, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "yan3" }
+				]
+			},
+			"yan7": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "yan4" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0.3, "curve": 0, "c3": 0.479 },
+					{ "time": 0.7, "angle": -0.17 }
+				]
+			},
+			"yan3": {
+				"translate": [
+					{ "x": 96.37, "y": 265.01, "curve": 0, "c3": 0.45, "c4": 0.49 },
+					{ "time": 0.5, "x": -74.72, "y": 397.26 }
+				],
+				"scale": [
+					{ "x": 3.093, "y": 3.093, "curve": 0, "c3": 0.75 },
+					{ "time": 0.5, "x": 6.681, "y": 4.918 }
+				]
+			},
+			"yan4": {
+				"translate": [
+					{ "time": 0.0667, "x": 112.11, "y": 186.86, "curve": 0, "c3": 0.75 },
+					{ "time": 0.6333, "x": 67.27, "y": 371.22 }
+				],
+				"scale": [
+					{ "time": 0.0667, "curve": 0, "c3": 0.75 },
+					{ "time": 0.6333, "x": 3.294, "y": 3.294 }
+				]
+			},
+			"yan5": {
+				"translate": [
+					{ "time": 0.1, "x": 206.79, "y": 186.86, "curve": 0, "c3": 0.75 },
+					{ "time": 0.9333, "x": 224.23, "y": 673.25 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 3.179, "y": 3.179, "curve": 0, "c3": 0.75 },
+					{ "time": 0.9333, "x": 9.762, "y": 9.762 }
+				]
+			},
+			"yan7": {
+				"translate": [
+					{ "x": 520.71, "y": 264.09 },
+					{ "time": 0.6667, "x": 585.49, "y": 587.98 }
+				],
+				"scale": [
+					{ "x": 5.434, "y": 2.611 },
+					{ "time": 0.6667, "x": 7.229, "y": 4.66 }
+				],
+				"shear": [
+					{ "x": 8.62 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1667, "name": "k" }
+		]
+	}
+}
+}

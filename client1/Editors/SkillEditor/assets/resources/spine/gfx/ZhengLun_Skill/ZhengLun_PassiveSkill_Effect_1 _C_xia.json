@@ -1,0 +1,43 @@
+{
+"skeleton": { "hash": "ZBxZfBvPPH5rOOMJVCDbCG7xoSw", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "ZhengLun_PassiveSkill_Effect_1 _C_xia", "scaleX": 1.35, "scaleY": 1.35 }
+],
+"slots": [
+	{ "name": "ZhengLun_PassiveSkill_Effect_1 _C_xia", "bone": "ZhengLun_PassiveSkill_Effect_1 _C_xia" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ZhengLun_PassiveSkill_Effect_1 _C_xia": {
+				"buff_hou_00": { "width": 480, "height": 180 },
+				"buff_hou_02": { "width": 480, "height": 180 },
+				"buff_hou_04": { "width": 480, "height": 180 },
+				"buff_hou_06": { "width": 480, "height": 180 },
+				"buff_hou_08": { "width": 480, "height": 180 }
+			}
+		}
+	}
+],
+"animations": {
+	"ZhengLun_PassiveSkill_Effect_1 _C_xia": {
+		"slots": {
+			"ZhengLun_PassiveSkill_Effect_1 _C_xia": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "buff_hou_00" },
+					{ "time": 0.0667, "name": "buff_hou_02" },
+					{ "time": 0.1333, "name": "buff_hou_04" },
+					{ "time": 0.2, "name": "buff_hou_06" },
+					{ "time": 0.2667, "name": "buff_hou_08" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		}
+	}
+}
+}

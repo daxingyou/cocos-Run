@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="1.1.3413" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
+ <tileset firstgid="1" source="../tiledImage/run_basic32.tsx"/>
+ <tileset firstgid="7" source="../tiledImage/run_stones.tsx"/>
+ <tileset firstgid="17" source="../tiledImage/run_chapter5.tsx"/>
+ <tileset firstgid="273" source="../tiledImage/run_item32.tsx"/>
+ <layer id="9" name="floor" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1lVz1UAYxvENDsW+Glq+Cs4tzi3u7u7ursXdvUCB4uXPxc5sO03enGyAzJznmflddCZ5stl9z6TOKYqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKEr5GYTBGIKhGIbhnfzdiBF1uJ5a1uY6WdtCLMJiLMFSLMNyrPhXC1dKzSiMxhhsxCZsxhZsxTZsxw6MxTiMx4T/sNaOKTp3Zc/x3/pdlNE3CZMxBQdxCIdxBEdxDMdxAlMxDdMxI2LdeZN37qyMdLXNcdl91u+i7L4wszAbc3ARl3AZV9CEq7iG65iLeZiPBTn2oWgmunLnrp77VmE11uABHuIRHuMJnuIZnmMt1mG90R+bma7cuavnvl3YjT14jw9owUd8wme04gv2Yh/2G/2xWemKz90G9bXrO4XTOOPs8z2Lczjfob/W/y+s78tOV3zuDgT9Ve/z7x/bl7V/N3ELt3P03sFd3DPW65+Xdn7W9+WkKz53F4L+qvf594/ty9q/l3iF1zl63+Atmo31+uelnZ/1fbnhis/d/aC/6n3+/WP7svbvG77jR47en/iFNmO9/nlp52d9X1644nP3Luivep9//9i+rP3rkzjXgL6J3duPa/pjQJK9Xv+8tPOznvPVFZ87F7xH1fv89bF91v75s7Z624LerPX6+9J6Eu7pgq7ohu7ogZ7ohd5J+7mzrg/nbmBwfdX7/PWxfdb++fO1ev/0+XPNWq+/L63nN1ndLyo=
+  </data>
+ </layer>
+ <layer id="10" name="shade" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEKwCAMBEBb///n9gdBstpDZyA3WYUsOAYAAAAAAAAAAAAAAAAAAF3znauY+7PX0TEXzp7ecbp3f8xbdWrH6d7Jy+Z3pHsnL5vfke6dvGx+pfpfuuRlVfvafT8AGQ+ZZAC7
+  </data>
+ </layer>
+ <layer id="11" name="loot" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEOgCAMBVA4gnL/uzoxEkNSteB7C2t/aFMoBQAAAAAAAAAAAACYcdavKxhrwbX1rJkzRzkSZ4yuLXNWmJG5l80tb4re/0/K3MvmFgCAO/2NNzpZ1653u9J/EQD4pwv83AGo
+  </data>
+ </layer>
+ <layer id="12" name="stones" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztz6ERAAAIAzE0+w+MR8OBSMzbNgIAAAAAAAAAAAAAAAAAAACAS9n6zfS+738BgH0FRu4APQ==
+  </data>
+ </layer>
+</map>

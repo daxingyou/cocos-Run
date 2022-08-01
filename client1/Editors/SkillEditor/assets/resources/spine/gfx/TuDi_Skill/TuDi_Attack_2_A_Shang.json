@@ -1,0 +1,88 @@
+{
+"skeleton": { "hash": "iFAIhuA7fgWsdqQHIQg5DscsaUo", "spine": "3.8.99", "images": "./images/", "audio": "Z:/进行中的项目/张晨阳动效项目/第二批冰封特效需求/R-土地-a/土地" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "act1/daizi_00003", "parent": "root", "x": 623.82, "y": -1134.71 },
+	{ "name": "act1/qilang_00000", "parent": "root", "rotation": -88.71, "x": -113.27, "y": -1280.85, "scaleX": 1.8745 }
+],
+"slots": [
+	{ "name": "act1/daizi_00003", "bone": "act1/daizi_00003", "blend": "additive" },
+	{ "name": "act1/qilang_00000", "bone": "act1/qilang_00000", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"act1/daizi_00003": {
+				"act1/daizi_00003": { "x": -105.68, "y": 43.09, "width": 450, "height": 270 },
+				"act1/daizi_00004": { "x": -105.68, "y": 43.09, "width": 450, "height": 270 },
+				"act1/daizi_00005": { "x": -105.68, "y": 43.09, "width": 450, "height": 270 },
+				"act1/daizi_00006": { "x": -105.68, "y": 43.09, "width": 450, "height": 270 },
+				"act1/daizi_00007": { "x": -105.68, "y": 43.09, "width": 450, "height": 270 },
+				"act1/daizi_00008": { "x": -105.68, "y": 43.09, "width": 450, "height": 270 },
+				"act1/daizi_00009": { "x": -105.68, "y": 43.09, "width": 450, "height": 270 },
+				"act1/daizi_00010": { "x": -105.68, "y": 43.09, "width": 450, "height": 270 }
+			},
+			"act1/qilang_00000": {
+				"act1/qilang_00000": { "x": -144.85, "y": 1.44, "scaleX": 2.278, "scaleY": 2.278, "width": 240, "height": 300 },
+				"act1/qilang_00001": { "x": -144.85, "y": 1.44, "scaleX": 2.278, "scaleY": 2.278, "width": 240, "height": 300 },
+				"act1/qilang_00002": { "x": -144.85, "y": 1.44, "scaleX": 2.278, "scaleY": 2.278, "width": 240, "height": 300 },
+				"act1/qilang_00003": { "x": -144.85, "y": 1.44, "scaleX": 2.278, "scaleY": 2.278, "width": 240, "height": 300 },
+				"act1/qilang_00004": { "x": -144.85, "y": 1.44, "scaleX": 2.278, "scaleY": 2.278, "width": 240, "height": 300 },
+				"act1/qilang_00005": { "x": -144.85, "y": 1.44, "scaleX": 2.278, "scaleY": 2.278, "width": 240, "height": 300 }
+			}
+		}
+	}
+],
+"animations": {
+	"TuDi_Attack_2_A_Shang": {
+		"slots": {
+			"act1/daizi_00003": {
+				"attachment": [
+					{ "name": "act1/daizi_00003" },
+					{ "time": 0.0333, "name": "act1/daizi_00004" },
+					{ "time": 0.0667, "name": "act1/daizi_00005" },
+					{ "time": 0.1, "name": "act1/daizi_00006" },
+					{ "time": 0.1333, "name": "act1/daizi_00007" },
+					{ "time": 0.1667, "name": "act1/daizi_00008" },
+					{ "time": 0.2333, "name": "act1/daizi_00009" },
+					{ "time": 0.3, "name": "act1/daizi_00010" },
+					{ "time": 0.3667, "name": null }
+				]
+			},
+			"act1/qilang_00000": {
+				"attachment": [
+					{ "name": "act1/qilang_00000" },
+					{ "time": 0.0667, "name": "act1/qilang_00001" },
+					{ "time": 0.1333, "name": "act1/qilang_00002" },
+					{ "time": 0.2, "name": "act1/qilang_00003" },
+					{ "time": 0.2667, "name": "act1/qilang_00004" },
+					{ "time": 0.3333, "name": "act1/qilang_00005" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"act1/daizi_00003": {
+				"rotate": [
+					{ "angle": 89.25 }
+				],
+				"translate": [
+					{ "x": -678.8, "y": 1636.94 }
+				],
+				"scale": [
+					{ "x": 1.045, "y": -5.152 }
+				]
+			},
+			"act1/qilang_00000": {
+				"translate": [
+					{ "x": 100.41, "y": 1324.75 }
+				],
+				"scale": [
+					{ "x": 0.667, "y": 0.667 }
+				]
+			}
+		}
+	}
+}
+}

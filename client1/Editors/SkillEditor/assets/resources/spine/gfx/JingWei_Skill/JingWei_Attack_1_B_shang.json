@@ -1,0 +1,54 @@
+{
+"skeleton": { "hash": "KW3oogjjgcasveO8rwcIhivFZH8", "spine": "3.8.99", "images": "./images/", "audio": "Z:/进行中的项目/张晨阳动效项目/第三批/特效项目/SR-精卫-a/特效" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "dao", "parent": "root", "length": 290.11, "rotation": 129.29, "x": 203.98, "y": -8.19 }
+],
+"slots": [
+	{ "name": "dao", "bone": "dao" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"dao": {
+				"dao": {
+					"x": 126.97,
+					"y": -8.15,
+					"scaleX": 4,
+					"scaleY": 4,
+					"rotation": -129.29,
+					"width": 125,
+					"height": 125
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"dao": {
+				"attachment": [
+					{ "name": "dao" },
+					{ "time": 0.1333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"dao": {
+				"rotate": [
+					{ "angle": -125.57 }
+				],
+				"translate": [
+					{ "x": -264.79, "y": 247.95, "curve": 0.471, "c2": 0.21, "c4": 0.59 },
+					{ "time": 0.1, "x": 1092.79, "y": 247.95 }
+				],
+				"scale": [
+					{ "x": 0.614, "y": -0.614 }
+				]
+			}
+		}
+	}
+}
+}

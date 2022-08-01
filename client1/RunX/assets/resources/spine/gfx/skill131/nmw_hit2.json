@@ -1,0 +1,75 @@
+{
+"skeleton": {
+	"hash": "xz4wH4BwvCTLL1cOFQDUqS7C9Ow",
+	"spine": "3.8.99",
+	"x": -3.5,
+	"y": -5.9,
+	"width": 10.07,
+	"height": 10.07,
+	"images": "./被击2/images/",
+	"audio": "F:/7.29/跑酷项目-动作特效10个/牛魔王/被击2"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.1, "scaleY": 0.1 },
+	{
+		"name": "common_dunqi_hit_1",
+		"parent": "root",
+		"rotation": -175.26,
+		"x": 15.37,
+		"y": -8.62,
+		"scaleX": 0.4667,
+		"scaleY": 0.4667
+	}
+],
+"slots": [
+	{ "name": "common_dunqi_hit_1", "bone": "common_dunqi_hit_1", "attachment": "common_dunqi_hit_1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"common_dunqi_hit_1": {
+				"common_dunqi_hit_1": { "width": 200, "height": 200 },
+				"common_dunqi_hit_2": { "width": 200, "height": 200 },
+				"common_dunqi_hit_3": { "width": 200, "height": 200 },
+				"common_dunqi_hit_4": { "width": 200, "height": 200 },
+				"common_dunqi_hit_5": { "width": 200, "height": 200 },
+				"common_dunqi_hit_6": { "width": 200, "height": 200 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill131": {
+		"slots": {
+			"common_dunqi_hit_1": {
+				"color": [
+					{ "color": "ff0000ff" }
+				],
+				"attachment": [
+					{ "name": "common_dunqi_hit_1" },
+					{ "time": 0.0333, "name": "common_dunqi_hit_2" },
+					{ "time": 0.0667, "name": "common_dunqi_hit_3" },
+					{ "time": 0.1, "name": "common_dunqi_hit_4" },
+					{ "time": 0.1333, "name": "common_dunqi_hit_5" },
+					{ "time": 0.1667, "name": "common_dunqi_hit_6" },
+					{ "time": 0.2333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"common_dunqi_hit_1": {
+				"rotate": [
+					{ "angle": 340.05 }
+				],
+				"translate": [
+					{ "x": -325.62, "y": -114.7 }
+				],
+				"scale": [
+					{ "x": -19.136, "y": 19.142 }
+				]
+			}
+		}
+	}
+}
+}

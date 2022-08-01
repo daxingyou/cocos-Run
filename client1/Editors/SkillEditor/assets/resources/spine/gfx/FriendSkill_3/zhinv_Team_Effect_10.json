@@ -1,0 +1,618 @@
+{
+"skeleton": { "hash": "GpnmJAoMnEnowFUUYU13xW/+dNQ", "spine": "3.8.99", "images": "./images/", "audio": "E:/搬砖/门/内部/第一批美佳美(4)/第一批美佳美/SR-织女-a/织女Spine" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "release", "parent": "root" },
+	{ "name": "juqi_all", "parent": "release" },
+	{ "name": "juqi_path", "parent": "juqi_all", "scaleX": 2, "scaleY": 2 },
+	{ "name": "juqi_path2", "parent": "juqi_all", "scaleX": 2, "scaleY": 2 },
+	{ "name": "juqi_path3", "parent": "juqi_all", "scaleX": 2, "scaleY": 2 },
+	{ "name": "juqi_path4", "parent": "juqi_all", "scaleX": 2, "scaleY": 2 },
+	{ "name": "juqi_all2", "parent": "release" },
+	{ "name": "juqi_path5", "parent": "juqi_all2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "juqi_path6", "parent": "juqi_all2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "juqi_path7", "parent": "juqi_all2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "juqi_path8", "parent": "juqi_all2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "yun", "parent": "release", "scaleX": 2, "scaleY": 2 },
+	{ "name": "hr_yun", "parent": "release", "scaleX": 2, "scaleY": 2 },
+	{ "name": "hr_yun2", "parent": "release", "scaleX": 2, "scaleY": 2 },
+	{ "name": "yun2", "parent": "release", "scaleX": 2, "scaleY": 2 },
+	{ "name": "feng", "parent": "release", "scaleX": 2, "scaleY": 2 },
+	{ "name": "feng2", "parent": "release", "scaleX": 2, "scaleY": 2 },
+	{ "name": "jq_baodian", "parent": "release", "scaleX": 4, "scaleY": 4 },
+	{ "name": "daoguang", "parent": "release", "scaleX": 2, "scaleY": 2 },
+	{ "name": "lizi2", "parent": "release", "scaleX": 2, "scaleY": 2 },
+	{ "name": "bigbird_hit", "parent": "release" }
+],
+"slots": [
+	{ "name": "hr_yun2", "bone": "hr_yun2" },
+	{ "name": "juqi_path", "bone": "juqi_path", "blend": "additive" },
+	{ "name": "daoguang", "bone": "daoguang", "blend": "additive" },
+	{ "name": "juqi_path5", "bone": "juqi_path5", "blend": "additive" },
+	{ "name": "juqi_path2", "bone": "juqi_path2", "blend": "additive" },
+	{ "name": "juqi_path6", "bone": "juqi_path6", "blend": "additive" },
+	{ "name": "juqi_path4", "bone": "juqi_path4", "blend": "additive" },
+	{ "name": "juqi_path8", "bone": "juqi_path8", "blend": "additive" },
+	{ "name": "juqi_path3", "bone": "juqi_path3", "blend": "additive" },
+	{ "name": "juqi_path7", "bone": "juqi_path7", "blend": "additive" },
+	{ "name": "yun", "bone": "yun" },
+	{ "name": "yun2", "bone": "yun2" },
+	{ "name": "hr_yun", "bone": "hr_yun" },
+	{ "name": "feng", "bone": "feng", "blend": "additive" },
+	{ "name": "feng2", "bone": "feng2", "blend": "additive" },
+	{ "name": "lizi3", "bone": "lizi2", "blend": "additive" },
+	{ "name": "lizi4", "bone": "lizi2", "blend": "additive" },
+	{ "name": "jq_baodian", "bone": "jq_baodian", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"daoguang": {
+				"ZhiNv_ActiveSkill_Effect_1/daoguang/daoguang_0043": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/daoguang/daoguang_0045": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/daoguang/daoguang_0047": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/daoguang/daoguang_0049": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/daoguang/daoguang_0051": { "width": 500, "height": 500 }
+			},
+			"feng": {
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0005": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0007": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0009": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0011": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0013": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0015": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0017": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0019": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0021": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0023": { "width": 500, "height": 500 }
+			},
+			"feng2": {
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0005": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0007": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0009": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0011": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0013": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0015": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0017": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0019": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0021": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0023": { "width": 500, "height": 500 }
+			},
+			"hr_yun": {
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0004": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0006": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0008": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0010": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0012": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0014": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0016": { "width": 500, "height": 500 }
+			},
+			"hr_yun2": {
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0004": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0006": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0008": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0010": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0012": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0014": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0016": { "width": 500, "height": 500 }
+			},
+			"jq_baodian": {
+				"ZhiNv_ActiveSkill_Effect_1/jq_baodian/jq_baodian2_0028": { "x": 2.83, "y": -1.9, "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_baodian/jq_baodian3_0030": { "x": 2.83, "y": -1.9, "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_baodian/jq_baodian_0035": { "x": 2.83, "y": -1.9, "width": 500, "height": 500 }
+			},
+			"juqi_path": {
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012": { "width": 500, "height": 500 }
+			},
+			"juqi_path2": {
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012": { "width": 500, "height": 500 }
+			},
+			"juqi_path3": {
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012": { "width": 500, "height": 500 }
+			},
+			"juqi_path4": {
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012": { "width": 500, "height": 500 }
+			},
+			"juqi_path5": {
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012": { "width": 500, "height": 500 }
+			},
+			"juqi_path6": {
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012": { "width": 500, "height": 500 }
+			},
+			"juqi_path7": {
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012": { "width": 500, "height": 500 }
+			},
+			"juqi_path8": {
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012": { "width": 500, "height": 500 }
+			},
+			"lizi3": {
+				"ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0007": { "width": 500, "height": 500 }
+			},
+			"lizi4": {
+				"ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0007": {
+					"x": -80.67,
+					"y": 1.81,
+					"scaleX": -1,
+					"scaleY": -1,
+					"rotation": 19.37,
+					"width": 500,
+					"height": 500
+				}
+			},
+			"yun": {
+				"ZhiNv_Attack_1/yun/yun_0004": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0006": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0008": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0010": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0012": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0014": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0016": { "width": 500, "height": 500 }
+			},
+			"yun2": {
+				"ZhiNv_Attack_1/yun/yun_0004": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0006": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0008": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0010": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0012": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0014": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0016": { "width": 500, "height": 500 }
+			}
+		}
+	}
+],
+"animations": {
+	"Release": {
+		"slots": {
+			"daoguang": {
+				"attachment": [
+					{ "time": 1.4333, "name": "ZhiNv_ActiveSkill_Effect_1/daoguang/daoguang_0043" },
+					{ "time": 1.5, "name": "ZhiNv_ActiveSkill_Effect_1/daoguang/daoguang_0045" },
+					{ "time": 1.5667, "name": "ZhiNv_ActiveSkill_Effect_1/daoguang/daoguang_0047" },
+					{ "time": 1.6333, "name": "ZhiNv_ActiveSkill_Effect_1/daoguang/daoguang_0049" },
+					{ "time": 1.7, "name": "ZhiNv_ActiveSkill_Effect_1/daoguang/daoguang_0051" },
+					{ "time": 1.7667, "name": null }
+				]
+			},
+			"feng": {
+				"attachment": [
+					{ "time": 0.0667, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0005" },
+					{ "time": 0.1333, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0007" },
+					{ "time": 0.2, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0009" },
+					{ "time": 0.2667, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0011" },
+					{ "time": 0.3333, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0013" },
+					{ "time": 0.4, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0015" },
+					{ "time": 0.4667, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0017" },
+					{ "time": 0.5333, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0019" },
+					{ "time": 0.6, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0021" },
+					{ "time": 0.6667, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0023" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"feng2": {
+				"attachment": [
+					{ "time": 0.3667, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0005" },
+					{ "time": 0.4333, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0007" },
+					{ "time": 0.5, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0009" },
+					{ "time": 0.5667, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0011" },
+					{ "time": 0.6333, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0013" },
+					{ "time": 0.7, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0015" },
+					{ "time": 0.7667, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0017" },
+					{ "time": 0.8333, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0019" },
+					{ "time": 0.9, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0021" },
+					{ "time": 0.9667, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0023" },
+					{ "time": 1.0333, "name": null }
+				]
+			},
+			"hr_yun": {
+				"attachment": [
+					{ "time": 0.1333, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0004" },
+					{ "time": 0.2, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0006" },
+					{ "time": 0.2667, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0008" },
+					{ "time": 0.3333, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0010" },
+					{ "time": 0.4, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0012" },
+					{ "time": 0.4667, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0014" },
+					{ "time": 0.5333, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0016" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"hr_yun2": {
+				"attachment": [
+					{ "time": 0.3, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0004" },
+					{ "time": 0.3667, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0006" },
+					{ "time": 0.4333, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0008" },
+					{ "time": 0.5, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0010" },
+					{ "time": 0.5667, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0012" },
+					{ "time": 0.6333, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0014" },
+					{ "time": 0.7, "name": "ZhiNv_ActiveSkill_Effect_1/hr_yun/hr_yun_0016" },
+					{ "time": 0.7667, "name": null }
+				]
+			},
+			"jq_baodian": {
+				"color": [
+					{ "time": 1.1667, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.8667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_baodian/jq_baodian2_0028" },
+					{ "time": 1, "name": "ZhiNv_ActiveSkill_Effect_1/jq_baodian/jq_baodian3_0030" },
+					{ "time": 1.1, "name": "ZhiNv_ActiveSkill_Effect_1/jq_baodian/jq_baodian_0035" }
+				]
+			},
+			"juqi_path": {
+				"attachment": [
+					{ "time": 0.0667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002" },
+					{ "time": 0.1, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003" },
+					{ "time": 0.1333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004" },
+					{ "time": 0.1667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005" },
+					{ "time": 0.2, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006" },
+					{ "time": 0.2333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007" },
+					{ "time": 0.2667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008" },
+					{ "time": 0.3, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009" },
+					{ "time": 0.3333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010" },
+					{ "time": 0.3667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011" },
+					{ "time": 0.4, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012" },
+					{ "time": 0.4333, "name": null }
+				]
+			},
+			"juqi_path2": {
+				"attachment": [
+					{ "time": 0.1333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002" },
+					{ "time": 0.1667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003" },
+					{ "time": 0.2, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004" },
+					{ "time": 0.2333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005" },
+					{ "time": 0.2667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006" },
+					{ "time": 0.3, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007" },
+					{ "time": 0.3333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008" },
+					{ "time": 0.3667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009" },
+					{ "time": 0.4, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010" },
+					{ "time": 0.4333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011" },
+					{ "time": 0.4667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012" },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"juqi_path3": {
+				"attachment": [
+					{ "time": 0.2, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002" },
+					{ "time": 0.2333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003" },
+					{ "time": 0.2667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004" },
+					{ "time": 0.3, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005" },
+					{ "time": 0.3333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006" },
+					{ "time": 0.3667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007" },
+					{ "time": 0.4, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008" },
+					{ "time": 0.4333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009" },
+					{ "time": 0.4667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010" },
+					{ "time": 0.5, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011" },
+					{ "time": 0.5333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012" },
+					{ "time": 0.5667, "name": null }
+				]
+			},
+			"juqi_path4": {
+				"attachment": [
+					{ "time": 0.2667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002" },
+					{ "time": 0.3, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003" },
+					{ "time": 0.3333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004" },
+					{ "time": 0.3667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005" },
+					{ "time": 0.4, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006" },
+					{ "time": 0.4333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007" },
+					{ "time": 0.4667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008" },
+					{ "time": 0.5, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009" },
+					{ "time": 0.5333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010" },
+					{ "time": 0.5667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011" },
+					{ "time": 0.6, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012" },
+					{ "time": 0.6333, "name": null }
+				]
+			},
+			"juqi_path5": {
+				"attachment": [
+					{ "time": 0.5, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002" },
+					{ "time": 0.5333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003" },
+					{ "time": 0.5667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004" },
+					{ "time": 0.6, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005" },
+					{ "time": 0.6333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006" },
+					{ "time": 0.6667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007" },
+					{ "time": 0.7, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008" },
+					{ "time": 0.7333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009" },
+					{ "time": 0.7667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010" },
+					{ "time": 0.8, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011" },
+					{ "time": 0.8333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012" },
+					{ "time": 0.8667, "name": null }
+				]
+			},
+			"juqi_path6": {
+				"attachment": [
+					{ "time": 0.5667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002" },
+					{ "time": 0.6, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003" },
+					{ "time": 0.6333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004" },
+					{ "time": 0.6667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005" },
+					{ "time": 0.7, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006" },
+					{ "time": 0.7333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007" },
+					{ "time": 0.7667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008" },
+					{ "time": 0.8, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009" },
+					{ "time": 0.8333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010" },
+					{ "time": 0.8667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011" },
+					{ "time": 0.9, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"juqi_path7": {
+				"attachment": [
+					{ "time": 0.6333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002" },
+					{ "time": 0.6667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003" },
+					{ "time": 0.7, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004" },
+					{ "time": 0.7333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005" },
+					{ "time": 0.7667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006" },
+					{ "time": 0.8, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007" },
+					{ "time": 0.8333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008" },
+					{ "time": 0.8667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009" },
+					{ "time": 0.9, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010" },
+					{ "time": 0.9333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011" },
+					{ "time": 0.9667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"juqi_path8": {
+				"attachment": [
+					{ "time": 0.7, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0002" },
+					{ "time": 0.7333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0003" },
+					{ "time": 0.7667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0004" },
+					{ "time": 0.8, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0005" },
+					{ "time": 0.8333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0006" },
+					{ "time": 0.8667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0007" },
+					{ "time": 0.9, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0008" },
+					{ "time": 0.9333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0009" },
+					{ "time": 0.9667, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0010" },
+					{ "time": 1, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0011" },
+					{ "time": 1.0333, "name": "ZhiNv_ActiveSkill_Effect_1/jq_path/jq_path_0012" },
+					{ "time": 1.0667, "name": null }
+				]
+			},
+			"lizi3": {
+				"color": [
+					{ "time": 1.8333, "color": "ffffffff" },
+					{ "time": 2.1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.4333, "name": "ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0007" }
+				]
+			},
+			"lizi4": {
+				"color": [
+					{ "time": 1.8333, "color": "ffffffff" },
+					{ "time": 2.1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.4333, "name": "ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0007" }
+				]
+			},
+			"yun": {
+				"attachment": [
+					{ "time": 0.0667, "name": "ZhiNv_Attack_1/yun/yun_0004" },
+					{ "time": 0.1333, "name": "ZhiNv_Attack_1/yun/yun_0006" },
+					{ "time": 0.2, "name": "ZhiNv_Attack_1/yun/yun_0008" },
+					{ "time": 0.2667, "name": "ZhiNv_Attack_1/yun/yun_0010" },
+					{ "time": 0.3333, "name": "ZhiNv_Attack_1/yun/yun_0012" },
+					{ "time": 0.4, "name": "ZhiNv_Attack_1/yun/yun_0014" },
+					{ "time": 0.4667, "name": "ZhiNv_Attack_1/yun/yun_0016" },
+					{ "time": 0.5333, "name": null }
+				]
+			},
+			"yun2": {
+				"attachment": [
+					{ "time": 0.1333, "name": "ZhiNv_Attack_1/yun/yun_0004" },
+					{ "time": 0.2, "name": "ZhiNv_Attack_1/yun/yun_0006" },
+					{ "time": 0.2667, "name": "ZhiNv_Attack_1/yun/yun_0008" },
+					{ "time": 0.3333, "name": "ZhiNv_Attack_1/yun/yun_0010" },
+					{ "time": 0.4, "name": "ZhiNv_Attack_1/yun/yun_0012" },
+					{ "time": 0.4667, "name": "ZhiNv_Attack_1/yun/yun_0014" },
+					{ "time": 0.5333, "name": "ZhiNv_Attack_1/yun/yun_0016" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"juqi_path2": {
+				"rotate": [
+					{ "time": 0.1333, "angle": 180 }
+				]
+			},
+			"juqi_path3": {
+				"rotate": [
+					{ "time": 0.2, "angle": -80 }
+				]
+			},
+			"juqi_path4": {
+				"rotate": [
+					{ "time": 0.2667, "angle": 100 }
+				]
+			},
+			"juqi_all": {
+				"translate": [
+					{ "x": 42.7, "y": 186.83 }
+				]
+			},
+			"juqi_path6": {
+				"rotate": [
+					{ "time": 0.5667, "angle": 180 }
+				]
+			},
+			"juqi_path7": {
+				"rotate": [
+					{ "time": 0.6333, "angle": -80 }
+				]
+			},
+			"juqi_path8": {
+				"rotate": [
+					{ "time": 0.7, "angle": 100 }
+				]
+			},
+			"juqi_all2": {
+				"rotate": [
+					{ "angle": -90 }
+				],
+				"translate": [
+					{ "x": 42.7, "y": 199.5 }
+				],
+				"scale": [
+					{ "x": 0.85, "y": 0.85 }
+				]
+			},
+			"yun": {
+				"translate": [
+					{ "time": 0.0667, "x": -58.74, "y": 12.01 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": -0.35, "y": 0.5 }
+				]
+			},
+			"hr_yun": {
+				"translate": [
+					{ "time": 0.1333, "x": 4.09, "y": 46.29 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 1.22, "y": 0.965 }
+				]
+			},
+			"hr_yun2": {
+				"translate": [
+					{ "time": 0.3, "x": 9.27, "y": 13.51 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": -1.12, "y": -0.816 }
+				]
+			},
+			"yun2": {
+				"translate": [
+					{ "time": 0.1333, "x": 51.66, "y": 27.54 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 0.35, "y": 0.5 }
+				]
+			},
+			"feng": {
+				"translate": [
+					{ "time": 0.0667, "x": -105.8, "y": 102.92 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": -1 }
+				]
+			},
+			"feng2": {
+				"translate": [
+					{ "time": 0.3667, "x": 106.95, "y": 189.17 }
+				],
+				"scale": [
+					{ "time": 0.3667, "y": 1.37 }
+				]
+			},
+			"jq_baodian": {
+				"translate": [
+					{ "time": 0.8667, "x": 7.58, "y": 141.49 }
+				],
+				"scale": [
+					{ "time": 0.8667, "x": 0.5, "y": 0.5 },
+					{ "time": 0.9667 },
+					{ "time": 1, "x": 0.55, "y": 0.55 },
+					{ "time": 1.0667, "x": 0.8, "y": 0.8 },
+					{ "time": 1.1, "x": 0.75, "y": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"daoguang": {
+				"translate": [
+					{ "time": 1.4333, "x": 261.9, "y": 58.06 }
+				]
+			},
+			"lizi2": {
+				"rotate": [
+					{ "time": 1.4333, "angle": -54.15 }
+				],
+				"translate": [
+					{ "time": 1.4333, "x": 67.01, "y": -34.75, "curve": 0, "c2": 0.43, "c3": 0.75 },
+					{ "time": 2.1, "x": 127.9, "y": -16.87 }
+				]
+			}
+		}
+	}
+}
+}

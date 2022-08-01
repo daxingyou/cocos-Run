@@ -1,0 +1,69 @@
+{
+"skeleton": { "hash": "GqTLH78qua3rXH3PL2nXQH51uns", "spine": "3.8.99", "images": "./images/", "audio": "E:/搬砖/门/内部/第一批美佳美(4)/第一批美佳美/SR-牛郎-a/牛郎合入" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "attack2_gj_x", "parent": "root" },
+	{ "name": "dilie", "parent": "root" }
+],
+"slots": [
+	{ "name": "NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00033", "bone": "attack2_gj_x", "blend": "additive" },
+	{ "name": "dilie", "bone": "dilie", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00033": {
+				"NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00034": { "width": 452, "height": 172 },
+				"NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00036": { "width": 452, "height": 172 },
+				"NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00038": { "width": 452, "height": 172 },
+				"NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00040": { "width": 452, "height": 172 },
+				"NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00042": { "width": 452, "height": 172 }
+			},
+			"dilie": {
+				"dilie": { "width": 682, "height": 296 }
+			}
+		}
+	}
+],
+"animations": {
+	"NiuLang_Attack_2": {
+		"slots": {
+			"NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00033": {
+				"attachment": [
+					{ "name": "NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00034" },
+					{ "time": 0.0667, "name": "NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00036" },
+					{ "time": 0.1667, "name": "NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00038" },
+					{ "time": 0.2667, "name": "NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00040" },
+					{ "time": 0.3667, "name": "NiuLang_Attack_2/attack2_gj_x/attack_gj_x_00042" },
+					{ "time": 0.4667, "name": null }
+				]
+			},
+			"dilie": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "dilie" }
+				]
+			}
+		},
+		"bones": {
+			"attack2_gj_x": {
+				"translate": [
+					{ "x": 30 }
+				],
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			},
+			"dilie": {
+				"translate": [
+					{ "x": 30 }
+				]
+			}
+		}
+	}
+}
+}

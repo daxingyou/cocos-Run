@@ -1,0 +1,85 @@
+{
+"skeleton": { "hash": "6CcX7yrgtWX2/H/rxzAZ71k4PgM", "spine": "3.8.99", "images": "./images/", "audio": "E:/搬砖/门/内部/第一批美佳美(4)/第一批美佳美/SR-牛郎-a/牛郎合入" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "attack2_jq", "parent": "root" },
+	{ "name": "link", "parent": "root" },
+	{ "name": "baodian", "parent": "root" }
+],
+"slots": [
+	{ "name": "NiuLang_Attack_2/attack2_juqi/attack2_juqi_00026", "bone": "attack2_jq", "blend": "additive" },
+	{ "name": "NiuLang_Attack_2/attack2_link/attack_link_00033", "bone": "link", "blend": "additive" },
+	{ "name": "NiuLang_PassiveSkill_Effect_1/baodian/baodian_00061", "bone": "baodian", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"NiuLang_Attack_2/attack2_juqi/attack2_juqi_00026": {
+				"NiuLang_Attack_2/attack2_juqi/attack2_juqi_00026": { "width": 394, "height": 376 },
+				"NiuLang_Attack_2/attack2_juqi/attack2_juqi_00028": { "width": 394, "height": 376 },
+				"NiuLang_Attack_2/attack2_juqi/attack2_juqi_00030": { "width": 394, "height": 376 },
+				"NiuLang_Attack_2/attack2_juqi/attack2_juqi_00032": { "width": 394, "height": 376 }
+			},
+			"NiuLang_Attack_2/attack2_link/attack_link_00033": {
+				"NiuLang_Attack_2/attack2_link/attack_link_00033": { "y": 0.5, "width": 270, "height": 289 },
+				"NiuLang_Attack_2/attack2_link/attack_link_00035": { "y": 0.5, "width": 270, "height": 289 },
+				"NiuLang_Attack_2/attack2_link/attack_link_00037": { "y": 0.5, "width": 270, "height": 289 },
+				"NiuLang_Attack_2/attack2_link/attack_link_00039": { "y": 0.5, "width": 270, "height": 289 },
+				"NiuLang_Attack_2/attack2_link/attack_link_00041": { "y": 0.5, "width": 270, "height": 289 }
+			},
+			"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00061": {
+				"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00061": { "x": 0.5, "y": 0.5, "width": 361, "height": 315 },
+				"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00063": { "x": 0.5, "y": 0.5, "width": 361, "height": 315 },
+				"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00065": { "x": 0.5, "y": 0.5, "width": 361, "height": 315 },
+				"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00067": { "x": 0.5, "y": 0.5, "width": 361, "height": 315 },
+				"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00069": { "x": 0.5, "y": 0.5, "width": 361, "height": 315 },
+				"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00071": { "x": 0.5, "y": 0.5, "width": 361, "height": 315 }
+			}
+		}
+	}
+],
+"animations": {
+	"NiuLang_Attack_2": {
+		"slots": {
+			"NiuLang_Attack_2/attack2_juqi/attack2_juqi_00026": {
+				"attachment": [
+					{ "name": "NiuLang_Attack_2/attack2_juqi/attack2_juqi_00026" },
+					{ "time": 0.0667, "name": "NiuLang_Attack_2/attack2_juqi/attack2_juqi_00028" },
+					{ "time": 0.1333, "name": "NiuLang_Attack_2/attack2_juqi/attack2_juqi_00030" },
+					{ "time": 0.2, "name": "NiuLang_Attack_2/attack2_juqi/attack2_juqi_00032" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"NiuLang_Attack_2/attack2_link/attack_link_00033": {
+				"attachment": [
+					{ "time": 0.2667, "name": "NiuLang_Attack_2/attack2_link/attack_link_00033" },
+					{ "time": 0.3333, "name": "NiuLang_Attack_2/attack2_link/attack_link_00035" },
+					{ "time": 0.4, "name": "NiuLang_Attack_2/attack2_link/attack_link_00037" },
+					{ "time": 0.4667, "name": "NiuLang_Attack_2/attack2_link/attack_link_00039" },
+					{ "time": 0.5333, "name": "NiuLang_Attack_2/attack2_link/attack_link_00041" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"attack2_jq": {
+				"translate": [
+					{ "x": -17.97, "y": 214.05 }
+				],
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			},
+			"link": {
+				"translate": [
+					{ "time": 0.2667, "x": 76.8, "y": 186.28 }
+				],
+				"scale": [
+					{ "time": 0.2667, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

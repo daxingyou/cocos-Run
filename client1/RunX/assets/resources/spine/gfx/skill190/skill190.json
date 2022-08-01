@@ -1,0 +1,424 @@
+{
+"skeleton": { "hash": "Rne5AfLcXcIUJyc3kqswr3DFTsY", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.39, "scaleY": 0.39 },
+	{ "name": "bone5", "parent": "root", "x": 996.44, "y": 601.16, "scaleY": 1.1915, "color": "ff0000ff" },
+	{ "name": "weapon5", "parent": "bone5", "x": 463.05, "y": 149.42 },
+	{ "name": "weapon6", "parent": "bone5", "x": 46.25, "y": 154.19 },
+	{
+		"name": "xuan0003",
+		"parent": "bone5",
+		"rotation": -151.66,
+		"x": 263.42,
+		"y": -16.16,
+		"scaleX": 2.2204,
+		"scaleY": 3.0064,
+		"shearX": -31.6
+	},
+	{
+		"name": "bone6",
+		"parent": "root",
+		"rotation": -90.29,
+		"x": 1282.89,
+		"y": 867.67,
+		"scaleY": 1.4441,
+		"color": "00ff31ff"
+	},
+	{ "name": "weapon7", "parent": "bone6", "x": 463.05, "y": 149.42 },
+	{
+		"name": "xuan3",
+		"parent": "bone6",
+		"rotation": -151.66,
+		"x": 263.42,
+		"y": -16.16,
+		"scaleX": 2.2204,
+		"scaleY": 3.0064,
+		"shearX": -31.6
+	},
+	{
+		"name": "bone7",
+		"parent": "root",
+		"rotation": -41.97,
+		"x": 1051.1,
+		"y": 778.52,
+		"scaleY": 1.4441,
+		"color": "cfff00ff"
+	},
+	{ "name": "weapon9", "parent": "bone7", "x": 463.05, "y": 149.42 },
+	{ "name": "weapon10", "parent": "bone7", "x": 46.25, "y": 154.19 },
+	{
+		"name": "xuan4",
+		"parent": "bone7",
+		"rotation": -151.66,
+		"x": 263.42,
+		"y": -16.16,
+		"scaleX": 2.2204,
+		"scaleY": 3.0064,
+		"shearX": -31.6
+	},
+	{
+		"name": "bone8",
+		"parent": "root",
+		"rotation": 49.93,
+		"x": 1074.46,
+		"y": 418.93,
+		"scaleY": 1.4441,
+		"color": "000affff"
+	},
+	{ "name": "weapon11", "parent": "bone8", "x": 463.05, "y": 149.42 },
+	{ "name": "weapon12", "parent": "bone8", "x": 46.25, "y": 154.19 },
+	{
+		"name": "xuan5",
+		"parent": "bone8",
+		"rotation": -151.66,
+		"x": 263.42,
+		"y": -16.16,
+		"scaleX": 2.2204,
+		"scaleY": 3.0064,
+		"shearX": -31.6
+	}
+],
+"slots": [
+	{ "name": "xuan0003", "bone": "xuan0003", "blend": "additive" },
+	{ "name": "xuan3", "bone": "xuan3", "blend": "additive" },
+	{ "name": "xuan4", "bone": "xuan4", "blend": "additive" },
+	{ "name": "xuan5", "bone": "xuan5", "blend": "additive" },
+	{ "name": "weapon5", "bone": "weapon5" },
+	{ "name": "weapon7", "bone": "weapon7" },
+	{ "name": "weapon9", "bone": "weapon9" },
+	{ "name": "weapon11", "bone": "weapon11" },
+	{ "name": "weapon6", "bone": "weapon6" },
+	{ "name": "weapon10", "bone": "weapon10" },
+	{ "name": "weapon12", "bone": "weapon12" },
+	{ "name": "1", "bone": "bone5", "attachment": "1" },
+	{ "name": "3", "bone": "bone6", "attachment": "1" },
+	{ "name": "4", "bone": "bone7", "attachment": "1" },
+	{ "name": "5", "bone": "bone8", "attachment": "1" }
+],
+"path": [
+	{
+		"name": "1a",
+		"bones": [ "weapon5" ],
+		"target": "1"
+	},
+	{
+		"name": "1b",
+		"order": 1,
+		"bones": [ "weapon6" ],
+		"target": "1",
+		"position": 0.4875
+	},
+	{
+		"name": "2a",
+		"order": 2,
+		"bones": [ "weapon7" ],
+		"target": "3"
+	},
+	{
+		"name": "3a",
+		"order": 3,
+		"bones": [ "weapon9" ],
+		"target": "4"
+	},
+	{
+		"name": "3b",
+		"order": 4,
+		"bones": [ "weapon10" ],
+		"target": "4",
+		"position": 0.5
+	},
+	{
+		"name": "4a",
+		"order": 5,
+		"bones": [ "weapon11" ],
+		"target": "5"
+	},
+	{
+		"name": "4b",
+		"order": 6,
+		"bones": [ "weapon12" ],
+		"target": "5",
+		"position": 0.4938
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"1": {
+					"type": "path",
+					"closed": true,
+					"lengths": [ 263.76, 532.68, 812.84, 1078.32 ],
+					"vertexCount": 12,
+					"vertices": [ 373.84, 504.17, 240.2, 508.63, 120.53, 512.63, 44.82, 156.58, 46.78, -14.35, 48.35, -151.39, 97.15, -544.45, 241.55, -547.12, 370.28, -549.5, 469.61, -275.23, 461.66, -5.01, 455.14, 216.71 ]
+				}
+			},
+			"3": {
+				"1": {
+					"type": "path",
+					"closed": true,
+					"lengths": [ 312.49, 631.04, 961.22, 1273.94 ],
+					"vertexCount": 12,
+					"vertices": [ 373.84, 504.17, 240.2, 508.63, 120.53, 512.63, 44.82, 156.58, 46.78, -14.35, 48.35, -151.39, 97.15, -544.45, 241.55, -547.12, 370.28, -549.5, 469.61, -275.23, 461.66, -5.01, 455.14, 216.71 ]
+				}
+			},
+			"4": {
+				"1": {
+					"type": "path",
+					"closed": true,
+					"lengths": [ 312.49, 631.04, 961.22, 1273.94 ],
+					"vertexCount": 12,
+					"vertices": [ 373.84, 504.17, 240.2, 508.63, 120.53, 512.63, 44.82, 156.58, 46.78, -14.35, 48.35, -151.39, 97.15, -544.45, 241.55, -547.12, 370.28, -549.5, 469.61, -275.23, 461.66, -5.01, 455.14, 216.71 ]
+				}
+			},
+			"5": {
+				"1": {
+					"type": "path",
+					"closed": true,
+					"lengths": [ 312.49, 631.04, 961.22, 1273.94 ],
+					"vertexCount": 12,
+					"vertices": [ 373.84, 504.17, 240.2, 508.63, 120.53, 512.63, 44.82, 156.58, 46.78, -14.35, 48.35, -151.39, 97.15, -544.45, 241.55, -547.12, 370.28, -549.5, 469.61, -275.23, 461.66, -5.01, 455.14, 216.71 ]
+				}
+			},
+			"weapon5": {
+				"weapon2": { "x": -0.13, "y": -1.95, "width": 83, "height": 81 }
+			},
+			"weapon6": {
+				"weapon2": { "x": -0.13, "y": -1.95, "width": 83, "height": 81 }
+			},
+			"weapon7": {
+				"weapon2": { "x": -0.13, "y": -1.95, "width": 83, "height": 81 }
+			},
+			"weapon9": {
+				"weapon2": { "x": -0.13, "y": -1.95, "width": 83, "height": 81 }
+			},
+			"weapon10": {
+				"weapon2": { "x": -0.13, "y": -1.95, "width": 83, "height": 81 }
+			},
+			"weapon11": {
+				"weapon2": { "x": -0.13, "y": -1.95, "width": 83, "height": 81 }
+			},
+			"weapon12": {
+				"weapon2": { "x": -0.13, "y": -1.95, "width": 83, "height": 81 }
+			},
+			"xuan0003": {
+				"xuan0001": { "width": 289, "height": 228 },
+				"xuan0003": { "width": 289, "height": 228 },
+				"xuan0004": { "width": 289, "height": 228 },
+				"xuan0006": { "width": 289, "height": 228 }
+			},
+			"xuan3": {
+				"xuan0001": { "width": 289, "height": 228 },
+				"xuan0003": { "width": 289, "height": 228 },
+				"xuan0004": { "width": 289, "height": 228 },
+				"xuan0006": { "width": 289, "height": 228 }
+			},
+			"xuan4": {
+				"xuan0001": { "width": 289, "height": 228 },
+				"xuan0003": { "width": 289, "height": 228 },
+				"xuan0004": { "width": 289, "height": 228 },
+				"xuan0006": { "width": 289, "height": 228 }
+			},
+			"xuan5": {
+				"xuan0001": { "width": 289, "height": 228 },
+				"xuan0003": { "width": 289, "height": 228 },
+				"xuan0004": { "width": 289, "height": 228 },
+				"xuan0006": { "width": 289, "height": 228 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill190": {
+		"slots": {
+			"weapon5": {
+				"attachment": [
+					{ "name": "weapon2" },
+					{ "time": 0.2333, "name": null }
+				]
+			},
+			"weapon6": {
+				"attachment": [
+					{ "name": "weapon2" },
+					{ "time": 0.2333, "name": null }
+				]
+			},
+			"weapon7": {
+				"attachment": [
+					{ "time": 0.1667, "name": "weapon2" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"weapon9": {
+				"attachment": [
+					{ "time": 0.3333, "name": "weapon2" },
+					{ "time": 0.5667, "name": null }
+				]
+			},
+			"weapon10": {
+				"attachment": [
+					{ "time": 0.3333, "name": "weapon2" },
+					{ "time": 0.5667, "name": null }
+				]
+			},
+			"weapon11": {
+				"attachment": [
+					{ "time": 0.4667, "name": "weapon2" },
+					{ "time": 0.7, "name": null }
+				]
+			},
+			"weapon12": {
+				"attachment": [
+					{ "time": 0.4667, "name": "weapon2" },
+					{ "time": 0.7, "name": null }
+				]
+			},
+			"xuan0003": {
+				"attachment": [
+					{ "name": "xuan0001" },
+					{ "time": 0.0333, "name": "xuan0003" },
+					{ "time": 0.0667, "name": "xuan0004" },
+					{ "time": 0.1, "name": "xuan0006" },
+					{ "time": 0.1333, "name": "xuan0001" },
+					{ "time": 0.1667, "name": "xuan0003" },
+					{ "time": 0.2, "name": "xuan0004" },
+					{ "time": 0.2333, "name": null }
+				]
+			},
+			"xuan3": {
+				"attachment": [
+					{ "time": 0.1667, "name": "xuan0001" },
+					{ "time": 0.2, "name": "xuan0003" },
+					{ "time": 0.2333, "name": "xuan0004" },
+					{ "time": 0.2667, "name": "xuan0006" },
+					{ "time": 0.3, "name": "xuan0001" },
+					{ "time": 0.3333, "name": "xuan0003" },
+					{ "time": 0.3667, "name": "xuan0004" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"xuan4": {
+				"attachment": [
+					{ "time": 0.3333, "name": "xuan0001" },
+					{ "time": 0.3667, "name": "xuan0003" },
+					{ "time": 0.4, "name": "xuan0004" },
+					{ "time": 0.4333, "name": "xuan0006" },
+					{ "time": 0.4667, "name": "xuan0001" },
+					{ "time": 0.5, "name": "xuan0003" },
+					{ "time": 0.5333, "name": "xuan0004" },
+					{ "time": 0.5667, "name": null }
+				]
+			},
+			"xuan5": {
+				"attachment": [
+					{ "time": 0.4667, "name": "xuan0001" },
+					{ "time": 0.5, "name": "xuan0003" },
+					{ "time": 0.5333, "name": "xuan0004" },
+					{ "time": 0.5667, "name": "xuan0006" },
+					{ "time": 0.6, "name": "xuan0001" },
+					{ "time": 0.6333, "name": "xuan0003" },
+					{ "time": 0.6667, "name": "xuan0004" },
+					{ "time": 0.7, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"xuan0003": {
+				"rotate": [
+					{ "angle": -18.91 }
+				],
+				"translate": [
+					{ "x": -18.31, "y": 12.43 }
+				],
+				"scale": [
+					{ "y": 2.2 }
+				]
+			},
+			"xuan3": {
+				"rotate": [
+					{ "time": 0.1667, "angle": -18.91 }
+				],
+				"translate": [
+					{ "time": 0.1667, "x": -18.31, "y": 12.43 }
+				],
+				"scale": [
+					{ "time": 0.1667, "y": 2.2 }
+				]
+			},
+			"xuan4": {
+				"rotate": [
+					{ "time": 0.3333, "angle": -18.91 }
+				],
+				"translate": [
+					{ "time": 0.3333, "x": -18.31, "y": 12.43 }
+				],
+				"scale": [
+					{ "time": 0.3333, "y": 2.2 }
+				]
+			},
+			"xuan5": {
+				"rotate": [
+					{ "time": 0.4667, "angle": -18.91 }
+				],
+				"translate": [
+					{ "time": 0.4667, "x": -18.31, "y": 12.43 }
+				],
+				"scale": [
+					{ "time": 0.4667, "y": 2.2 }
+				]
+			}
+		},
+		"path": {
+			"1a": {
+				"position": [
+					{},
+					{ "time": 0.1667, "position": 1 }
+				]
+			},
+			"1b": {
+				"position": [
+					{ "position": 0.4875 },
+					{ "time": 0.1667, "position": 1.4875 }
+				]
+			},
+			"2a": {
+				"position": [
+					{ "time": 0.1667 },
+					{ "time": 0.4333, "position": 1 }
+				]
+			},
+			"3a": {
+				"position": [
+					{ "time": 0.3333 },
+					{ "time": 0.5667, "position": 1 }
+				]
+			},
+			"3b": {
+				"position": [
+					{ "time": 0.3333, "position": 0.5 },
+					{ "time": 0.5667, "position": 1.5 }
+				]
+			},
+			"4a": {
+				"position": [
+					{ "time": 0.4667 },
+					{ "time": 0.7, "position": 1.4601 }
+				]
+			},
+			"4b": {
+				"position": [
+					{ "time": 0.4667, "position": 0.4938 },
+					{ "time": 0.7, "position": 1.4938 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1667, "name": "K" }
+		]
+	}
+}
+}

@@ -1,0 +1,54 @@
+{
+"skeleton": { "hash": "fG3M1FXHeYuN25fGBDpSb2cG7ME", "spine": "3.8.99", "images": "./images/", "audio": "H:/波波外包/new/太白金星/SSR-太白金星" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "attack2", "parent": "eft" },
+	{ "name": "atk2_baodian2", "parent": "attack2" }
+],
+"slots": [
+	{ "name": "atk2_baodian2", "bone": "atk2_baodian2", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"atk2_baodian2": {
+				"eft/attack1/atk1_baodian/atk1_baodian_0039": { "width": 600, "height": 600 },
+				"eft/attack1/atk1_baodian/atk1_baodian_0041": { "width": 600, "height": 600 },
+				"eft/attack1/atk1_baodian/atk1_baodian_0043": { "width": 600, "height": 600 },
+				"eft/attack1/atk1_baodian/atk1_baodian_0045": { "width": 600, "height": 600 },
+				"eft/attack1/atk1_baodian/atk1_baodian_0047": { "width": 600, "height": 600 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack4": {
+		"slots": {
+			"atk2_baodian2": {
+				"attachment": [
+					{ "name": "eft/attack1/atk1_baodian/atk1_baodian_0039" },
+					{ "time": 0.0667, "name": "eft/attack1/atk1_baodian/atk1_baodian_0041" },
+					{ "time": 0.1333, "name": "eft/attack1/atk1_baodian/atk1_baodian_0043" },
+					{ "time": 0.2, "name": "eft/attack1/atk1_baodian/atk1_baodian_0045" },
+					{ "time": 0.2667, "name": "eft/attack1/atk1_baodian/atk1_baodian_0047" },
+					{ "time": 0.3, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"atk2_baodian2": {
+				"scale": [
+					{ "x": 8, "y": 8 }
+				]
+			},
+			"root": {
+				"shear": [
+					{ "time": 0.4 }
+				]
+			}
+		}
+	}
+}
+}

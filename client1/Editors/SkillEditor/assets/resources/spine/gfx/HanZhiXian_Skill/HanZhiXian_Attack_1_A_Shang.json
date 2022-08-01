@@ -1,0 +1,148 @@
+{
+"skeleton": { "hash": "0UrT/K29KhW0hQ6yOkJGV14oQUo", "spine": "3.8.99", "images": "", "audio": "Z:/进行中的项目/张晨阳动效项目/第二批冰封特效需求/R-菡芝仙-a/菡芝仙" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "images/attack4/guang", "parent": "root" },
+	{ "name": "images/attack4/quan", "parent": "root" },
+	{ "name": "images/shuye/shuye0001", "parent": "root" }
+],
+"slots": [
+	{ "name": "images/attack4/guang", "bone": "images/attack4/guang", "color": "a7ff4199", "blend": "additive" },
+	{ "name": "images/attack4/quan", "bone": "images/attack4/quan", "color": "afff4fff", "blend": "additive" },
+	{ "name": "images/shuye/shuye0001", "bone": "images/shuye/shuye0001" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"images/attack4/guang": {
+				"images/attack4/guang": { "width": 320, "height": 320 }
+			},
+			"images/attack4/quan": {
+				"images/attack4/quan": { "width": 279, "height": 276 }
+			},
+			"images/shuye/shuye0001": {
+				"images/shuye/shuye0001": { "width": 235, "height": 228 },
+				"images/shuye/shuye0003": { "width": 235, "height": 228 },
+				"images/shuye/shuye0005": { "width": 235, "height": 228 },
+				"images/shuye/shuye0007": { "width": 235, "height": 228 },
+				"images/shuye/shuye0009": { "width": 235, "height": 228 },
+				"images/shuye/shuye0011": { "width": 235, "height": 228 },
+				"images/shuye/shuye0013": { "width": 235, "height": 228 },
+				"images/shuye/shuye0015": { "width": 235, "height": 228 },
+				"images/shuye/shuye0017": { "width": 235, "height": 228 },
+				"images/shuye/shuye0019": { "width": 235, "height": 228 }
+			}
+		}
+	}
+],
+"animations": {
+	"HanZhiXian_Attack_1_A_Shang": {
+		"slots": {
+			"images/attack4/guang": {
+				"color": [
+					{ "time": 0.3, "color": "a7ff4100" },
+					{ "time": 0.4, "color": "a7ff4199", "curve": "stepped" },
+					{ "time": 1, "color": "a7ff4199" },
+					{ "time": 1.1333, "color": "a7ff4100" }
+				],
+				"attachment": [
+					{ "time": 0.3, "name": "images/attack4/guang" }
+				]
+			},
+			"images/attack4/quan": {
+				"color": [
+					{ "time": 0.2667, "color": "13ff0000" },
+					{ "time": 0.3667, "color": "13ff00aa" },
+					{ "time": 0.5333, "color": "13ff0000", "curve": "stepped" },
+					{ "time": 0.5667, "color": "13ff0000" },
+					{ "time": 0.6667, "color": "13ff00aa" },
+					{ "time": 0.8333, "color": "13ff0000", "curve": "stepped" },
+					{ "time": 0.8667, "color": "13ff0000" },
+					{ "time": 0.9667, "color": "13ff00aa" },
+					{ "time": 1.1333, "color": "13ff0000" }
+				],
+				"attachment": [
+					{ "time": 0.2667, "name": "images/attack4/quan" }
+				]
+			},
+			"images/shuye/shuye0001": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.4, "color": "13ff00ff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "13ff00ff" },
+					{ "time": 1.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "images/shuye/shuye0001" },
+					{ "time": 0.2, "name": "images/shuye/shuye0003" },
+					{ "time": 0.2333, "name": "images/shuye/shuye0005" },
+					{ "time": 0.2667, "name": "images/shuye/shuye0007" },
+					{ "time": 0.3, "name": "images/shuye/shuye0009" },
+					{ "time": 0.3333, "name": "images/shuye/shuye0011" },
+					{ "time": 0.3667, "name": "images/shuye/shuye0013" },
+					{ "time": 0.4, "name": "images/shuye/shuye0015" },
+					{ "time": 0.4333, "name": "images/shuye/shuye0017" },
+					{ "time": 0.4667, "name": "images/shuye/shuye0019" },
+					{ "time": 0.5, "name": "images/shuye/shuye0001" },
+					{ "time": 0.5333, "name": "images/shuye/shuye0003" },
+					{ "time": 0.5667, "name": "images/shuye/shuye0005" },
+					{ "time": 0.6, "name": "images/shuye/shuye0007" },
+					{ "time": 0.6333, "name": "images/shuye/shuye0009" },
+					{ "time": 0.6667, "name": "images/shuye/shuye0011" },
+					{ "time": 0.7, "name": "images/shuye/shuye0013" },
+					{ "time": 0.7333, "name": "images/shuye/shuye0015" },
+					{ "time": 0.7667, "name": "images/shuye/shuye0017" },
+					{ "time": 0.8, "name": "images/shuye/shuye0019" },
+					{ "time": 0.8333, "name": "images/shuye/shuye0001" },
+					{ "time": 0.8667, "name": "images/shuye/shuye0003" },
+					{ "time": 0.9, "name": "images/shuye/shuye0005" },
+					{ "time": 0.9333, "name": "images/shuye/shuye0007" },
+					{ "time": 0.9667, "name": "images/shuye/shuye0009" },
+					{ "time": 1, "name": "images/shuye/shuye0011" },
+					{ "time": 1.0333, "name": "images/shuye/shuye0013" },
+					{ "time": 1.0667, "name": "images/shuye/shuye0015" },
+					{ "time": 1.1, "name": "images/shuye/shuye0017" },
+					{ "time": 1.1333, "name": "images/shuye/shuye0019" }
+				]
+			}
+		},
+		"bones": {
+			"images/attack4/guang": {
+				"translate": [
+					{ "time": 0.3, "x": 144.64, "y": 313.26 },
+					{ "time": 0.4, "x": 85.72, "y": 504.77 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1.455, "y": 1.455 }
+				]
+			},
+			"images/attack4/quan": {
+				"translate": [
+					{ "time": 0.2667, "x": 132.74, "y": 228.51 },
+					{ "time": 0.4, "x": 85.72, "y": 504.77 }
+				],
+				"scale": [
+					{ "time": 0.2667, "x": 1.593, "y": 1.593 },
+					{ "time": 0.5333, "x": 3.301, "y": 3.301, "curve": "stepped" },
+					{ "time": 0.5667, "x": 1.593, "y": 1.593 },
+					{ "time": 0.8333, "x": 3.301, "y": 3.301, "curve": "stepped" },
+					{ "time": 0.8667, "x": 1.593, "y": 1.593 },
+					{ "time": 1.1333, "x": 3.301, "y": 3.301 }
+				]
+			},
+			"images/shuye/shuye0001": {
+				"rotate": [
+					{ "time": 0.1667, "angle": -61.99 }
+				],
+				"translate": [
+					{ "time": 0.1667, "x": 4.58, "y": 352.24 }
+				],
+				"scale": [
+					{ "time": 0.1667, "x": 3.594, "y": 3.594 }
+				]
+			}
+		}
+	}
+}
+}

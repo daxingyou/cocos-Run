@@ -1,0 +1,49 @@
+{
+"skeleton": { "hash": "8cf2QDgRkEaIKj6r3AF80rcAme8", "spine": "3.8.99", "images": "./images/", "audio": "E:/搬砖/门/内部/第一批美佳美(4)/第一批美佳美/SR-牛郎-a/牛郎合入" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "baodian", "parent": "root" }
+],
+"slots": [
+	{ "name": "NiuLang_PassiveSkill_Effect_1/baodian/baodian_00061", "bone": "baodian", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00061": {
+				"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00061": { "x": 0.5, "y": 0.5, "width": 361, "height": 315 },
+				"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00063": { "x": 0.5, "y": 0.5, "width": 361, "height": 315 },
+				"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00065": { "x": 0.5, "y": 0.5, "width": 361, "height": 315 },
+				"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00067": { "x": 0.5, "y": 0.5, "width": 361, "height": 315 },
+				"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00069": { "x": 0.5, "y": 0.5, "width": 361, "height": 315 },
+				"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00071": { "x": 0.5, "y": 0.5, "width": 361, "height": 315 }
+			}
+		}
+	}
+],
+"animations": {
+	"NiuLang_PassiveSkill_Effect_1": {
+		"slots": {
+			"NiuLang_PassiveSkill_Effect_1/baodian/baodian_00061": {
+				"attachment": [
+					{ "name": "NiuLang_PassiveSkill_Effect_1/baodian/baodian_00061" },
+					{ "time": 0.0667, "name": "NiuLang_PassiveSkill_Effect_1/baodian/baodian_00063" },
+					{ "time": 0.1333, "name": "NiuLang_PassiveSkill_Effect_1/baodian/baodian_00065" },
+					{ "time": 0.2, "name": "NiuLang_PassiveSkill_Effect_1/baodian/baodian_00067" },
+					{ "time": 0.2667, "name": "NiuLang_PassiveSkill_Effect_1/baodian/baodian_00069" },
+					{ "time": 0.3333, "name": "NiuLang_PassiveSkill_Effect_1/baodian/baodian_00071" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"baodian": {
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

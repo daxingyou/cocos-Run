@@ -1,0 +1,65 @@
+{
+"skeleton": { "hash": "Gzr2ioJChTqaOh9dPPw6G5t3cEk", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "sfksbw", "parent": "effect" }
+],
+"slots": [
+	{ "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_00", "bone": "sfksbw" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"effect/gg_skill_sfksbw/gg_skill_sfksbw_00": {
+				"effect/gg_skill_sfksbw/gg_skill_sfksbw_02": { "width": 450, "height": 150 },
+				"effect/gg_skill_sfksbw/gg_skill_sfksbw_04": { "width": 450, "height": 150 },
+				"effect/gg_skill_sfksbw/gg_skill_sfksbw_06": { "width": 450, "height": 150 },
+				"effect/gg_skill_sfksbw/gg_skill_sfksbw_08": { "width": 450, "height": 150 },
+				"effect/gg_skill_sfksbw/gg_skill_sfksbw_10": { "width": 450, "height": 150 },
+				"effect/gg_skill_sfksbw/gg_skill_sfksbw_12": { "width": 450, "height": 150 },
+				"effect/gg_skill_sfksbw/gg_skill_sfksbw_14": { "width": 450, "height": 150 },
+				"effect/gg_skill_sfksbw/gg_skill_sfksbw_16": { "width": 450, "height": 150 },
+				"effect/gg_skill_sfksbw/gg_skill_sfksbw_18": { "width": 450, "height": 150 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill": {
+		"slots": {
+			"effect/gg_skill_sfksbw/gg_skill_sfksbw_00": {
+				"attachment": [
+					{ "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_02" },
+					{ "time": 0.0667, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_04" },
+					{ "time": 0.1333, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_06" },
+					{ "time": 0.2, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_08" },
+					{ "time": 0.2667, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_10" },
+					{ "time": 0.3333, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_12" },
+					{ "time": 0.4, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_14" },
+					{ "time": 0.4667, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_16" },
+					{ "time": 0.5333, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_18" },
+					{ "time": 0.6, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_02" },
+					{ "time": 0.6667, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_04" },
+					{ "time": 0.7333, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_06" },
+					{ "time": 0.8, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_08" },
+					{ "time": 0.8667, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_10" },
+					{ "time": 0.9333, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_12" },
+					{ "time": 1, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_14" },
+					{ "time": 1.0667, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_16" },
+					{ "time": 1.1333, "name": "effect/gg_skill_sfksbw/gg_skill_sfksbw_18" },
+					{ "time": 1.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"sfksbw": {
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

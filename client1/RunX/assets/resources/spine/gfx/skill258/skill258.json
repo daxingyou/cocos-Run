@@ -1,0 +1,66 @@
+{
+"skeleton": { "hash": "QrU4MdrwDIzC7p1nTpJ379FIaEM", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.29, "scaleY": 0.29 },
+	{ "name": "zi", "parent": "root", "x": 685.02, "y": 1012.39, "color": "0028ffff" }
+],
+"slots": [
+	{ "name": "zi", "bone": "zi" },
+	{ "name": "zi2", "bone": "zi", "color": "ffffff26", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"zi": {
+				"zi": { "x": 11.22, "y": -1.42, "width": 400, "height": 384 }
+			},
+			"zi2": {
+				"zi": { "x": 11.22, "y": -1.42, "width": 400, "height": 384 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill258": {
+		"slots": {
+			"zi": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "zi" }
+				]
+			},
+			"zi2": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffff26" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "zi" }
+				]
+			}
+		},
+		"bones": {
+			"zi": {
+				"translate": [
+					{ "x": -74.4, "y": -85.03, "curve": 0, "c3": 0.75 },
+					{ "time": 0.3333, "x": 459.54, "y": -95.66 }
+				],
+				"scale": [
+					{ "x": 0.489, "y": 0.489, "curve": 0, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.807, "y": 1.807 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "K" }
+		]
+	}
+}
+}

@@ -1,0 +1,65 @@
+{
+"skeleton": { "hash": "856y1H6slByr9UQNlw7TIZWRvug", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/土地" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.46, "scaleY": 0.46 },
+	{ "name": "taxi_atk4_dixiao_0002", "parent": "bone", "x": -6.36, "y": 27.07, "color": "fe00ffff" }
+],
+"slots": [
+	{ "name": "taxi_atk4_dixiao_0002", "bone": "taxi_atk4_dixiao_0002" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"taxi_atk4_dixiao_0002": {
+				"taxi_atk4_dixiao_0002": { "width": 449, "height": 174 },
+				"taxi_atk4_dixiao_0003": { "width": 449, "height": 174 },
+				"taxi_atk4_dixiao_0004": { "width": 449, "height": 174 },
+				"taxi_atk4_dixiao_0005": { "width": 449, "height": 174 },
+				"taxi_atk4_dixiao_0006": { "width": 449, "height": 174 },
+				"taxi_atk4_dixiao_0007": { "width": 449, "height": 174 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill97": {
+		"slots": {
+			"taxi_atk4_dixiao_0002": {
+				"attachment": [
+					{ "name": "taxi_atk4_dixiao_0002" },
+					{ "time": 0.0667, "name": "taxi_atk4_dixiao_0003" },
+					{ "time": 0.1333, "name": "taxi_atk4_dixiao_0004" },
+					{ "time": 0.2, "name": "taxi_atk4_dixiao_0005" },
+					{ "time": 0.2667, "name": "taxi_atk4_dixiao_0006" },
+					{ "time": 0.3333, "name": "taxi_atk4_dixiao_0007" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"taxi_atk4_dixiao_0002": {
+				"translate": [
+					{ "x": 13.89, "y": 60.67 }
+				],
+				"scale": [
+					{ "x": 1.496, "y": 1.496 },
+					{ "time": 0.1333, "x": 1.988, "y": 1.988 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 1.5 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.7667, "name": "k" }
+		]
+	}
+}
+}

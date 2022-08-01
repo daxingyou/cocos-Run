@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="1.1.3413" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
+ <tileset firstgid="1" source="../tiledImage/run_basic32.tsx"/>
+ <tileset firstgid="7" source="../tiledImage/run_stones.tsx"/>
+ <tileset firstgid="17" source="../tiledImage/run_chapter5.tsx"/>
+ <tileset firstgid="273" source="../tiledImage/run_item32.tsx"/>
+ <layer id="9" name="floor" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztl9dvFDEQxr30Iso/RXml80rngRc6D/QuWpAQJdTQe+899JbQew2d0DuE/lmJddbEc9697B530XzST5at9XnG48/WKSUSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolE2dVSsMzqrwSrwGqwxuqLao+KPH1RfmuLqvS1lvhYJKpUP5V674wvcl00Xu59ziWftwPtQQfQEXQCnUEX0DXBdYeDrWAb2A32gBFgJBiV4Lo1EY1Xq4h84+vXJulz7PLpWjANHAFHwSlwGkwHM0BBwnG1Aq1BG9DW8+0UMFXx8drvs1au+jgpuXy6FywEl8BlcAPcBIvAYrDE85v0zqF3j68f5Y6aDxakibfYkV9tVBSfngEbwEPwCDwHL8BGsAlsVikfz3Ss1Q10Bz1AT6vtBXqH6Ju2D+jL5GN8uw6sTxPvRUd+tq/z7b3mFMWnt8AB8AF8BN/Ad3AQHAKHVcrHRY61+oMBYCAYZLWDwZAQfdMOBcOYfIxv94H9aeItc+QXxdc0P1e+2VLU95TzaTn4parvVyk4Dy6o9D4eA8aCcWC81U4AE0P0TTsJTCY5Ut+eBedACfgCvlrx3tMTgtz1tevu8ykOn1Yod331ft0HD5Tbx5nEG1XUt7fBHXBX8fVN0tejmX5NFYdPuTpy42/AW/BOhfMxF+9ysEJl5gvq25fglUpf33zztVaSPqXjn8Bn8Bv8AX9Veh/74t0OdoCdYJfy/18tVLxvf4CfKrP6xuXrwqr8aPyzqvqzwRwwF8xj9sdWXO8pV0eu7s2wJ81Bi4D3seuc03iPgePgBDip/D7R8znfNkEsTYPM6huXr01+pm9L96mvfec8KZ/6xrV/TV05Hxcr/71yBVwF18B15feJns/5tib3c1y+NvnR+Ln6+c55XO9pJvU1deV87DrnNN7H4Al4Cp4pv0/0fOpb2sZZ36i+NvnR+Ln6+c55WJ9y923Ucbu+tK6mNT4uU/57xaxD95HziZ5PfZukf6P62uRH4+fq5zvn+j0tCVHfbNzPpjXj75X/XuHqy/mkXFX3q3l3s1lfbtzUo5Tkz9XPtw9J+dQ37rqfTWvGXec8an1d86lv/4d/ufGKqvVp/FyeAb6pA+qCeqA+aAAagkZBar/od0mP2/cz17YMwv8ezYurb+Mg5Vfa2v+PuN9LelzH99qqry/Pf5oMHmQ=
+  </data>
+ </layer>
+ <layer id="10" name="shade" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt18sOgjAQBVC0///P6oLENJSKhb44J+nCEM2dW2bhsgAAAAAAAAAAAAAAAMwvvM8jOs+mifaNlrelsPOsx85Gy1vT1nufk+ss/r3Sk8ufc9e9/qWblB46Gj3/mf7Z05yWHZXc7WqWvT6ji5QWncw2zxFX7GlOzU6uvNtVr3tdY/aUGh3MPt+3Fnuas9fBVt4je9Lybld7ecNy3jvQw6wpWzMeyVv6/do+eUP0Oafk/2APSvOONm9s9PsDuKsXCcsA1Q==
+  </data>
+ </layer>
+ <layer id="11" name="loot" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt10EKwCAMBEB9gv3/Yz16igUhVsvMxau4WYilAAAAAAAAAAAAADd56tc3AOAmrc5Pcr29vzzyZe1OJ2RrjvgLf5xBrzmVnq7Ta3bR032iXsuAiNkAAIBYBya0An4=
+  </data>
+ </layer>
+ <layer id="12" name="stones" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt0zENAAAIwDBu/AtGAgmQ8LTPFCwCAAAAAAAAAAAAAAAAAAAA5rIp8G/7pa8BgGsFh+0AUQ==
+  </data>
+ </layer>
+</map>

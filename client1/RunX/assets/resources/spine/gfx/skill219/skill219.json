@@ -1,0 +1,191 @@
+{
+"skeleton": { "hash": "6DT1KH+tmCqj/QsD3p7ApMRsWCw", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "rotation": 0.06, "scaleX": 0.4996, "scaleY": 0.4996 },
+	{ "name": "diqi0013", "parent": "root", "length": 101.1, "rotation": 89.38, "x": -1.12, "y": -12.77 },
+	{
+		"name": "face_00013",
+		"parent": "root",
+		"length": 91.62,
+		"rotation": 89.22,
+		"x": 781.04,
+		"y": 29.36,
+		"color": "0039ffff"
+	},
+	{
+		"name": "atk2_hou30013",
+		"parent": "root",
+		"length": 195.52,
+		"rotation": 91.48,
+		"x": 419.45,
+		"y": 7.46,
+		"color": "28ff00ff"
+	}
+],
+"slots": [
+	{ "name": "diqi0013", "bone": "diqi0013", "blend": "additive" },
+	{ "name": "face_00013", "bone": "face_00013" },
+	{ "name": "face_13", "bone": "face_00013", "blend": "additive" },
+	{ "name": "atk2_hou30013", "bone": "atk2_hou30013" },
+	{ "name": "atk2_hou30014", "bone": "atk2_hou30013", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"atk2_hou30013": {
+				"atk2_hou30001": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30003": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30005": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30007": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30009": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30011": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30013": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30014": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 }
+			},
+			"atk2_hou30014": {
+				"atk2_hou30001": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30003": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30005": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30007": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30009": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30011": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30013": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 },
+				"atk2_hou30014": { "x": 340.87, "y": -3.13, "rotation": -0.94, "width": 801, "height": 444 }
+			},
+			"diqi0013": {
+				"diqi0001": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0003": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0005": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0007": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0009": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0011": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0013": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0015": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0017": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 },
+				"diqi0019": { "x": 116.41, "y": -8.53, "rotation": -89.38, "width": 550, "height": 255 }
+			},
+			"face_00013": {
+				"face_00001": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00003": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00005": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00007": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00009": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00011": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00013": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00015": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00017": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00019": { "rotation": -89.22, "width": 330, "height": 413 }
+			},
+			"face_13": {
+				"face_00001": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00003": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00005": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00007": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00009": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00011": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00013": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00015": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00017": { "rotation": -89.22, "width": 330, "height": 413 },
+				"face_00019": { "rotation": -89.22, "width": 330, "height": 413 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill219": {
+		"slots": {
+			"atk2_hou30013": {
+				"attachment": [
+					{ "name": "atk2_hou30001" },
+					{ "time": 0.0333, "name": "atk2_hou30003" },
+					{ "time": 0.0667, "name": "atk2_hou30005" },
+					{ "time": 0.1, "name": "atk2_hou30007" },
+					{ "time": 0.1333, "name": "atk2_hou30009" },
+					{ "time": 0.1667, "name": "atk2_hou30011" },
+					{ "time": 0.2, "name": "atk2_hou30013" },
+					{ "time": 0.2333, "name": "atk2_hou30014" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"atk2_hou30014": {
+				"attachment": [
+					{ "name": "atk2_hou30001" },
+					{ "time": 0.0333, "name": "atk2_hou30003" },
+					{ "time": 0.0667, "name": "atk2_hou30005" },
+					{ "time": 0.1, "name": "atk2_hou30007" },
+					{ "time": 0.1333, "name": "atk2_hou30009" },
+					{ "time": 0.1667, "name": "atk2_hou30011" },
+					{ "time": 0.2, "name": "atk2_hou30013" },
+					{ "time": 0.2333, "name": "atk2_hou30014" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"face_00013": {
+				"attachment": [
+					{ "name": "face_00001" },
+					{ "time": 0.0333, "name": "face_00003" },
+					{ "time": 0.0667, "name": "face_00005" },
+					{ "time": 0.1, "name": "face_00007" },
+					{ "time": 0.1333, "name": "face_00009" },
+					{ "time": 0.1667, "name": "face_00011" },
+					{ "time": 0.2, "name": "face_00013" },
+					{ "time": 0.2333, "name": "face_00015" },
+					{ "time": 0.2667, "name": "face_00017" },
+					{ "time": 0.3, "name": "face_00019" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"face_13": {
+				"attachment": [
+					{ "name": "face_00001" },
+					{ "time": 0.0333, "name": "face_00003" },
+					{ "time": 0.0667, "name": "face_00005" },
+					{ "time": 0.1, "name": "face_00007" },
+					{ "time": 0.1333, "name": "face_00009" },
+					{ "time": 0.1667, "name": "face_00011" },
+					{ "time": 0.2, "name": "face_00013" },
+					{ "time": 0.2333, "name": "face_00015" },
+					{ "time": 0.2667, "name": "face_00017" },
+					{ "time": 0.3, "name": "face_00019" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"atk2_hou30013": {
+				"scale": [
+					{ "x": 1.878, "y": 1.878 }
+				],
+				"shear": [
+					{ "x": -23.16 }
+				]
+			},
+			"face_00013": {
+				"rotate": [
+					{ "angle": -23.31 }
+				],
+				"translate": [
+					{ "x": -283.99, "y": 150.73 }
+				],
+				"scale": [
+					{ "x": 2.17, "y": 2.17 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "face_13", "offset": 2 }
+				]
+			}
+		],
+		"events": [
+			{ "time": 0.6333, "name": "K" }
+		]
+	}
+}
+}

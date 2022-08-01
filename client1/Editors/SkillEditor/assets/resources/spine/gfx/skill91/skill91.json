@@ -1,0 +1,78 @@
+{
+"skeleton": { "hash": "ZE2o9GWhQe7ZWc0YfcbG7Pt3LN8", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/山神" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.28, "scaleY": 0.28 },
+	{ "name": "tx_qi", "parent": "bone", "length": 90.15, "rotation": -178.49, "x": -444.57, "y": 10.98 },
+	{
+		"name": "tx_qi2",
+		"parent": "bone",
+		"length": 90.15,
+		"rotation": -178.49,
+		"x": 263.53,
+		"y": -1.31,
+		"scaleX": -0.7
+	}
+],
+"slots": [
+	{ "name": "tx_qi", "bone": "tx_qi" },
+	{ "name": "tx_qi2", "bone": "tx_qi2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"tx_qi": {
+				"tx_qi": { "x": 76.47, "y": -25.63, "rotation": 178.49, "width": 150, "height": 86 }
+			},
+			"tx_qi2": {
+				"tx_qi": { "x": 76.47, "y": -25.63, "rotation": 178.49, "width": 150, "height": 86 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill91": {
+		"slots": {
+			"tx_qi": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "tx_qi" }
+				]
+			},
+			"tx_qi2": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "tx_qi" }
+				]
+			}
+		},
+		"bones": {
+			"tx_qi2": {
+				"translate": [
+					{ "time": 0.0667, "x": -136.4, "y": 17.29 }
+				],
+				"scale": [
+					{ "time": 0.0667, "curve": 0, "c3": 0.75 },
+					{ "time": 0.3333, "x": 12.687, "y": 7.55 }
+				]
+			},
+			"tx_qi": {
+				"translate": [
+					{ "time": 0.0667, "x": 181.68, "y": -1.92 }
+				],
+				"scale": [
+					{ "time": 0.0667, "curve": 0, "c3": 0.75 },
+					{ "time": 0.3333, "x": 8.821, "y": 6.896 }
+				]
+			}
+		}
+	}
+}
+}

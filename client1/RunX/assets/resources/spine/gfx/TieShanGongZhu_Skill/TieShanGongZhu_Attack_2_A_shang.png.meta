@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "23437d56-491a-43a8-ba5e-13d572b9b96e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1008,
+  "height": 804,
+  "platformSettings": {},
+  "subMetas": {
+    "TieShanGongZhu_Attack_2_A_shang": {
+      "ver": "1.0.6",
+      "uuid": "90e7fa2f-2bda-494b-be97-7d2184f5b075",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "23437d56-491a-43a8-ba5e-13d572b9b96e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1004,
+      "height": 800,
+      "rawWidth": 1008,
+      "rawHeight": 804,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "bc77de67-2a6a-4ba6-bc44-fdcafc1c1eca",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1005,
+  "height": 767,
+  "platformSettings": {},
+  "subMetas": {
+    "ZhenLun_Attack_2_A_shang": {
+      "ver": "1.0.6",
+      "uuid": "a55f6546-6ddc-40c3-b85a-01b792142d0b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "bc77de67-2a6a-4ba6-bc44-fdcafc1c1eca",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1001,
+      "height": 763,
+      "rawWidth": 1005,
+      "rawHeight": 767,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

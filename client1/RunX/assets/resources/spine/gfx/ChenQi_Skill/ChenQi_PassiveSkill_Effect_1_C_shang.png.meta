@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a5b43f28-f027-4404-87bf-fb6f25c5be84",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 663,
+  "height": 512,
+  "platformSettings": {},
+  "subMetas": {
+    "ChenQi_PassiveSkill_Effect_1_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "b4d76c13-25e1-4a9f-be1e-b54d00cf036f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a5b43f28-f027-4404-87bf-fb6f25c5be84",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 659,
+      "height": 508,
+      "rawWidth": 663,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

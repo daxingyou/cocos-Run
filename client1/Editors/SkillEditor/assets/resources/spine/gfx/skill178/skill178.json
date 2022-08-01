@@ -1,0 +1,68 @@
+{
+"skeleton": { "hash": "xsq+15zjCs2YTbXNlfpWlIDv6DM", "spine": "3.8.99", "images": "./images/", "audio": "F:/8.2跑酷外包/第二批23人物动特10个排完号/乌巢法师" },
+"bones": [
+	{ "name": "root", "scaleX": 0.39, "scaleY": 0.39 },
+	{ "name": "weapon4", "parent": "root", "x": -343.06, "y": 110.17, "color": "e700f4ff" },
+	{
+		"name": "xuan0004",
+		"parent": "weapon4",
+		"x": 5.02,
+		"y": -2.1,
+		"scaleX": 0.5794,
+		"scaleY": 0.6512,
+		"shearX": -26.69,
+		"shearY": 2.72,
+		"color": "e700f4ff"
+	}
+],
+"slots": [
+	{ "name": "weapon4", "bone": "weapon4" },
+	{ "name": "xuan0004", "bone": "xuan0004", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"weapon4": {
+				"weapon2": { "x": -0.59, "y": -1.83, "width": 83, "height": 81 }
+			},
+			"xuan0004": {
+				"xuan0001": { "width": 289, "height": 228 },
+				"xuan0003": { "width": 289, "height": 228 },
+				"xuan0004": { "width": 289, "height": 228 },
+				"xuan0006": { "width": 289, "height": 228 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill178": {
+		"slots": {
+			"weapon4": {
+				"color": [
+					{ "time": 0.0667, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "weapon2" }
+				]
+			}
+		},
+		"bones": {
+			"weapon4": {
+				"translate": [
+					{ "x": 976.66, "y": 423.51, "curve": 0, "c3": 0.75 },
+					{ "time": 0.2, "x": 2653.28, "y": 423.51 }
+				],
+				"scale": [
+					{ "curve": 0, "c3": 0.75 },
+					{ "time": 0.2, "x": 3.633, "y": 3.633 }
+				]
+			}
+		}
+	}
+}
+}

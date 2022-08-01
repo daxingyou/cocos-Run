@@ -1,0 +1,134 @@
+{
+"skeleton": { "hash": "Eu5jSQy3jYcrR1RiW9ZnCkcG528", "spine": "3.8.99", "images": "./images/", "audio": "D:/beifen/TB4/西游第三批/太白金星" },
+"bones": [
+	{ "name": "root", "scaleX": 0.413, "scaleY": 0.413 },
+	{ "name": "baodian2_3", "parent": "root", "x": 642.28, "y": 94.88 }
+],
+"slots": [
+	{ "name": "baodian2_3", "bone": "baodian2_3", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"baodian2_3": {
+				"baodian2_0": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 100, -100, -100, -100, -100, 100, 100, 100 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 200,
+					"height": 200
+				},
+				"baodian2_1": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 100, -100, -100, -100, -100, 100, 100, 100 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 200,
+					"height": 200
+				},
+				"baodian2_2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 100, -100, -100, -100, -100, 100, 100, 100 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 200,
+					"height": 200
+				},
+				"baodian2_3": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 100, -100, -100, -100, -100, 100, 100, 100 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 200,
+					"height": 200
+				},
+				"baodian2_4": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 100, -100, -100, -100, -100, 100, 100, 100 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 200,
+					"height": 200
+				},
+				"baodian2_5": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 100, -100, -100, -100, -100, 100, 100, 100 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 200,
+					"height": 200
+				},
+				"baodian2_6": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 100, -100, -100, -100, -100, 100, 100, 100 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 200,
+					"height": 200
+				},
+				"baodian2_7": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 100, -100, -100, -100, -100, 100, 100, 100 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 200,
+					"height": 200
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill456": {
+		"slots": {
+			"baodian2_3": {
+				"attachment": [
+					{ "name": "baodian2_0" },
+					{ "time": 0.0667, "name": "baodian2_1" },
+					{ "time": 0.1, "name": "baodian2_2" },
+					{ "time": 0.1667, "name": "baodian2_3" },
+					{ "time": 0.2, "name": "baodian2_4" },
+					{ "time": 0.2333, "name": "baodian2_5" },
+					{ "time": 0.2667, "name": "baodian2_6" },
+					{ "time": 0.3, "name": "baodian2_7" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"baodian2_3": {
+				"translate": [
+					{ "x": 406.18, "y": 430.07 }
+				],
+				"scale": [
+					{ "x": 5.422, "y": 5.422 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.9032, "name": "K" }
+		]
+	}
+}
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "aa614e62-1575-41ae-a527-b642b6e2c937",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 63,
+  "height": 240,
+  "platformSettings": {},
+  "subMetas": {
+    "hero_name_TangXuanZang": {
+      "ver": "1.0.6",
+      "uuid": "1f10e8a4-eaa5-4606-a13d-42b8607046b0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "aa614e62-1575-41ae-a527-b642b6e2c937",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 31.5,
+      "trimX": 5,
+      "trimY": 0,
+      "width": 52,
+      "height": 177,
+      "rawWidth": 63,
+      "rawHeight": 240,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

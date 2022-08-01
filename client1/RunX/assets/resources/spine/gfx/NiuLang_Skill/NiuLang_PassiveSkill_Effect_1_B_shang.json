@@ -1,0 +1,84 @@
+{
+"skeleton": { "hash": "CYuXCuSjl1/9o0aVVfPw5mqPeso", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "buff_gj", "parent": "root" }
+],
+"slots": [
+	{ "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00028", "bone": "buff_gj" },
+	{ "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_28", "bone": "buff_gj", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00028": {
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00028": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00030": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00032": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00034": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00036": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00038": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00040": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00042": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00044": { "width": 818, "height": 320 }
+			},
+			"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_28": {
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00028": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00030": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00032": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00034": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00036": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00038": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00040": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00042": { "width": 818, "height": 320 },
+				"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00044": { "width": 818, "height": 320 }
+			}
+		}
+	}
+],
+"animations": {
+	"NiuLang_PassiveSkill_Effect_1": {
+		"slots": {
+			"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00028": {
+				"attachment": [
+					{ "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00028" },
+					{ "time": 0.0667, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00030" },
+					{ "time": 0.1333, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00032" },
+					{ "time": 0.2, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00034" },
+					{ "time": 0.2667, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00036" },
+					{ "time": 0.3333, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00038" },
+					{ "time": 0.4, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00040" },
+					{ "time": 0.4667, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00042" },
+					{ "time": 0.5333, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00044" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_28": {
+				"attachment": [
+					{ "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00028" },
+					{ "time": 0.0667, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00030" },
+					{ "time": 0.1333, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00032" },
+					{ "time": 0.2, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00034" },
+					{ "time": 0.2667, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00036" },
+					{ "time": 0.3333, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00038" },
+					{ "time": 0.4, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00040" },
+					{ "time": 0.4667, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00042" },
+					{ "time": 0.5333, "name": "NiuLang_PassiveSkill_Effect_1/buff_gj/buff_gj_00044" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"buff_gj": {
+				"translate": [
+					{ "x": 205.24, "y": 142.89 }
+				],
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

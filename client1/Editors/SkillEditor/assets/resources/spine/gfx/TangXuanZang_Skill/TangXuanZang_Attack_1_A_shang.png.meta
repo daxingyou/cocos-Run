@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0b4d100e-fc35-4db5-9462-225d1b6c2ac2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 372,
+  "height": 733,
+  "platformSettings": {},
+  "subMetas": {
+    "TangXuanZang_Attack_1_A_shang": {
+      "ver": "1.0.6",
+      "uuid": "d250e5d3-d3f7-4a84-b5f8-7bead1826747",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0b4d100e-fc35-4db5-9462-225d1b6c2ac2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 368,
+      "height": 729,
+      "rawWidth": 372,
+      "rawHeight": 733,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

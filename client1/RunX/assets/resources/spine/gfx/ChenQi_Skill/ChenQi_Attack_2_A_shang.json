@@ -1,0 +1,46 @@
+{
+"skeleton": { "hash": "9e458Ttw5iG5mRA3GNWNz6e8Lf0", "spine": "3.8.99", "images": "", "audio": "G:/特效世界/外包/陈奇郑伦/chenqi_spine/chenqi_attack02" },
+"bones": [
+	{ "name": "ChenQi_Attack_2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "ChenQi_Attack_2_A_shang", "parent": "ChenQi_Attack_2" }
+],
+"slots": [
+	{ "name": "ChenQi_Attack_2_A_shang", "bone": "ChenQi_Attack_2_A_shang" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ChenQi_Attack_2_A_shang": {
+				"images/cq_attack02_dg_00": { "width": 360, "height": 360 },
+				"images/cq_attack02_dg_01": { "width": 360, "height": 360 },
+				"images/cq_attack02_dg_02": { "width": 360, "height": 360 },
+				"images/cq_attack02_dg_03": { "width": 360, "height": 360 },
+				"images/cq_attack02_dg_04": { "width": 360, "height": 360 },
+				"images/cq_attack02_dg_05": { "width": 360, "height": 360 }
+			}
+		}
+	}
+],
+"animations": {
+	"ChenQi_Attack_2_A_shang": {
+		"slots": {
+			"ChenQi_Attack_2_A_shang": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "images/cq_attack02_dg_00" },
+					{ "time": 0.0333, "name": "images/cq_attack02_dg_01" },
+					{ "time": 0.0667, "name": "images/cq_attack02_dg_02" },
+					{ "time": 0.1, "name": "images/cq_attack02_dg_03" },
+					{ "time": 0.1333, "name": "images/cq_attack02_dg_04" },
+					{ "time": 0.1667, "name": "images/cq_attack02_dg_05" },
+					{ "time": 0.2667, "name": null }
+				]
+			}
+		}
+	}
+}
+}

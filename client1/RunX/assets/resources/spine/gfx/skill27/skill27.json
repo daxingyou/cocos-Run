@@ -1,0 +1,58 @@
+{
+"skeleton": { "hash": "Ruitb/x2kLC/9j2vh64U1Y7ZDV4", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/伏羲" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.462, "scaleY": 0.462 },
+	{ "name": "yanwu0002", "parent": "bone", "length": 116.09, "rotation": 179.1, "x": -209.12, "y": -87.09 },
+	{ "name": "bone2", "parent": "bone", "x": 111.12, "y": -425.27 }
+],
+"slots": [
+	{ "name": "yanwu0002", "bone": "yanwu0002" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yanwu0002": {
+				"yanwu0001": { "x": 236.46, "y": -39.24, "rotation": -179.1, "width": 500, "height": 199 },
+				"yanwu0002": { "x": 236.46, "y": -39.24, "rotation": -179.1, "width": 500, "height": 199 },
+				"yanwu0003": { "x": 236.46, "y": -39.24, "rotation": -179.1, "width": 500, "height": 199 },
+				"yanwu0004": { "x": 236.46, "y": -39.24, "rotation": -179.1, "width": 500, "height": 199 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill27": {
+		"slots": {
+			"yanwu0002": {
+				"attachment": [
+					{ "name": "yanwu0001" },
+					{ "time": 0.0333, "name": "yanwu0002" },
+					{ "time": 0.0667, "name": "yanwu0003" },
+					{ "time": 0.1, "name": "yanwu0004" },
+					{ "time": 0.1333, "name": "yanwu0001" },
+					{ "time": 0.1667, "name": "yanwu0002" },
+					{ "time": 0.2, "name": "yanwu0003" },
+					{ "time": 0.2333, "name": "yanwu0004" },
+					{ "time": 0.2667, "name": "yanwu0001" },
+					{ "time": 0.3, "name": "yanwu0002" },
+					{ "time": 0.3333, "name": "yanwu0003" },
+					{ "time": 0.3667, "name": "yanwu0004" },
+					{ "time": 0.4, "name": "yanwu0001" }
+				]
+			}
+		},
+		"bones": {
+			"yanwu0002": {
+				"translate": [
+					{ "x": 268.03, "y": 92.27 }
+				],
+				"scale": [
+					{ "x": 1.908, "y": 3.098 }
+				]
+			}
+		}
+	}
+}
+}

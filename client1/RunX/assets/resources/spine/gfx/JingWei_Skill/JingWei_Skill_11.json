@@ -1,0 +1,168 @@
+{
+"skeleton": { "hash": "cdueSbjOerBP6lnRLFfUtqzqdnM", "spine": "3.8.99", "images": "./atk1/images/", "audio": "F:/7.29/跑酷项目-动作特效10个/精卫/atk1" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone2", "parent": "root", "scaleX": 0.483, "scaleY": 0.483 },
+	{
+		"name": "bone",
+		"parent": "bone2",
+		"x": -27.19,
+		"y": -82.81,
+		"scaleX": 2.4179,
+		"scaleY": 2.4179,
+		"color": "ff1100ff"
+	},
+	{
+		"name": "Aeolus_tx_1",
+		"parent": "bone",
+		"x": 147.54,
+		"y": 61.84,
+		"scaleX": 3.7381,
+		"scaleY": 3.7381,
+		"color": "9b9400ff"
+	},
+	{
+		"name": "Aeolus_tx_2",
+		"parent": "bone",
+		"x": -95.27,
+		"y": 61.84,
+		"scaleX": -3.74,
+		"scaleY": 3.7381,
+		"color": "9b9400ff"
+	},
+	{ "name": "Aeolus_ult_1", "parent": "bone", "x": 17.39, "y": 313.07, "scaleX": 2.9294, "scaleY": 2.9294 }
+],
+"slots": [
+	{ "name": "Aeolus_ult_1", "bone": "Aeolus_ult_1" },
+	{ "name": "Aeolus_tx_1", "bone": "Aeolus_tx_1" },
+	{ "name": "Aeolus_tx_2", "bone": "Aeolus_tx_2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Aeolus_tx_1": {
+				"Aeolus_tx_1": { "scaleX": 0.5969, "scaleY": 0.5969, "width": 60, "height": 50 },
+				"Aeolus_tx_2": { "scaleX": 0.5969, "scaleY": 0.5969, "width": 60, "height": 50 },
+				"Aeolus_tx_3": { "scaleX": 0.5969, "scaleY": 0.5969, "width": 60, "height": 50 },
+				"Aeolus_tx_4": { "scaleX": 0.5969, "scaleY": 0.5969, "width": 60, "height": 50 }
+			},
+			"Aeolus_tx_2": {
+				"Aeolus_tx_1": { "scaleX": 0.5969, "scaleY": 0.5969, "width": 60, "height": 50 },
+				"Aeolus_tx_2": { "scaleX": 0.5969, "scaleY": 0.5969, "width": 60, "height": 50 },
+				"Aeolus_tx_3": { "scaleX": 0.5969, "scaleY": 0.5969, "width": 60, "height": 50 },
+				"Aeolus_tx_4": { "scaleX": 0.5969, "scaleY": 0.5969, "width": 60, "height": 50 }
+			},
+			"Aeolus_ult_1": {
+				"Aeolus_ult_1": { "width": 200, "height": 200 },
+				"Aeolus_ult_2": { "width": 200, "height": 200 },
+				"Aeolus_ult_3": { "width": 200, "height": 200 },
+				"Aeolus_ult_4": { "width": 200, "height": 200 }
+			}
+		}
+	}
+],
+"animations": {
+	"JingWei_Skill_11": {
+		"slots": {
+			"Aeolus_tx_1": {
+				"attachment": [
+					{ "name": "Aeolus_tx_1" },
+					{ "time": 0.0667, "name": "Aeolus_tx_2" },
+					{ "time": 0.1333, "name": "Aeolus_tx_3" },
+					{ "time": 0.2, "name": "Aeolus_tx_4" },
+					{ "time": 0.2667, "name": "Aeolus_tx_1" },
+					{ "time": 0.3333, "name": "Aeolus_tx_2" },
+					{ "time": 0.4, "name": "Aeolus_tx_3" },
+					{ "time": 0.4667, "name": "Aeolus_tx_4" },
+					{ "time": 0.5333, "name": "Aeolus_tx_1" },
+					{ "time": 0.6, "name": "Aeolus_tx_2" },
+					{ "time": 0.6667, "name": "Aeolus_tx_3" },
+					{ "time": 0.7333, "name": "Aeolus_tx_4" },
+					{ "time": 0.8, "name": "Aeolus_tx_1" },
+					{ "time": 0.8667, "name": "Aeolus_tx_2" },
+					{ "time": 0.9333, "name": "Aeolus_tx_3" },
+					{ "time": 1, "name": "Aeolus_tx_4" },
+					{ "time": 1.0667, "name": "Aeolus_tx_1" },
+					{ "time": 1.1333, "name": "Aeolus_tx_2" },
+					{ "time": 1.2, "name": "Aeolus_tx_3" },
+					{ "time": 1.2667, "name": "Aeolus_tx_4" },
+					{ "time": 1.3333, "name": "Aeolus_tx_1" },
+					{ "time": 1.4, "name": "Aeolus_tx_2" },
+					{ "time": 1.4667, "name": "Aeolus_tx_3" },
+					{ "time": 1.5333, "name": "Aeolus_tx_4" },
+					{ "time": 1.6, "name": "Aeolus_tx_1" }
+				]
+			},
+			"Aeolus_tx_2": {
+				"attachment": [
+					{ "name": "Aeolus_tx_1" },
+					{ "time": 0.0667, "name": "Aeolus_tx_2" },
+					{ "time": 0.1333, "name": "Aeolus_tx_3" },
+					{ "time": 0.2, "name": "Aeolus_tx_4" },
+					{ "time": 0.2667, "name": "Aeolus_tx_1" },
+					{ "time": 0.3333, "name": "Aeolus_tx_2" },
+					{ "time": 0.4, "name": "Aeolus_tx_3" },
+					{ "time": 0.4667, "name": "Aeolus_tx_4" },
+					{ "time": 0.5333, "name": "Aeolus_tx_1" },
+					{ "time": 0.6, "name": "Aeolus_tx_2" },
+					{ "time": 0.6667, "name": "Aeolus_tx_3" },
+					{ "time": 0.7333, "name": "Aeolus_tx_4" },
+					{ "time": 0.8, "name": "Aeolus_tx_1" },
+					{ "time": 0.8667, "name": "Aeolus_tx_2" },
+					{ "time": 0.9333, "name": "Aeolus_tx_3" },
+					{ "time": 1, "name": "Aeolus_tx_4" },
+					{ "time": 1.0667, "name": "Aeolus_tx_1" },
+					{ "time": 1.1333, "name": "Aeolus_tx_2" },
+					{ "time": 1.2, "name": "Aeolus_tx_3" },
+					{ "time": 1.2667, "name": "Aeolus_tx_4" },
+					{ "time": 1.3333, "name": "Aeolus_tx_1" },
+					{ "time": 1.4, "name": "Aeolus_tx_2" },
+					{ "time": 1.4667, "name": "Aeolus_tx_3" },
+					{ "time": 1.5333, "name": "Aeolus_tx_4" },
+					{ "time": 1.6, "name": "Aeolus_tx_1" }
+				]
+			},
+			"Aeolus_ult_1": {
+				"attachment": [
+					{ "name": "Aeolus_ult_1" },
+					{ "time": 0.0667, "name": "Aeolus_ult_2" },
+					{ "time": 0.1333, "name": "Aeolus_ult_3" },
+					{ "time": 0.2, "name": "Aeolus_ult_4" },
+					{ "time": 0.2667, "name": "Aeolus_ult_1" },
+					{ "time": 0.3333, "name": "Aeolus_ult_2" },
+					{ "time": 0.4, "name": "Aeolus_ult_3" },
+					{ "time": 0.4667, "name": "Aeolus_ult_4" },
+					{ "time": 0.5333, "name": "Aeolus_ult_1" },
+					{ "time": 0.6, "name": "Aeolus_ult_2" },
+					{ "time": 0.6667, "name": "Aeolus_ult_3" },
+					{ "time": 0.7333, "name": "Aeolus_ult_4" },
+					{ "time": 0.8, "name": "Aeolus_ult_1" },
+					{ "time": 0.8667, "name": "Aeolus_ult_2" },
+					{ "time": 0.9333, "name": "Aeolus_ult_3" },
+					{ "time": 1, "name": "Aeolus_ult_4" },
+					{ "time": 1.0667, "name": "Aeolus_ult_1" },
+					{ "time": 1.1333, "name": "Aeolus_ult_2" },
+					{ "time": 1.2, "name": "Aeolus_ult_3" },
+					{ "time": 1.2667, "name": "Aeolus_ult_4" },
+					{ "time": 1.3333, "name": "Aeolus_ult_1" },
+					{ "time": 1.4, "name": "Aeolus_ult_2" },
+					{ "time": 1.4667, "name": "Aeolus_ult_3" },
+					{ "time": 1.5333, "name": "Aeolus_ult_4" },
+					{ "time": 1.6, "name": "Aeolus_ult_1" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "x": -32.49, "y": 26.21 }
+				],
+				"scale": [
+					{ "x": 0.693, "y": 0.693 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,254 @@
+{
+"skeleton": { "hash": "fW/gZLzUNe45jzw4yrFq6zOzfDQ", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4167, "scaleY": 0.4167 },
+	{ "name": "bone11", "parent": "root", "x": 1561.05, "y": 375.28, "color": "0017ffff" },
+	{
+		"name": "10001",
+		"parent": "bone11",
+		"length": 210.37,
+		"rotation": -180,
+		"x": -893.99,
+		"y": -292.19,
+		"color": "2c4becff"
+	},
+	{
+		"name": "10002",
+		"parent": "bone11",
+		"length": 210.37,
+		"rotation": -180,
+		"x": -889.01,
+		"y": -156.38,
+		"color": "2c4becff"
+	},
+	{
+		"name": "10003",
+		"parent": "bone11",
+		"length": 210.37,
+		"rotation": -1.13,
+		"x": -799.69,
+		"y": -148.4,
+		"color": "2c4becff"
+	},
+	{
+		"name": "10004",
+		"parent": "bone11",
+		"length": 210.37,
+		"rotation": -1.13,
+		"x": -799.69,
+		"y": -272.81,
+		"color": "2c4becff"
+	},
+	{ "name": "baofaguang0010", "parent": "root", "x": 677.14, "y": -109.14, "color": "ff5c00ff" }
+],
+"slots": [
+	{ "name": "10001", "bone": "10001", "blend": "additive" },
+	{ "name": "10002", "bone": "10002", "blend": "additive" },
+	{ "name": "10003", "bone": "10003", "blend": "additive" },
+	{ "name": "10004", "bone": "10004", "blend": "additive" },
+	{ "name": "baofaguang0010", "bone": "baofaguang0010", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"10001": {
+				"10001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -28.65, 43.4, 371.35, 43.4, 371.35, -56.6, -28.65, -56.6 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 400,
+					"height": 100
+				}
+			},
+			"10002": {
+				"10001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -28.65, 43.4, 371.35, 43.4, 371.35, -56.6, -28.65, -56.6 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 400,
+					"height": 100
+				}
+			},
+			"10003": {
+				"10001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -28.65, 43.4, 371.35, 43.4, 371.35, -56.6, -28.65, -56.6 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 400,
+					"height": 100
+				}
+			},
+			"10004": {
+				"10001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -28.65, 43.4, 371.35, 43.4, 371.35, -56.6, -28.65, -56.6 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 400,
+					"height": 100
+				}
+			},
+			"baofaguang0010": {
+				"baofaguang0009": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 508.5, -493, -508.5, -493, -508.5, 493, 508.5, 493 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1017,
+					"height": 986
+				},
+				"baofaguang0011": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 508.5, -493, -508.5, -493, -508.5, 493, 508.5, 493 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1017,
+					"height": 986
+				},
+				"baofaguang0013": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 508.5, -493, -508.5, -493, -508.5, 493, 508.5, 493 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1017,
+					"height": 986
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill446": {
+		"slots": {
+			"10001": {
+				"attachment": [
+					{ "name": "10001" },
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"10002": {
+				"attachment": [
+					{ "name": "10001" },
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"10003": {
+				"attachment": [
+					{ "name": "10001" },
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"10004": {
+				"attachment": [
+					{ "name": "10001" },
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"baofaguang0010": {
+				"attachment": [
+					{ "time": 0.0667, "name": "baofaguang0009" },
+					{ "time": 0.1333, "name": "baofaguang0011" },
+					{ "time": 0.2, "name": "baofaguang0013" },
+					{ "time": 0.2667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"10001": {
+				"rotate": [
+					{ "angle": 24.49 }
+				],
+				"translate": [
+					{ "x": 554.42, "y": 165.56 },
+					{ "time": 0.1333, "x": 2097.12, "y": 983.83 }
+				],
+				"scale": [
+					{ "x": 4.423, "y": 2.668 }
+				]
+			},
+			"10003": {
+				"rotate": [
+					{ "angle": 23.38 }
+				],
+				"translate": [
+					{ "x": 1085, "y": 495.38 },
+					{ "time": 0.1333, "x": 409.97, "y": 144.25 }
+				],
+				"scale": [
+					{ "x": 4.009, "y": 2.418 }
+				]
+			},
+			"10002": {
+				"rotate": [
+					{ "angle": 335.95 },
+					{ "time": 0.1333, "angle": 332.49 }
+				],
+				"translate": [
+					{ "x": 418.19, "y": 534.81 },
+					{ "time": 0.1333, "x": 1157.04, "y": 153.45 }
+				],
+				"scale": [
+					{ "x": 4.227, "y": 2.55 }
+				]
+			},
+			"10004": {
+				"rotate": [
+					{ "angle": -25.71 }
+				],
+				"translate": [
+					{ "x": 1142.36, "y": 154.8 },
+					{ "time": 0.1333, "x": 518.21, "y": 545.7 }
+				],
+				"scale": [
+					{ "x": 6.313, "y": 3.808 }
+				]
+			},
+			"bone11": {
+				"scale": [
+					{ "x": 1.044, "y": 0.428 }
+				]
+			},
+			"baofaguang0010": {
+				"translate": [
+					{ "time": 0.0667, "x": 828.18, "y": 545.26 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 1.463, "y": 1.463 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.0333,
+				"offsets": [
+					{ "slot": "10001", "offset": 1 }
+				]
+			}
+		],
+		"events": [
+			{ "time": 0.3, "name": "K" }
+		]
+	}
+}
+}

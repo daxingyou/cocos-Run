@@ -1,0 +1,102 @@
+{
+"skeleton": { "hash": "1iZq9VmLpuHGADXamYL7J1x3W2s", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4694, "scaleY": 0.4694 },
+	{ "name": "fire4_00015", "parent": "root", "length": 351.18, "rotation": -178.16, "x": 805.57, "y": 152.65 }
+],
+"slots": [
+	{ "name": "fire4_00015", "bone": "fire4_00015" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fire4_00015": {
+				"fire4_00001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -176.57, 385.5, 623.02, 359.87, 597.39, -439.72, -202.19, -414.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 800,
+					"height": 800
+				},
+				"fire4_00005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -176.57, 385.5, 623.02, 359.87, 597.39, -439.72, -202.19, -414.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 800,
+					"height": 800
+				},
+				"fire4_00010": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -176.57, 385.5, 623.02, 359.87, 597.39, -439.72, -202.19, -414.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 800,
+					"height": 800
+				},
+				"fire4_00015": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -176.57, 385.5, 623.02, 359.87, 597.39, -439.72, -202.19, -414.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 800,
+					"height": 800
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill478": {
+		"slots": {
+			"fire4_00015": {
+				"color": [
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "fire4_00001" },
+					{ "time": 0.0667, "name": "fire4_00005" },
+					{ "time": 0.1333, "name": "fire4_00010" },
+					{ "time": 0.2, "name": "fire4_00015" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"fire4_00015": {
+				"rotate": [
+					{ "angle": 106.72 },
+					{ "time": 0.1667, "angle": 79.85 }
+				],
+				"translate": [
+					{ "x": -1234.15, "y": 607.79 },
+					{ "time": 0.1667, "x": -1080.59, "y": 780.16 }
+				],
+				"scale": [
+					{ "x": 2.336, "y": -2.336 }
+				],
+				"shear": [
+					{ "x": 32.42 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4667, "name": "K" }
+		]
+	}
+}
+}

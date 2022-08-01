@@ -1,0 +1,90 @@
+{
+"skeleton": { "hash": "TLWq5OZMpoZLgzkCxIBZKFyCXnY", "spine": "3.8.99", "images": "./images/", "audio": "D:/beifen/TB4/西游第三批/夸父" },
+"bones": [
+	{ "name": "root", "scaleX": 0.5266, "scaleY": 0.5266 },
+	{
+		"name": "b2",
+		"parent": "root",
+		"length": 36.26,
+		"rotation": 180,
+		"x": -428.88,
+		"y": 45.9,
+		"color": "ff7500ff"
+	}
+],
+"slots": [
+	{ "name": "b2", "bone": "b2", "color": "f07efbff", "dark": "683c73" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"b2": {
+				"b1": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -28, 62, 28, 62, 28, -62, -28, -62 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 56,
+					"height": 124
+				},
+				"b2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -28, 64, 27, 64, 27, -64, -28, -64 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 55,
+					"height": 128
+				},
+				"b3": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -27, 63, 26, 63, 26, -63, -27, -63 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 53,
+					"height": 126
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill443": {
+		"slots": {
+			"b2": {
+				"attachment": [
+					{ "name": "b1" },
+					{ "time": 0.0667, "name": "b2" },
+					{ "time": 0.1, "name": "b3" },
+					{ "time": 0.1667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"b2": {
+				"rotate": [
+					{ "angle": -171.35 }
+				],
+				"translate": [
+					{ "x": 1028.43, "y": 421.23 }
+				],
+				"scale": [
+					{ "x": 7.367, "y": 4.279 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.7, "name": "K" }
+		]
+	}
+}
+}

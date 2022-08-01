@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "bbea1589-fe7d-41dd-9ae8-211e5d0878e2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 810,
+  "height": 168,
+  "platformSettings": {},
+  "subMetas": {
+    "WangMuNiangNiang_ActiveSkill_Effect_1_A_shang": {
+      "ver": "1.0.6",
+      "uuid": "e3ef02a4-bb1b-4b27-bc23-ddbd98947e8e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "bbea1589-fe7d-41dd-9ae8-211e5d0878e2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1,
+      "trimX": 2,
+      "trimY": 4,
+      "width": 806,
+      "height": 162,
+      "rawWidth": 810,
+      "rawHeight": 168,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

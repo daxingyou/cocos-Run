@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7e720e42-186f-4236-bb2a-37f87b6f9574",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 63,
+  "height": 240,
+  "platformSettings": {},
+  "subMetas": {
+    "hero_name_YouLaiYouQu": {
+      "ver": "1.0.6",
+      "uuid": "2dbdf8e6-3344-421f-8477-2c6bd5793739",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7e720e42-186f-4236-bb2a-37f87b6f9574",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 3,
+      "trimX": 10,
+      "trimY": 0,
+      "width": 43,
+      "height": 234,
+      "rawWidth": 63,
+      "rawHeight": 240,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

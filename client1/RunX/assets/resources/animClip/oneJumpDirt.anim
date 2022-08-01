@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "oneJumpDirt",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.1,
+  "sample": 60,
+  "speed": 0.2,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b3d4bf72-9ae8-49ec-8e72-a097a220d0e2"
+            }
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "6b259524-f584-429a-9c4c-65de54951e06"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "358afb63-0f3d-4e1e-b985-8053278d46e4"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "57a4f22d-ff86-4c9f-9284-a6b96dd26325"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "4fe4c1f9-727d-49ed-9e9d-d44952234548"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "02afd150-badf-4afc-aa6d-5f0a56684ebc"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

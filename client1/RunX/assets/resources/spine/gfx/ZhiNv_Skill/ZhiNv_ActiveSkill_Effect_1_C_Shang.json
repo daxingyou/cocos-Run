@@ -1,0 +1,210 @@
+{
+"skeleton": { "hash": "JNzPXEQ6cMda+6DMzAzqFpEFf0c", "spine": "3.8.99", "images": "./images/", "audio": "H:/波波外包/new/织女/Spine" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "release", "parent": "root" },
+	{ "name": "bigbird_hit", "parent": "release" },
+	{ "name": "bird_path", "parent": "bigbird_hit" },
+	{ "name": "big_bird", "parent": "bigbird_hit", "scaleX": 4, "scaleY": 4 },
+	{ "name": "bird_path2", "parent": "bigbird_hit" },
+	{ "name": "bird_path3", "parent": "bigbird_hit" },
+	{ "name": "lizi6", "parent": "bigbird_hit", "scaleX": 2, "scaleY": 2 },
+	{ "name": "bighit", "parent": "bigbird_hit", "scaleX": 4, "scaleY": 4 }
+],
+"slots": [
+	{ "name": "lizi11", "bone": "lizi6", "blend": "additive" },
+	{ "name": "lizi12", "bone": "lizi6", "blend": "additive" },
+	{ "name": "big_bird", "bone": "big_bird", "blend": "additive" },
+	{ "name": "bird_path", "bone": "bird_path", "blend": "additive" },
+	{ "name": "bird_path2", "bone": "bird_path2", "blend": "additive" },
+	{ "name": "bird_path3", "bone": "bird_path3", "blend": "additive" },
+	{ "name": "bighit", "bone": "bighit" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"big_bird": {
+				"ZhiNv_ActiveSkill_Effect_1/big_bird_0060": { "width": 500, "height": 500 }
+			},
+			"bighit": {
+				"ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0063": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0065": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0067": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0069": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0071": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0073": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0075": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0077": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0079": { "width": 500, "height": 500 }
+			},
+			"bird_path": {
+				"ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0060": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0062": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0064": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0066": { "width": 500, "height": 500 }
+			},
+			"bird_path2": {
+				"ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0060": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0062": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0064": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0066": { "width": 500, "height": 500 }
+			},
+			"bird_path3": {
+				"ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0060": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0062": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0064": { "width": 500, "height": 500 },
+				"ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0066": { "width": 500, "height": 500 }
+			},
+			"lizi11": {
+				"ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0007": { "width": 500, "height": 500 }
+			},
+			"lizi12": {
+				"ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0007": {
+					"x": -80.67,
+					"y": 1.81,
+					"scaleX": -1,
+					"scaleY": -1,
+					"rotation": 19.37,
+					"width": 500,
+					"height": 500
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"Release": {
+		"slots": {
+			"big_bird": {
+				"attachment": [
+					{ "name": "ZhiNv_ActiveSkill_Effect_1/big_bird_0060" },
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"bighit": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0063" },
+					{ "time": 0.1667, "name": "ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0065" },
+					{ "time": 0.2333, "name": "ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0067" },
+					{ "time": 0.3, "name": "ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0069" },
+					{ "time": 0.3667, "name": "ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0071" },
+					{ "time": 0.4333, "name": "ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0073" },
+					{ "time": 0.5, "name": "ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0075" },
+					{ "time": 0.5667, "name": "ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0077" },
+					{ "time": 0.6333, "name": "ZhiNv_ActiveSkill_Effect_1/bighit/bighit_0079" },
+					{ "time": 0.7667, "name": null }
+				]
+			},
+			"bird_path": {
+				"attachment": [
+					{ "name": "ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0060" },
+					{ "time": 0.0667, "name": "ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0062" },
+					{ "time": 0.1333, "name": "ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0064" },
+					{ "time": 0.2, "name": "ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0066" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"bird_path2": {
+				"attachment": [
+					{ "time": 0.0333, "name": "ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0060" },
+					{ "time": 0.1, "name": "ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0062" },
+					{ "time": 0.1667, "name": "ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0064" },
+					{ "time": 0.2333, "name": "ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0066" },
+					{ "time": 0.3, "name": null }
+				]
+			},
+			"bird_path3": {
+				"attachment": [
+					{ "time": 0.0667, "name": "ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0060" },
+					{ "time": 0.1333, "name": "ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0062" },
+					{ "time": 0.2, "name": "ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0064" },
+					{ "time": 0.2667, "name": "ZhiNv_ActiveSkill_Effect_1/bird_path/bird_path_0066" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"lizi11": {
+				"color": [
+					{ "time": 0.3667, "color": "ffffffff" },
+					{ "time": 0.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0007" }
+				]
+			},
+			"lizi12": {
+				"color": [
+					{ "time": 0.3667, "color": "ffffffff" },
+					{ "time": 0.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0007" }
+				]
+			}
+		},
+		"bones": {
+			"bird_path": {
+				"rotate": [
+					{ "angle": -175.56 }
+				],
+				"translate": [
+					{ "x": 88.54, "y": 352.3 }
+				],
+				"scale": [
+					{ "x": -2.72, "y": 4 }
+				]
+			},
+			"big_bird": {
+				"translate": [
+					{ "y": 1679.13 },
+					{ "time": 0.1333 }
+				],
+				"scale": [
+					{ "x": 0.205, "y": 3.782 },
+					{ "time": 0.1333 }
+				]
+			},
+			"bird_path2": {
+				"rotate": [
+					{ "time": 0.0333, "angle": -175.56 }
+				],
+				"translate": [
+					{ "time": 0.0333, "x": -60.58, "y": 235.8 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 4, "y": 4 }
+				]
+			},
+			"bird_path3": {
+				"rotate": [
+					{ "time": 0.0667, "angle": -175.56 }
+				],
+				"translate": [
+					{ "time": 0.0667, "x": -30.29, "y": 322.01 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": -4.64, "y": 4 }
+				]
+			},
+			"lizi6": {
+				"translate": [
+					{ "time": 0.0333, "x": 181.74, "y": 393.77, "curve": 0, "c2": 0.3, "c3": 0.75 },
+					{ "time": 0.6333, "x": 181.74, "y": 274.94 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 2, "y": 2 }
+				]
+			},
+			"bighit": {
+				"translate": [
+					{ "time": 0.1, "y": 292.91 }
+				]
+			}
+		}
+	}
+}
+}

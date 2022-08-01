@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5b56785b-62a5-4241-9713-ffe9c37962e2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 100,
+  "height": 100,
+  "platformSettings": {},
+  "subMetas": {
+    "icon_common_buff_mianshang_2": {
+      "ver": "1.0.6",
+      "uuid": "db90ba2e-ea27-4046-9797-b287ddb8d943",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5b56785b-62a5-4241-9713-ffe9c37962e2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 100,
+      "height": 100,
+      "rawWidth": 100,
+      "rawHeight": 100,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

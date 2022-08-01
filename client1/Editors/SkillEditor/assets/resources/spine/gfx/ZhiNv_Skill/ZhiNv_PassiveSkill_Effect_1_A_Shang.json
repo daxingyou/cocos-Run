@@ -1,0 +1,174 @@
+{
+"skeleton": { "hash": "TQ9I953kQa3G6VIBZDN3XomR+eI", "spine": "3.8.99", "images": "./images/", "audio": "H:/波波外包/new/织女/Spine" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "atk4", "parent": "root" },
+	{ "name": "lizi", "parent": "atk4", "scaleX": 2, "scaleY": 2 },
+	{ "name": "feng", "parent": "atk4", "scaleX": 2, "scaleY": 2 },
+	{ "name": "rao", "parent": "atk4", "scaleX": 2, "scaleY": 2 },
+	{ "name": "rao2", "parent": "atk4", "scaleX": 2, "scaleY": 2 },
+	{ "name": "rao3", "parent": "atk4", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "rao2", "bone": "rao2", "blend": "additive" },
+	{ "name": "lizi", "bone": "lizi", "blend": "additive" },
+	{ "name": "feng", "bone": "feng", "blend": "additive" },
+	{ "name": "rao", "bone": "rao", "blend": "additive" },
+	{ "name": "rao3", "bone": "rao3", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"feng": {
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0005": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0007": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0009": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0011": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0013": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0015": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0017": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0019": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0021": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/feng/feng_0023": { "width": 500, "height": 500 }
+			},
+			"lizi": {
+				"ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0007": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0008": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0009": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0010": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0011": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0012": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0013": { "width": 500, "height": 500 }
+			},
+			"rao": {
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0002": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0004": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0006": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0008": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0010": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0012": { "width": 500, "height": 500 }
+			},
+			"rao2": {
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0002": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0004": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0006": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0008": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0010": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0012": { "width": 500, "height": 500 }
+			},
+			"rao3": {
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0002": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0004": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0006": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0008": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0010": { "width": 500, "height": 500 },
+				"ZhiNv_PassiveSkill_Effect_1/rao/rao_0012": { "width": 500, "height": 500 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack4": {
+		"slots": {
+			"feng": {
+				"attachment": [
+					{ "time": 0.1667, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0005" },
+					{ "time": 0.2333, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0007" },
+					{ "time": 0.3, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0009" },
+					{ "time": 0.3667, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0011" },
+					{ "time": 0.4333, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0013" },
+					{ "time": 0.5, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0015" },
+					{ "time": 0.5667, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0017" },
+					{ "time": 0.6333, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0019" },
+					{ "time": 0.7, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0021" },
+					{ "time": 0.7667, "name": "ZhiNv_PassiveSkill_Effect_1/feng/feng_0023" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"lizi": {
+				"attachment": [
+					{ "time": 0.2333, "name": "ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0007" },
+					{ "time": 0.3, "name": "ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0008" },
+					{ "time": 0.4, "name": "ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0009" },
+					{ "time": 0.4667, "name": "ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0010" },
+					{ "time": 0.5667, "name": "ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0011" },
+					{ "time": 0.6333, "name": "ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0012" },
+					{ "time": 0.7333, "name": "ZhiNv_PassiveSkill_Effect_1/lizi/lizi_0013" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"rao": {
+				"attachment": [
+					{ "time": 0.0667, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0002" },
+					{ "time": 0.1333, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0004" },
+					{ "time": 0.2, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0006" },
+					{ "time": 0.2667, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0008" },
+					{ "time": 0.3333, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0010" },
+					{ "time": 0.4, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0012" },
+					{ "time": 0.4667, "name": null }
+				]
+			},
+			"rao2": {
+				"attachment": [
+					{ "time": 0.1333, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0002" },
+					{ "time": 0.2, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0004" },
+					{ "time": 0.2667, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0006" },
+					{ "time": 0.3333, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0008" },
+					{ "time": 0.4, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0010" },
+					{ "time": 0.4667, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0012" },
+					{ "time": 0.5333, "name": null }
+				]
+			},
+			"rao3": {
+				"attachment": [
+					{ "time": 0.1667, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0002" },
+					{ "time": 0.2333, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0004" },
+					{ "time": 0.3, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0006" },
+					{ "time": 0.3667, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0008" },
+					{ "time": 0.4333, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0010" },
+					{ "time": 0.5, "name": "ZhiNv_PassiveSkill_Effect_1/rao/rao_0012" },
+					{ "time": 0.5667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"lizi": {
+				"translate": [
+					{ "time": 0.2333, "x": 103.96, "y": 97.91 },
+					{ "time": 0.7333, "x": 103.96, "y": 107.91 }
+				]
+			},
+			"feng": {
+				"translate": [
+					{ "time": 0.1667, "x": 103.96, "y": 97.91 }
+				]
+			},
+			"rao": {
+				"translate": [
+					{ "time": 0.0667, "x": 103.96, "y": 97.91 }
+				]
+			},
+			"rao2": {
+				"translate": [
+					{ "time": 0.1333, "x": -72.38, "y": 50.54 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": -0.4, "y": -0.75 }
+				]
+			},
+			"rao3": {
+				"rotate": [
+					{ "time": 0.1667, "angle": -11.3 }
+				],
+				"translate": [
+					{ "time": 0.1667, "x": 63.17, "y": 163.71 }
+				],
+				"scale": [
+					{ "time": 0.1667, "x": 0.6, "y": 1.25 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1a362132-62ad-4d6b-a575-f3ca8de80d60",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 63,
+  "height": 240,
+  "platformSettings": {},
+  "subMetas": {
+    "hero_name_DuoBaoDaoRen": {
+      "ver": "1.0.6",
+      "uuid": "379cb528-0861-49e4-b614-fcc29bea77f6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1a362132-62ad-4d6b-a575-f3ca8de80d60",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 5,
+      "trimX": 3,
+      "trimY": 0,
+      "width": 57,
+      "height": 230,
+      "rawWidth": 63,
+      "rawHeight": 240,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

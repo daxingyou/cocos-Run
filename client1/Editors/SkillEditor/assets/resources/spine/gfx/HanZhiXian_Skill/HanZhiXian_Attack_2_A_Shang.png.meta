@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "adf7fd49-563f-464a-ac42-6a98e89feb5c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2001,
+  "height": 1324,
+  "platformSettings": {},
+  "subMetas": {
+    "HanZhiXian_Attack_2_A_Shang": {
+      "ver": "1.0.6",
+      "uuid": "c2e0fd57-52f5-4562-9c9d-d4e6a5e972c8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "adf7fd49-563f-464a-ac42-6a98e89feb5c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1997,
+      "height": 1320,
+      "rawWidth": 2001,
+      "rawHeight": 1324,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

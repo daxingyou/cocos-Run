@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9d05aa60-2381-4ffc-8e57-cb54757ce2ec",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 108,
+  "height": 181,
+  "platformSettings": {},
+  "subMetas": {
+    "heroHead_Big_TaiBaiJinXing": {
+      "ver": "1.0.6",
+      "uuid": "15e2fd7f-6d3c-4109-a1d2-91a22469334f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9d05aa60-2381-4ffc-8e57-cb54757ce2ec",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -7.5,
+      "trimX": 0,
+      "trimY": 15,
+      "width": 108,
+      "height": 166,
+      "rawWidth": 108,
+      "rawHeight": 181,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

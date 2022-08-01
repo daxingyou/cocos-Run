@@ -1,0 +1,160 @@
+{
+"skeleton": { "hash": "VQRk8NVOTs3erAQCuAocToCpZb0", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "y": 4.69, "scaleX": 0.4167, "scaleY": 0.4167 },
+	{ "name": "diyan0001", "parent": "root", "length": 75.49, "rotation": 90.95, "x": 13.1, "y": -151.5 }
+],
+"slots": [
+	{ "name": "diyan0001", "bone": "diyan0001" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"diyan0001": {
+				"diyan0001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -18.19, -217.3, -10.93, 218.64, 154.05, 215.89, 146.79, -220.05 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 436,
+					"height": 165
+				},
+				"diyan0002": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -18.19, -217.3, -10.93, 218.64, 154.05, 215.89, 146.79, -220.05 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 436,
+					"height": 165
+				},
+				"diyan0003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -18.19, -217.3, -10.93, 218.64, 154.05, 215.89, 146.79, -220.05 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 436,
+					"height": 165
+				},
+				"diyan0004": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -18.19, -217.3, -10.93, 218.64, 154.05, 215.89, 146.79, -220.05 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 436,
+					"height": 165
+				},
+				"diyan0005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -18.19, -217.3, -10.93, 218.64, 154.05, 215.89, 146.79, -220.05 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 436,
+					"height": 165
+				},
+				"diyan0006": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -18.19, -217.3, -10.93, 218.64, 154.05, 215.89, 146.79, -220.05 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 436,
+					"height": 165
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill455": {
+		"slots": {
+			"diyan0001": {
+				"attachment": [
+					{ "name": "diyan0001" },
+					{ "time": 0.0308, "name": "diyan0002" },
+					{ "time": 0.0616, "name": "diyan0003" },
+					{ "time": 0.0924, "name": "diyan0004" },
+					{ "time": 0.1231, "name": "diyan0005" },
+					{ "time": 0.1539, "name": "diyan0006" },
+					{ "time": 0.1847, "name": "diyan0001" },
+					{ "time": 0.2155, "name": "diyan0002" },
+					{ "time": 0.2463, "name": "diyan0003" },
+					{ "time": 0.2771, "name": "diyan0004" },
+					{ "time": 0.3079, "name": "diyan0005" },
+					{ "time": 0.3386, "name": "diyan0006" },
+					{ "time": 0.3694, "name": "diyan0001" },
+					{ "time": 0.4, "name": "diyan0002" },
+					{ "time": 0.431, "name": "diyan0003" },
+					{ "time": 0.4618, "name": "diyan0004" },
+					{ "time": 0.4926, "name": "diyan0005" },
+					{ "time": 0.5234, "name": "diyan0006" },
+					{ "time": 0.5542, "name": "diyan0001" },
+					{ "time": 0.5849, "name": "diyan0002" },
+					{ "time": 0.6157, "name": "diyan0003" },
+					{ "time": 0.6465, "name": "diyan0004" },
+					{ "time": 0.6773, "name": "diyan0005" },
+					{ "time": 0.7081, "name": "diyan0006" },
+					{ "time": 0.7389, "name": "diyan0001" },
+					{ "time": 0.7697, "name": "diyan0002" },
+					{ "time": 0.8004, "name": "diyan0003" },
+					{ "time": 0.8312, "name": "diyan0004" },
+					{ "time": 0.862, "name": "diyan0005" },
+					{ "time": 0.8928, "name": "diyan0006" },
+					{ "time": 0.9236, "name": "diyan0001" },
+					{ "time": 0.9544, "name": "diyan0002" },
+					{ "time": 0.9852, "name": "diyan0003" },
+					{ "time": 1.0159, "name": "diyan0004" },
+					{ "time": 1.0467, "name": "diyan0005" },
+					{ "time": 1.0775, "name": "diyan0006" },
+					{ "time": 1.1083, "name": "diyan0001" },
+					{ "time": 1.1391, "name": "diyan0002" },
+					{ "time": 1.1699, "name": "diyan0003" },
+					{ "time": 1.2007, "name": "diyan0004" },
+					{ "time": 1.2315, "name": "diyan0005" },
+					{ "time": 1.2622, "name": "diyan0006" },
+					{ "time": 1.293, "name": "diyan0001" },
+					{ "time": 1.3238, "name": "diyan0002" },
+					{ "time": 1.3546, "name": "diyan0003" },
+					{ "time": 1.3854, "name": "diyan0004" },
+					{ "time": 1.4162, "name": "diyan0005" },
+					{ "time": 1.447, "name": "diyan0006" },
+					{ "time": 1.4777, "name": "diyan0001" },
+					{ "time": 1.5085, "name": "diyan0002" },
+					{ "time": 1.5393, "name": "diyan0003" },
+					{ "time": 1.5701, "name": "diyan0004" },
+					{ "time": 1.6009, "name": "diyan0005" },
+					{ "time": 1.6317, "name": "diyan0006" },
+					{ "time": 1.6625, "name": "diyan0001" }
+				]
+			}
+		},
+		"bones": {
+			"diyan0001": {
+				"translate": [
+					{ "x": -18.87, "y": 84.3 }
+				],
+				"scale": [
+					{ "x": 1.512, "y": 1.512 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 1.6667 }
+		]
+	}
+}
+}

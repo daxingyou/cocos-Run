@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "948d5343-fd3a-4c6c-aa2e-e9994c9305b5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 1024,
+  "platformSettings": {},
+  "subMetas": {
+    "heroImage_WuChaoChanShi": {
+      "ver": "1.0.6",
+      "uuid": "c3f8b25d-143b-4a3a-8459-ba70d54f5165",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "948d5343-fd3a-4c6c-aa2e-e9994c9305b5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -6,
+      "offsetY": 74.5,
+      "trimX": 126,
+      "trimY": 26,
+      "width": 760,
+      "height": 823,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

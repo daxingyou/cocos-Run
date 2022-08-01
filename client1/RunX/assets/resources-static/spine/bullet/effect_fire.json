@@ -1,0 +1,56 @@
+{
+"skeleton": {
+	"hash": "Ic4CUlhf1C5fjjIkBy0XyH1MqQg",
+	"spine": "3.8.99",
+	"x": -306.9,
+	"y": -70.66,
+	"width": 128,
+	"height": 128,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "r", "bone": "root" },
+	{ "name": "huoqiu_00000", "bone": "bone" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"huoqiu_00000": {
+				"huoqiu_00000": { "x": -35.72, "scaleX": 0.5061, "scaleY": 0.5061, "width": 173, "height": 147 },
+				"huoqiu_00001": { "x": -35.72, "scaleX": 0.5061, "scaleY": 0.5061, "width": 173, "height": 147 },
+				"huoqiu_00002": { "x": -35.72, "scaleX": 0.5061, "scaleY": 0.5061, "width": 173, "height": 147 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"huoqiu_00000": {
+				"attachment": [
+					{ "name": "huoqiu_00000" },
+					{ "time": 0.0333, "name": "huoqiu_00001" },
+					{ "time": 0.0667, "name": "huoqiu_00002" },
+					{ "time": 0.1, "name": "huoqiu_00001" },
+					{ "time": 0.1333, "name": "huoqiu_00000" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{},
+					{ "time": 0.0667, "x": 1.193, "y": 0.932 },
+					{ "time": 0.1333 }
+				]
+			}
+		}
+	}
+}
+}

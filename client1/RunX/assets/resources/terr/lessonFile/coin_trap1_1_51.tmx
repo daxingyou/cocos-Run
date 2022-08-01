@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="1.1.3413" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
+ <tileset firstgid="1" name="run_stones" tilewidth="128" tileheight="128" tilecount="10" columns="5">
+  <image source="../../textures/parkour/tiledImage/run_stones.png" width="640" height="256"/>
+ </tileset>
+ <tileset firstgid="11" source="../tiledImage/run_basic32.tsx"/>
+ <tileset firstgid="17" source="../tiledImage/run_chapter5.tsx"/>
+ <tileset firstgid="273" name="run_item32" tilewidth="32" tileheight="32" tilecount="7" columns="7">
+  <image source="../../textures/parkour/tiledImage/run_item32.png" width="224" height="32"/>
+ </tileset>
+ <layer id="9" name="floor" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1dVOBEEURdEZ3OG3cXd3d3d3d3d3d91/0JWQDhDOTtbTrdSdepl2OJRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSin136tGDWpRh3o0oBFN2v/nCkYIQhGGbvSgF33oxwAGMYRwRCASUdr/60tGClKRhmnMYBZzmMcCFrGEdGQgE1mIRgxiEYd4JCARSQbz7+7/6ff/9opRglKUYRs72MUe9nGAQxyhHBWoRBWykYNc5CEfBShEkcH8v+//7tzqe9KMFrSizeB97ehAJ7oM7td+e+dW35NhjGAUY7jGDW5xh3s84BFPGMcEJjFlcL/22zu3+p4sYwWrWDN43zo2sIktg/u139651f/NMU5wijOD953jApe4Mrhf++2dW/3eZ7zgFW8G59/xgU84nNbntd/euZPf4AJXuMEdHvCEF7zhA1/4Oa3P+yMAgQgyOK/99s6/AKmwrt4=
+  </data>
+ </layer>
+ <layer id="10" name="shade" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1TsKwCAQBFD7xPtf1zTW4mchsu/BdLLDVJYCAAAAAAAAAAAAAAAAAADcqH55Bnn1X6lOvI3YmL0/0sy27uTG7P2RVrZ1JzZm7981+k+i7+uPDQD/1ABdSAVN
+  </data>
+ </layer>
+ <layer id="11" name="loot" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1EsOABEQBUCO4P6XdQMRRM/oqo3li/6VAgAAAAAAAAAAAAAAAABk1urc+2o+/FH0XkTnMzZ7VzPc2ZW/79brRp0je7yafXrOdvIy7wQAwJd0gxwEFQ==
+  </data>
+ </layer>
+ <layer id="12" name="stones" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztx7ENAAAIA6D6/9Pe0MHFwEYCAAAAAAAAAAAAAAAAAH9NeQAAAADg3gKF+AAE
+  </data>
+ </layer>
+</map>

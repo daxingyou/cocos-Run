@@ -1,0 +1,103 @@
+{
+"skeleton": { "hash": "NlYb+8v3wOSx9kEXPEamBQH+a2k", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/女娲" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.63, "scaleY": 0.63 },
+	{ "name": "guang", "parent": "bone", "x": 2.39, "y": -130.42 },
+	{ "name": "guang0003", "parent": "bone", "length": 149.94, "rotation": 88.87, "x": 412.1, "y": -550.88 }
+],
+"slots": [
+	{ "name": "guang", "bone": "guang" },
+	{ "name": "guang0003", "bone": "guang0003" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"guang": {
+				"guang": { "x": -0.31, "y": -1.42, "width": 131, "height": 77 }
+			},
+			"guang0003": {
+				"guang0001": { "x": 167.95, "y": -5.19, "rotation": -88.87, "width": 200, "height": 364 },
+				"guang0002": { "x": 167.95, "y": -5.19, "rotation": -88.87, "width": 200, "height": 364 },
+				"guang0003": { "x": 167.95, "y": -5.19, "rotation": -88.87, "width": 200, "height": 364 },
+				"guang0004": { "x": 167.95, "y": -5.19, "rotation": -88.87, "width": 200, "height": 364 },
+				"guang0005": { "x": 167.95, "y": -5.19, "rotation": -88.87, "width": 200, "height": 364 },
+				"guang0006": { "x": 167.95, "y": -5.19, "rotation": -88.87, "width": 200, "height": 364 },
+				"guang0007": { "x": 167.95, "y": -5.19, "rotation": -88.87, "width": 200, "height": 364 },
+				"guang0008": { "x": 167.95, "y": -5.19, "rotation": -88.87, "width": 200, "height": 364 },
+				"guang0009": { "x": 167.95, "y": -5.19, "rotation": -88.87, "width": 200, "height": 364 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill77": {
+		"slots": {
+			"guang": {
+				"attachment": [
+					{ "name": "guang" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"guang0003": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "guang0001" },
+					{ "time": 0.0667, "name": "guang0002" },
+					{ "time": 0.1333, "name": "guang0003" },
+					{ "time": 0.2, "name": "guang0004" },
+					{ "time": 0.2667, "name": "guang0005" },
+					{ "time": 0.3333, "name": "guang0006" },
+					{ "time": 0.4, "name": "guang0007" },
+					{ "time": 0.4667, "name": "guang0008" },
+					{ "time": 0.5333, "name": "guang0009" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guang": {
+				"translate": [
+					{ "y": 77.28 }
+				],
+				"scale": [
+					{ "y": 0.633, "curve": 0, "c3": 0.545, "c4": 0.63 },
+					{
+						"time": 0.2333,
+						"x": 8.121,
+						"y": 2.56,
+						"curve": 0.36,
+						"c2": 0.42,
+						"c3": 0.703,
+						"c4": 0.77
+					},
+					{ "time": 0.5333, "x": 0.522, "y": 0.216 }
+				]
+			},
+			"guang0003": {
+				"translate": [
+					{ "x": -296.8, "y": 331.71 }
+				],
+				"scale": [
+					{ "x": 4.193, "y": 4.193 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0.7333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4, "name": "k" }
+		]
+	}
+}
+}

@@ -1,0 +1,64 @@
+{
+"skeleton": { "hash": "3ThunZMf55tVW+YCP3LOvD9y17g", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.29, "scaleY": 0.29 },
+	{ "name": "yy0009", "parent": "root", "length": 144.67, "rotation": 179.07, "x": 377.94, "y": -52.32 }
+],
+"slots": [
+	{ "name": "yy0009", "bone": "yy0009" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yy0009": {
+				"yy0001": { "x": 98.13, "y": -31.34, "rotation": -179.07, "width": 346, "height": 120 },
+				"yy0003": { "x": 98.13, "y": -31.34, "rotation": -179.07, "width": 346, "height": 120 },
+				"yy0005": { "x": 98.13, "y": -31.34, "rotation": -179.07, "width": 346, "height": 120 },
+				"yy0007": { "x": 98.13, "y": -31.34, "rotation": -179.07, "width": 346, "height": 120 },
+				"yy0009": { "x": 98.13, "y": -31.34, "rotation": -179.07, "width": 346, "height": 120 },
+				"yy0011": { "x": 98.13, "y": -31.34, "rotation": -179.07, "width": 346, "height": 120 },
+				"yy0013": { "x": 98.13, "y": -31.34, "rotation": -179.07, "width": 346, "height": 120 },
+				"yy0015": { "x": 98.13, "y": -31.34, "rotation": -179.07, "width": 346, "height": 120 },
+				"yy0017": { "x": 98.13, "y": -31.34, "rotation": -179.07, "width": 346, "height": 120 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill263": {
+		"slots": {
+			"yy0009": {
+				"attachment": [
+					{ "name": "yy0001" },
+					{ "time": 0.0333, "name": "yy0003" },
+					{ "time": 0.0667, "name": "yy0005" },
+					{ "time": 0.1, "name": "yy0007" },
+					{ "time": 0.1333, "name": "yy0009" },
+					{ "time": 0.1667, "name": "yy0011" },
+					{ "time": 0.2, "name": "yy0013" },
+					{ "time": 0.2333, "name": "yy0015" },
+					{ "time": 0.2667, "name": "yy0017" },
+					{ "time": 0.3, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"yy0009": {
+				"translate": [
+					{ "x": 739.32, "y": 53.84 }
+				],
+				"scale": [
+					{ "x": 5.165, "y": 5.165 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1667, "name": "K" }
+		]
+	}
+}
+}

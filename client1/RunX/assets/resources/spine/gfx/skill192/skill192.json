@@ -1,0 +1,215 @@
+{
+"skeleton": { "hash": "dh1t0J9ZnGUaChmCwsavPN8kWxk", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.39, "scaleY": 0.39 },
+	{ "name": "weapon4", "parent": "root", "x": -343.06, "y": 110.17, "color": "e700f4ff" },
+	{
+		"name": "xuan0004",
+		"parent": "weapon4",
+		"x": 5.02,
+		"y": -2.1,
+		"scaleX": 0.5794,
+		"scaleY": 0.6512,
+		"shearX": -26.69,
+		"shearY": 2.72,
+		"color": "e700f4ff"
+	},
+	{ "name": "weapon13", "parent": "root", "x": 232.48, "y": 110.17, "color": "e700f4ff" },
+	{
+		"name": "xuan6",
+		"parent": "weapon13",
+		"x": 5.02,
+		"y": -2.1,
+		"scaleX": 0.5794,
+		"scaleY": 0.6512,
+		"shearX": -26.69,
+		"shearY": 2.72,
+		"color": "e700f4ff"
+	},
+	{ "name": "b1", "parent": "root", "length": 50.62, "rotation": 180, "x": 435.02, "y": 362.29 },
+	{ "name": "b2", "parent": "root", "length": 50.62, "rotation": 180, "x": 432.65, "y": 412.14 },
+	{ "name": "bone9", "parent": "root", "x": 466.95, "y": 581.11 }
+],
+"slots": [
+	{ "name": "weapon4", "bone": "weapon4" },
+	{ "name": "weapon13", "bone": "weapon13" },
+	{ "name": "xuan0004", "bone": "xuan0004", "blend": "additive" },
+	{ "name": "xuan6", "bone": "xuan6", "blend": "additive" },
+	{ "name": "b1", "bone": "b1" },
+	{ "name": "b2", "bone": "b2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"b1": {
+				"b1": { "rotation": 180, "width": 56, "height": 124 },
+				"b2": { "rotation": 180, "width": 55, "height": 128 },
+				"b3": { "rotation": 180, "width": 53, "height": 126 }
+			},
+			"b2": {
+				"b1": { "rotation": 180, "width": 56, "height": 124 },
+				"b2": { "rotation": 180, "width": 55, "height": 128 },
+				"b3": { "rotation": 180, "width": 53, "height": 126 }
+			},
+			"weapon4": {
+				"weapon2": { "x": -0.59, "y": -1.83, "width": 83, "height": 81 }
+			},
+			"weapon13": {
+				"weapon2": { "x": -0.59, "y": -1.83, "width": 83, "height": 81 }
+			},
+			"xuan0004": {
+				"xuan0001": { "width": 289, "height": 228 },
+				"xuan0003": { "width": 289, "height": 228 },
+				"xuan0004": { "width": 289, "height": 228 },
+				"xuan0006": { "width": 289, "height": 228 }
+			},
+			"xuan6": {
+				"xuan0001": { "width": 289, "height": 228 },
+				"xuan0003": { "width": 289, "height": 228 },
+				"xuan0004": { "width": 289, "height": 228 },
+				"xuan0006": { "width": 289, "height": 228 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill192": {
+		"slots": {
+			"b1": {
+				"attachment": [
+					{ "time": 0.0333, "name": "b1" },
+					{ "time": 0.0667, "name": "b2" },
+					{ "time": 0.1, "name": "b3" },
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"b2": {
+				"attachment": [
+					{ "time": 0.0333, "name": "b1" },
+					{ "time": 0.0667, "name": "b2" },
+					{ "time": 0.1, "name": "b3" },
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"weapon4": {
+				"attachment": [
+					{ "name": "weapon2" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"weapon13": {
+				"attachment": [
+					{ "name": "weapon2" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"xuan0004": {
+				"attachment": [
+					{ "name": "xuan0001" },
+					{ "time": 0.0333, "name": "xuan0003" },
+					{ "time": 0.0667, "name": "xuan0006" },
+					{ "time": 0.1, "name": "xuan0001" },
+					{ "time": 0.1333, "name": "xuan0004" },
+					{ "time": 0.1667, "name": "xuan0006" },
+					{ "time": 0.2, "name": "xuan0001" },
+					{ "time": 0.2333, "name": "xuan0003" },
+					{ "time": 0.2667, "name": "xuan0006" },
+					{ "time": 0.3, "name": "xuan0001" },
+					{ "time": 0.3333, "name": "xuan0003" },
+					{ "time": 0.3667, "name": "xuan0006" },
+					{ "time": 0.4, "name": "xuan0001" },
+					{ "time": 0.4333, "name": "xuan0003" },
+					{ "time": 0.4667, "name": "xuan0006" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"xuan6": {
+				"attachment": [
+					{ "name": "xuan0001" },
+					{ "time": 0.0333, "name": "xuan0003" },
+					{ "time": 0.0667, "name": "xuan0006" },
+					{ "time": 0.1, "name": "xuan0001" },
+					{ "time": 0.1333, "name": "xuan0004" },
+					{ "time": 0.1667, "name": "xuan0006" },
+					{ "time": 0.2, "name": "xuan0001" },
+					{ "time": 0.2333, "name": "xuan0004" },
+					{ "time": 0.2667, "name": "xuan0006" },
+					{ "time": 0.3, "name": "xuan0001" },
+					{ "time": 0.3333, "name": "xuan0003" },
+					{ "time": 0.3667, "name": "xuan0006" },
+					{ "time": 0.4, "name": "xuan0001" },
+					{ "time": 0.4333, "name": "xuan0004" },
+					{ "time": 0.4667, "name": "xuan0006" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"weapon4": {
+				"translate": [
+					{ "x": 179.95, "y": 289.1, "curve": 0.02, "c3": 0.75 },
+					{ "time": 0.2667, "x": 2548.18, "y": 513.05, "curve": 0.25 },
+					{ "time": 0.6, "x": 155.5, "y": 311.86 }
+				],
+				"scale": [
+					{ "curve": 0.02, "c3": 0.75 },
+					{ "time": 0.2667, "x": 2.391, "y": 1.155, "curve": 0.25 },
+					{ "time": 0.4667, "y": 0.462 }
+				]
+			},
+			"weapon13": {
+				"translate": [
+					{ "x": 92.05, "y": 249.54, "curve": 0.02, "c3": 0.75 },
+					{ "time": 0.2667, "x": 1987.33, "y": 187.79, "curve": 0.25 },
+					{ "time": 0.6, "x": -95.65, "y": 313.85 }
+				],
+				"scale": [
+					{ "curve": 0.02, "c3": 0.75 },
+					{ "time": 0.2667, "x": 5.616, "y": 2.714, "curve": 0.25 },
+					{ "time": 0.4667, "y": 0.476 }
+				]
+			},
+			"b1": {
+				"rotate": [
+					{ "time": 0.0333, "angle": -191.82 }
+				],
+				"translate": [
+					{ "time": 0.0333, "x": 6.77, "y": -83.48 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 5.433, "y": 1.879 }
+				],
+				"shear": [
+					{ "time": 0.0333, "x": -20, "y": -32.73 }
+				]
+			},
+			"b2": {
+				"rotate": [
+					{ "time": 0.0333, "angle": -136.75 }
+				],
+				"translate": [
+					{ "time": 0.0333, "x": 51.88, "y": 180.55 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 3.658, "y": 1.265 }
+				],
+				"shear": [
+					{ "time": 0.0333, "x": -20, "y": -32.73 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0.6333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3, "name": "K" }
+		]
+	}
+}
+}

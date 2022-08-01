@@ -1,0 +1,107 @@
+{
+"skeleton": { "hash": "5iUfjT0tJdEvjRBeLibxRTAiFwc", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/白骨精" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.59, "scaleY": 0.59 },
+	{ "name": "yanwu0010", "parent": "bone", "length": 144, "rotation": 88.67, "x": 907.99, "y": -3.77 }
+],
+"slots": [
+	{ "name": "yanwu0010", "bone": "yanwu0010" },
+	{ "name": "yanwu10", "bone": "yanwu0010" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yanwu0010": {
+				"yanwu0001": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0002": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0003": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0004": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0005": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0006": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0007": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0008": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0009": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0010": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0011": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0012": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0013": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 }
+			},
+			"yanwu10": {
+				"yanwu0001": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0002": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0003": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0004": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0005": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0006": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0007": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0008": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0009": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0010": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0011": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0012": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 },
+				"yanwu0013": { "x": 147.31, "y": 1.75, "rotation": -88.67, "width": 297, "height": 330 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill6": {
+		"slots": {
+			"yanwu0010": {
+				"attachment": [
+					{ "name": "yanwu0001" },
+					{ "time": 0.0333, "name": "yanwu0002" },
+					{ "time": 0.0667, "name": "yanwu0003" },
+					{ "time": 0.1, "name": "yanwu0004" },
+					{ "time": 0.1333, "name": "yanwu0005" },
+					{ "time": 0.1667, "name": "yanwu0006" },
+					{ "time": 0.2, "name": "yanwu0007" },
+					{ "time": 0.2333, "name": "yanwu0008" },
+					{ "time": 0.2667, "name": "yanwu0009" },
+					{ "time": 0.3, "name": "yanwu0010" },
+					{ "time": 0.3333, "name": "yanwu0011" },
+					{ "time": 0.3667, "name": "yanwu0012" },
+					{ "time": 0.4, "name": "yanwu0013" },
+					{ "time": 0.4333, "name": null }
+				]
+			},
+			"yanwu10": {
+				"attachment": [
+					{ "name": "yanwu0001" },
+					{ "time": 0.0333, "name": "yanwu0002" },
+					{ "time": 0.0667, "name": "yanwu0003" },
+					{ "time": 0.1, "name": "yanwu0004" },
+					{ "time": 0.1333, "name": "yanwu0005" },
+					{ "time": 0.1667, "name": "yanwu0006" },
+					{ "time": 0.2, "name": "yanwu0007" },
+					{ "time": 0.2333, "name": "yanwu0008" },
+					{ "time": 0.2667, "name": "yanwu0009" },
+					{ "time": 0.3, "name": "yanwu0010" },
+					{ "time": 0.3333, "name": "yanwu0011" },
+					{ "time": 0.3667, "name": "yanwu0012" },
+					{ "time": 0.4, "name": "yanwu0013" },
+					{ "time": 0.4333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"yanwu0010": {
+				"translate": [
+					{ "x": -537.63, "y": 7.38 }
+				],
+				"scale": [
+					{ "x": 3.685, "y": 3.685 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3, "name": "k" }
+		]
+	}
+}
+}

@@ -1,0 +1,70 @@
+{
+"skeleton": {
+	"hash": "hsJL6Nc5HdLUeol/lQIXcSJft0s",
+	"spine": "3.8.99",
+	"x": -254.5,
+	"y": -159,
+	"width": 510,
+	"height": 319,
+	"images": "./images/",
+	"audio": "E:/搬砖/门/内部/第一批美佳美(4)/第一批美佳美/SR-金角大王-a/SSR_05金角大王"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx", "parent": "root" },
+	{ "name": "juqi", "parent": "fx" }
+],
+"slots": [
+	{ "name": "eft/juqi/juqi_00015", "bone": "juqi", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"eft/juqi/juqi_00015": {
+				"eft/juqi/juqi_00015": { "x": 0.5, "y": 0.5, "width": 367, "height": 230 },
+				"eft/juqi/juqi_00017": { "x": 0.5, "y": 0.5, "width": 367, "height": 230 },
+				"eft/juqi/juqi_00019": { "x": 0.5, "y": 0.5, "width": 367, "height": 230 },
+				"eft/juqi/juqi_00021": { "x": 0.5, "y": 0.5, "width": 367, "height": 230 },
+				"eft/juqi/juqi_00023": { "x": 0.5, "y": 0.5, "width": 367, "height": 230 },
+				"eft/juqi/juqi_00025": { "x": 0.5, "y": 0.5, "width": 367, "height": 230 },
+				"eft/juqi/juqi_00027": { "x": 0.5, "y": 0.5, "width": 367, "height": 230 },
+				"eft/juqi/juqi_00029": { "x": 0.5, "y": 0.5, "width": 367, "height": 230 },
+				"eft/juqi/juqi_00031": { "x": 0.5, "y": 0.5, "width": 367, "height": 230 }
+			}
+		}
+	}
+],
+"animations": {
+	"Skill": {
+		"slots": {
+			"eft/juqi/juqi_00015": {
+				"color": [
+					{ "time": 0.8667, "color": "ffffffff" },
+					{ "time": 1.0667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4667, "name": "eft/juqi/juqi_00015" },
+					{ "time": 0.5333, "name": "eft/juqi/juqi_00017" },
+					{ "time": 0.6, "name": "eft/juqi/juqi_00019" },
+					{ "time": 0.6667, "name": "eft/juqi/juqi_00021" },
+					{ "time": 0.7333, "name": "eft/juqi/juqi_00023" },
+					{ "time": 0.8, "name": "eft/juqi/juqi_00025" },
+					{ "time": 0.8667, "name": "eft/juqi/juqi_00027" },
+					{ "time": 1.0667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"juqi": {
+				"rotate": [
+					{ "time": 1.4667 }
+				],
+				"scale": [
+					{ "x": 6, "y": 6 }
+				]
+			}
+		}
+	}
+}
+}

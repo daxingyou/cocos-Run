@@ -1,0 +1,81 @@
+{
+"skeleton": { "hash": "hEvGfk8pV74nb/AJjw8mjSi368U", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/女娲" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.63, "scaleY": 0.63 },
+	{ "name": "c1", "parent": "bone", "x": 60.9, "y": -424.45 }
+],
+"slots": [
+	{ "name": "c1", "bone": "c1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"c1": {
+				"c1": { "width": 550, "height": 400 },
+				"c2": { "width": 550, "height": 400 },
+				"c3": { "width": 550, "height": 400 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill71": {
+		"slots": {
+			"c1": {
+				"attachment": [
+					{ "name": "c1" },
+					{ "time": 0.0667, "name": "c2" },
+					{ "time": 0.1333, "name": "c3" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.3, "name": "c1" },
+					{ "time": 0.3667, "name": "c2" },
+					{ "time": 0.4333, "name": "c3" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.7, "name": "c1" },
+					{ "time": 0.7667, "name": "c2" },
+					{ "time": 0.8333, "name": "c3" },
+					{ "time": 0.9, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"c1": {
+				"rotate": [
+					{ "angle": -31.45, "curve": "stepped" },
+					{ "time": 0.3, "angle": 158.44 },
+					{ "time": 0.5, "angle": -133.38, "curve": "stepped" },
+					{ "time": 0.7, "angle": -40.27 },
+					{ "time": 0.7667, "angle": -51.71 },
+					{ "time": 0.8, "angle": -83.07 }
+				],
+				"translate": [
+					{ "x": 92.05, "y": 768.39, "curve": "stepped" },
+					{ "time": 0.3, "x": 139.77, "y": 768.39 },
+					{ "time": 0.5, "x": 71.7, "y": 810.29, "curve": "stepped" },
+					{ "time": 0.7, "x": 129.43, "y": 768.39 },
+					{ "time": 0.8, "x": 92.44, "y": 837.5 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.3, "x": -1.271, "y": 1.271, "curve": "stepped" },
+					{ "time": 0.7, "x": 1.274, "y": 1.274 },
+					{ "time": 0.8, "x": 1.516, "y": 1.516 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 1.5667 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2667, "name": "k" }
+		]
+	}
+}
+}

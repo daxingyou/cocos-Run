@@ -1,0 +1,222 @@
+[
+ {
+    "Ref": 1000001,
+    "TeamSelf": {
+        "Roles":[
+            {
+                "ID":145311,
+                "Pos":3,
+                "Star":3,
+                "Level":1,
+                "Gifts":[
+                    {
+                        "GiftID": 145311015,
+                        "SkillID":545361
+                    },
+                    {
+                        "GiftID": 145311040,
+                        "SkillID":10545363
+                    }
+                ],
+                "Equips":[
+                    {
+                        "EquipID": 331501,
+                        "Star":1,
+                        "Exp":1,
+                        "CastSoul": [
+                            {
+                                "SoulID":430045,
+                                "Value": 25
+                            }
+                        ]
+                    },
+                    {
+                        "EquipID": 332501,
+                        "Star":2,
+                        "Exp":2,
+                        "CastSoul": [
+                            {
+                                "SoulID":430046,
+                                "Value": 39
+                            }
+                        ]
+                    },
+                    {
+                        "EquipID": 347501,
+                        "Star":6,
+                        "Exp":20
+                    }
+                ]
+            },
+            {
+                "ID":135111,
+                "Pos":2,
+                "Star":3,
+                "Level":1,
+                "Gifts":[],
+                "Equips":[]
+            }
+        ]
+    },
+    
+    "TeamEmeny": {
+        "Roles":[
+            {
+                "ID":115211,
+                "Pos":3,
+                "Star":3,
+                "Level":1,
+                "Gifts":[],
+                "Equips":[]
+            },
+            {
+                "ID":155211,
+                "Pos":2,
+                "Star":3,
+                "Level":1,
+                "Gifts":[],
+                "Equips":[]
+            }
+        ]
+    } ,
+    "Result": [
+        {
+            "Round":1,
+            "TimePoint": 2, 
+            "RoleRes": [
+                {
+                    "ID": 115211,
+                    "Team": 1,
+                    "HP": 200,
+                    "Power": 200,
+                    "Shiled":0,
+                    "Distance":0,
+                    "Speed":10,
+                    "Property": [
+                        {
+                            "PropID": 0,
+                            "Value": 1
+                        }
+                    ],
+                    "Buff": [
+                        {
+                            "ID":1001,
+                            "Count":1
+                        }
+                    ]
+                }
+            ]
+        }
+   ]
+},
+{
+    "Ref": 1000002,
+    "TeamSelf": {
+        "Roles":[
+            {
+                "ID":145311,
+                "Pos":3,
+                "Star":3,
+                "Level":1,
+                "Gifts":[
+                    {
+                        "GiftID": 145311015,
+                        "SkillID":545361
+                    },
+                    {
+                        "GiftID": 145311040,
+                        "SkillID":10545363
+                    }
+                ],
+                "Equips":[
+                    {
+                        "EquipID": 331501,
+                        "Star":1,
+                        "Exp":1,
+                        "CastSoul": [
+                            {
+                                "SoulID":430045,
+                                "Value": 25
+                            }
+                        ]
+                    },
+                    {
+                        "EquipID": 332501,
+                        "Star":2,
+                        "Exp":2,
+                        "CastSoul": [
+                            {
+                                "SoulID":430046,
+                                "Value": 39
+                            }
+                        ]
+                    },
+                    {
+                        "EquipID": 347501,
+                        "Star":6,
+                        "Exp":20
+                    }
+                ]
+            },
+            {
+                "ID":135111,
+                "Pos":2,
+                "Star":3,
+                "Level":1,
+                "Gifts":[],
+                "Equips":[]
+            }
+        ]
+    },
+    
+    "TeamEmeny": {
+        "Roles":[
+            {
+                "ID":115211,
+                "Pos":3,
+                "Star":3,
+                "Level":1,
+                "Gifts":[],
+                "Equips":[]
+            },
+            {
+                "ID":155211,
+                "Pos":2,
+                "Star":3,
+                "Level":1,
+                "Gifts":[],
+                "Equips":[]
+            }
+        ]
+    } ,
+    "Result": [
+        {
+            "Round":1,
+            "TimePoint": 2, 
+            "RoleRes": [
+                {
+                    "ID": 115211,
+                    "Team": 1,
+                    "HP": 200,
+                    "Power": 200,
+                    "Shiled":0,
+                    "Distance":0,
+                    "Speed":10,
+                    "Property": [
+                        {
+                            "PropID": 0,
+                            "Value": 1
+                        }
+                    ],
+                    "Buff": [
+                        {
+                            "ID":1001,
+                            "Count":1
+                        }
+                    ]
+                }
+            ]
+        }
+   ]
+}
+]

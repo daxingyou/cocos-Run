@@ -1,0 +1,177 @@
+{
+"skeleton": { "hash": "m1aWASN/9GoxuZ48IoVoDCodyK8", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4967, "scaleY": 0.4967 },
+	{
+		"name": "cci0003",
+		"parent": "root",
+		"length": 218.43,
+		"rotation": 178.89,
+		"x": 1348.29,
+		"y": -55.43,
+		"color": "6900ffff"
+	}
+],
+"slots": [
+	{ "name": "cci0003", "bone": "cci0003" },
+	{ "name": "cci3", "bone": "cci0003", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"cci0003": {
+				"cci0001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -17.89, 32.82, 400.03, 40.9, 403.93, -161.06, -13.99, -169.14 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 207,
+					"height": 100
+				},
+				"cci0002": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -17.89, 32.82, 400.03, 40.9, 403.93, -161.06, -13.99, -169.14 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 207,
+					"height": 100
+				},
+				"cci0003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -17.89, 32.82, 400.03, 40.9, 403.93, -161.06, -13.99, -169.14 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 207,
+					"height": 100
+				},
+				"cci0005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -17.89, 32.82, 400.03, 40.9, 403.93, -161.06, -13.99, -169.14 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 207,
+					"height": 100
+				}
+			},
+			"cci3": {
+				"cci0001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -17.89, 32.82, 400.03, 40.9, 403.93, -161.06, -13.99, -169.14 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 207,
+					"height": 100
+				},
+				"cci0002": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -17.89, 32.82, 400.03, 40.9, 403.93, -161.06, -13.99, -169.14 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 207,
+					"height": 100
+				},
+				"cci0003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -17.89, 32.82, 400.03, 40.9, 403.93, -161.06, -13.99, -169.14 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 207,
+					"height": 100
+				},
+				"cci0005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -17.89, 32.82, 400.03, 40.9, 403.93, -161.06, -13.99, -169.14 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 207,
+					"height": 100
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill272": {
+		"slots": {
+			"cci0003": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "cci0001" },
+					{ "time": 0.0333, "name": "cci0003" },
+					{ "time": 0.0667, "name": "cci0005" },
+					{ "time": 0.1, "name": "cci0003" },
+					{ "time": 0.1333, "name": "cci0005" },
+					{ "time": 0.1667, "name": "cci0002" },
+					{ "time": 0.2, "name": "cci0005" },
+					{ "time": 0.2333, "name": "cci0003" },
+					{ "time": 0.2667, "name": "cci0001" },
+					{ "time": 0.3, "name": "cci0003" },
+					{ "time": 0.3333, "name": "cci0001" },
+					{ "time": 0.3667, "name": "cci0003" },
+					{ "time": 0.4, "name": "cci0005" }
+				]
+			},
+			"cci3": {
+				"color": [
+					{ "color": "ffffff8d", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff8d" },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "cci0001" },
+					{ "time": 0.0333, "name": "cci0003" },
+					{ "time": 0.0667, "name": "cci0005" },
+					{ "time": 0.1, "name": "cci0002" },
+					{ "time": 0.1333, "name": "cci0001" },
+					{ "time": 0.1667, "name": "cci0002" },
+					{ "time": 0.2, "name": "cci0005" },
+					{ "time": 0.2333, "name": "cci0003" },
+					{ "time": 0.2667, "name": "cci0001" },
+					{ "time": 0.3, "name": "cci0003" },
+					{ "time": 0.3333, "name": "cci0001" },
+					{ "time": 0.3667, "name": "cci0003" },
+					{ "time": 0.4, "name": "cci0005" }
+				]
+			}
+		},
+		"bones": {
+			"cci0003": {
+				"translate": [
+					{ "x": -685.6, "y": -2.71, "curve": 0.02, "c3": 0.662 },
+					{ "time": 0.4, "x": 1867.35, "y": -2.71 }
+				],
+				"scale": [
+					{ "x": 2.877, "y": 2.877, "curve": 0.02, "c3": 0.662 },
+					{ "time": 0.4, "x": 3.099, "y": 3.099 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.6, "name": "K" }
+		]
+	}
+}
+}

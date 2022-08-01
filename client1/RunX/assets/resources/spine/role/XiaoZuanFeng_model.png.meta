@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c450ba7d-8fb3-4cd8-a640-3dc18d3f916c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 882,
+  "height": 206,
+  "platformSettings": {},
+  "subMetas": {
+    "XiaoZuanFeng_model": {
+      "ver": "1.0.6",
+      "uuid": "3abbcf96-14f6-4478-875f-801b5887864a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c450ba7d-8fb3-4cd8-a640-3dc18d3f916c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 878,
+      "height": 202,
+      "rawWidth": 882,
+      "rawHeight": 206,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

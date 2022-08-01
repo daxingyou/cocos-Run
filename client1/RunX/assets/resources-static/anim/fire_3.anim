@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fire_trig",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.06666666666666667,
+  "sample": 60,
+  "speed": 0.3,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "5c878e6e-d725-43c3-bcb3-02740087f308"
+            }
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "609ea19e-5fd4-4d42-9fc4-5cca03c83dce"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "a50c712f-1fcd-4b45-88bd-108e55060d71"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "c76438ae-c1c7-4347-a9a7-2d3a0031e22b"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

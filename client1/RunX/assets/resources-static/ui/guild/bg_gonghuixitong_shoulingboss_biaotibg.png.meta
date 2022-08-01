@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "8a6cbf94-9ef3-4e15-bd69-9adffbb35e07",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 725,
+  "height": 62,
+  "platformSettings": {},
+  "subMetas": {
+    "bg_gonghuixitong_shoulingboss_biaotibg": {
+      "ver": "1.0.6",
+      "uuid": "01e743c4-514e-4f47-9e46-6b69bc93539c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "8a6cbf94-9ef3-4e15-bd69-9adffbb35e07",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 725,
+      "height": 62,
+      "rawWidth": 725,
+      "rawHeight": 62,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

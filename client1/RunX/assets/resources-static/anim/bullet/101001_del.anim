@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "101001_del",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.15,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "08e4cc49-454c-48bc-8bc8-7886179cb853"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "5576ada3-f87b-43e2-84ab-3ffdac07df3e"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "b887b429-c61e-4fc3-9a40-49fadf4a619a"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

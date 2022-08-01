@@ -1,0 +1,156 @@
+{
+"skeleton": { "hash": "BKdJljP2qMPzgOJk4bHBeU6cWkk", "spine": "3.8.99", "images": "./images/", "audio": "Z:/进行中的项目/张晨阳动效项目/第二批冰封特效需求/R-土地-a/土地" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "baodian/baodian_00", "parent": "root", "x": 10.25, "y": -62.51 },
+	{ "name": "senlinlang_skill1_a5003", "parent": "root" },
+	{ "name": "senlinlang_skill1_a5004", "parent": "root" }
+],
+"slots": [
+	{ "name": "baodian/baodian_00", "bone": "baodian/baodian_00" },
+	{ "name": "senlinlang_skill1_a5003", "bone": "senlinlang_skill1_a5003" },
+	{ "name": "senlinlang_skill1_a5004", "bone": "senlinlang_skill1_a5004" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"baodian/baodian_00": {
+				"baodian/baodian_00": { "x": -10.25, "y": 62.51, "width": 960, "height": 540 },
+				"baodian/baodian_01": { "x": -10.25, "y": 62.51, "width": 960, "height": 540 },
+				"baodian/baodian_02": { "x": -10.25, "y": 62.51, "width": 960, "height": 540 },
+				"baodian/baodian_03": { "x": -10.25, "y": 62.51, "width": 960, "height": 540 },
+				"baodian/baodian_04": { "x": -10.25, "y": 62.51, "width": 960, "height": 540 },
+				"baodian/baodian_05": { "x": -10.25, "y": 62.51, "width": 960, "height": 540 },
+				"baodian/baodian_06": { "x": -10.25, "y": 62.51, "width": 960, "height": 540 },
+				"baodian/baodian_07": { "x": -10.25, "y": 62.51, "width": 960, "height": 540 },
+				"baodian/baodian_08": { "x": -10.25, "y": 62.51, "width": 960, "height": 540 },
+				"baodian/baodian_09": { "x": -10.25, "y": 62.51, "width": 960, "height": 540 },
+				"baodian/baodian_10": { "x": -10.25, "y": 62.51, "width": 960, "height": 540 }
+			},
+			"senlinlang_skill1_a5003": {
+				"senlinlang_skill1_a5003": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5004": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5005": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5006": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5007": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5008": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5009": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5010": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5011": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5012": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5013": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5014": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5015": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5016": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5017": { "width": 202, "height": 110 }
+			},
+			"senlinlang_skill1_a5004": {
+				"senlinlang_skill1_a5003": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5004": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5005": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5006": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5007": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5008": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5009": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5010": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5011": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5012": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5013": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5014": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5015": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5016": { "width": 202, "height": 110 },
+				"senlinlang_skill1_a5017": { "width": 202, "height": 110 }
+			}
+		}
+	}
+],
+"animations": {
+	"TuDi_Attack_1_C_Shang": {
+		"slots": {
+			"baodian/baodian_00": {
+				"attachment": [
+					{ "name": "baodian/baodian_00" },
+					{ "time": 0.0333, "name": "baodian/baodian_01" },
+					{ "time": 0.0667, "name": "baodian/baodian_02" },
+					{ "time": 0.1, "name": "baodian/baodian_03" },
+					{ "time": 0.1333, "name": "baodian/baodian_04" },
+					{ "time": 0.1667, "name": "baodian/baodian_05" },
+					{ "time": 0.2, "name": "baodian/baodian_06" },
+					{ "time": 0.2333, "name": "baodian/baodian_07" },
+					{ "time": 0.2667, "name": "baodian/baodian_08" },
+					{ "time": 0.3, "name": "baodian/baodian_09" },
+					{ "time": 0.3333, "name": "baodian/baodian_10" },
+					{ "time": 0.3667, "name": null }
+				]
+			},
+			"senlinlang_skill1_a5003": {
+				"attachment": [
+					{ "name": "senlinlang_skill1_a5003" },
+					{ "time": 0.0333, "name": "senlinlang_skill1_a5004" },
+					{ "time": 0.0667, "name": "senlinlang_skill1_a5005" },
+					{ "time": 0.1, "name": "senlinlang_skill1_a5006" },
+					{ "time": 0.1333, "name": "senlinlang_skill1_a5007" },
+					{ "time": 0.1667, "name": "senlinlang_skill1_a5008" },
+					{ "time": 0.2, "name": "senlinlang_skill1_a5009" },
+					{ "time": 0.2333, "name": "senlinlang_skill1_a5010" },
+					{ "time": 0.2667, "name": "senlinlang_skill1_a5011" },
+					{ "time": 0.3, "name": "senlinlang_skill1_a5012" },
+					{ "time": 0.3333, "name": "senlinlang_skill1_a5013" },
+					{ "time": 0.3667, "name": "senlinlang_skill1_a5014" },
+					{ "time": 0.4, "name": "senlinlang_skill1_a5015" },
+					{ "time": 0.4333, "name": "senlinlang_skill1_a5016" },
+					{ "time": 0.4667, "name": "senlinlang_skill1_a5017" },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"senlinlang_skill1_a5004": {
+				"attachment": [
+					{ "name": "senlinlang_skill1_a5003" },
+					{ "time": 0.0333, "name": "senlinlang_skill1_a5004" },
+					{ "time": 0.0667, "name": "senlinlang_skill1_a5005" },
+					{ "time": 0.1, "name": "senlinlang_skill1_a5006" },
+					{ "time": 0.1333, "name": "senlinlang_skill1_a5007" },
+					{ "time": 0.1667, "name": "senlinlang_skill1_a5008" },
+					{ "time": 0.2, "name": "senlinlang_skill1_a5009" },
+					{ "time": 0.2333, "name": "senlinlang_skill1_a5010" },
+					{ "time": 0.2667, "name": "senlinlang_skill1_a5011" },
+					{ "time": 0.3, "name": "senlinlang_skill1_a5012" },
+					{ "time": 0.3333, "name": "senlinlang_skill1_a5013" },
+					{ "time": 0.3667, "name": "senlinlang_skill1_a5014" },
+					{ "time": 0.4, "name": "senlinlang_skill1_a5015" },
+					{ "time": 0.4333, "name": "senlinlang_skill1_a5016" },
+					{ "time": 0.4667, "name": "senlinlang_skill1_a5017" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"baodian/baodian_00": {
+				"translate": [
+					{ "x": -10.25, "y": 62.51 }
+				],
+				"scale": [
+					{ "x": 3.032, "y": 3.032 }
+				]
+			},
+			"senlinlang_skill1_a5003": {
+				"rotate": [
+					{ "angle": 83.69 }
+				],
+				"scale": [
+					{ "x": 3.53, "y": 3.53 }
+				]
+			},
+			"senlinlang_skill1_a5004": {
+				"rotate": [
+					{ "angle": 61.42 }
+				],
+				"scale": [
+					{ "x": -3.326, "y": 4.55 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,50 @@
+{
+"skeleton": { "hash": "s68N4Ch4X654aLhFbZsx3R6RsQY", "spine": "3.8.99", "images": "./images/", "audio": "E:/搬砖/门/内部/第一批美佳美(4)/第一批美佳美/SR-牛郎-a/牛郎合入" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "link", "parent": "root" }
+],
+"slots": [
+	{ "name": "NiuLang_Attack_2/attack2_link/attack_link_00033", "bone": "link", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"NiuLang_Attack_2/attack2_link/attack_link_00033": {
+				"NiuLang_Attack_2/attack2_link/attack_link_00033": { "y": 0.5, "width": 270, "height": 289 },
+				"NiuLang_Attack_2/attack2_link/attack_link_00035": { "y": 0.5, "width": 270, "height": 289 },
+				"NiuLang_Attack_2/attack2_link/attack_link_00037": { "y": 0.5, "width": 270, "height": 289 },
+				"NiuLang_Attack_2/attack2_link/attack_link_00039": { "y": 0.5, "width": 270, "height": 289 },
+				"NiuLang_Attack_2/attack2_link/attack_link_00041": { "y": 0.5, "width": 270, "height": 289 }
+			}
+		}
+	}
+],
+"animations": {
+	"NiuLang_PassiveSkill_Effect_1": {
+		"slots": {
+			"NiuLang_Attack_2/attack2_link/attack_link_00033": {
+				"attachment": [
+					{ "name": "NiuLang_Attack_2/attack2_link/attack_link_00033" },
+					{ "time": 0.0667, "name": "NiuLang_Attack_2/attack2_link/attack_link_00035" },
+					{ "time": 0.1333, "name": "NiuLang_Attack_2/attack2_link/attack_link_00037" },
+					{ "time": 0.2, "name": "NiuLang_Attack_2/attack2_link/attack_link_00039" },
+					{ "time": 0.2667, "name": "NiuLang_Attack_2/attack2_link/attack_link_00041" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"link": {
+				"translate": [
+					{ "x": 67.28, "y": 182.15 }
+				],
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

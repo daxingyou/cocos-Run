@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "doubleJumpDirt",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.06666666666666667,
+  "sample": 60,
+  "speed": 0.15,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "e1136e75-b686-475e-9d6b-48c1fb7f6701"
+            }
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "5d14e505-6487-4b29-8d58-42651096fdc6"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "a391e753-87c2-4faf-be1d-a86f3f9cf43c"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "1bd46d9d-f584-4f00-bd58-4c5a065d4c2f"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

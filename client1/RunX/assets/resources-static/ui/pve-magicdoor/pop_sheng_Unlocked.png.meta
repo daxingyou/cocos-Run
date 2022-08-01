@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "daf50405-7b55-43f9-85de-5212654fcf9e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 34,
+  "height": 34,
+  "platformSettings": {},
+  "subMetas": {
+    "pop_sheng_Unlocked": {
+      "ver": "1.0.6",
+      "uuid": "fb84f6f5-cae9-4c34-b6a3-ab25c8d022af",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "daf50405-7b55-43f9-85de-5212654fcf9e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 30,
+      "height": 31,
+      "rawWidth": 34,
+      "rawHeight": 34,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

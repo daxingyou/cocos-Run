@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "cxmWxp0SXuj1ct4v3UkgBlT/1RI", "spine": "3.8.99", "images": "./images/", "audio": "Z:/进行中的项目/张晨阳动效项目/第三批/特效项目/SR-精卫-a/特效" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "shitou/shitu_01", "parent": "root" }
+],
+"slots": [
+	{ "name": "shitou/shitu_01", "bone": "shitou/shitu_01" },
+	{ "name": "shitou/shitu_5", "bone": "shitou/shitu_01", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"shitou/shitu_01": {
+				"shitou/shitu_24": { "width": 125, "height": 125 }
+			},
+			"shitou/shitu_5": {
+				"shitou/shitu_24": { "width": 125, "height": 125 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"shitou/shitu_01": {
+				"color": [
+					{ "color": "ff6b06ff" }
+				],
+				"attachment": [
+					{ "name": "shitou/shitu_24" },
+					{ "time": 0.1667, "name": null }
+				]
+			},
+			"shitou/shitu_5": {
+				"attachment": [
+					{ "name": "shitou/shitu_24" },
+					{ "time": 0.1667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shitou/shitu_01": {
+				"rotate": [
+					{ "angle": -63.55 }
+				],
+				"translate": [
+					{ "x": 25.62, "y": 171.12, "curve": 0, "c2": 1, "c3": 0.75 },
+					{ "time": 0.1667, "x": 740.29, "y": 209.42 }
+				],
+				"scale": [
+					{ "x": 0.77, "y": 0.77 }
+				]
+			}
+		}
+	}
+}
+}

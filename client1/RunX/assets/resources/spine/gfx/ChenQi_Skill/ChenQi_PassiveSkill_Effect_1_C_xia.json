@@ -1,0 +1,43 @@
+{
+"skeleton": { "hash": "svPVEYbwb2ceL7OknQn0M7E3A4g", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "ChenQi_PassiveSkill_Effect_1_C_xia", "scaleX": 1.35, "scaleY": 1.35 }
+],
+"slots": [
+	{ "name": "ChenQi_PassiveSkill_Effect_1_C_xia", "bone": "ChenQi_PassiveSkill_Effect_1_C_xia" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ChenQi_PassiveSkill_Effect_1_C_xia": {
+				"buff_xia_00": { "width": 480, "height": 180 },
+				"buff_xia_02": { "width": 480, "height": 180 },
+				"buff_xia_04": { "width": 480, "height": 180 },
+				"buff_xia_06": { "width": 480, "height": 180 },
+				"buff_xia_08": { "width": 480, "height": 180 }
+			}
+		}
+	}
+],
+"animations": {
+	"ChenQi_PassiveSkill_Effect_1_C_xia": {
+		"slots": {
+			"ChenQi_PassiveSkill_Effect_1_C_xia": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "buff_xia_00" },
+					{ "time": 0.0667, "name": "buff_xia_02" },
+					{ "time": 0.1333, "name": "buff_xia_04" },
+					{ "time": 0.2, "name": "buff_xia_06" },
+					{ "time": 0.2667, "name": "buff_xia_08" },
+					{ "time": 0.3667, "name": null }
+				]
+			}
+		}
+	}
+}
+}

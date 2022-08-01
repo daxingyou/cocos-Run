@@ -1,0 +1,99 @@
+{
+"skeleton": { "hash": "EJA6OYw3NP5eZG/nT2kUj+O4jsQ", "spine": "3.8.99", "images": "../../SR-牛郎-a/牛郎合入/images/", "audio": "E:/搬砖/门/内部/第一批美佳美(4)/第一批美佳美/SR-牛郎-a/牛郎合入" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "skill_jq", "parent": "root" },
+	{ "name": "skill_jq2", "parent": "root" }
+],
+"slots": [
+	{ "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00016", "bone": "skill_jq", "blend": "additive" },
+	{ "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00041", "bone": "skill_jq2", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00016": {
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00016": { "width": 480, "height": 416 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00018": { "width": 480, "height": 416 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00020": { "width": 480, "height": 416 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00022": { "width": 480, "height": 416 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00024": { "width": 480, "height": 416 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00026": { "width": 480, "height": 416 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00028": { "width": 480, "height": 416 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00030": { "width": 480, "height": 416 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00032": { "width": 480, "height": 416 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00034": { "width": 480, "height": 416 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00036": { "width": 480, "height": 416 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00038": { "width": 480, "height": 416 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00040": { "width": 480, "height": 416 }
+			},
+			"NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00041": {
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00041": { "y": 0.5, "width": 648, "height": 371 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00043": { "y": 0.5, "width": 648, "height": 371 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00045": { "y": 0.5, "width": 648, "height": 371 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00047": { "y": 0.5, "width": 648, "height": 371 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00049": { "y": 0.5, "width": 648, "height": 371 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00051": { "y": 0.5, "width": 648, "height": 371 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00053": { "y": 0.5, "width": 648, "height": 371 },
+				"NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00055": { "y": 0.5, "width": 648, "height": 371 }
+			}
+		}
+	}
+],
+"animations": {
+	"NiuLang_ActiveSkill_Effect_1": {
+		"slots": {
+			"NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00016": {
+				"attachment": [
+					{ "time": 0.1667, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00016" },
+					{ "time": 0.2333, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00018" },
+					{ "time": 0.3, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00020" },
+					{ "time": 0.3667, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00022" },
+					{ "time": 0.4333, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00024" },
+					{ "time": 0.5, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00026" },
+					{ "time": 0.5667, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00028" },
+					{ "time": 0.6333, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00030" },
+					{ "time": 0.7, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00032" },
+					{ "time": 0.7667, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00034" },
+					{ "time": 0.8333, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00036" },
+					{ "time": 0.9, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00038" },
+					{ "time": 0.9667, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi/skill_juqi_00040" },
+					{ "time": 1.0333, "name": null }
+				]
+			},
+			"NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00041": {
+				"attachment": [
+					{ "time": 1, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00041" },
+					{ "time": 1.0667, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00043" },
+					{ "time": 1.1333, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00045" },
+					{ "time": 1.2, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00047" },
+					{ "time": 1.2667, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00049" },
+					{ "time": 1.3333, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00051" },
+					{ "time": 1.4, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00053" },
+					{ "time": 1.4667, "name": "NiuLang_ActiveSkill_Effect_1/skill_juqi2/skill_juqi2_00055" },
+					{ "time": 1.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"skill_jq": {
+				"translate": [
+					{ "time": 0.1667, "x": 49.93, "y": 223.66 }
+				],
+				"scale": [
+					{ "time": 0.1667, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"skill_jq2": {
+				"translate": [
+					{ "time": 1, "x": 98.19, "y": 190.85 }
+				],
+				"scale": [
+					{ "time": 1, "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1b0ac8bf-c467-4c2b-890b-187db3722e64",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 319,
+  "height": 146,
+  "platformSettings": {},
+  "subMetas": {
+    "JuLingShen_Attack_1_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "2eddde5c-67b9-4105-8fb6-0ccec19e14fc",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1b0ac8bf-c467-4c2b-890b-187db3722e64",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 315,
+      "height": 142,
+      "rawWidth": 319,
+      "rawHeight": 146,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

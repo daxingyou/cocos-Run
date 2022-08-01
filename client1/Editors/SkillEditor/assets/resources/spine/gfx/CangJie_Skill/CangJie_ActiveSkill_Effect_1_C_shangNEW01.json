@@ -1,0 +1,188 @@
+{
+"skeleton": { "hash": "hVYENw7LfcVQ1ng8l7PgvNlldA0", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "CangJie_ActiveSkill_Effect_1", "parent": "root", "color": "ffffffff" },
+	{ "name": "shoujifang", "parent": "CangJie_ActiveSkill_Effect_1", "color": "ffffffff" },
+	{ "name": "maobixialuo", "parent": "shoujifang", "y": 732.2, "color": "ffffffff" },
+	{ "name": "maobi", "parent": "maobixialuo", "scaleX": 2, "scaleY": 2, "color": "ffffffff" },
+	{ "name": "trail", "parent": "maobixialuo", "y": 107.81, "scaleX": 2, "scaleY": 2, "color": "ffffffff" },
+	{ "name": "maobixialuodaji", "parent": "shoujifang", "color": "ffffffff" },
+	{ "name": "maindaji", "parent": "maobixialuodaji", "color": "ffffffff" },
+	{ "name": "maobixialuoshang", "parent": "shoujifang", "color": "ffffffff" },
+	{ "name": "maobixialuoci", "parent": "shoujifang", "x": 259.94, "color": "ffffffff" },
+	{ "name": "zhaglow", "parent": "shoujifang", "color": "ffffffff" }
+],
+"slots": [
+	{ "name": "maobi1", "bone": "maobi" },
+	{ "name": "atk3_yuan7", "bone": "maobixialuoshang", "blend": "additive" },
+	{ "name": "trail", "bone": "trail", "blend": "additive" },
+	{ "name": "maindaji", "bone": "maindaji", "blend": "additive" },
+	{ "name": "maobicichu2", "bone": "maobixialuoci", "blend": "additive" },
+	{ "name": "atk3_yuan18", "bone": "zhaglow", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"atk3_yuan7": {
+				"white": { "x": 0.5, "width": 109, "height": 48 }
+			},
+			"maindaji": {
+				"skill_smokezhakai69": { "x": 0.5, "width": 307, "height": 278 },
+				"skill_smokezhakai71": { "x": 0.5, "width": 307, "height": 278 },
+				"skill_smokezhakai73": { "x": 0.5, "width": 307, "height": 278 },
+				"skill_smokezhakai75": { "x": 0.5, "width": 307, "height": 278 },
+				"skill_smokezhakai77": { "x": 0.5, "width": 307, "height": 278 },
+				"skill_smokezhakai79": { "x": 0.5, "width": 307, "height": 278 },
+				"skill_smokezhakai81": { "x": 0.5, "width": 307, "height": 278 },
+				"skill_smokezhakai83": { "x": 0.5, "width": 307, "height": 278 },
+				"skill_smokezhakai84": { "x": 0.5, "width": 307, "height": 278 }
+			},
+			"maobi1": {
+				"maobi_00": { "y": 0.5, "width": 64, "height": 215 },
+				"maobi_01": { "x": 0.5, "width": 71, "height": 180 }
+			},
+			"maobicichu2": {
+				"maobi_zhadi_00": { "x": 0.5, "width": 122, "height": 90 },
+				"maobi_zhadi_01": { "x": 0.5, "width": 122, "height": 90 },
+				"maobi_zhadi_02": { "x": 0.5, "width": 122, "height": 90 },
+				"maobi_zhadi_03": { "x": 0.5, "width": 122, "height": 90 },
+				"maobi_zhadi_05": { "x": 0.5, "width": 122, "height": 90 },
+				"maobi_zhadi_06": { "x": 0.5, "width": 122, "height": 90 },
+				"maobi_zhadi_07": { "x": 0.5, "width": 122, "height": 90 }
+			},
+			"trail": {
+				"maobi_noise00_00": { "y": 0.5, "width": 128, "height": 327 },
+				"maobi_noise00_01": { "y": 0.5, "width": 128, "height": 327 },
+				"maobi_noise00_02": { "y": 0.5, "width": 128, "height": 327 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"atk3_yuan7": {
+				"color": [
+					{ "time": 2.3333, "color": "ffffff7e", "curve": "stepped" },
+					{ "time": 3.2333, "color": "ffffff7e" },
+					{ "time": 3.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.3333, "name": "white" }
+				]
+			},
+			"atk3_yuan18": {
+				"color": [
+					{ "time": 3.0667, "color": "ffffffff" },
+					{ "time": 3.2333, "color": "ffffff00" }
+				]
+			},
+			"maindaji": {
+				"attachment": [
+					{ "time": 2.3333, "name": "skill_smokezhakai69" },
+					{ "time": 2.3667, "name": "skill_smokezhakai71" },
+					{ "time": 2.4333, "name": "skill_smokezhakai73" },
+					{ "time": 2.4667, "name": "skill_smokezhakai75" },
+					{ "time": 2.5, "name": "skill_smokezhakai77" },
+					{ "time": 2.5333, "name": "skill_smokezhakai79" },
+					{ "time": 2.5667, "name": "skill_smokezhakai81" },
+					{ "time": 2.6, "name": "skill_smokezhakai83" },
+					{ "time": 2.6667, "name": "skill_smokezhakai84" },
+					{ "time": 2.7, "name": null }
+				]
+			},
+			"maobi1": {
+				"color": [
+					{ "time": 3.2333, "color": "ffffffff" },
+					{ "time": 3.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.1, "name": "maobi_00" },
+					{ "time": 2.3333, "name": "maobi_01" }
+				]
+			},
+			"maobicichu2": {
+				"attachment": [
+					{ "time": 2.3333, "name": "maobi_zhadi_00" },
+					{ "time": 2.3667, "name": "maobi_zhadi_01" },
+					{ "time": 2.4, "name": "maobi_zhadi_02" },
+					{ "time": 2.4333, "name": "maobi_zhadi_03" },
+					{ "time": 2.5, "name": "maobi_zhadi_05" },
+					{ "time": 2.5333, "name": "maobi_zhadi_06" },
+					{ "time": 2.5667, "name": "maobi_zhadi_07" },
+					{ "time": 2.6333, "name": null }
+				]
+			},
+			"trail": {
+				"color": [
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.4333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.1, "name": "maobi_noise00_00" },
+					{ "time": 2.1667, "name": "maobi_noise00_01" },
+					{ "time": 2.2333, "name": "maobi_noise00_02" },
+					{ "time": 2.3, "name": "maobi_noise00_00" },
+					{ "time": 2.3667, "name": "maobi_noise00_01" },
+					{ "time": 2.4333, "name": "maobi_noise00_02" }
+				]
+			}
+		},
+		"bones": {
+			"maobi": {
+				"translate": [
+					{ "time": 2.3 },
+					{ "time": 2.3333, "y": 49.41 }
+				]
+			},
+			"trail": {
+				"translate": [
+					{ "time": 2.3 },
+					{ "time": 2.3333, "y": 60.64 }
+				]
+			},
+			"maobixialuo": {
+				"translate": [
+					{ "time": 2.1, "y": 62.89 },
+					{ "time": 2.3333, "y": -660.32 }
+				]
+			},
+			"maindaji": {
+				"translate": [
+					{ "time": 2.3333, "y": 78.61 }
+				],
+				"scale": [
+					{ "time": 2.3333, "x": 2, "y": 2 }
+				]
+			},
+			"maobixialuoshang": {
+				"translate": [
+					{ "time": 2.3333, "x": 5.06, "y": -26.95 }
+				],
+				"scale": [
+					{ "time": 2.3333, "x": 0.829, "y": 0.765 }
+				]
+			},
+			"maobixialuoci": {
+				"translate": [
+					{ "time": 2.3333, "x": -269.85, "y": 96.37 }
+				],
+				"scale": [
+					{ "time": 2.3333, "x": 4, "y": 4 }
+				]
+			},
+			"zhaglow": {
+				"translate": [
+					{ "time": 3.0667, "y": 129.69 }
+				],
+				"scale": [
+					{ "time": 3.0667 },
+					{ "time": 3.2, "x": 2.155, "y": 2.155 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,88 @@
+{
+"skeleton": { "hash": "2ytlPd/lifpUbBv8G7flFkXLu8o", "spine": "3.8.99", "images": "./images/", "audio": "E:/搬砖/门/内部/第一批美佳美(4)/第一批美佳美/SR-牛郎-a/牛郎合入" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "buff_ks", "parent": "root" },
+	{ "name": "buff_ks2", "parent": "root" },
+	{ "name": "buff2", "parent": "root" }
+],
+"slots": [
+	{ "name": "NiuLang_PassiveSkill_Effect_1/niu1_46", "bone": "buff2", "blend": "additive" },
+	{ "name": "NiuLang_PassiveSkill_Effect_1/ks_00031", "bone": "buff_ks", "blend": "additive" },
+	{ "name": "NiuLang_PassiveSkill_Effect_1/ks_31", "bone": "buff_ks2", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"NiuLang_PassiveSkill_Effect_1/ks_00031": {
+				"NiuLang_PassiveSkill_Effect_1/ks_00031": { "x": 0.5, "y": 0.5, "width": 145, "height": 181 }
+			},
+			"NiuLang_PassiveSkill_Effect_1/ks_31": {
+				"NiuLang_PassiveSkill_Effect_1/ks_00031": { "x": 0.5, "y": 0.5, "width": 145, "height": 181 }
+			},
+			"NiuLang_PassiveSkill_Effect_1/niu1_46": {
+				"NiuLang_PassiveSkill_Effect_1/niu2_00027": { "x": 0.5, "width": 197, "height": 194 }
+			}
+		}
+	}
+],
+"animations": {
+	"NiuLang_PassiveSkill_Effect_1": {
+		"slots": {
+			"NiuLang_PassiveSkill_Effect_1/ks_00031": {
+				"color": [
+					{ "time": 0.0667, "color": "ffffff56" },
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "NiuLang_PassiveSkill_Effect_1/ks_00031" }
+				]
+			},
+			"NiuLang_PassiveSkill_Effect_1/ks_31": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffff56" },
+					{ "time": 0.4333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2333, "name": "NiuLang_PassiveSkill_Effect_1/ks_00031" }
+				]
+			},
+			"NiuLang_PassiveSkill_Effect_1/niu1_46": {
+				"attachment": [
+					{ "name": "NiuLang_PassiveSkill_Effect_1/niu2_00027" }
+				]
+			}
+		},
+		"bones": {
+			"buff_ks": {
+				"scale": [
+					{ "time": 0.0667 },
+					{ "time": 0.2667, "x": 3, "y": 3 },
+					{ "time": 0.5, "x": 4, "y": 4 }
+				]
+			},
+			"buff_ks2": {
+				"scale": [
+					{ "time": 0.2333 },
+					{ "time": 0.4333, "x": 1.8, "y": 1.8 },
+					{ "time": 0.6667, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"buff2": {
+				"translate": [
+					{ "x": 29.27, "y": 8.36 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.1667, "x": 1.2, "y": 1.2 },
+					{ "time": 0.3667, "x": 0.9, "y": 0.9 },
+					{ "time": 0.5333 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,176 @@
+{
+"skeleton": { "hash": "eGK3duGzKd0GtEr6lzjo5+GJ96c", "spine": "3.8.95", "images": "./images/", "audio": "H:/波波外包/new/太白金星/SSR-太白金星" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "attack2", "parent": "eft" },
+	{ "name": "jianqi", "parent": "attack2" },
+	{ "name": "atk2_lizi", "parent": "attack2" },
+	{ "name": "atk2_daoguang", "parent": "attack2" },
+	{ "name": "atk2_lizi_smoke", "parent": "attack2" }
+],
+"slots": [
+	{ "name": "jianqi", "bone": "jianqi" },
+	{ "name": "atk2_lizi_smoke", "bone": "atk2_lizi_smoke", "blend": "additive" },
+	{ "name": "atk2_lizi", "bone": "atk2_lizi", "blend": "additive" },
+	{ "name": "atk2_daoguang", "bone": "atk2_daoguang", "color": "ffffff80" },
+	{ "name": "atk2_daoguang2", "bone": "atk2_daoguang", "color": "ffffff80", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"atk2_daoguang": {
+				"eft/attack2/daoguang/daoguang_0017": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0018": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0020": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0021": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0023": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0024": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0026": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0027": { "width": 600, "height": 600 }
+			},
+			"atk2_daoguang2": {
+				"eft/attack2/daoguang/daoguang_0017": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0018": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0020": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0021": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0023": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0024": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0026": { "width": 600, "height": 600 },
+				"eft/attack2/daoguang/daoguang_0027": { "width": 600, "height": 600 }
+			},
+			"atk2_lizi": {
+				"eft/attack2/atk2_lizi/atk2_lizi_0025": { "width": 1200, "height": 1200 },
+				"eft/attack2/atk2_lizi/atk2_lizi_0026": { "width": 1200, "height": 1200 },
+				"eft/attack2/atk2_lizi/atk2_lizi_0028": { "width": 1200, "height": 1200 },
+				"eft/attack2/atk2_lizi/atk2_lizi_0029": { "width": 1200, "height": 1200 },
+				"eft/attack2/atk2_lizi/atk2_lizi_0031": { "width": 1200, "height": 1200 },
+				"eft/attack2/atk2_lizi/atk2_lizi_0032": { "width": 1200, "height": 1200 },
+				"eft/attack2/atk2_lizi/atk2_lizi_0034": { "width": 1200, "height": 1200 },
+				"eft/attack2/atk2_lizi/atk2_lizi_0035": { "width": 1200, "height": 1200 },
+				"eft/attack2/atk2_lizi/atk2_lizi_0037": { "width": 1200, "height": 1200 }
+			},
+			"atk2_lizi_smoke": {
+				"eft/attack2/atk2_lizi_smoke0027": { "width": 300, "height": 300 }
+			},
+			"jianqi": {
+				"eft/attack2/jianqi/jianqi_0020": { "x": -179.34, "width": 600, "height": 600 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack4": {
+		"slots": {
+			"atk2_daoguang": {
+				"attachment": [
+					{ "time": 0.0667, "name": "eft/attack2/daoguang/daoguang_0017" },
+					{ "time": 0.1, "name": "eft/attack2/daoguang/daoguang_0018" },
+					{ "time": 0.1667, "name": "eft/attack2/daoguang/daoguang_0020" },
+					{ "time": 0.2, "name": "eft/attack2/daoguang/daoguang_0021" },
+					{ "time": 0.2667, "name": "eft/attack2/daoguang/daoguang_0023" },
+					{ "time": 0.3, "name": "eft/attack2/daoguang/daoguang_0024" },
+					{ "time": 0.3333, "name": "eft/attack2/daoguang/daoguang_0026" },
+					{ "time": 0.3667, "name": "eft/attack2/daoguang/daoguang_0027" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"atk2_daoguang2": {
+				"attachment": [
+					{ "time": 0.0667, "name": "eft/attack2/daoguang/daoguang_0017" },
+					{ "time": 0.1, "name": "eft/attack2/daoguang/daoguang_0018" },
+					{ "time": 0.1667, "name": "eft/attack2/daoguang/daoguang_0020" },
+					{ "time": 0.2, "name": "eft/attack2/daoguang/daoguang_0021" },
+					{ "time": 0.2667, "name": "eft/attack2/daoguang/daoguang_0023" },
+					{ "time": 0.3, "name": "eft/attack2/daoguang/daoguang_0024" },
+					{ "time": 0.3333, "name": "eft/attack2/daoguang/daoguang_0026" },
+					{ "time": 0.3667, "name": "eft/attack2/daoguang/daoguang_0027" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"atk2_lizi": {
+				"color": [
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "eft/attack2/atk2_lizi/atk2_lizi_0025" },
+					{ "time": 0.3667, "name": "eft/attack2/atk2_lizi/atk2_lizi_0026" },
+					{ "time": 0.4333, "name": "eft/attack2/atk2_lizi/atk2_lizi_0028" },
+					{ "time": 0.4667, "name": "eft/attack2/atk2_lizi/atk2_lizi_0029" },
+					{ "time": 0.5333, "name": "eft/attack2/atk2_lizi/atk2_lizi_0031" },
+					{ "time": 0.5667, "name": "eft/attack2/atk2_lizi/atk2_lizi_0032" },
+					{ "time": 0.6333, "name": "eft/attack2/atk2_lizi/atk2_lizi_0034" },
+					{ "time": 0.6667, "name": "eft/attack2/atk2_lizi/atk2_lizi_0035" },
+					{ "time": 0.7333, "name": "eft/attack2/atk2_lizi/atk2_lizi_0037" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"atk2_lizi_smoke": {
+				"color": [
+					{ "time": 0.7333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "eft/attack2/atk2_lizi_smoke0027" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"jianqi": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "eft/attack2/jianqi/jianqi_0020" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"jianqi": {
+				"translate": [
+					{ "time": 0.1667, "x": 532.94, "y": 380.6, "curve": 0, "c2": 0.4, "c3": 0.293 },
+					{ "time": 0.5333, "x": 2354.42, "y": 342.48 }
+				],
+				"scale": [
+					{ "time": 0.1667, "x": 2.32, "y": 3.36, "curve": 0, "c2": 0.4, "c3": 0.293 },
+					{ "time": 0.3, "x": 4, "y": 4 }
+				]
+			},
+			"atk2_lizi": {
+				"translate": [
+					{ "time": 0.3333, "x": 695.14, "y": 370.36 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 4, "y": 4 }
+				]
+			},
+			"atk2_daoguang": {
+				"rotate": [
+					{ "time": 0.0667, "angle": 17, "curve": 0.026, "c2": 0.38, "c3": 0.533 },
+					{ "time": 0.1667 }
+				],
+				"translate": [
+					{ "time": 0.0667, "x": 91.58, "y": 372.06, "curve": 0.026, "c2": 0.38, "c3": 0.533 },
+					{ "time": 0.1667, "x": 185.85, "y": 474.17 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 2.8, "y": 2.8, "curve": 0.026, "c2": 0.38, "c3": 0.533 },
+					{ "time": 0.1667, "x": 3.6, "y": 3.6 }
+				]
+			},
+			"atk2_lizi_smoke": {
+				"translate": [
+					{ "time": 0.3333, "x": 695.14, "y": 370.36, "curve": 0, "c2": 0.37, "c3": 0.75 },
+					{ "time": 0.9333, "x": 618.52, "y": 370.36 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 16, "y": 16 }
+				]
+			}
+		}
+	}
+}
+}

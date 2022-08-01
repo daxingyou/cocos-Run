@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ItemSprint",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.4,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "d01c5679-806d-4491-804b-4fcb4cef15dc"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "8f1326ac-f1ef-405b-9c6b-bf7e4c1ff7be"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "ea37b8b3-6904-4c97-acc7-38b49348cf3a"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "ea37b8b3-6904-4c97-acc7-38b49348cf3a"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

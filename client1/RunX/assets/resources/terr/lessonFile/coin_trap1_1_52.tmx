@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="1.1.3413" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="1">
+ <tileset firstgid="1" name="run_stones" tilewidth="128" tileheight="128" tilecount="10" columns="5">
+  <image source="../../textures/parkour/tiledImage/run_stones.png" width="640" height="256"/>
+ </tileset>
+ <tileset firstgid="11" source="../tiledImage/run_basic32.tsx"/>
+ <tileset firstgid="17" source="../tiledImage/run_chapter5.tsx"/>
+ <tileset firstgid="273" name="run_item32" tilewidth="32" tileheight="32" tilecount="7" columns="7">
+  <image source="../../textures/parkour/tiledImage/run_item32.png" width="224" height="32"/>
+ </tileset>
+ <layer id="13" name="floor" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1EVPBEEUReEe3OFv42xxd3dncHd3d3e3s2UWVO9o0vck3+pVXjqVdFmWUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZS7q0Ud6tGARjShGS3/YL/6WSziEI8E9KAXfejHAAYxhGEkIgnJSHHAfvV7qUhDOjIwg1nMYR4LWMQSlpGJLGQjxwH7c5GHfBSgEEUoRonmVinKUI4K7GAXe9jHAQ5xhGNUogrVqHHAftN77/Z5K9rQjg4b99+JLnjR7YD9pvfe7fMRjGIM47jBLe5wjwc84gnPmMAkpjDtgP2m997t8xWsYg3rNu5/A5vYwrYD9pveA7fPT3CKM5zbuP8LXOIK1w7Yb9rn9vkLXvGGdxvnP/CJL1iev9/v4Ywf/BGAQAQhGCEezX3/L9N53//LdD4UYQhHhI3viUQUohFj4/w38qCOvQ==
+  </data>
+ </layer>
+ <layer id="14" name="shade" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1DEKgDAQBMD0mv9/V5uUR7zIgcEZ2C5scQtpDQAAAAAAAAAAAAAAAAAAYD/9zjHJ+eF+Yj3xdmWD6n5imdsPmQ2q+4mt3H54skF1/+y//3ve2r0fgBoXkkUFQQ==
+  </data>
+ </layer>
+ <layer id="15" name="loot" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1jEKACEMBEB9guD/33qVhWCh4BHUmSaYLsSFpAQAAAAAAAAAAAAAAHCOkt9636TN1mrN4/4r9RYz80TnSG6h58/CeeQW1kXf4XL7n+jdAgCwzwdt4gU4
+  </data>
+ </layer>
+ <layer id="16" name="stones" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt16EBAAAIwzD4/2lOQCCGSGzN7KoAAAAAAAAAAAAAAAAASOr0AAAAIGL7At87AMDFAJSAAAg=
+  </data>
+ </layer>
+</map>

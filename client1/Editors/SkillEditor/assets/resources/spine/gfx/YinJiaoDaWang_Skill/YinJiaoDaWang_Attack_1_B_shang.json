@@ -1,0 +1,54 @@
+{
+"skeleton": { "hash": "QTaVIrJx3Ollv+jFXnFZ8AMn4YM", "spine": "3.8.99", "images": "./images/", "audio": "D:/work/M3/M3外包/深圳-嘉美嘉/20220126提交/SSR_05银角大王" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "hulu", "parent": "eft" },
+	{ "name": "huo", "parent": "hulu" }
+],
+"slots": [
+	{ "name": "eft/attack2/hulu_00024", "bone": "hulu" },
+	{ "name": "eft/attack2/huluhuo/huluhuo_00024", "bone": "huo", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"eft/attack2/hulu_00024": {
+				"eft/attack2/hulu_00024": { "y": 0.5, "width": 194, "height": 283 }
+			},
+			"eft/attack2/huluhuo/huluhuo_00024": {
+				"eft/attack2/huluhuo/huluhuo_00027": { "y": 0.5, "width": 146, "height": 253 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack4": {
+		"slots": {
+			"eft/attack2/hulu_00024": {
+				"attachment": [
+					{ "name": "eft/attack2/hulu_00024" }
+				]
+			},
+			"eft/attack2/huluhuo/huluhuo_00024": {
+				"attachment": [
+					{ "name": "eft/attack2/huluhuo/huluhuo_00027" }
+				]
+			}
+		},
+		"bones": {
+			"hulu": {
+				"rotate": [
+					{ "angle": -176.89 }
+				]
+			},
+			"huo": {
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

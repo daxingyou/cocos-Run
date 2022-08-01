@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0daae48c-5134-442b-a82d-cfcf29c52a83",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 63,
+  "height": 240,
+  "platformSettings": {},
+  "subMetas": {
+    "hero_name_BenBoErBa": {
+      "ver": "1.0.6",
+      "uuid": "4ffca550-8867-4ee3-a427-e1254e141a5f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0daae48c-5134-442b-a82d-cfcf29c52a83",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 2,
+      "trimY": 0,
+      "width": 59,
+      "height": 239,
+      "rawWidth": 63,
+      "rawHeight": 240,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,345 @@
+{
+"skeleton": { "hash": "cxMhdpW21c4vFPPcaH49dP/9CzU", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone6", "parent": "root", "x": -0.99, "y": 50.98 },
+	{ "name": "bd5_07", "parent": "root", "x": 355.64, "y": 985.89 },
+	{ "name": "bd5_7", "parent": "root", "x": 355.64, "y": 976.65 },
+	{ "name": "bd5_8", "parent": "root", "x": 355.64, "y": 961.78 },
+	{ "name": "csfk_00014", "parent": "root", "x": 469.17, "y": 963.23 },
+	{ "name": "Aphrodite_tx_1", "parent": "root", "x": 618.83, "y": 797.7 }
+],
+"slots": [
+	{ "name": "bd5_07", "bone": "bd5_07", "blend": "additive" },
+	{ "name": "bd5_7", "bone": "bd5_7", "blend": "additive" },
+	{ "name": "bd5_8", "bone": "bd5_8", "blend": "additive" },
+	{ "name": "csfk_00014", "bone": "csfk_00014", "blend": "additive" },
+	{ "name": "Aphrodite_tx_1", "bone": "Aphrodite_tx_1", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Aphrodite_tx_1": {
+				"Aphrodite_tx_1": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 148.33, -85.91, -113.67, -85.91, -113.67, 69.09, 148.33, 69.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 93,
+					"height": 55
+				},
+				"Aphrodite_tx_2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 148.33, -85.91, -113.67, -85.91, -113.67, 69.09, 148.33, 69.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 93,
+					"height": 55
+				},
+				"Aphrodite_tx_3": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 148.33, -85.91, -113.67, -85.91, -113.67, 69.09, 148.33, 69.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 93,
+					"height": 55
+				},
+				"Aphrodite_tx_4": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 148.33, -85.91, -113.67, -85.91, -113.67, 69.09, 148.33, 69.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 93,
+					"height": 55
+				}
+			},
+			"bd5_07": {
+				"bd5_04": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_06": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_07": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_08": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				}
+			},
+			"bd5_7": {
+				"bd5_04": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_06": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_07": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_08": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				}
+			},
+			"bd5_8": {
+				"bd5_04": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_06": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_07": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				},
+				"bd5_08": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 54, -75, -54, -75, -54, 75, 54, 75 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 38,
+					"height": 53
+				}
+			},
+			"csfk_00014": {
+				"csfk_00014": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 100.2, -1.68, 0.44, -102.73, -108.44, 4.76, -8.68, 105.81 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 50,
+					"height": 54
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill124": {
+		"slots": {
+			"Aphrodite_tx_1": {
+				"attachment": [
+					{ "time": 0.0333, "name": "Aphrodite_tx_1" },
+					{ "time": 0.1, "name": "Aphrodite_tx_2" },
+					{ "time": 0.1333, "name": "Aphrodite_tx_3" },
+					{ "time": 0.2, "name": "Aphrodite_tx_4" },
+					{ "time": 0.2333, "name": null }
+				]
+			},
+			"bd5_07": {
+				"color": [
+					{ "time": 0.3667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "bd5_04" },
+					{ "time": 0.0667, "name": "bd5_06" },
+					{ "time": 0.1333, "name": "bd5_07" },
+					{ "time": 0.1667, "name": "bd5_08" },
+					{ "time": 0.2333, "name": null },
+					{ "time": 0.2667, "name": "bd5_04" },
+					{ "time": 0.3333, "name": "bd5_06" },
+					{ "time": 0.4, "name": "bd5_07" },
+					{ "time": 0.4667, "name": "bd5_08" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.5333, "name": "bd5_04" }
+				]
+			},
+			"bd5_7": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "bd5_04" },
+					{ "time": 0.1, "name": "bd5_06" },
+					{ "time": 0.1667, "name": "bd5_07" },
+					{ "time": 0.2333, "name": "bd5_08" },
+					{ "time": 0.3, "name": null },
+					{ "time": 0.3333, "name": "bd5_04" },
+					{ "time": 0.4, "name": "bd5_06" },
+					{ "time": 0.4667, "name": "bd5_07" }
+				]
+			},
+			"bd5_8": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "bd5_04" },
+					{ "time": 0.0667, "name": "bd5_06" },
+					{ "time": 0.1333, "name": "bd5_07" },
+					{ "time": 0.2, "name": "bd5_08" },
+					{ "time": 0.2667, "name": "bd5_04" },
+					{ "time": 0.3333, "name": "bd5_06" },
+					{ "time": 0.4, "name": "bd5_07" },
+					{ "time": 0.4667, "name": "bd5_08" },
+					{ "time": 0.5333, "name": null }
+				]
+			},
+			"csfk_00014": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "csfk_00014" }
+				]
+			}
+		},
+		"bones": {
+			"bd5_8": {
+				"rotate": [
+					{ "angle": -3.6 },
+					{ "time": 0.4667, "angle": -89.8 }
+				],
+				"translate": [
+					{ "x": 5.81, "y": 265.23 }
+				]
+			},
+			"bd5_7": {
+				"rotate": [
+					{ "time": 0.1, "angle": -68.63 }
+				],
+				"translate": [
+					{ "x": 5.81, "y": 265.23 }
+				],
+				"scale": [
+					{ "x": 1.972, "y": 1.972 }
+				]
+			},
+			"bd5_07": {
+				"translate": [
+					{ "x": 11.24, "y": 233.14 }
+				],
+				"scale": [
+					{ "x": 2.462, "y": 2.462 }
+				]
+			},
+			"csfk_00014": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -136.55 }
+				],
+				"translate": [
+					{ "x": -103.31, "y": 259.83 }
+				],
+				"scale": [
+					{ "x": 1.826, "y": 1.826 }
+				]
+			},
+			"Aphrodite_tx_1": {
+				"translate": [
+					{ "time": 0.0333, "x": -243.54, "y": 433.71 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 2.613, "y": 2.613 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "bd5_07", "offset": 1 }
+				]
+			}
+		],
+		"events": [
+			{ "time": 0.4333, "name": "K" }
+		]
+	}
+}
+}

@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "zTYyCPhtOWn5yWWBRxl3EZMUxRI", "spine": "3.8.99", "images": "./image/", "audio": "F:/外包/项目二/陈奇郑轮特效输出/郑伦" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "hit", "parent": "effect" }
+],
+"slots": [
+	{ "name": "hit", "bone": "hit" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"hit": {
+				"bd_01": { "width": 300, "height": 300 },
+				"bd_02": { "width": 300, "height": 300 },
+				"bd_03": { "width": 300, "height": 300 },
+				"bd_04": { "width": 300, "height": 300 },
+				"bd_05": { "width": 300, "height": 300 },
+				"bd_06": { "width": 300, "height": 300 },
+				"bd_07": { "width": 300, "height": 300 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill": {
+		"slots": {
+			"hit": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "bd_01" },
+					{ "time": 0.0667, "name": "bd_02" },
+					{ "time": 0.1, "name": "bd_03" },
+					{ "time": 0.1333, "name": "bd_04" },
+					{ "time": 0.1667, "name": "bd_05" },
+					{ "time": 0.2, "name": "bd_06" },
+					{ "time": 0.2333, "name": "bd_07" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"hit": {
+				"translate": [
+					{ "x": -7.55, "y": 7.55 }
+				],
+				"scale": [
+					{ "x": 0.526, "y": 0.526 },
+					{ "time": 0.0333 }
+				]
+			}
+		}
+	}
+}
+}

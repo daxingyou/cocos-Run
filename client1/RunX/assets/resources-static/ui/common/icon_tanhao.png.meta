@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "90732981-d62f-455e-9ae1-8a6f04fc347d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 30,
+  "height": 29,
+  "platformSettings": {},
+  "subMetas": {
+    "icon_tanhao": {
+      "ver": "1.0.6",
+      "uuid": "ad5e38bf-2fe3-4b83-ad29-6288741b8ba6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "90732981-d62f-455e-9ae1-8a6f04fc347d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 30,
+      "height": 29,
+      "rawWidth": 30,
+      "rawHeight": 29,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

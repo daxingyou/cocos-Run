@@ -1,0 +1,49 @@
+{
+"skeleton": { "hash": "9tJTm3Va+/ok3wHGeng/808ZE9E", "spine": "3.8.99", "images": "./images/", "audio": "E:/搬砖/门/内部/第一批美佳美(4)/第一批美佳美/SR-金角大王-a/SSR_05金角大王" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx", "parent": "root" },
+	{ "name": "dilie1", "parent": "fx" }
+],
+"slots": [
+	{ "name": "eft/dilie_00035", "bone": "dilie1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"eft/dilie_00035": {
+				"eft/dilie_00035": { "y": 0.5, "width": 512, "height": 186 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack2": {
+		"slots": {
+			"eft/dilie_00035": {
+				"color": [
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "eft/dilie_00035" }
+				]
+			}
+		},
+		"bones": {
+			"dilie1": {
+				"translate": [
+					{ "time": 0.3333, "x": 370.06, "y": 59.86 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 1.1 }
+		]
+	}
+}
+}

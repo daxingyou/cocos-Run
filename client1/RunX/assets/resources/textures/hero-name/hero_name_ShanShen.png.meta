@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b00d2558-d0e7-4fc4-8cda-ac19fd780a2f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 63,
+  "height": 240,
+  "platformSettings": {},
+  "subMetas": {
+    "hero_name_ShanShen": {
+      "ver": "1.0.6",
+      "uuid": "0220754b-a651-4749-ad4b-96d2f45cd153",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b00d2558-d0e7-4fc4-8cda-ac19fd780a2f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 64.5,
+      "trimX": 4,
+      "trimY": 0,
+      "width": 55,
+      "height": 111,
+      "rawWidth": 63,
+      "rawHeight": 240,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

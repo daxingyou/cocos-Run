@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5224c85b-e62a-40c2-95c8-366f2c1d4d3f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 929,
+  "height": 489,
+  "platformSettings": {},
+  "subMetas": {
+    "DuKang_PassiveSkill_Effect_1_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "26c675cc-c7db-4708-97f0-83ca9dd6da5c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5224c85b-e62a-40c2-95c8-366f2c1d4d3f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 925,
+      "height": 485,
+      "rawWidth": 929,
+      "rawHeight": 489,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

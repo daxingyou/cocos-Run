@@ -1,0 +1,245 @@
+{
+"skeleton": { "hash": "6a3LiT4pL48oTUA3jnAi24GCHK8", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "sfbq", "parent": "effect" },
+	{ "name": "xsq", "parent": "effect" },
+	{ "name": "xq", "parent": "effect" },
+	{ "name": "sqtw", "parent": "effect" },
+	{ "name": "hjdg", "parent": "effect" }
+],
+"slots": [
+	{ "name": "effect/gg_skill_sfbq/gg_skill_sfbq_00", "bone": "sfbq" },
+	{ "name": "effect/gg_skill_xq/gg_skill_xq_00", "bone": "xq" },
+	{ "name": "effect/gg_skill_xsq/gg_skill_xsq_00", "bone": "xsq" },
+	{ "name": "effect/gg_skill_sqtw/gg_skill_sqtw_00", "bone": "sqtw" },
+	{ "name": "effect/gg_skill_hjdg/gg_skill_hjdg_00", "bone": "hjdg" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"effect/gg_skill_hjdg/gg_skill_hjdg_00": {
+				"effect/gg_skill_hjdg/gg_skill_hjdg_00": { "width": 200, "height": 87 },
+				"effect/gg_skill_hjdg/gg_skill_hjdg_01": { "width": 200, "height": 87 },
+				"effect/gg_skill_hjdg/gg_skill_hjdg_02": { "width": 200, "height": 87 },
+				"effect/gg_skill_hjdg/gg_skill_hjdg_03": { "width": 200, "height": 87 },
+				"effect/gg_skill_hjdg/gg_skill_hjdg_05": { "width": 200, "height": 87 },
+				"effect/gg_skill_hjdg/gg_skill_hjdg_07": { "width": 200, "height": 87 },
+				"effect/gg_skill_hjdg/gg_skill_hjdg_09": { "width": 200, "height": 87 },
+				"effect/gg_skill_hjdg/gg_skill_hjdg_11": { "width": 200, "height": 87 },
+				"effect/gg_skill_hjdg/gg_skill_hjdg_13": { "width": 200, "height": 87 }
+			},
+			"effect/gg_skill_sfbq/gg_skill_sfbq_00": {
+				"effect/gg_skill_sfbq/gg_skill_sfbq_00": { "width": 75, "height": 88 },
+				"effect/gg_skill_sfbq/gg_skill_sfbq_02": { "width": 75, "height": 88 },
+				"effect/gg_skill_sfbq/gg_skill_sfbq_04": { "width": 75, "height": 88 },
+				"effect/gg_skill_sfbq/gg_skill_sfbq_06": { "width": 75, "height": 88 },
+				"effect/gg_skill_sfbq/gg_skill_sfbq_08": { "width": 75, "height": 88 },
+				"effect/gg_skill_sfbq/gg_skill_sfbq_10": { "width": 75, "height": 88 },
+				"effect/gg_skill_sfbq/gg_skill_sfbq_12": { "width": 75, "height": 88 }
+			},
+			"effect/gg_skill_sqtw/gg_skill_sqtw_00": {
+				"effect/gg_skill_sqtw/gg_skill_sqtw_00": { "width": 175, "height": 100 },
+				"effect/gg_skill_sqtw/gg_skill_sqtw_01": { "width": 175, "height": 100 },
+				"effect/gg_skill_sqtw/gg_skill_sqtw_02": { "width": 175, "height": 100 },
+				"effect/gg_skill_sqtw/gg_skill_sqtw_04": { "width": 175, "height": 100 },
+				"effect/gg_skill_sqtw/gg_skill_sqtw_06": { "width": 175, "height": 100 },
+				"effect/gg_skill_sqtw/gg_skill_sqtw_08": { "width": 175, "height": 100 },
+				"effect/gg_skill_sqtw/gg_skill_sqtw_10": { "width": 175, "height": 100 }
+			},
+			"effect/gg_skill_xq/gg_skill_xq_00": {
+				"effect/gg_skill_xq/gg_skill_xq_00": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_03": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_04": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_05": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_07": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_09": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_11": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_13": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_15": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_17": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_19": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_21": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_23": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_25": { "width": 375, "height": 375 },
+				"effect/gg_skill_xq/gg_skill_xq_27": { "width": 375, "height": 375 }
+			},
+			"effect/gg_skill_xsq/gg_skill_xsq_00": {
+				"effect/gg_skill_xsq/gg_skill_xsq_00": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_02": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_04": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_06": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_08": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_10": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_12": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_14": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_16": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_18": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_20": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_22": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_24": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_26": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_28": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_30": { "width": 175, "height": 175 },
+				"effect/gg_skill_xsq/gg_skill_xsq_32": { "width": 175, "height": 175 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill": {
+		"slots": {
+			"effect/gg_skill_hjdg/gg_skill_hjdg_00": {
+				"attachment": [
+					{ "time": 1.8333, "name": "effect/gg_skill_hjdg/gg_skill_hjdg_00" },
+					{ "time": 1.8667, "name": "effect/gg_skill_hjdg/gg_skill_hjdg_01" },
+					{ "time": 1.9, "name": "effect/gg_skill_hjdg/gg_skill_hjdg_02" },
+					{ "time": 1.9333, "name": "effect/gg_skill_hjdg/gg_skill_hjdg_03" },
+					{ "time": 2, "name": "effect/gg_skill_hjdg/gg_skill_hjdg_05" },
+					{ "time": 2.0667, "name": "effect/gg_skill_hjdg/gg_skill_hjdg_07" },
+					{ "time": 2.1333, "name": "effect/gg_skill_hjdg/gg_skill_hjdg_09" },
+					{ "time": 2.2, "name": "effect/gg_skill_hjdg/gg_skill_hjdg_11" },
+					{ "time": 2.2667, "name": "effect/gg_skill_hjdg/gg_skill_hjdg_13" },
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"effect/gg_skill_sfbq/gg_skill_sfbq_00": {
+				"color": [
+					{ "time": 1.0667, "color": "ffffffff" },
+					{ "time": 1.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_sfbq/gg_skill_sfbq_00" },
+					{ "time": 0.0667, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_02" },
+					{ "time": 0.1333, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_04" },
+					{ "time": 0.2, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_06" },
+					{ "time": 0.2667, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_08" },
+					{ "time": 0.3333, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_10" },
+					{ "time": 0.4, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_12" },
+					{ "time": 0.4667, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_00" },
+					{ "time": 0.5333, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_02" },
+					{ "time": 0.6, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_04" },
+					{ "time": 0.6667, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_06" },
+					{ "time": 0.7333, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_08" },
+					{ "time": 0.8, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_10" },
+					{ "time": 0.8667, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_12" },
+					{ "time": 0.9333, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_00" },
+					{ "time": 1, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_02" },
+					{ "time": 1.0667, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_04" },
+					{ "time": 1.1333, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_06" },
+					{ "time": 1.2, "name": "effect/gg_skill_sfbq/gg_skill_sfbq_08" },
+					{ "time": 1.2667, "name": null }
+				]
+			},
+			"effect/gg_skill_sqtw/gg_skill_sqtw_00": {
+				"attachment": [
+					{ "time": 1.2333, "name": "effect/gg_skill_sqtw/gg_skill_sqtw_00" },
+					{ "time": 1.2667, "name": "effect/gg_skill_sqtw/gg_skill_sqtw_01" },
+					{ "time": 1.3, "name": "effect/gg_skill_sqtw/gg_skill_sqtw_02" },
+					{ "time": 1.3667, "name": "effect/gg_skill_sqtw/gg_skill_sqtw_04" },
+					{ "time": 1.4333, "name": "effect/gg_skill_sqtw/gg_skill_sqtw_06" },
+					{ "time": 1.5, "name": "effect/gg_skill_sqtw/gg_skill_sqtw_08" },
+					{ "time": 1.5667, "name": "effect/gg_skill_sqtw/gg_skill_sqtw_10" },
+					{ "time": 1.6333, "name": null }
+				]
+			},
+			"effect/gg_skill_xq/gg_skill_xq_00": {
+				"attachment": [
+					{ "time": 0.1667, "name": "effect/gg_skill_xq/gg_skill_xq_00" },
+					{ "time": 0.2333, "name": "effect/gg_skill_xq/gg_skill_xq_03" },
+					{ "time": 0.2667, "name": "effect/gg_skill_xq/gg_skill_xq_04" },
+					{ "time": 0.3, "name": "effect/gg_skill_xq/gg_skill_xq_05" },
+					{ "time": 0.3667, "name": "effect/gg_skill_xq/gg_skill_xq_07" },
+					{ "time": 0.4333, "name": "effect/gg_skill_xq/gg_skill_xq_09" },
+					{ "time": 0.5, "name": "effect/gg_skill_xq/gg_skill_xq_11" },
+					{ "time": 0.5667, "name": "effect/gg_skill_xq/gg_skill_xq_13" },
+					{ "time": 0.6333, "name": "effect/gg_skill_xq/gg_skill_xq_15" },
+					{ "time": 0.7, "name": "effect/gg_skill_xq/gg_skill_xq_17" },
+					{ "time": 0.7667, "name": "effect/gg_skill_xq/gg_skill_xq_19" },
+					{ "time": 0.8333, "name": "effect/gg_skill_xq/gg_skill_xq_21" },
+					{ "time": 0.9, "name": "effect/gg_skill_xq/gg_skill_xq_23" },
+					{ "time": 0.9667, "name": "effect/gg_skill_xq/gg_skill_xq_25" },
+					{ "time": 1.0333, "name": "effect/gg_skill_xq/gg_skill_xq_27" },
+					{ "time": 1.1, "name": null }
+				]
+			},
+			"effect/gg_skill_xsq/gg_skill_xsq_00": {
+				"attachment": [
+					{ "time": 0.3, "name": "effect/gg_skill_xsq/gg_skill_xsq_00" },
+					{ "time": 0.3667, "name": "effect/gg_skill_xsq/gg_skill_xsq_02" },
+					{ "time": 0.4333, "name": "effect/gg_skill_xsq/gg_skill_xsq_04" },
+					{ "time": 0.5, "name": "effect/gg_skill_xsq/gg_skill_xsq_06" },
+					{ "time": 0.5667, "name": "effect/gg_skill_xsq/gg_skill_xsq_08" },
+					{ "time": 0.6333, "name": "effect/gg_skill_xsq/gg_skill_xsq_10" },
+					{ "time": 0.7, "name": "effect/gg_skill_xsq/gg_skill_xsq_12" },
+					{ "time": 0.7667, "name": "effect/gg_skill_xsq/gg_skill_xsq_14" },
+					{ "time": 0.8333, "name": "effect/gg_skill_xsq/gg_skill_xsq_16" },
+					{ "time": 0.9, "name": "effect/gg_skill_xsq/gg_skill_xsq_18" },
+					{ "time": 0.9667, "name": "effect/gg_skill_xsq/gg_skill_xsq_20" },
+					{ "time": 1.0333, "name": "effect/gg_skill_xsq/gg_skill_xsq_22" },
+					{ "time": 1.1, "name": "effect/gg_skill_xsq/gg_skill_xsq_24" },
+					{ "time": 1.1667, "name": "effect/gg_skill_xsq/gg_skill_xsq_26" },
+					{ "time": 1.2333, "name": "effect/gg_skill_xsq/gg_skill_xsq_28" },
+					{ "time": 1.3, "name": "effect/gg_skill_xsq/gg_skill_xsq_30" },
+					{ "time": 1.3667, "name": "effect/gg_skill_xsq/gg_skill_xsq_32" },
+					{ "time": 1.4333, "name": "effect/gg_skill_xsq/gg_skill_xsq_28" },
+					{ "time": 1.5, "name": "effect/gg_skill_xsq/gg_skill_xsq_30" },
+					{ "time": 1.5667, "name": "effect/gg_skill_xsq/gg_skill_xsq_32" },
+					{ "time": 1.6333, "name": "effect/gg_skill_xsq/gg_skill_xsq_28" },
+					{ "time": 1.7, "name": "effect/gg_skill_xsq/gg_skill_xsq_30" },
+					{ "time": 1.7667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"sfbq": {
+				"translate": [
+					{ "y": 186.01 }
+				],
+				"scale": [
+					{ "x": 8, "y": 8 }
+				]
+			},
+			"xq": {
+				"translate": [
+					{ "time": 0.1667, "x": 47.36, "y": 641.34 }
+				],
+				"scale": [
+					{ "time": 0.1667, "x": 8, "y": 8 }
+				]
+			},
+			"xsq": {
+				"translate": [
+					{ "time": 0.3, "x": 47.36, "y": 641.34, "curve": "stepped" },
+					{ "time": 1.1667, "x": 47.36, "y": 641.34 },
+					{ "time": 1.2, "x": 191.81, "y": 459 },
+					{ "time": 1.2333, "x": -16.58, "y": 527.67 },
+					{ "time": 1.2667, "x": -194.18, "y": 468.47 },
+					{ "time": 1.7333, "x": -222.59, "y": 444.79 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 4, "y": 4 }
+				]
+			},
+			"sqtw": {
+				"translate": [
+					{ "time": 1.2333, "y": 502.02 }
+				],
+				"scale": [
+					{ "time": 1.2333, "x": 4, "y": 4 }
+				]
+			},
+			"hjdg": {
+				"translate": [
+					{ "time": 1.8333, "x": 260.3, "y": 164.4 }
+				],
+				"scale": [
+					{ "time": 1.8333, "x": 8, "y": 8 }
+				]
+			}
+		}
+	}
+}
+}

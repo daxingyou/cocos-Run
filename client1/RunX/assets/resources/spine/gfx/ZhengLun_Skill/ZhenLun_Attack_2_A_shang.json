@@ -1,0 +1,42 @@
+{
+"skeleton": { "hash": "8GCfq7ZQolNR3XDACFo04DCoI6w", "spine": "3.8.99", "images": "", "audio": "G:/特效世界/外包/陈奇郑伦/zhenlun_spine/Zhenlun_Attack02" },
+"bones": [
+	{ "name": "ZhenLun_Attack_2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "ZhenLun_Attack_2_A_shang", "parent": "ZhenLun_Attack_2" }
+],
+"slots": [
+	{ "name": "ZhenLun_Attack_2_A_shang", "bone": "ZhenLun_Attack_2_A_shang" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ZhenLun_Attack_2_A_shang": {
+				"images/zl_attack02_dg_01": { "width": 620, "height": 280 },
+				"images/zl_attack02_dg_03": { "width": 620, "height": 280 },
+				"images/zl_attack02_dg_05": { "width": 620, "height": 280 },
+				"images/zl_attack02_dg_07": { "width": 620, "height": 280 },
+				"images/zl_attack02_dg_09": { "width": 620, "height": 280 },
+				"images/zl_attack02_dg_11": { "width": 620, "height": 280 }
+			}
+		}
+	}
+],
+"animations": {
+	"ZhenLun_Attack_2_A_shang": {
+		"slots": {
+			"ZhenLun_Attack_2_A_shang": {
+				"attachment": [
+					{ "name": "images/zl_attack02_dg_01" },
+					{ "time": 0.0667, "name": "images/zl_attack02_dg_03" },
+					{ "time": 0.1333, "name": "images/zl_attack02_dg_05" },
+					{ "time": 0.2, "name": "images/zl_attack02_dg_07" },
+					{ "time": 0.2667, "name": "images/zl_attack02_dg_09" },
+					{ "time": 0.3333, "name": "images/zl_attack02_dg_11" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		}
+	}
+}
+}

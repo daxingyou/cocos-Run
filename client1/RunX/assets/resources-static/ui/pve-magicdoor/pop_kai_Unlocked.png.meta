@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "43495593-fcc5-4bf0-baa5-7523fed27706",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 34,
+  "height": 34,
+  "platformSettings": {},
+  "subMetas": {
+    "pop_kai_Unlocked": {
+      "ver": "1.0.6",
+      "uuid": "34d317eb-28ad-4106-80e5-b165f883d29f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "43495593-fcc5-4bf0-baa5-7523fed27706",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -0.5,
+      "trimX": 3,
+      "trimY": 2,
+      "width": 29,
+      "height": 31,
+      "rawWidth": 34,
+      "rawHeight": 34,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

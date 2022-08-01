@@ -1,0 +1,27 @@
+
+GongGong_Buff_1_C_shang.png
+size: 482,181
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/gg_skill_buff/gg_skill_buff_gx
+  rotate: true
+  xy: 2, 29
+  size: 150, 298
+  orig: 150, 600
+  offset: 0, 263
+  index: -1
+effect/gg_skill_buff/gg_skill_buff_qp
+  rotate: false
+  xy: 2, 9
+  size: 18, 18
+  orig: 20, 20
+  offset: 2, 1
+  index: -1
+effect/gg_skill_buff/gg_skill_buff_yj
+  rotate: true
+  xy: 302, 2
+  size: 177, 178
+  orig: 180, 180
+  offset: 2, 1
+  index: -1

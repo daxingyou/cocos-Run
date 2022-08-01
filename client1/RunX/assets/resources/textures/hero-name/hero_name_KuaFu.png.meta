@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1ae5540a-959c-4f26-b30b-b7430889c454",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 63,
+  "height": 240,
+  "platformSettings": {},
+  "subMetas": {
+    "hero_name_KuaFu": {
+      "ver": "1.0.6",
+      "uuid": "84cbf897-a68d-4e32-bda6-574f7ceca7ad",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1ae5540a-959c-4f26-b30b-b7430889c454",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 62.5,
+      "trimX": 4,
+      "trimY": 0,
+      "width": 54,
+      "height": 115,
+      "rawWidth": 63,
+      "rawHeight": 240,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

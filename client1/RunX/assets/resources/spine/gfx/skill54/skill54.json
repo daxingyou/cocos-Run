@@ -1,0 +1,77 @@
+{
+"skeleton": { "hash": "2UiCf04vTcPIT5v7aSXBV/CCbxw", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/牛魔王" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.1405, "scaleY": 0.1405 },
+	{
+		"name": "tx21",
+		"parent": "bone",
+		"length": 66.83,
+		"rotation": 94.76,
+		"x": 2401.48,
+		"y": 861.96,
+		"scaleX": 3.3259,
+		"scaleY": 3.3259,
+		"color": "00ff1bff"
+	}
+],
+"slots": [
+	{ "name": "tx21", "bone": "tx21", "dark": "000000" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"tx21": {
+				"tx21": { "rotation": -94.76, "width": 280, "height": 180 },
+				"tx22": { "rotation": -94.76, "width": 280, "height": 180 },
+				"tx23": { "rotation": -94.76, "width": 280, "height": 180 },
+				"tx24": { "rotation": -94.76, "width": 280, "height": 180 },
+				"tx25": { "rotation": -94.76, "width": 280, "height": 180 },
+				"tx26": { "rotation": -94.76, "width": 280, "height": 180 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill54": {
+		"slots": {
+			"tx21": {
+				"twoColor": [
+					{ "light": "ffffffff", "dark": "5f0368" }
+				],
+				"attachment": [
+					{ "name": "tx21" },
+					{ "time": 0.0333, "name": "tx22" },
+					{ "time": 0.0667, "name": "tx23" },
+					{ "time": 0.1, "name": "tx24" },
+					{ "time": 0.1333, "name": "tx25" },
+					{ "time": 0.1667, "name": "tx26" },
+					{ "time": 0.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"tx21": {
+				"translate": [
+					{ "x": -233.35, "y": 212.08 }
+				],
+				"scale": [
+					{ "x": 4.7, "y": 4.7 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4, "name": "K" }
+		]
+	}
+}
+}

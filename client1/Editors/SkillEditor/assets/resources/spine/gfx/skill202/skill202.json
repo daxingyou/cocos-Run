@@ -1,0 +1,70 @@
+{
+"skeleton": { "hash": "/o66ZTdol65P0+3w0bBetzGv9Vk", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4633, "scaleY": 0.4633 },
+	{ "name": "2_00000", "parent": "root", "x": 483.89, "y": 508.34 },
+	{ "name": "yy0011", "parent": "root", "length": 89.13, "rotation": -179.52, "x": 169.73, "y": -164.38 }
+],
+"slots": [
+	{ "name": "2_00000", "bone": "2_00000", "blend": "additive" },
+	{ "name": "yy0011", "bone": "yy0011" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"2_00000": {
+				"2_00000": { "x": 2.79, "y": 3.8, "scaleX": 2.8594, "scaleY": 2.8594, "width": 150, "height": 150 }
+			},
+			"yy0011": {
+				"yy0001": { "x": 113.57, "y": -33.91, "rotation": 179.52, "width": 346, "height": 120 },
+				"yy0003": { "x": 113.57, "y": -33.91, "rotation": 179.52, "width": 346, "height": 120 },
+				"yy0005": { "x": 113.57, "y": -33.91, "rotation": 179.52, "width": 346, "height": 120 },
+				"yy0007": { "x": 113.57, "y": -33.91, "rotation": 179.52, "width": 346, "height": 120 },
+				"yy0009": { "x": 113.57, "y": -33.91, "rotation": 179.52, "width": 346, "height": 120 },
+				"yy0011": { "x": 113.57, "y": -33.91, "rotation": 179.52, "width": 346, "height": 120 },
+				"yy0013": { "x": 113.57, "y": -33.91, "rotation": 179.52, "width": 346, "height": 120 },
+				"yy0015": { "x": 113.57, "y": -33.91, "rotation": 179.52, "width": 346, "height": 120 },
+				"yy0017": { "x": 113.57, "y": -33.91, "rotation": 179.52, "width": 346, "height": 120 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill202": {
+		"slots": {
+			"yy0011": {
+				"attachment": [
+					{ "name": "yy0001" },
+					{ "time": 0.0333, "name": "yy0003" },
+					{ "time": 0.0667, "name": "yy0005" },
+					{ "time": 0.1, "name": "yy0007" },
+					{ "time": 0.1333, "name": "yy0009" },
+					{ "time": 0.1667, "name": "yy0011" },
+					{ "time": 0.2, "name": "yy0013" },
+					{ "time": 0.2333, "name": "yy0015" },
+					{ "time": 0.2667, "name": "yy0017" },
+					{ "time": 0.3, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"yy0011": {
+				"translate": [
+					{ "x": 383.99, "y": 172.29 },
+					{ "time": 0.1333, "x": 507.4, "y": 172.29 }
+				],
+				"scale": [
+					{ "x": 2.373, "y": 2.373 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3, "name": "K" }
+		]
+	}
+}
+}

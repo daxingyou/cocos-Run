@@ -1,0 +1,89 @@
+{
+"skeleton": { "hash": "X0khdHV6WPhI+jLBdZgpGnc6uZ4", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/女娲" },
+"bones": [
+	{ "name": "root", "rotation": -0.1 },
+	{ "name": "bone", "parent": "root", "scaleX": 0.63, "scaleY": 0.63 },
+	{ "name": "qi", "parent": "bone", "length": 76.18, "rotation": 176.67, "x": -385.44, "y": -153.54 },
+	{
+		"name": "qi2",
+		"parent": "bone",
+		"length": 76.18,
+		"rotation": -179.28,
+		"x": -221.84,
+		"y": -153.54,
+		"scaleX": -1
+	}
+],
+"slots": [
+	{ "name": "qi", "bone": "qi", "color": "94fbe3ff" },
+	{ "name": "qi2", "bone": "qi2", "color": "94fbe3ff" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"qi": {
+				"qi": { "x": 71.89, "y": -18.8, "rotation": -176.67, "width": 150, "height": 86 }
+			},
+			"qi2": {
+				"qi": { "x": 71.89, "y": -18.8, "rotation": -176.67, "width": 150, "height": 86 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill79": {
+		"slots": {
+			"qi": {
+				"color": [
+					{ "time": 0.0667, "color": "94fbe3ff" },
+					{ "time": 0.2333, "color": "94fbe300" }
+				],
+				"attachment": [
+					{ "name": "qi" }
+				]
+			},
+			"qi2": {
+				"color": [
+					{ "time": 0.0667, "color": "94fbe3ff" },
+					{ "time": 0.2333, "color": "94fbe300" }
+				],
+				"attachment": [
+					{ "name": "qi" }
+				]
+			}
+		},
+		"bones": {
+			"qi2": {
+				"translate": [
+					{ "x": 226.79, "y": 178.54 }
+				],
+				"scale": [
+					{ "curve": 0.02, "c3": 0.75 },
+					{ "time": 0.2333, "x": 3.724, "y": 3.171 }
+				]
+			},
+			"qi": {
+				"translate": [
+					{ "x": 267.15, "y": 174.63 }
+				],
+				"scale": [
+					{ "curve": 0.02, "c3": 0.75 },
+					{ "time": 0.2333, "x": 3.163, "y": 2.78 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 1.2 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5, "name": "k" }
+		]
+	}
+}
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c82d92de-f07e-43ae-a8db-58054cce7bbb",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 964,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "GongGong_Buff_1_C_xia": {
+      "ver": "1.0.6",
+      "uuid": "bafb0e2a-eb13-423e-a5bc-c48adf3bc7f1",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c82d92de-f07e-43ae-a8db-58054cce7bbb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 960,
+      "height": 764,
+      "rawWidth": 964,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

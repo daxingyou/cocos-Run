@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "591aa84f-ff2c-4721-b385-299711314858",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1874,
+  "height": 405,
+  "platformSettings": {},
+  "subMetas": {
+    "TuDi_Attack_2_A_Shang": {
+      "ver": "1.0.6",
+      "uuid": "f3afde80-3906-4d90-b55d-f858237b4583",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "591aa84f-ff2c-4721-b385-299711314858",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1870,
+      "height": 401,
+      "rawWidth": 1874,
+      "rawHeight": 405,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

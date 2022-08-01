@@ -1,0 +1,89 @@
+{
+"skeleton": { "hash": "lZvOIrKRJisATQMkNG+h/k/8yqA", "spine": "3.8.99", "images": "./images/", "audio": "E:/搬砖/门/内部/SSR-万圣公主-a/SSR_00东海龙王1102" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx", "parent": "root" },
+	{ "name": "buff", "parent": "fx" },
+	{ "name": "glow", "parent": "fx" }
+],
+"slots": [
+	{ "name": "eft/buff_1/buff_1_00005", "bone": "buff", "blend": "additive" },
+	{ "name": "eft/light_df_0077", "bone": "glow", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"eft/buff_1/buff_1_00005": {
+				"eft/buff_1/buff_1_00011": { "width": 352, "height": 499 },
+				"eft/buff_1/buff_1_00015": { "width": 352, "height": 499 },
+				"eft/buff_1/buff_1_00019": { "width": 352, "height": 499 },
+				"eft/buff_1/buff_1_00023": { "width": 352, "height": 499 },
+				"eft/buff_1/buff_1_00027": { "width": 352, "height": 499 },
+				"eft/buff_1/buff_1_00031": { "width": 352, "height": 499 },
+				"eft/buff_1/buff_1_00035": { "width": 352, "height": 499 }
+			},
+			"eft/light_df_0077": {
+				"eft/light_df_0077": { "width": 256, "height": 256 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack1": {
+		"slots": {
+			"eft/buff_1/buff_1_00005": {
+				"attachment": [
+					{ "time": 0.0667, "name": "eft/buff_1/buff_1_00011" },
+					{ "time": 0.2333, "name": "eft/buff_1/buff_1_00015" },
+					{ "time": 0.3, "name": "eft/buff_1/buff_1_00019" },
+					{ "time": 0.4, "name": "eft/buff_1/buff_1_00023" },
+					{ "time": 0.5, "name": "eft/buff_1/buff_1_00027" },
+					{ "time": 0.5667, "name": "eft/buff_1/buff_1_00031" },
+					{ "time": 0.6667, "name": "eft/buff_1/buff_1_00035" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"eft/light_df_0077": {
+				"attachment": [
+					{ "time": 0.1333, "name": "eft/light_df_0077" }
+				]
+			}
+		},
+		"bones": {
+			"buff": {
+				"translate": [
+					{ "x": 78.82, "y": 397.36, "curve": "stepped" },
+					{ "time": 0.0667, "x": 78.82, "y": 397.36, "curve": "stepped" },
+					{ "time": 0.1333, "x": 26.4, "y": 397.36, "curve": "stepped" },
+					{ "time": 0.2, "x": 78.82, "y": 397.36 }
+				],
+				"scale": [
+					{ "x": 1.852, "y": 1.852, "curve": "stepped" },
+					{ "time": 0.0667, "x": 1.852, "y": 1.852, "curve": "stepped" },
+					{ "time": 0.1333, "x": -1.852, "y": 1.852, "curve": "stepped" },
+					{ "time": 0.2, "x": 1.852, "y": 1.852 }
+				]
+			},
+			"glow": {
+				"rotate": [
+					{ "time": 0.1333 },
+					{ "time": 0.3667, "angle": 30.34 }
+				],
+				"translate": [
+					{ "time": 0.1333, "x": 62.4, "y": 633.81 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 3, "y": 3 },
+					{ "time": 0.3667, "x": 0, "y": 0 }
+				]
+			},
+			"fx": {
+				"translate": [
+					{ "x": -99.01 }
+				]
+			}
+		}
+	}
+}
+}

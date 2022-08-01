@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "GUfa1sEkp4pR7et2yo4WNSdDUC0", "spine": "3.8.99", "images": "./image/", "audio": "J:/外包/项目二/陈奇郑轮特效输出/技能输出/陈奇技能输出" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "hit", "parent": "effect" }
+],
+"slots": [
+	{ "name": "hit", "bone": "hit" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"hit": {
+				"bd_01": { "width": 330, "height": 320 },
+				"bd_02": { "width": 330, "height": 320 },
+				"bd_03": { "width": 330, "height": 320 },
+				"bd_04": { "width": 330, "height": 320 },
+				"bd_05": { "width": 330, "height": 320 },
+				"bd_06": { "width": 330, "height": 320 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill": {
+		"slots": {
+			"hit": {
+				"attachment": [
+					{ "name": "bd_01" },
+					{ "time": 0.0667, "name": "bd_02" },
+					{ "time": 0.1, "name": "bd_03" },
+					{ "time": 0.1333, "name": "bd_04" },
+					{ "time": 0.1667, "name": "bd_05" },
+					{ "time": 0.2, "name": "bd_06" },
+					{ "time": 0.2333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"hit": {
+				"rotate": [
+					{ "angle": 41.37, "curve": "stepped" },
+					{ "time": 0.0333 }
+				],
+				"translate": [
+					{ "x": -0.35, "y": 2.67, "curve": "stepped" },
+					{ "time": 0.0333, "x": -5.91, "y": -25.13 }
+				],
+				"scale": [
+					{ "x": 0.606, "y": 0.606, "curve": "stepped" },
+					{ "time": 0.0333 }
+				]
+			}
+		}
+	}
+}
+}

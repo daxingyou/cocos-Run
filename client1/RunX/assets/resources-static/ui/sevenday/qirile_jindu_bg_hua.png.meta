@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "59bd3c4b-3bc9-4f33-a845-fde04d7a2f59",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 101,
+  "height": 101,
+  "platformSettings": {},
+  "subMetas": {
+    "qirile_jindu_bg_hua": {
+      "ver": "1.0.6",
+      "uuid": "03a68d32-4a56-4564-abd5-a76bb0f1d5c7",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "59bd3c4b-3bc9-4f33-a845-fde04d7a2f59",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 101,
+      "height": 101,
+      "rawWidth": 101,
+      "rawHeight": 101,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

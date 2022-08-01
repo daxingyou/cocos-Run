@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "750fd80d-6b95-4e1d-a561-f742e7a07f6b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 100,
+  "height": 100,
+  "platformSettings": {},
+  "subMetas": {
+    "icon_common_buff_shengming_3": {
+      "ver": "1.0.6",
+      "uuid": "34f5034b-037c-48f3-bb3f-bfe9dc3410a6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "750fd80d-6b95-4e1d-a561-f742e7a07f6b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 100,
+      "height": 100,
+      "rawWidth": 100,
+      "rawHeight": 100,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

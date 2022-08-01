@@ -1,0 +1,106 @@
+{
+"skeleton": { "hash": "IYS9OcTSkUMmugVp2rgXUm6DYWs", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/牛魔王" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.1405, "scaleY": 0.1405 },
+	{
+		"name": "tx11",
+		"parent": "bone",
+		"length": 116.57,
+		"rotation": 88.92,
+		"x": 1833.69,
+		"y": 664.97,
+		"scaleX": 4.0409,
+		"scaleY": 4.0409,
+		"color": "ccff04ff"
+	},
+	{ "name": "8", "parent": "bone", "length": 136.83, "rotation": 126.47, "x": 1193.2, "y": -294.79 }
+],
+"slots": [
+	{ "name": "tx11", "bone": "tx11", "dark": "000000" },
+	{ "name": "6", "bone": "8", "dark": "000000" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"6": {
+				"1": { "x": 126.43, "y": -46.33, "rotation": -126.47, "width": 323, "height": 276 }
+			},
+			"tx11": {
+				"tx11": { "x": 75.22, "y": 5.44, "rotation": -88.92, "width": 200, "height": 200 },
+				"tx12": { "x": 75.22, "y": 5.44, "rotation": -88.92, "width": 200, "height": 200 },
+				"tx13": { "x": 75.22, "y": 5.44, "rotation": -88.92, "width": 200, "height": 200 },
+				"tx14": { "x": 75.22, "y": 5.44, "rotation": -88.92, "width": 200, "height": 200 },
+				"tx16": { "x": 75.22, "y": 5.44, "rotation": -88.92, "width": 200, "height": 200 },
+				"tx17": { "x": 75.22, "y": 5.44, "rotation": -88.92, "width": 200, "height": 200 },
+				"tx18": { "x": 75.22, "y": 5.44, "rotation": -88.92, "width": 200, "height": 200 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill53": {
+		"slots": {
+			"6": {
+				"twoColor": [
+					{ "light": "fb79f9ff", "dark": "6a006c", "curve": "stepped" },
+					{ "time": 0.0333, "light": "fb79f9ff", "dark": "6a006c" },
+					{ "time": 0.1333, "light": "fb79f800", "dark": "6a006c" }
+				],
+				"attachment": [
+					{ "name": "1" }
+				]
+			},
+			"tx11": {
+				"twoColor": [
+					{ "light": "fb79f9ff", "dark": "6a006c" }
+				],
+				"attachment": [
+					{ "name": "tx11" },
+					{ "time": 0.0333, "name": "tx12" },
+					{ "time": 0.0667, "name": "tx13" },
+					{ "time": 0.1, "name": "tx14" },
+					{ "time": 0.1333, "name": "tx16" },
+					{ "time": 0.1667, "name": "tx17" },
+					{ "time": 0.2, "name": "tx18" },
+					{ "time": 0.2333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"tx11": {
+				"translate": [
+					{ "x": -584.01, "y": -522.49 }
+				],
+				"scale": [
+					{ "x": 6.286, "y": 4.846 }
+				]
+			},
+			"8": {
+				"rotate": [
+					{ "angle": -256.32 }
+				],
+				"translate": [
+					{ "x": 781.22, "y": 223.71 }
+				],
+				"scale": [
+					{ "x": -1, "curve": 0, "c3": 0.75 },
+					{ "time": 0.0667, "x": -5.868, "y": 5.868 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0.9333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3667, "name": "K" }
+		]
+	}
+}
+}

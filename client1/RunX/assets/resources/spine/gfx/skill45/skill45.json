@@ -1,0 +1,122 @@
+{
+"skeleton": { "hash": "7PU91r+RCzfVTrkfJCj0ehG4uHw", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/孔宣" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.49, "scaleY": 0.49 },
+	{
+		"name": "diyan0003",
+		"parent": "bone",
+		"length": 82.74,
+		"rotation": 90.71,
+		"x": 32.95,
+		"y": -78.9,
+		"color": "0a00ffff"
+	}
+],
+"slots": [
+	{ "name": "diyan0003", "bone": "diyan0003", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"diyan0003": {
+				"diyan0001": { "x": 66.11, "y": 11.1, "rotation": -90.71, "width": 436, "height": 165 },
+				"diyan0002": { "x": 66.11, "y": 11.1, "rotation": -90.71, "width": 436, "height": 165 },
+				"diyan0003": { "x": 66.11, "y": 11.1, "rotation": -90.71, "width": 436, "height": 165 },
+				"diyan0004": { "x": 66.11, "y": 11.1, "rotation": -90.71, "width": 436, "height": 165 },
+				"diyan0005": { "x": 66.11, "y": 11.1, "rotation": -90.71, "width": 436, "height": 165 },
+				"diyan0006": { "x": 66.11, "y": 11.1, "rotation": -90.71, "width": 436, "height": 165 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill45": {
+		"slots": {
+			"diyan0003": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffffff" },
+					{ "time": 1.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "diyan0001" },
+					{ "time": 0.0333, "name": "diyan0002" },
+					{ "time": 0.0667, "name": "diyan0003" },
+					{ "time": 0.1, "name": "diyan0004" },
+					{ "time": 0.1333, "name": "diyan0005" },
+					{ "time": 0.1667, "name": "diyan0006" },
+					{ "time": 0.2, "name": "diyan0001" },
+					{ "time": 0.2333, "name": "diyan0002" },
+					{ "time": 0.2667, "name": "diyan0003" },
+					{ "time": 0.3, "name": "diyan0004" },
+					{ "time": 0.3333, "name": "diyan0005" },
+					{ "time": 0.3667, "name": "diyan0006" },
+					{ "time": 0.4, "name": "diyan0001" },
+					{ "time": 0.4333, "name": "diyan0002" },
+					{ "time": 0.4667, "name": "diyan0003" },
+					{ "time": 0.5, "name": "diyan0004" },
+					{ "time": 0.5333, "name": "diyan0005" },
+					{ "time": 0.5667, "name": "diyan0006" },
+					{ "time": 0.6, "name": "diyan0001" },
+					{ "time": 0.6333, "name": "diyan0002" },
+					{ "time": 0.6667, "name": "diyan0003" },
+					{ "time": 0.7, "name": "diyan0004" },
+					{ "time": 0.7333, "name": "diyan0005" },
+					{ "time": 0.7667, "name": "diyan0006" },
+					{ "time": 0.8, "name": "diyan0001" },
+					{ "time": 0.8333, "name": "diyan0002" },
+					{ "time": 0.8667, "name": "diyan0003" },
+					{ "time": 0.9, "name": "diyan0004" },
+					{ "time": 0.9333, "name": "diyan0005" },
+					{ "time": 0.9667, "name": "diyan0006" },
+					{ "time": 1, "name": "diyan0001" },
+					{ "time": 1.0333, "name": "diyan0002" },
+					{ "time": 1.0667, "name": "diyan0003" },
+					{ "time": 1.1, "name": "diyan0004" },
+					{ "time": 1.1333, "name": "diyan0005" },
+					{ "time": 1.1667, "name": "diyan0006" },
+					{ "time": 1.2, "name": "diyan0001" },
+					{ "time": 1.2333, "name": "diyan0002" },
+					{ "time": 1.2667, "name": "diyan0003" },
+					{ "time": 1.3, "name": "diyan0004" },
+					{ "time": 1.3333, "name": "diyan0005" },
+					{ "time": 1.3667, "name": "diyan0006" },
+					{ "time": 1.4, "name": "diyan0001" },
+					{ "time": 1.4333, "name": "diyan0002" },
+					{ "time": 1.4667, "name": "diyan0003" },
+					{ "time": 1.5, "name": "diyan0004" },
+					{ "time": 1.5333, "name": "diyan0005" },
+					{ "time": 1.5667, "name": "diyan0006" },
+					{ "time": 1.6, "name": "diyan0001" },
+					{ "time": 1.6333, "name": "diyan0002" },
+					{ "time": 1.6667, "name": "diyan0003" },
+					{ "time": 1.7, "name": "diyan0004" },
+					{ "time": 1.7333, "name": "diyan0005" },
+					{ "time": 1.7667, "name": "diyan0006" }
+				]
+			}
+		},
+		"bones": {
+			"diyan0003": {
+				"translate": [
+					{ "x": 7.61, "y": -5.44 }
+				],
+				"scale": [
+					{ "x": 1.638, "y": 1.638, "curve": "stepped" },
+					{ "time": 1.1667, "x": 1.638, "y": 1.638 },
+					{ "time": 1.4667, "x": 2.723, "y": 2.723 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 1.8667 }
+				]
+			}
+		}
+	}
+}
+}

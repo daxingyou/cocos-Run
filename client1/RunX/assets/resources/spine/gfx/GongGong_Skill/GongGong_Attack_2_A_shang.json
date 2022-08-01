@@ -1,0 +1,93 @@
+{
+"skeleton": { "hash": "0vXG6Bkw9uapm33m/Ii9Fo8UIVY", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "attack_dg1", "parent": "root", "scaleX": 4, "scaleY": 4 },
+	{ "name": "attack_shs", "parent": "root", "scaleX": 4, "scaleY": 4 }
+],
+"slots": [
+	{ "name": "effect/attack2_dg1/attack2_dg_00", "bone": "attack_dg1" },
+	{ "name": "effect/attack2_shs/attack2_shs_00", "bone": "attack_shs" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"effect/attack2_dg1/attack2_dg_00": {
+				"effect/attack2_dg1/attack2_dg_00": { "width": 600, "height": 600 },
+				"effect/attack2_dg1/attack2_dg_01": { "width": 600, "height": 600 },
+				"effect/attack2_dg1/attack2_dg_02": { "width": 600, "height": 600 },
+				"effect/attack2_dg1/attack2_dg_03": { "width": 600, "height": 600 },
+				"effect/attack2_dg1/attack2_dg_04": { "width": 600, "height": 600 },
+				"effect/attack2_dg1/attack2_dg_05": { "width": 600, "height": 600 },
+				"effect/attack2_dg1/attack2_dg_06": { "width": 600, "height": 600 },
+				"effect/attack2_dg1/attack2_dg_08": { "width": 600, "height": 600 },
+				"effect/attack2_dg1/attack2_dg_10": { "width": 600, "height": 600 },
+				"effect/attack2_dg1/attack2_dg_12": { "width": 600, "height": 600 },
+				"effect/attack2_dg1/attack2_dg_14": { "width": 600, "height": 600 },
+				"effect/attack2_dg1/attack2_dg_16": { "width": 600, "height": 600 },
+				"effect/attack2_dg1/attack2_dg_18": { "width": 600, "height": 600 }
+			},
+			"effect/attack2_shs/attack2_shs_00": {
+				"effect/attack2_shs/attack2_shs_00": { "width": 600, "height": 600 },
+				"effect/attack2_shs/attack2_shs_02": { "width": 600, "height": 600 },
+				"effect/attack2_shs/attack2_shs_04": { "width": 600, "height": 600 },
+				"effect/attack2_shs/attack2_shs_06": { "width": 600, "height": 600 },
+				"effect/attack2_shs/attack2_shs_08": { "width": 600, "height": 600 },
+				"effect/attack2_shs/attack2_shs_10": { "width": 600, "height": 600 },
+				"effect/attack2_shs/attack2_shs_12": { "width": 600, "height": 600 },
+				"effect/attack2_shs/attack2_shs_14": { "width": 600, "height": 600 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack2": {
+		"slots": {
+			"effect/attack2_dg1/attack2_dg_00": {
+				"attachment": [
+					{ "name": "effect/attack2_dg1/attack2_dg_00" },
+					{ "time": 0.0333, "name": "effect/attack2_dg1/attack2_dg_01" },
+					{ "time": 0.0667, "name": "effect/attack2_dg1/attack2_dg_02" },
+					{ "time": 0.1, "name": "effect/attack2_dg1/attack2_dg_03" },
+					{ "time": 0.1333, "name": "effect/attack2_dg1/attack2_dg_04" },
+					{ "time": 0.1667, "name": "effect/attack2_dg1/attack2_dg_05" },
+					{ "time": 0.2, "name": "effect/attack2_dg1/attack2_dg_06" },
+					{ "time": 0.2667, "name": "effect/attack2_dg1/attack2_dg_08" },
+					{ "time": 0.3333, "name": "effect/attack2_dg1/attack2_dg_10" },
+					{ "time": 0.4, "name": "effect/attack2_dg1/attack2_dg_12" },
+					{ "time": 0.4667, "name": "effect/attack2_dg1/attack2_dg_14" },
+					{ "time": 0.5333, "name": "effect/attack2_dg1/attack2_dg_16" },
+					{ "time": 0.6, "name": "effect/attack2_dg1/attack2_dg_18" },
+					{ "time": 0.6667, "name": null }
+				]
+			},
+			"effect/attack2_shs/attack2_shs_00": {
+				"attachment": [
+					{ "name": "effect/attack2_shs/attack2_shs_00" },
+					{ "time": 0.0667, "name": "effect/attack2_shs/attack2_shs_02" },
+					{ "time": 0.1333, "name": "effect/attack2_shs/attack2_shs_04" },
+					{ "time": 0.2, "name": "effect/attack2_shs/attack2_shs_06" },
+					{ "time": 0.2667, "name": "effect/attack2_shs/attack2_shs_08" },
+					{ "time": 0.3333, "name": "effect/attack2_shs/attack2_shs_10" },
+					{ "time": 0.4, "name": "effect/attack2_shs/attack2_shs_12" },
+					{ "time": 0.4667, "name": "effect/attack2_shs/attack2_shs_14" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"attack_dg1": {
+				"translate": [
+					{ "y": 522 }
+				]
+			},
+			"attack_shs": {
+				"translate": [
+					{ "y": 522 }
+				]
+			}
+		}
+	}
+}
+}

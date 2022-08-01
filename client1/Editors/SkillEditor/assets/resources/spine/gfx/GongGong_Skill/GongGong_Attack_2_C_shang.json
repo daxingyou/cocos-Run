@@ -1,0 +1,66 @@
+{
+"skeleton": {
+	"hash": "8QrWuZ3ozDQjF4wGwXW5GrXwiec",
+	"spine": "3.8.99",
+	"x": -250,
+	"y": -250,
+	"width": 500,
+	"height": 500,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "attack2_hit", "parent": "root", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "effect/attack_hit/gg_attack1_hit_00", "bone": "attack2_hit", "attachment": "effect/attack_hit/gg_attack1_hit_14" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"effect/attack_hit/gg_attack1_hit_00": {
+				"effect/attack_hit/gg_attack1_hit_00": { "width": 250, "height": 250 },
+				"effect/attack_hit/gg_attack1_hit_01": { "width": 250, "height": 250 },
+				"effect/attack_hit/gg_attack1_hit_02": { "width": 250, "height": 250 },
+				"effect/attack_hit/gg_attack1_hit_03": { "width": 250, "height": 250 },
+				"effect/attack_hit/gg_attack1_hit_04": { "width": 250, "height": 250 },
+				"effect/attack_hit/gg_attack1_hit_06": { "width": 250, "height": 250 },
+				"effect/attack_hit/gg_attack1_hit_08": { "width": 250, "height": 250 },
+				"effect/attack_hit/gg_attack1_hit_10": { "width": 250, "height": 250 },
+				"effect/attack_hit/gg_attack1_hit_12": { "width": 250, "height": 250 },
+				"effect/attack_hit/gg_attack1_hit_14": { "width": 250, "height": 250 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack2": {
+		"slots": {
+			"effect/attack_hit/gg_attack1_hit_00": {
+				"attachment": [
+					{ "name": "effect/attack_hit/gg_attack1_hit_00" },
+					{ "time": 0.0333, "name": "effect/attack_hit/gg_attack1_hit_01" },
+					{ "time": 0.0667, "name": "effect/attack_hit/gg_attack1_hit_02" },
+					{ "time": 0.1, "name": "effect/attack_hit/gg_attack1_hit_03" },
+					{ "time": 0.1333, "name": "effect/attack_hit/gg_attack1_hit_04" },
+					{ "time": 0.2, "name": "effect/attack_hit/gg_attack1_hit_06" },
+					{ "time": 0.2667, "name": "effect/attack_hit/gg_attack1_hit_08" },
+					{ "time": 0.3333, "name": "effect/attack_hit/gg_attack1_hit_10" },
+					{ "time": 0.4, "name": "effect/attack_hit/gg_attack1_hit_12" },
+					{ "time": 0.4667, "name": "effect/attack_hit/gg_attack1_hit_14" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"attack2_hit": {
+				"rotate": [
+					{ "angle": -8.7 }
+				]
+			}
+		}
+	}
+}
+}

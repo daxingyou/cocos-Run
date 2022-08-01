@@ -1,0 +1,57 @@
+{
+"skeleton": { "hash": "Y00Nm/91QIkmihL1BGbI9AS3SE0", "spine": "3.8.99", "images": "./images/", "audio": "G:/特效世界/外包/陈奇郑伦/zhenlun_spine/Zhenlun_Attack02" },
+"bones": [
+	{ "name": "ZhenLun_Attack_1", "scaleX": 2, "scaleY": 2 },
+	{ "name": "ZhenLun_Attack_1_C_shang", "parent": "ZhenLun_Attack_1" }
+],
+"slots": [
+	{ "name": "ZhenLun_Attack_1_C_shang", "bone": "ZhenLun_Attack_1_C_shang" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ZhenLun_Attack_1_C_shang": {
+				"zl_attack_bd_03": { "width": 220, "height": 220 },
+				"zl_attack_bd_04": { "width": 220, "height": 220 },
+				"zl_attack_bd_05": { "width": 220, "height": 220 },
+				"zl_attack_bd_06": { "width": 220, "height": 220 }
+			}
+		}
+	}
+],
+"animations": {
+	"ZhenLun_Attack_1_C_shang": {
+		"slots": {
+			"ZhenLun_Attack_1_C_shang": {
+				"color": [
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "zl_attack_bd_03" },
+					{ "time": 0.1333, "name": "zl_attack_bd_04" },
+					{ "time": 0.1667, "name": "zl_attack_bd_05" },
+					{ "time": 0.2, "name": "zl_attack_bd_06" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ZhenLun_Attack_1_C_shang": {
+				"rotate": [
+					{ "angle": 98.26 },
+					{ "time": 0.1 }
+				],
+				"scale": [
+					{ "x": 0.156, "y": 0.156 },
+					{ "time": 0.1 },
+					{ "time": 0.1333, "x": 1.256, "y": 1.256, "curve": "stepped" },
+					{ "time": 0.2, "x": 1.256, "y": 1.256 },
+					{ "time": 0.3333, "x": 1.308, "y": 1.308 }
+				]
+			}
+		}
+	}
+}
+}

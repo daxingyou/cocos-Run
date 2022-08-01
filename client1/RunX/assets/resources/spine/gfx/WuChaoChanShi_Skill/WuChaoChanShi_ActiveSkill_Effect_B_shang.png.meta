@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "da0265fd-fdeb-4fb6-aeaf-4808a66c67b5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 242,
+  "height": 508,
+  "platformSettings": {},
+  "subMetas": {
+    "WuChaoChanShi_ActiveSkill_Effect_B_shang": {
+      "ver": "1.0.6",
+      "uuid": "eea8942c-1eae-4f16-9318-ac164cf6d87d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "da0265fd-fdeb-4fb6-aeaf-4808a66c67b5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 238,
+      "height": 504,
+      "rawWidth": 242,
+      "rawHeight": 508,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

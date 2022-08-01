@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "787b05ef-bdae-4012-9fc7-a231049bbb93",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1010,
+  "height": 316,
+  "platformSettings": {},
+  "subMetas": {
+    "ZhiNv_PassiveSkill_Effect_1_C_Shang": {
+      "ver": "1.0.6",
+      "uuid": "5dc31a12-0b48-4d6b-9dec-9a266c4735dc",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "787b05ef-bdae-4012-9fc7-a231049bbb93",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1006,
+      "height": 312,
+      "rawWidth": 1010,
+      "rawHeight": 316,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

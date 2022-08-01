@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c2ee75f2-d14a-4af3-9aef-053469bd7a1c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 490,
+  "height": 528,
+  "platformSettings": {},
+  "subMetas": {
+    "HuLiDaXian_Attack_2_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "c1557f0f-05c5-4375-be0d-7bae74b6471e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c2ee75f2-d14a-4af3-9aef-053469bd7a1c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 486,
+      "height": 524,
+      "rawWidth": 490,
+      "rawHeight": 528,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

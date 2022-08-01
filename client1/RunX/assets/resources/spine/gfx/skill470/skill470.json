@@ -1,0 +1,88 @@
+{
+"skeleton": { "hash": "B8LgZhL0xm+AOQ8rixa5OPynMqw", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.5007, "scaleY": 0.5007 },
+	{ "name": "feng0004", "parent": "root", "length": 179.48, "rotation": 91.76, "x": 708.6, "y": 42.82 }
+],
+"slots": [
+	{ "name": "feng0004", "bone": "feng0004" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"feng0004": {
+				"feng0001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -119.06, -265.48, -100.73, 330.23, 898.8, 299.48, 880.47, -296.24 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 596,
+					"height": 1000
+				},
+				"feng0003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -119.06, -265.48, -100.73, 330.23, 898.8, 299.48, 880.47, -296.24 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 596,
+					"height": 1000
+				},
+				"feng0005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -119.06, -265.48, -100.73, 330.23, 898.8, 299.48, 880.47, -296.24 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 596,
+					"height": 1000
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill470": {
+		"slots": {
+			"feng0004": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "feng0001" },
+					{ "time": 0.0667, "name": "feng0003" },
+					{ "time": 0.1, "name": "feng0005" },
+					{ "time": 0.1667, "name": "feng0001" },
+					{ "time": 0.2, "name": "feng0003" },
+					{ "time": 0.2667, "name": "feng0005" },
+					{ "time": 0.3, "name": "feng0001" },
+					{ "time": 0.3667, "name": "feng0003" },
+					{ "time": 0.4, "name": "feng0005" }
+				]
+			}
+		},
+		"bones": {
+			"feng0004": {
+				"translate": [
+					{ "x": 182.53, "y": -6.39 }
+				],
+				"scale": [
+					{ "x": 1.452, "y": 1.139 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4333, "name": "K" }
+		]
+	}
+}
+}

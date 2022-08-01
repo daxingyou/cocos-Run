@@ -1,0 +1,63 @@
+{
+"skeleton": { "hash": "dU05FSqPZSe8Cdw4cvmNK5r8VcE", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/牛魔王" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.1405, "scaleY": 0.1405 },
+	{ "name": "yanwu0001", "parent": "bone", "length": 148.86, "rotation": 179.1, "x": 1118.9, "y": 21.48 }
+],
+"slots": [
+	{ "name": "yanwu0001", "bone": "yanwu0001" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yanwu0001": {
+				"yanwu0001": { "x": 236.74, "y": -30, "rotation": -179.1, "width": 500, "height": 199 },
+				"yanwu0002": { "x": 236.74, "y": -30, "rotation": -179.1, "width": 500, "height": 199 },
+				"yanwu0003": { "x": 236.74, "y": -30, "rotation": -179.1, "width": 500, "height": 199 },
+				"yanwu0004": { "x": 236.74, "y": -30, "rotation": -179.1, "width": 500, "height": 199 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill57": {
+		"slots": {
+			"yanwu0001": {
+				"color": [
+					{ "color": "383838ff" }
+				],
+				"attachment": [
+					{ "name": "yanwu0001" },
+					{ "time": 0.0667, "name": "yanwu0002" },
+					{ "time": 0.1, "name": "yanwu0003" },
+					{ "time": 0.1667, "name": "yanwu0004" },
+					{ "time": 0.2333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"yanwu0001": {
+				"translate": [
+					{ "x": 2894.68, "y": 34.05 }
+				],
+				"scale": [
+					{ "x": 8.206, "y": 5.088 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0.9333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3, "name": "k" }
+		]
+	}
+}
+}

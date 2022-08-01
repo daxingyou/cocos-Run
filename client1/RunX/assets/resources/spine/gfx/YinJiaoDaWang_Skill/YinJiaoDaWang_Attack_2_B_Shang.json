@@ -1,0 +1,61 @@
+{
+"skeleton": { "hash": "RD5rYaxg0RknW6RdMT0A6D6g598", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "attack_01_C_shang", "parent": "eft" },
+	{ "name": "attack1_hit", "parent": "attack_01_C_shang" }
+],
+"slots": [
+	{ "name": "attack1_hit", "bone": "attack1_hit", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"attack1_hit": {
+				"eft/attack1/attack1_hit/attack1_hit41": { "width": 400, "height": 400 },
+				"eft/attack1/attack1_hit/attack1_hit42": { "width": 400, "height": 400 },
+				"eft/attack1/attack1_hit/attack1_hit44": { "width": 400, "height": 400 },
+				"eft/attack1/attack1_hit/attack1_hit45": { "width": 400, "height": 400 },
+				"eft/attack1/attack1_hit/attack1_hit47": { "width": 400, "height": 400 },
+				"eft/attack1/attack1_hit/attack1_hit48": { "width": 400, "height": 400 },
+				"eft/attack1/attack1_hit/attack1_hit50": { "width": 400, "height": 400 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack1": {
+		"slots": {
+			"attack1_hit": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/attack1/attack1_hit/attack1_hit41" },
+					{ "time": 0.0333, "name": "eft/attack1/attack1_hit/attack1_hit42" },
+					{ "time": 0.1, "name": "eft/attack1/attack1_hit/attack1_hit44" },
+					{ "time": 0.1333, "name": "eft/attack1/attack1_hit/attack1_hit45" },
+					{ "time": 0.2, "name": "eft/attack1/attack1_hit/attack1_hit47" },
+					{ "time": 0.2333, "name": "eft/attack1/attack1_hit/attack1_hit48" },
+					{ "time": 0.3, "name": "eft/attack1/attack1_hit/attack1_hit50" },
+					{ "time": 0.4333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"attack1_hit": {
+				"rotate": [
+					{ "time": 0.3 },
+					{ "time": 0.4333, "angle": -2.75 }
+				],
+				"scale": [
+					{ "x": 4, "y": 4 }
+				]
+			}
+		}
+	}
+}
+}

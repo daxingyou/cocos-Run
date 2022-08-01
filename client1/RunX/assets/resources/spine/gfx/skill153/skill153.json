@@ -1,0 +1,113 @@
+{
+"skeleton": { "hash": "039h/DnCPFhjutDkISm9lM+upMA", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.45, "scaleY": 0.45 },
+	{ "name": "bone9", "parent": "root", "x": 273.54, "y": 90.16 },
+	{
+		"name": "x3",
+		"parent": "bone9",
+		"length": 68.78,
+		"rotation": 91.33,
+		"x": 23.7,
+		"y": -45.64,
+		"color": "fff200ff"
+	},
+	{ "name": "d", "parent": "bone9", "x": -59, "y": 21.82 },
+	{ "name": "bone5", "parent": "root", "x": 412.24, "y": 440.7 },
+	{ "name": "113", "parent": "bone5", "x": -23.1 },
+	{ "name": "114", "parent": "bone5", "x": -23.1 },
+	{ "name": "115", "parent": "bone5", "x": -23.1 }
+],
+"slots": [
+	{ "name": "x3", "bone": "x3", "blend": "additive" },
+	{ "name": "d", "bone": "d", "blend": "additive" },
+	{ "name": "113", "bone": "113", "blend": "additive" },
+	{ "name": "114", "bone": "114" },
+	{ "name": "115", "bone": "115" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"113": {
+				"113": { "x": -69.57, "y": 1.22, "width": 165, "height": 295 }
+			},
+			"114": {
+				"113": { "x": -69.57, "y": 1.22, "width": 165, "height": 295 }
+			},
+			"115": {
+				"113": { "x": -69.57, "y": 1.22, "width": 165, "height": 295 }
+			},
+			"d": {
+				"d": { "x": -2.11, "y": 1.18, "width": 256, "height": 256 }
+			},
+			"x3": {
+				"x1": { "rotation": -91.33, "width": 550, "height": 400 },
+				"x2": { "rotation": -91.33, "width": 550, "height": 400 },
+				"x3": { "rotation": -91.33, "width": 550, "height": 400 },
+				"x4": { "rotation": -91.33, "width": 550, "height": 400 },
+				"x5": { "rotation": -91.33, "width": 550, "height": 400 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill153": {
+		"slots": {
+			"d": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "d" }
+				]
+			},
+			"x3": {
+				"attachment": [
+					{ "name": "x1" },
+					{ "time": 0.0333, "name": "x2" },
+					{ "time": 0.1, "name": "x3" },
+					{ "time": 0.1333, "name": "x4" },
+					{ "time": 0.2, "name": "x5" },
+					{ "time": 0.2333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"x3": {
+				"rotate": [
+					{ "angle": -90.73 }
+				],
+				"translate": [
+					{ "x": 197.34, "y": 369.3 }
+				]
+			},
+			"d": {
+				"translate": [
+					{ "x": 238.11, "y": 289.3 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.0667, "x": 1.642, "y": 1.642 }
+				]
+			},
+			"bone9": {
+				"translate": [
+					{ "x": -22.12, "y": 12.45 }
+				],
+				"scale": [
+					{ "x": 1.183, "y": 1.183 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2333, "name": "K" }
+		]
+	}
+}
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>BOSS_114_0001.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{1246,350}}</string>
+                <key>offset</key>
+                <string>{-2,-8}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{75,83},{1246,350}}</string>
+                <key>sourceSize</key>
+                <string>{1400,500}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>BOSS_114.png</string>
+            <key>size</key>
+            <string>{512,2048}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:59c90e45b2f2f4be8edbc1af3cfaf786$</string>
+            <key>textureFileName</key>
+            <string>BOSS_114.png</string>
+        </dict>
+    </dict>
+</plist>

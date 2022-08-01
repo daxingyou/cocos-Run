@@ -1,0 +1,42 @@
+{
+"skeleton": { "hash": "YmDM3BTumTnemV9saEId/EuQchs", "spine": "3.8.99", "images": "./image/", "audio": "" },
+"bones": [
+	{ "name": "effect" },
+	{ "name": "dimian", "parent": "effect" }
+],
+"slots": [
+	{ "name": "dimian", "bone": "dimian" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"dimian": {
+				"di_00035": { "width": 684, "height": 264 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"dimian": {
+				"color": [
+					{ "time": 0.5667, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "di_00035" }
+				]
+			}
+		},
+		"bones": {
+			"dimian": {
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

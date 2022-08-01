@@ -1,0 +1,184 @@
+{
+"skeleton": { "hash": "xTGZhDHJPHLqvJf2F8F7IuUV9uM", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "attack_04_C_shang", "parent": "eft", "x": 4.7, "y": -4.7 },
+	{ "name": "xia", "parent": "eft", "y": 29.64 },
+	{ "name": "dilie", "parent": "eft" },
+	{ "name": "eft2", "parent": "eft", "rotation": 175.94, "x": -452.55, "y": 628.8 }
+],
+"slots": [
+	{ "name": "eft/attack2/attack2_sj2/dd", "bone": "dilie" },
+	{ "name": "eft/attack2/attack2_sj2/attack2_sj2_00030", "bone": "xia" },
+	{ "name": "eft/attack2/attack2_sj1/attack2_sj1_00030", "bone": "attack_04_C_shang" },
+	{ "name": "eft/attack2/hulu_00024", "bone": "eft2" },
+	{ "name": "eft/attack2/huluhuo/huluhuo_00027", "bone": "eft2", "blend": "additive" },
+	{ "name": "eft/attack2/huluhuo/huluhuo_27", "bone": "eft2", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"eft/attack2/attack2_sj1/attack2_sj1_00030": {
+				"eft/attack2/attack2_sj1/attack2_sj1_00031": { "y": 0.5, "width": 628, "height": 537 },
+				"eft/attack2/attack2_sj1/attack2_sj1_00033": { "y": 0.5, "width": 628, "height": 537 },
+				"eft/attack2/attack2_sj1/attack2_sj1_00035": { "y": 0.5, "width": 628, "height": 537 },
+				"eft/attack2/attack2_sj1/attack2_sj1_00037": { "y": 0.5, "width": 628, "height": 537 },
+				"eft/attack2/attack2_sj1/attack2_sj1_00039": { "y": 0.5, "width": 628, "height": 537 },
+				"eft/attack2/attack2_sj1/attack2_sj1_00041": { "y": 0.5, "width": 628, "height": 537 },
+				"eft/attack2/attack2_sj1/attack2_sj1_00043": { "y": 0.5, "width": 628, "height": 537 },
+				"eft/attack2/attack2_sj1/attack2_sj1_00045": { "y": 0.5, "width": 628, "height": 537 },
+				"eft/attack2/attack2_sj1/attack2_sj1_00047": { "y": 0.5, "width": 628, "height": 537 }
+			},
+			"eft/attack2/attack2_sj2/attack2_sj2_00030": {
+				"eft/attack2/attack2_sj2/attack2_sj2_00031": { "y": 0.5, "width": 364, "height": 135 },
+				"eft/attack2/attack2_sj2/attack2_sj2_00033": { "y": 0.5, "width": 364, "height": 135 },
+				"eft/attack2/attack2_sj2/attack2_sj2_00035": { "y": 0.5, "width": 364, "height": 135 },
+				"eft/attack2/attack2_sj2/attack2_sj2_00037": { "y": 0.5, "width": 364, "height": 135 },
+				"eft/attack2/attack2_sj2/attack2_sj2_00039": { "y": 0.5, "width": 364, "height": 135 },
+				"eft/attack2/attack2_sj2/attack2_sj2_00041": { "y": 0.5, "width": 364, "height": 135 }
+			},
+			"eft/attack2/attack2_sj2/dd": {
+				"eft/attack2/attack2_sj2/dd": { "x": 0.5, "width": 361, "height": 144 }
+			},
+			"eft/attack2/hulu_00024": {
+				"eft/attack2/hulu_00024": { "y": 0.5, "width": 194, "height": 283 }
+			},
+			"eft/attack2/huluhuo/huluhuo_00027": {
+				"eft/attack2/huluhuo/huluhuo_00027": {
+					"x": -13.48,
+					"y": -21.51,
+					"scaleX": 2.4507,
+					"scaleY": 2.4507,
+					"rotation": 3.75,
+					"width": 146,
+					"height": 253
+				}
+			},
+			"eft/attack2/huluhuo/huluhuo_27": {
+				"eft/attack2/huluhuo/huluhuo_00027": {
+					"x": -3.54,
+					"y": -83.97,
+					"scaleX": 1.4402,
+					"scaleY": 2.4507,
+					"rotation": 3.75,
+					"width": 146,
+					"height": 253
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"Attack4": {
+		"slots": {
+			"eft/attack2/attack2_sj1/attack2_sj1_00030": {
+				"color": [
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.8667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "eft/attack2/attack2_sj1/attack2_sj1_00031" },
+					{ "time": 0.2333, "name": "eft/attack2/attack2_sj1/attack2_sj1_00033" },
+					{ "time": 0.3, "name": "eft/attack2/attack2_sj1/attack2_sj1_00035" },
+					{ "time": 0.3667, "name": "eft/attack2/attack2_sj1/attack2_sj1_00037" },
+					{ "time": 0.4333, "name": "eft/attack2/attack2_sj1/attack2_sj1_00039" },
+					{ "time": 0.5333, "name": "eft/attack2/attack2_sj1/attack2_sj1_00041" },
+					{ "time": 0.6, "name": "eft/attack2/attack2_sj1/attack2_sj1_00043" },
+					{ "time": 0.6667, "name": "eft/attack2/attack2_sj1/attack2_sj1_00045" },
+					{ "time": 0.7333, "name": "eft/attack2/attack2_sj1/attack2_sj1_00047" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"eft/attack2/attack2_sj2/attack2_sj2_00030": {
+				"color": [
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "eft/attack2/attack2_sj2/attack2_sj2_00031" },
+					{ "time": 0.2333, "name": "eft/attack2/attack2_sj2/attack2_sj2_00033" },
+					{ "time": 0.3, "name": "eft/attack2/attack2_sj2/attack2_sj2_00035" },
+					{ "time": 0.3667, "name": "eft/attack2/attack2_sj2/attack2_sj2_00037" },
+					{ "time": 0.4333, "name": "eft/attack2/attack2_sj2/attack2_sj2_00039" },
+					{ "time": 0.5, "name": "eft/attack2/attack2_sj2/attack2_sj2_00041" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"eft/attack2/attack2_sj2/dd": {
+				"color": [
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.9667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "eft/attack2/attack2_sj2/dd" }
+				]
+			},
+			"eft/attack2/hulu_00024": {
+				"attachment": [
+					{ "name": "eft/attack2/hulu_00024" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"eft/attack2/huluhuo/huluhuo_00027": {
+				"attachment": [
+					{ "name": "eft/attack2/huluhuo/huluhuo_00027" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"eft/attack2/huluhuo/huluhuo_27": {
+				"attachment": [
+					{ "name": "eft/attack2/huluhuo/huluhuo_00027" },
+					{ "time": 0.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"attack_04_C_shang": {
+				"translate": [
+					{ "time": 0.1667, "x": -20.33, "y": 212.06 }
+				]
+			},
+			"xia": {
+				"translate": [
+					{ "time": 0.1667, "x": -21.31 }
+				],
+				"scale": [
+					{ "time": 0.1667, "x": 1.5, "y": 1.5 },
+					{ "time": 0.2333, "x": 2, "y": 2 }
+				]
+			},
+			"dilie": {
+				"translate": [
+					{ "time": 0.1667, "x": -24.04, "y": 36.37 }
+				],
+				"scale": [
+					{ "time": 0.1667, "x": 1.6, "y": 1.6 }
+				]
+			},
+			"eft2": {
+				"translate": [
+					{ "x": 434.24, "y": 526.28, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333, "x": 434.24, "y": -569.29 },
+					{ "time": 0.1667, "x": 434.24, "y": -588.17 }
+				],
+				"scale": [
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "y": 0.479 }
+				]
+			},
+			"eft": {
+				"translate": [
+					{ "time": 0.2 },
+					{ "time": 0.3, "y": -20.86 }
+				],
+				"scale": [
+					{ "time": 0.2 },
+					{ "time": 0.3, "x": 1.311, "y": 1.311 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "8073d96a-2e30-49af-85e6-332d5d454f6c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 629,
+  "height": 629,
+  "platformSettings": {},
+  "subMetas": {
+    "WangMuNiangNiang_ActiveSkill_Effect_1_C_2": {
+      "ver": "1.0.6",
+      "uuid": "db24910d-91a9-43cd-9e27-a94c7d548293",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "8073d96a-2e30-49af-85e6-332d5d454f6c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -6,
+      "trimX": 2,
+      "trimY": 14,
+      "width": 625,
+      "height": 613,
+      "rawWidth": 629,
+      "rawHeight": 629,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

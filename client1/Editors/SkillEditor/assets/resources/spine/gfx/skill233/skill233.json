@@ -1,0 +1,58 @@
+{
+"skeleton": { "hash": "sZqrQO+5SfwDDuKOB4fuewAcYDY", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.55, "scaleY": 0.55 },
+	{ "name": "qi_atk2_4", "parent": "root", "length": 56.2, "rotation": 1.85, "x": -118.18, "y": -150.33 }
+],
+"slots": [
+	{ "name": "qi_atk2_4", "bone": "qi_atk2_4" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"qi_atk2_4": {
+				"qi_atk2_2": { "rotation": -1.85, "width": 150, "height": 100 },
+				"qi_atk2_3": { "rotation": -1.85, "width": 150, "height": 100 },
+				"qi_atk2_4": { "rotation": -1.85, "width": 150, "height": 100 },
+				"qi_atk2_5": { "rotation": -1.85, "width": 150, "height": 100 },
+				"qi_atk2_6": { "rotation": -1.85, "width": 150, "height": 100 },
+				"qi_atk2_7": { "rotation": -1.85, "width": 150, "height": 100 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill233": {
+		"slots": {
+			"qi_atk2_4": {
+				"attachment": [
+					{ "name": "qi_atk2_2" },
+					{ "time": 0.0333, "name": "qi_atk2_3" },
+					{ "time": 0.0667, "name": "qi_atk2_4" },
+					{ "time": 0.1, "name": "qi_atk2_5" },
+					{ "time": 0.1333, "name": "qi_atk2_6" },
+					{ "time": 0.1667, "name": "qi_atk2_7" },
+					{ "time": 0.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"qi_atk2_4": {
+				"translate": [
+					{ "x": 589.11, "y": 206.68 }
+				],
+				"scale": [
+					{ "x": 3.664, "y": 1.642 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "K" }
+		]
+	}
+}
+}

@@ -1,0 +1,205 @@
+{
+"skeleton": { "hash": "b1p6kZ3PFRedvfY1jXSalD4UPVo", "spine": "3.8.99", "images": "./images/", "audio": "H:/波波外包/new/织女/Spine" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "atk2", "parent": "root" },
+	{ "name": "lizi", "parent": "atk2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "lizi2", "parent": "atk2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "juan", "parent": "atk2", "scaleX": 2.64, "scaleY": 2.64 },
+	{ "name": "yun", "parent": "atk2" },
+	{ "name": "yun2", "parent": "atk2", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "lizi", "bone": "lizi", "blend": "additive" },
+	{ "name": "lizi2", "bone": "lizi2", "blend": "additive" },
+	{ "name": "juan", "bone": "juan", "blend": "additive" },
+	{ "name": "yun", "bone": "yun" },
+	{ "name": "yun2", "bone": "yun2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"juan": {
+				"ZhiNv_Attack_1/juan/juan_0001": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/juan/juan_0003": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/juan/juan_0005": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/juan/juan_0007": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/juan/juan_0009": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/juan/juan_0011": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/juan/juan_0013": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/juan/juan_0015": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/juan/juan_0017": { "width": 500, "height": 500 }
+			},
+			"lizi": {
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0002": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0004": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0006": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0008": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0010": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0012": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0014": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0016": { "width": 500, "height": 500 }
+			},
+			"lizi2": {
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0002": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0004": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0006": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0008": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0010": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0012": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0014": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/lizi/atk1_lizi_0016": { "width": 500, "height": 500 }
+			},
+			"yun": {
+				"ZhiNv_Attack_1/yun/yun_0004": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0006": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0008": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0010": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0012": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0014": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_1/yun/yun_0016": { "width": 500, "height": 500 }
+			},
+			"yun2": {
+				"ZhiNv_Attack_2/yun2/yun2_0006": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_2/yun2/yun2_0008": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_2/yun2/yun2_0010": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_2/yun2/yun2_0012": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_2/yun2/yun2_0014": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_2/yun2/yun2_0016": { "width": 500, "height": 500 },
+				"ZhiNv_Attack_2/yun2/yun2_0018": { "width": 500, "height": 500 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack3": {
+		"slots": {
+			"juan": {
+				"attachment": [
+					{ "time": 0.2, "name": "ZhiNv_Attack_1/juan/juan_0001" },
+					{ "time": 0.2667, "name": "ZhiNv_Attack_1/juan/juan_0003" },
+					{ "time": 0.3333, "name": "ZhiNv_Attack_1/juan/juan_0005" },
+					{ "time": 0.4, "name": "ZhiNv_Attack_1/juan/juan_0007" },
+					{ "time": 0.4667, "name": "ZhiNv_Attack_1/juan/juan_0009" },
+					{ "time": 0.5333, "name": "ZhiNv_Attack_1/juan/juan_0011" },
+					{ "time": 0.6, "name": "ZhiNv_Attack_1/juan/juan_0013" },
+					{ "time": 0.6667, "name": "ZhiNv_Attack_1/juan/juan_0015" },
+					{ "time": 0.7333, "name": "ZhiNv_Attack_1/juan/juan_0017" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"lizi": {
+				"color": [
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 1.0333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2667, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0002" },
+					{ "time": 0.3333, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0004" },
+					{ "time": 0.4, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0006" },
+					{ "time": 0.4667, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0008" },
+					{ "time": 0.5333, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0010" },
+					{ "time": 0.6, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0012" },
+					{ "time": 0.6667, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0014" },
+					{ "time": 0.7333, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0016" },
+					{ "time": 1.0333, "name": null }
+				]
+			},
+			"lizi2": {
+				"color": [
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 1.0333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0002" },
+					{ "time": 0.3667, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0004" },
+					{ "time": 0.4333, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0006" },
+					{ "time": 0.5, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0008" },
+					{ "time": 0.5667, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0010" },
+					{ "time": 0.6333, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0012" },
+					{ "time": 0.7, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0014" },
+					{ "time": 0.7667, "name": "ZhiNv_Attack_1/lizi/atk1_lizi_0016" },
+					{ "time": 1.0333, "name": null }
+				]
+			},
+			"yun": {
+				"attachment": [
+					{ "time": 0.3667, "name": "ZhiNv_Attack_1/yun/yun_0004" },
+					{ "time": 0.4333, "name": "ZhiNv_Attack_1/yun/yun_0006" },
+					{ "time": 0.5, "name": "ZhiNv_Attack_1/yun/yun_0008" },
+					{ "time": 0.5667, "name": "ZhiNv_Attack_1/yun/yun_0010" },
+					{ "time": 0.6333, "name": "ZhiNv_Attack_1/yun/yun_0012" },
+					{ "time": 0.7, "name": "ZhiNv_Attack_1/yun/yun_0014" },
+					{ "time": 0.7667, "name": "ZhiNv_Attack_1/yun/yun_0016" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"yun2": {
+				"attachment": [
+					{ "time": 0.2, "name": "ZhiNv_Attack_2/yun2/yun2_0006" },
+					{ "time": 0.2667, "name": "ZhiNv_Attack_2/yun2/yun2_0008" },
+					{ "time": 0.3333, "name": "ZhiNv_Attack_2/yun2/yun2_0010" },
+					{ "time": 0.4, "name": "ZhiNv_Attack_2/yun2/yun2_0012" },
+					{ "time": 0.4667, "name": "ZhiNv_Attack_2/yun2/yun2_0014" },
+					{ "time": 0.5333, "name": "ZhiNv_Attack_2/yun2/yun2_0016" },
+					{ "time": 0.6, "name": "ZhiNv_Attack_2/yun2/yun2_0018" },
+					{ "time": 0.6667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"lizi": {
+				"rotate": [
+					{ "time": 0.2667, "angle": -6.76 }
+				],
+				"translate": [
+					{ "time": 0.2667, "x": 163.03, "y": 271.06 },
+					{ "time": 0.7333, "x": 175.55, "y": 271.06 },
+					{ "time": 1.0333, "x": 179.55, "y": 271.06 }
+				],
+				"scale": [
+					{ "time": 0.2667, "x": 0.75, "y": 0.9 }
+				]
+			},
+			"lizi2": {
+				"rotate": [
+					{ "time": 0.3, "angle": -96.06 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": 210.94, "y": 64.25, "curve": "stepped" },
+					{ "time": 0.7667, "x": 210.94, "y": 64.25 },
+					{ "time": 1.0333, "x": 210.94, "y": 59.25 }
+				],
+				"scale": [
+					{ "time": 0.3, "y": -1 }
+				]
+			},
+			"juan": {
+				"translate": [
+					{ "time": 0.2, "x": 120.06, "y": 159.17 }
+				],
+				"scale": [
+					{ "time": 0.2, "y": -1 }
+				]
+			},
+			"yun": {
+				"rotate": [
+					{ "time": 0.3667, "angle": 33.75 }
+				],
+				"translate": [
+					{ "time": 0.3667, "x": 160.7, "y": 41.47 }
+				],
+				"scale": [
+					{ "time": 0.3667, "x": -1.48, "y": 1.24 }
+				]
+			},
+			"yun2": {
+				"translate": [
+					{ "time": 0.2, "x": 142.74, "y": 141.55 }
+				]
+			}
+		}
+	}
+}
+}

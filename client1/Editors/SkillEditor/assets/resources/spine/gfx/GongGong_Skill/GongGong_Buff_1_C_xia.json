@@ -1,0 +1,147 @@
+{
+"skeleton": { "hash": "fdLh5l+IebljZTxF+bvifPqQK6Q", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "buff", "parent": "root" },
+	{ "name": "cxbw2", "parent": "buff" },
+	{ "name": "cxbw1_d2", "parent": "cxbw2" },
+	{ "name": "cxbw1_u6", "parent": "cxbw2" },
+	{ "name": "cxbw1_d3", "parent": "cxbw2" },
+	{ "name": "cxbw1_u7", "parent": "cxbw2" }
+],
+"slots": [
+	{ "name": "effect/gg_skill_cxbw/gg_skill_cxbw_1", "bone": "cxbw1_d2" },
+	{ "name": "effect/gg_skill_cxbw/gg_skill_cxbw_2", "bone": "cxbw1_d3" },
+	{ "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_4", "bone": "cxbw1_u6", "blend": "additive" },
+	{ "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_5", "bone": "cxbw1_u7", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"effect/gg_skill_cxbw/gg_skill_cxbw_1": {
+				"effect/gg_skill_cxbw/gg_skill_cxbw_001": { "width": 291, "height": 291 }
+			},
+			"effect/gg_skill_cxbw/gg_skill_cxbw_2": {
+				"effect/gg_skill_cxbw/gg_skill_cxbw_001": { "width": 291, "height": 291 }
+			},
+			"effect/gg_skill_cxbw/gg_skill_cxbw_00_4": {
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_00": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_02": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_04": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_06": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_08": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_10": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_12": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_14": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_16": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_18": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_20": { "width": 300, "height": 300 }
+			},
+			"effect/gg_skill_cxbw/gg_skill_cxbw_00_5": {
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_00": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_02": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_04": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_06": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_08": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_10": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_12": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_14": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_16": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_18": { "width": 300, "height": 300 },
+				"effect/gg_skill_cxbw/gg_skill_cxbw_00_20": { "width": 300, "height": 300 }
+			}
+		}
+	}
+],
+"animations": {
+	"buff": {
+		"slots": {
+			"effect/gg_skill_cxbw/gg_skill_cxbw_1": {
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_cxbw/gg_skill_cxbw_001" }
+				]
+			},
+			"effect/gg_skill_cxbw/gg_skill_cxbw_2": {
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_cxbw/gg_skill_cxbw_001" }
+				]
+			},
+			"effect/gg_skill_cxbw/gg_skill_cxbw_00_4": {
+				"color": [
+					{ "color": "ffffff21" },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_00" },
+					{ "time": 0.0667, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_02" },
+					{ "time": 0.1333, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_04" },
+					{ "time": 0.2, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_06" },
+					{ "time": 0.2667, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_08" },
+					{ "time": 0.3333, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_10" },
+					{ "time": 0.4, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_12" },
+					{ "time": 0.4667, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_14" },
+					{ "time": 0.5333, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_16" },
+					{ "time": 0.6, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_18" },
+					{ "time": 0.6667, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_20" }
+				]
+			},
+			"effect/gg_skill_cxbw/gg_skill_cxbw_00_5": {
+				"color": [
+					{ "time": 0.5, "color": "ffffff21" },
+					{ "time": 0.7667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9667, "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.5, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_00" },
+					{ "time": 0.5667, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_02" },
+					{ "time": 0.6333, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_04" },
+					{ "time": 0.7, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_06" },
+					{ "time": 0.7667, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_08" },
+					{ "time": 0.8333, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_10" },
+					{ "time": 0.9, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_12" },
+					{ "time": 0.9667, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_14" },
+					{ "time": 1.0333, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_16" },
+					{ "time": 1.1, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_18" },
+					{ "time": 1.1667, "name": "effect/gg_skill_cxbw/gg_skill_cxbw_00_20" }
+				]
+			}
+		},
+		"bones": {
+			"cxbw1_d2": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5 },
+					{ "time": 0.1 }
+				]
+			},
+			"cxbw2": {
+				"scale": [
+					{ "y": 0.3 }
+				]
+			},
+			"cxbw1_d3": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5 },
+					{ "time": 0.1 }
+				]
+			},
+			"buff": {
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

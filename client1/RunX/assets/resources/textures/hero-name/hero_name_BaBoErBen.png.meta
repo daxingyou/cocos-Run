@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "61d5e949-f261-4ab0-aad0-7e26ccc9d0c6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 63,
+  "height": 240,
+  "platformSettings": {},
+  "subMetas": {
+    "hero_name_BaBoErBen": {
+      "ver": "1.0.6",
+      "uuid": "44a225e1-d725-470b-89dc-1a7bcb8d9d7e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "61d5e949-f261-4ab0-aad0-7e26ccc9d0c6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 2,
+      "trimY": 0,
+      "width": 59,
+      "height": 239,
+      "rawWidth": 63,
+      "rawHeight": 240,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

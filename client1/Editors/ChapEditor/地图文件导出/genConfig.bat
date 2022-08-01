@@ -1,0 +1,2 @@
+python genConfig.py
+pause

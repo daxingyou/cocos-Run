@@ -1,0 +1,466 @@
+{
+"skeleton": { "hash": "VYMuJRICVGJIcP3Ed3GC2rzxxOI", "spine": "3.8.99", "images": "./images/", "audio": "D:/beifen/TB4/西游第三批整合/织女/织女" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4669, "scaleY": 0.4669 },
+	{ "name": "bone64", "parent": "root", "x": 250.73, "y": 200.88 },
+	{ "name": "tx1", "parent": "root", "x": 433.22, "y": 466.64 },
+	{ "name": "ndj_gq1_00", "parent": "root", "x": 275.87, "y": 128.93 },
+	{ "name": "bone67", "parent": "root", "x": -489.12, "y": 357.73, "color": "11751eff" },
+	{
+		"name": "tx_qiu",
+		"parent": "bone67",
+		"x": -15.92,
+		"y": 81.04,
+		"scaleX": 0.5629,
+		"scaleY": 1.4532,
+		"color": "55b044ff"
+	},
+	{
+		"name": "tx_qiu2",
+		"parent": "bone67",
+		"x": -56.66,
+		"y": 82.78,
+		"scaleX": 0.5629,
+		"scaleY": 1.4532,
+		"color": "55b044ff"
+	},
+	{
+		"name": "tx_qiu3",
+		"parent": "bone67",
+		"x": 142.39,
+		"y": 81.04,
+		"scaleX": 0.5629,
+		"scaleY": 1.4532,
+		"color": "55b044ff"
+	},
+	{
+		"name": "tx_qiu4",
+		"parent": "bone67",
+		"x": -92.74,
+		"y": 83.37,
+		"scaleX": 0.5629,
+		"scaleY": 1.4532,
+		"color": "55b044ff"
+	},
+	{
+		"name": "tx_qiu5",
+		"parent": "bone67",
+		"x": -120.68,
+		"y": 82.78,
+		"scaleX": 0.5629,
+		"scaleY": 1.4532,
+		"color": "55b044ff"
+	},
+	{
+		"name": "tx_qiu6",
+		"parent": "bone67",
+		"x": 198.26,
+		"y": 80.46,
+		"scaleX": 0.5629,
+		"scaleY": 1.4532,
+		"color": "55b044ff"
+	},
+	{
+		"name": "tx_qiu7",
+		"parent": "bone67",
+		"x": 85.35,
+		"y": 74.05,
+		"scaleX": 0.5629,
+		"scaleY": 1.4532,
+		"color": "55b044ff"
+	},
+	{
+		"name": "tx_qiu8",
+		"parent": "bone67",
+		"x": 35.3,
+		"y": 81.04,
+		"scaleX": 0.5629,
+		"scaleY": 1.4532,
+		"color": "55b044ff"
+	},
+	{ "name": "bone113", "parent": "root", "x": 654.5, "y": 514.24, "color": "ff0000ff" }
+],
+"slots": [
+	{ "name": "xian", "bone": "root", "attachment": "xian" },
+	{ "name": "tx1", "bone": "tx1", "blend": "additive" },
+	{ "name": "ndj_gq1_00", "bone": "ndj_gq1_00", "blend": "additive" },
+	{ "name": "tx_qiu", "bone": "tx_qiu", "blend": "additive" },
+	{ "name": "tx_qiu2", "bone": "tx_qiu2", "blend": "additive" },
+	{ "name": "tx_qiu3", "bone": "tx_qiu3", "blend": "additive" },
+	{ "name": "tx_qiu4", "bone": "tx_qiu4", "blend": "additive" },
+	{ "name": "tx_qiu5", "bone": "tx_qiu5", "blend": "additive" },
+	{ "name": "tx_qiu6", "bone": "tx_qiu6", "blend": "additive" },
+	{ "name": "tx_qiu7", "bone": "tx_qiu7", "blend": "additive" },
+	{ "name": "tx_qiu8", "bone": "tx_qiu8", "blend": "additive" },
+	{ "name": "2_00000", "bone": "tx1", "blend": "additive" },
+	{ "name": "lujing2", "bone": "root", "attachment": "lujing2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"2_00000": {
+				"2_00000": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 77.07, -72.4, -72.93, -72.4, -72.93, 77.6, 77.07, 77.6 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 150,
+					"height": 150
+				}
+			},
+			"lujing2": {
+				"lujing2": {
+					"type": "path",
+					"lengths": [ 176.77, 397.09, 528.2, 694.39, 1314.12 ],
+					"vertexCount": 15,
+					"vertices": [ 1, 13, -893.64, -319.2, 1, 1, 13, -819.96, -326.08, 1, 1, 13, -681.24, -339.04, 1, 1, 13, -527.97, -344.23, 1, 1, 13, -441.89, -335.66, 1, 1, 13, -196.45, -311.23, 1, 1, 13, -109.14, -257.6, 1, 1, 13, 4.11, -195.18, 1, 1, 13, 88.89, -148.46, 1, 1, 13, 183.12, -73.69, 1, 1, 13, 220.4, -18.88, 1, 1, 13, 286.88, 78.87, 1, 1, 13, 315.15, 146.49, 1, 1, 13, 337.44, 313.08, 1, 1, 13, 348.53, 396.02, 1 ]
+				}
+			},
+			"ndj_gq1_00": {
+				"ndj_gq1_00": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 149, -149, -149, -149, -149, 149, 149, 149 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 298,
+					"height": 298
+				}
+			},
+			"tx1": {
+				"tx1": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 71.03, -71.21, -78.97, -71.21, -78.97, 90.79, 71.03, 90.79 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 150,
+					"height": 162
+				}
+			},
+			"tx_qiu": {
+				"tx_qiu": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 25.42, -22.72, -24.58, -22.72, -24.58, 27.28, 25.42, 27.28 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 50,
+					"height": 50
+				}
+			},
+			"tx_qiu2": {
+				"tx_qiu": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 25.42, -22.72, -24.58, -22.72, -24.58, 27.28, 25.42, 27.28 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 50,
+					"height": 50
+				}
+			},
+			"tx_qiu3": {
+				"tx_qiu": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 25.42, -22.72, -24.58, -22.72, -24.58, 27.28, 25.42, 27.28 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 50,
+					"height": 50
+				}
+			},
+			"tx_qiu4": {
+				"tx_qiu": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 25.42, -22.72, -24.58, -22.72, -24.58, 27.28, 25.42, 27.28 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 50,
+					"height": 50
+				}
+			},
+			"tx_qiu5": {
+				"tx_qiu": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 25.42, -22.72, -24.58, -22.72, -24.58, 27.28, 25.42, 27.28 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 50,
+					"height": 50
+				}
+			},
+			"tx_qiu6": {
+				"tx_qiu": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 25.42, -22.72, -24.58, -22.72, -24.58, 27.28, 25.42, 27.28 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 50,
+					"height": 50
+				}
+			},
+			"tx_qiu7": {
+				"tx_qiu": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 25.42, -22.72, -24.58, -22.72, -24.58, 27.28, 25.42, 27.28 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 50,
+					"height": 50
+				}
+			},
+			"tx_qiu8": {
+				"tx_qiu": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 25.42, -22.72, -24.58, -22.72, -24.58, 27.28, 25.42, 27.28 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 50,
+					"height": 50
+				}
+			},
+			"xian": {
+				"xian": {
+					"type": "path",
+					"lengths": [ 106.25, 249.43, 365.06, 454.9, 532.74, 603.61, 656.94, 682.49, 744.32, 874.83 ],
+					"vertexCount": 30,
+					"vertices": [ 85.02, 57.69, 102.91, 68.15, 146.72, 93.53, 155.91, 147.32, -29.32, 178.25, -224.76, 161.39, -294.12, 271.54, -232.86, 310.51, -208.92, 324.55, -38.06, 375.3, 2.74, 386.42, 94.74, 405.38, 145.14, 420.22, 174.68, 462.66, 205.56, 507.01, 199.7, 574.09, 266.62, 594.96, 307.15, 607.6, 310.17, 508.92, 263.68, 468.73, 248.5, 455.6, 189.93, 428.31, 181.5, 392.3, 178.56, 379.78, 178.82, 362.12, 201.17, 344.6, 223.52, 327.09, 279.01, 273.7, 304.35, 261.89, 306.43, 260.92 ]
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill496": {
+		"slots": {
+			"2_00000": {
+				"color": [
+					{ "time": 0.4173, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "2_00000" }
+				]
+			},
+			"ndj_gq1_00": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "ndj_gq1_00" }
+				]
+			},
+			"tx1": {
+				"attachment": [
+					{ "name": "tx1" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"tx_qiu": {
+				"color": [
+					{ "time": 0.3667, "color": "ffffffff" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "tx_qiu" }
+				]
+			},
+			"tx_qiu2": {
+				"color": [
+					{ "time": 0.4333, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "tx_qiu" }
+				]
+			},
+			"tx_qiu3": {
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "tx_qiu" }
+				]
+			},
+			"tx_qiu4": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "tx_qiu" }
+				]
+			},
+			"tx_qiu5": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "tx_qiu" }
+				]
+			},
+			"tx_qiu6": {
+				"color": [
+					{ "time": 0.3667, "color": "ffffffff" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "tx_qiu" }
+				]
+			},
+			"tx_qiu7": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "tx_qiu" }
+				]
+			},
+			"tx_qiu8": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "tx_qiu" }
+				]
+			}
+		},
+		"bones": {
+			"tx_qiu6": {
+				"rotate": [
+					{ "angle": -92.11 }
+				],
+				"translate": [
+					{ "x": 421.69, "y": 57.35 },
+					{ "time": 0.2, "x": 818.45, "y": 208.92, "curve": 0.02, "c3": 0.662 },
+					{ "time": 0.4667, "x": 1235.2, "y": 208.39 }
+				]
+			},
+			"tx1": {
+				"rotate": [
+					{},
+					{ "time": 0.4173, "angle": -89.09 },
+					{ "time": 0.8345, "angle": 179.52 }
+				],
+				"translate": [
+					{ "x": -412.78, "y": 48.41 },
+					{ "time": 0.2, "x": 65.56, "y": 184.87 }
+				],
+				"scale": [
+					{ "curve": 0.251, "c3": 0.623, "c4": 0.49 },
+					{ "time": 0.2, "x": 1.678, "y": 1.678, "curve": 0.373, "c2": 0.49, "c3": 0.751 },
+					{ "time": 0.4173, "x": 7.953, "y": 7.953, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8345 }
+				]
+			},
+			"tx_qiu7": {
+				"rotate": [
+					{ "angle": -33.76 }
+				],
+				"translate": [
+					{ "x": 826.95, "y": 479.15 },
+					{ "time": 0.2, "x": 926.86, "y": 235.7, "curve": 0.02, "c3": 0.662 },
+					{ "time": 0.5, "x": 1286.53, "y": 670.17 }
+				]
+			},
+			"tx_qiu2": {
+				"rotate": [
+					{ "angle": 56.58 }
+				],
+				"translate": [
+					{ "x": 833.63, "y": -105.49 },
+					{ "time": 0.2, "x": 1072.87, "y": 185.76, "curve": 0.02, "c3": 0.662 },
+					{ "time": 0.5333, "x": 1540.24, "y": -207.64 }
+				]
+			},
+			"ndj_gq1_00": {
+				"translate": [
+					{ "x": -262.39, "y": 390.82 },
+					{ "time": 0.2, "x": 227.53, "y": 523.85 }
+				],
+				"scale": [
+					{ "x": 1.172, "y": 1.172, "curve": 0.251, "c3": 0.623, "c4": 0.49 },
+					{ "time": 0.2, "x": 0.577, "y": 0.577, "curve": 0.373, "c2": 0.49, "c3": 0.751 },
+					{ "time": 0.4173, "x": 4.177, "y": 4.177 }
+				]
+			},
+			"tx_qiu8": {
+				"rotate": [
+					{ "angle": -39.35 }
+				],
+				"translate": [
+					{ "x": 261.91, "y": -72.61 },
+					{ "time": 0.2, "x": 930.78, "y": 189.94, "curve": 0.02, "c3": 0.662 },
+					{ "time": 0.4333, "x": 587.05, "y": -252.81 }
+				]
+			},
+			"tx_qiu3": {
+				"rotate": [
+					{ "angle": 41.24 }
+				],
+				"translate": [
+					{ "x": 308.72, "y": 110.46 },
+					{ "time": 0.2, "x": 824.36, "y": 224.88, "curve": 0.02, "c3": 0.662 },
+					{ "time": 0.6333, "x": 424.77, "y": 612.87 }
+				]
+			},
+			"tx_qiu5": {
+				"rotate": [
+					{ "angle": -92.22 }
+				],
+				"translate": [
+					{ "x": 182.37, "y": 65.17 },
+					{ "time": 0.2, "x": 1076.91, "y": 203.69, "curve": 0.02, "c3": 0.662 },
+					{ "time": 0.4333, "x": 598.64, "y": 204.91 }
+				]
+			},
+			"tx_qiu4": {
+				"translate": [
+					{ "x": 597.32, "y": -369.95 },
+					{ "time": 0.2, "x": 1080.91, "y": 184.71, "curve": 0.02, "c3": 0.662 },
+					{ "time": 0.4333, "x": 1106.09, "y": -327.9 }
+				]
+			},
+			"tx_qiu": {
+				"translate": [
+					{ "x": 525.42, "y": 244.51 },
+					{ "time": 0.2, "x": 1005.4, "y": 234.1, "curve": 0.02, "c3": 0.662 },
+					{ "time": 0.4667, "x": 1005.4, "y": 702.26 }
+				]
+			}
+		}
+	}
+}
+}

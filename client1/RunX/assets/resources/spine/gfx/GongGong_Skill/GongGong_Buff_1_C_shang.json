@@ -1,0 +1,676 @@
+{
+"skeleton": { "hash": "Bu2co7Vq0ca2+j7+lycZUIR+Fx8", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "buff", "parent": "root" },
+	{ "name": "gxhc", "parent": "buff" },
+	{ "name": "gx1", "parent": "gxhc" },
+	{ "name": "gx2", "parent": "gxhc" },
+	{ "name": "gx3", "parent": "gxhc" },
+	{ "name": "gx4", "parent": "gxhc" },
+	{ "name": "gx5", "parent": "gxhc" },
+	{ "name": "gx6", "parent": "gxhc" },
+	{ "name": "gx7", "parent": "gxhc" },
+	{ "name": "gx8", "parent": "gxhc" },
+	{ "name": "gx9", "parent": "gxhc" },
+	{ "name": "gx10", "parent": "gxhc" },
+	{ "name": "gx11", "parent": "gxhc" },
+	{ "name": "qipao", "parent": "buff" },
+	{ "name": "qipao1", "parent": "qipao" },
+	{ "name": "qipao2", "parent": "qipao" },
+	{ "name": "qipao3", "parent": "qipao" },
+	{ "name": "qipao4", "parent": "qipao" },
+	{ "name": "qipao5", "parent": "qipao" },
+	{ "name": "qipao6", "parent": "qipao" },
+	{ "name": "qipao7", "parent": "qipao" },
+	{ "name": "qipao8", "parent": "qipao" },
+	{ "name": "qipao9", "parent": "qipao" },
+	{ "name": "qipao10", "parent": "qipao" },
+	{ "name": "qipao11", "parent": "qipao" },
+	{ "name": "qipao12", "parent": "qipao" },
+	{ "name": "qipao13", "parent": "qipao" },
+	{ "name": "qipao14", "parent": "qipao" },
+	{ "name": "qipao15", "parent": "qipao", "scaleX": 0.9853, "scaleY": 0.9853 },
+	{ "name": "yj", "parent": "buff" }
+],
+"slots": [
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_gx", "bone": "gx1" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_gx3", "bone": "gx3" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_gx4", "bone": "gx4" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_gx5", "bone": "gx5" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_gx11", "bone": "gx11", "blend": "additive" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_gx6", "bone": "gx6", "blend": "additive" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_yj", "bone": "yj" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_gx7", "bone": "gx7", "blend": "additive" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_gx8", "bone": "gx8", "blend": "additive" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_gx9", "bone": "gx9", "blend": "additive" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_gx10", "bone": "gx10" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_gx2", "bone": "gx2", "blend": "additive" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp", "bone": "qipao1" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp2", "bone": "qipao2" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp3", "bone": "qipao3" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp4", "bone": "qipao4" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp5", "bone": "qipao5" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp6", "bone": "qipao6" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp7", "bone": "qipao7" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp8", "bone": "qipao8" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp9", "bone": "qipao9" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp10", "bone": "qipao10" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp11", "bone": "qipao11" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp12", "bone": "qipao12" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp13", "bone": "qipao13" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp14", "bone": "qipao14" },
+	{ "name": "effect/gg_skill_buff/gg_skill_buff_qp15", "bone": "qipao15" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"effect/gg_skill_buff/gg_skill_buff_gx": {
+				"effect/gg_skill_buff/gg_skill_buff_gx": { "width": 150, "height": 600 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx2": {
+				"effect/gg_skill_buff/gg_skill_buff_gx": { "width": 150, "height": 600 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx3": {
+				"effect/gg_skill_buff/gg_skill_buff_gx": { "width": 150, "height": 600 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx4": {
+				"effect/gg_skill_buff/gg_skill_buff_gx": { "width": 150, "height": 600 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx5": {
+				"effect/gg_skill_buff/gg_skill_buff_gx": { "width": 150, "height": 600 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx6": {
+				"effect/gg_skill_buff/gg_skill_buff_gx": { "width": 150, "height": 600 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx7": {
+				"effect/gg_skill_buff/gg_skill_buff_gx": { "width": 150, "height": 600 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx8": {
+				"effect/gg_skill_buff/gg_skill_buff_gx": { "width": 150, "height": 600 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx9": {
+				"effect/gg_skill_buff/gg_skill_buff_gx": { "width": 150, "height": 600 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx10": {
+				"effect/gg_skill_buff/gg_skill_buff_gx": { "width": 150, "height": 600 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx11": {
+				"effect/gg_skill_buff/gg_skill_buff_gx": { "width": 150, "height": 600 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp2": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp3": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp4": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp5": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp6": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp7": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp8": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp9": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp10": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp11": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp12": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp13": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp14": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp15": {
+				"effect/gg_skill_buff/gg_skill_buff_qp": { "width": 20, "height": 20 }
+			},
+			"effect/gg_skill_buff/gg_skill_buff_yj": {
+				"effect/gg_skill_buff/gg_skill_buff_yj": { "width": 180, "height": 180 }
+			}
+		}
+	}
+],
+"animations": {
+	"buff": {
+		"slots": {
+			"effect/gg_skill_buff/gg_skill_buff_gx": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_gx" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx2": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_gx" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx3": {
+				"color": [
+					{ "time": 0.1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "effect/gg_skill_buff/gg_skill_buff_gx" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx4": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_gx" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx5": {
+				"color": [
+					{ "time": 0.1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "effect/gg_skill_buff/gg_skill_buff_gx" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx6": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_gx" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx7": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_gx" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx8": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "effect/gg_skill_buff/gg_skill_buff_gx" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx9": {
+				"color": [
+					{ "time": 0.3, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.3, "name": "effect/gg_skill_buff/gg_skill_buff_gx" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx10": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "effect/gg_skill_buff/gg_skill_buff_gx" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_gx11": {
+				"color": [
+					{ "time": 0.1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "effect/gg_skill_buff/gg_skill_buff_gx" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp2": {
+				"color": [
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 1.1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp3": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp4": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp5": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp6": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp7": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp8": {
+				"color": [
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9667, "color": "ffffffff" },
+					{ "time": 1.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3, "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp9": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp10": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffff00" },
+					{ "time": 0.5667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9, "color": "ffffffff" },
+					{ "time": 1.2333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2333, "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp11": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp12": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.6, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffffffff" },
+					{ "time": 1.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2667, "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp13": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp14": {
+				"color": [
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9667, "color": "ffffffff" },
+					{ "time": 1.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3, "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_qp15": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_qp" }
+				]
+			},
+			"effect/gg_skill_buff/gg_skill_buff_yj": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "effect/gg_skill_buff/gg_skill_buff_yj" }
+				]
+			}
+		},
+		"bones": {
+			"gx1": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "y": 97 }
+				],
+				"scale": [
+					{ "x": 0.5, "y": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "x": 0, "y": 1.1 }
+				]
+			},
+			"gx2": {
+				"translate": [
+					{ "x": -54.76, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": -54.76, "y": 110.5 }
+				],
+				"scale": [
+					{ "x": 0.3, "y": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 0.3, "y": 0.6, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 0 }
+				]
+			},
+			"gx3": {
+				"translate": [
+					{ "time": 0.1, "x": -37.04, "y": 57.62 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 0.3, "y": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "x": 0.3, "y": 0.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2667, "x": 0 }
+				]
+			},
+			"gx4": {
+				"translate": [
+					{ "x": 28.81, "y": 68.94 }
+				],
+				"scale": [
+					{ "x": 0.5, "y": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 0.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "x": 0 }
+				]
+			},
+			"gx5": {
+				"translate": [
+					{ "time": 0.1, "x": 63.36, "y": 22.64 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 0.5, "y": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "x": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "x": 0 }
+				]
+			},
+			"gx6": {
+				"translate": [
+					{ "x": 29.84 }
+				],
+				"scale": [
+					{ "x": 0.5, "y": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "x": 0 }
+				]
+			},
+			"gx7": {
+				"translate": [
+					{ "x": -26.67, "y": 65.79, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "x": -26.67, "y": 158.29 }
+				],
+				"scale": [
+					{ "x": 0.3, "y": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 0.3, "y": 0.7, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "x": 0, "y": 0.6 }
+				]
+			},
+			"gx8": {
+				"translate": [
+					{ "time": 0.3333, "x": 20.45, "y": -0.89 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 0.5, "y": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 0 }
+				]
+			},
+			"gx9": {
+				"scale": [
+					{ "time": 0.3, "x": 0.2, "y": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "x": 0.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3667, "x": 0 }
+				]
+			},
+			"gx10": {
+				"translate": [
+					{ "time": 0.3333, "x": -54.23, "y": 43.56 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 0.5, "y": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "x": 0 }
+				]
+			},
+			"gx11": {
+				"translate": [
+					{ "time": 0.1, "x": 62.47, "y": 22.64 },
+					{ "time": 1.1, "x": 62.47, "y": 103.64 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 0.1, "y": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "x": 0.1, "y": 0.6, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "x": 0 }
+				]
+			},
+			"qipao1": {
+				"translate": [
+					{},
+					{ "time": 1, "y": 141.47 }
+				],
+				"scale": [
+					{ "x": 0.726, "y": 0.726 }
+				]
+			},
+			"qipao2": {
+				"translate": [
+					{ "time": 0.1, "x": 56.44, "y": 85.03 },
+					{ "time": 1.1, "x": 56.44, "y": 208.17 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 0.913, "y": 0.913 }
+				]
+			},
+			"qipao3": {
+				"translate": [
+					{ "x": 30.05, "y": 119.48 },
+					{ "time": 1, "x": 49.11, "y": 300.76 }
+				]
+			},
+			"qipao4": {
+				"translate": [
+					{ "x": 20.52, "y": 117.28 },
+					{ "time": 1, "x": 20.52, "y": 252.88 }
+				],
+				"scale": [
+					{ "x": 0.756, "y": 0.756 }
+				]
+			},
+			"qipao5": {
+				"translate": [
+					{ "time": 0.1667, "x": -27.85, "y": 71.1 },
+					{ "time": 1.1667, "x": -11.73, "y": 260.21 }
+				]
+			},
+			"qipao6": {
+				"translate": [
+					{},
+					{ "time": 1, "x": -20.52, "y": 111.42 }
+				],
+				"scale": [
+					{ "x": 0.912, "y": 0.912 }
+				]
+			},
+			"qipao7": {
+				"translate": [
+					{ "x": 24.19, "y": 53.51 },
+					{ "time": 1, "x": 17.59, "y": 153.2 }
+				]
+			},
+			"qipao8": {
+				"translate": [
+					{ "time": 0.3, "x": -45.45, "y": 161.26 },
+					{ "time": 1.3, "x": -39.58, "y": 254.35 }
+				]
+			},
+			"qipao9": {
+				"translate": [
+					{ "x": 35.18, "y": 5.86 },
+					{ "time": 1, "x": 38.85, "y": 94.56 }
+				]
+			},
+			"qipao10": {
+				"translate": [
+					{ "time": 0.2333, "x": -46.91, "y": 19.06 },
+					{ "time": 1.2333, "x": -46.91, "y": 120.21 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 0.783, "y": 0.783 }
+				]
+			},
+			"qipao11": {
+				"translate": [
+					{ "x": 51.74, "y": 42.82 },
+					{ "time": 1, "x": 51.74, "y": 186.43 }
+				],
+				"scale": [
+					{ "x": 0.912, "y": 0.912 }
+				]
+			},
+			"qipao12": {
+				"translate": [
+					{ "time": 0.2667, "x": -25.87, "y": 12.49 },
+					{ "time": 1.2667, "x": -25.87, "y": 148.96 }
+				]
+			},
+			"qipao13": {
+				"translate": [
+					{ "x": 28.54, "y": -13.38 },
+					{ "time": 1, "x": 59.76, "y": 85.63 }
+				]
+			},
+			"qipao14": {
+				"translate": [
+					{ "time": 0.3 },
+					{ "time": 1.3, "x": -21.41, "y": 77.6 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 0.912, "y": 0.912 }
+				]
+			},
+			"qipao15": {
+				"translate": [
+					{ "x": -49.11, "y": 55.71 },
+					{ "time": 0.8333, "x": -45.54, "y": 164.66 }
+				],
+				"scale": [
+					{ "x": 0.912, "y": 0.912 }
+				]
+			},
+			"yj": {
+				"translate": [
+					{ "y": 80.21, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "y": 131.76, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "y": 200.31 }
+				],
+				"scale": [
+					{ "x": 0.8, "y": 0.8 }
+				]
+			},
+			"buff": {
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

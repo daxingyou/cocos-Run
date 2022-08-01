@@ -1,0 +1,200 @@
+module.exports = [
+    {
+        "PVEFairyIslandBuffId": 1,
+        "PVEFairyIslandBuffQuality": 3,
+        "PVEFairyIslandBuffIntroduce": "全部英雄攻击+5%",
+        "PVEFairyIslandBuffHeroTypeForm": 0,
+        "PVEFairyIslandBuffHeroTypeFormNum": 0,
+        "PVEFairyIslandBuffProperty": 5,
+        "PVEFairyIslandBuffNum": 500,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 1
+    },
+    {
+        "PVEFairyIslandBuffId": 2,
+        "PVEFairyIslandBuffQuality": 3,
+        "PVEFairyIslandBuffIntroduce": "输出类英雄攻击+5%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 1,
+        "PVEFairyIslandBuffProperty": 5,
+        "PVEFairyIslandBuffNum": 500,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 1
+    },
+    {
+        "PVEFairyIslandBuffId": 3,
+        "PVEFairyIslandBuffQuality": 3,
+        "PVEFairyIslandBuffIntroduce": "承伤类英雄生命+5%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 2,
+        "PVEFairyIslandBuffProperty": 7,
+        "PVEFairyIslandBuffNum": 500,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 1
+    },
+    {
+        "PVEFairyIslandBuffId": 4,
+        "PVEFairyIslandBuffQuality": 3,
+        "PVEFairyIslandBuffIntroduce": "控制类英雄生命+5%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 3,
+        "PVEFairyIslandBuffProperty": 7,
+        "PVEFairyIslandBuffNum": 500,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 1
+    },
+    {
+        "PVEFairyIslandBuffId": 5,
+        "PVEFairyIslandBuffQuality": 3,
+        "PVEFairyIslandBuffIntroduce": "辅助类英雄生命+5%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 4,
+        "PVEFairyIslandBuffProperty": 7,
+        "PVEFairyIslandBuffNum": 500,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 1
+    },
+    {
+        "PVEFairyIslandBuffId": 6,
+        "PVEFairyIslandBuffQuality": 3,
+        "PVEFairyIslandBuffIntroduce": "治疗类英雄生命+5%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 5,
+        "PVEFairyIslandBuffProperty": 7,
+        "PVEFairyIslandBuffNum": 500,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 1
+    },
+    {
+        "PVEFairyIslandBuffId": 7,
+        "PVEFairyIslandBuffQuality": 4,
+        "PVEFairyIslandBuffIntroduce": "全部英雄攻击+10%",
+        "PVEFairyIslandBuffHeroTypeForm": 0,
+        "PVEFairyIslandBuffHeroTypeFormNum": 0,
+        "PVEFairyIslandBuffProperty": 5,
+        "PVEFairyIslandBuffNum": 1000,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 1
+    },
+    {
+        "PVEFairyIslandBuffId": 8,
+        "PVEFairyIslandBuffQuality": 4,
+        "PVEFairyIslandBuffIntroduce": "输出类英雄攻击+10%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 1,
+        "PVEFairyIslandBuffProperty": 5,
+        "PVEFairyIslandBuffNum": 1000,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 1
+    },
+    {
+        "PVEFairyIslandBuffId": 9,
+        "PVEFairyIslandBuffQuality": 4,
+        "PVEFairyIslandBuffIntroduce": "承伤类英雄生命+10%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 2,
+        "PVEFairyIslandBuffProperty": 7,
+        "PVEFairyIslandBuffNum": 1000,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 1
+    },
+    {
+        "PVEFairyIslandBuffId": 10,
+        "PVEFairyIslandBuffQuality": 4,
+        "PVEFairyIslandBuffIntroduce": "控制类英雄生命+10%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 3,
+        "PVEFairyIslandBuffProperty": 7,
+        "PVEFairyIslandBuffNum": 1000,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 1
+    },
+    {
+        "PVEFairyIslandBuffId": 11,
+        "PVEFairyIslandBuffQuality": 4,
+        "PVEFairyIslandBuffIntroduce": "辅助类英雄生命+10%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 4,
+        "PVEFairyIslandBuffProperty": 7,
+        "PVEFairyIslandBuffNum": 1000,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 1
+    },
+    {
+        "PVEFairyIslandBuffId": 12,
+        "PVEFairyIslandBuffQuality": 4,
+        "PVEFairyIslandBuffIntroduce": "治疗类英雄生命+10%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 5,
+        "PVEFairyIslandBuffProperty": 7,
+        "PVEFairyIslandBuffNum": 1000,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 1
+    },
+    {
+        "PVEFairyIslandBuffId": 13,
+        "PVEFairyIslandBuffQuality": 5,
+        "PVEFairyIslandBuffIntroduce": "全部英雄攻击+20%",
+        "PVEFairyIslandBuffHeroTypeForm": 0,
+        "PVEFairyIslandBuffHeroTypeFormNum": 0,
+        "PVEFairyIslandBuffProperty": 5,
+        "PVEFairyIslandBuffNum": 2000,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 0
+    },
+    {
+        "PVEFairyIslandBuffId": 14,
+        "PVEFairyIslandBuffQuality": 5,
+        "PVEFairyIslandBuffIntroduce": "输出类英雄攻击+20%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 1,
+        "PVEFairyIslandBuffProperty": 5,
+        "PVEFairyIslandBuffNum": 2000,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 0
+    },
+    {
+        "PVEFairyIslandBuffId": 15,
+        "PVEFairyIslandBuffQuality": 5,
+        "PVEFairyIslandBuffIntroduce": "承伤类英雄生命+20%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 2,
+        "PVEFairyIslandBuffProperty": 7,
+        "PVEFairyIslandBuffNum": 2000,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 0
+    },
+    {
+        "PVEFairyIslandBuffId": 16,
+        "PVEFairyIslandBuffQuality": 5,
+        "PVEFairyIslandBuffIntroduce": "控制类英雄生命+20%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 3,
+        "PVEFairyIslandBuffProperty": 7,
+        "PVEFairyIslandBuffNum": 2000,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 0
+    },
+    {
+        "PVEFairyIslandBuffId": 17,
+        "PVEFairyIslandBuffQuality": 5,
+        "PVEFairyIslandBuffIntroduce": "辅助类英雄生命+20%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 4,
+        "PVEFairyIslandBuffProperty": 7,
+        "PVEFairyIslandBuffNum": 2000,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 0
+    },
+    {
+        "PVEFairyIslandBuffId": 18,
+        "PVEFairyIslandBuffQuality": 5,
+        "PVEFairyIslandBuffIntroduce": "治疗类英雄生命+20%",
+        "PVEFairyIslandBuffHeroTypeForm": 1,
+        "PVEFairyIslandBuffHeroTypeFormNum": 5,
+        "PVEFairyIslandBuffProperty": 7,
+        "PVEFairyIslandBuffNum": 2000,
+        "PVEFairyIslandBuffWeight": 100,
+        "PVEFairyIslandBuffRepeat": 0
+    }
+]

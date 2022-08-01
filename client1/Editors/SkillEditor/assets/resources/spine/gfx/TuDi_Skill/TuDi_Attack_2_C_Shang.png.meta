@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9d68ea54-27c0-408f-8a4e-dfb70d7998bb",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1009,
+  "height": 819,
+  "platformSettings": {},
+  "subMetas": {
+    "TuDi_Attack_2_C_Shang": {
+      "ver": "1.0.6",
+      "uuid": "787978d2-16ec-437c-a424-084b8e425205",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9d68ea54-27c0-408f-8a4e-dfb70d7998bb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1005,
+      "height": 815,
+      "rawWidth": 1009,
+      "rawHeight": 819,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+"skeleton": { "hash": "eiwyzHy3rpWhnU2AJQqwp1nZCaY", "spine": "3.8.63", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "xiantiao/xiantiao_00", "parent": "root", "length": 429.3, "x": -267.21, "y": 31.82 },
+	{ "name": "xiantiao/xiantiao_0", "parent": "root", "length": 429.3, "x": -267.21, "y": 31.82 },
+	{ "name": "jiguangzhu/jiguangzhu_00000", "parent": "root", "x": -5.82, "y": -126.86 },
+	{ "name": "xiantiao/xiantiao_2", "parent": "xiantiao/xiantiao_00", "x": 267.2, "y": -31.82, "scaleX": 2, "scaleY": 2 },
+	{ "name": "xiantiao/xiantiao_3", "parent": "xiantiao/xiantiao_0", "x": 267.22, "y": -31.82, "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "xiantiao/xiantiao_00", "bone": "xiantiao/xiantiao_2" },
+	{ "name": "xiantiao/xiantiao_0", "bone": "xiantiao/xiantiao_3" },
+	{ "name": "jiguangzhu/jiguangzhu_00000", "bone": "jiguangzhu/jiguangzhu_00000", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"xiantiao/xiantiao_0": {
+				"xiantiao/xiantiao_00": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_02": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_04": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_06": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_08": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_10": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_12": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_14": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_16": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_18": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_20": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_22": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_24": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_26": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_28": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_30": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_32": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_34": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_36": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_38": { "x": -0.01, "y": -0.01, "width": 400, "height": 100 }
+			},
+			"jiguangzhu/jiguangzhu_00000": {
+				"jiguangzhu/jiguangzhu_00000": { "x": 5.82, "y": 126.86, "scaleX": 2, "scaleY": 2, "width": 176, "height": 165 },
+				"jiguangzhu/jiguangzhu_00001": { "x": 5.82, "y": 126.86, "scaleX": 2, "scaleY": 2, "width": 176, "height": 165 },
+				"jiguangzhu/jiguangzhu_00002": { "x": 5.82, "y": 126.86, "scaleX": 2, "scaleY": 2, "width": 176, "height": 165 },
+				"jiguangzhu/jiguangzhu_00003": { "x": 5.82, "y": 126.86, "scaleX": 2, "scaleY": 2, "width": 176, "height": 165 },
+				"jiguangzhu/jiguangzhu_00004": { "x": 5.82, "y": 126.86, "scaleX": 2, "scaleY": 2, "width": 176, "height": 165 },
+				"jiguangzhu/jiguangzhu_00005": { "x": 5.82, "y": 126.86, "scaleX": 2, "scaleY": 2, "width": 176, "height": 165 }
+			},
+			"xiantiao/xiantiao_00": {
+				"xiantiao/xiantiao_00": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_02": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_04": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_06": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_08": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_10": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_12": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_14": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_16": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_18": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_20": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_22": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_24": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_26": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_28": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_30": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_32": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_34": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_36": { "x": 0.01, "width": 400, "height": 100 },
+				"xiantiao/xiantiao_38": { "x": 0.01, "width": 400, "height": 100 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"jiguangzhu/jiguangzhu_00000": {
+				"color": [
+					{ "time": 0.0333, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffff85" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "jiguangzhu/jiguangzhu_00000" },
+					{ "time": 0.0667, "name": "jiguangzhu/jiguangzhu_00001" },
+					{ "time": 0.1, "name": "jiguangzhu/jiguangzhu_00002" },
+					{ "time": 0.1333, "name": "jiguangzhu/jiguangzhu_00003" },
+					{ "time": 0.1667, "name": "jiguangzhu/jiguangzhu_00004" },
+					{ "time": 0.2, "name": "jiguangzhu/jiguangzhu_00005" },
+					{ "time": 0.2333, "name": "jiguangzhu/jiguangzhu_00000" },
+					{ "time": 0.2667, "name": "jiguangzhu/jiguangzhu_00001" },
+					{ "time": 0.3, "name": "jiguangzhu/jiguangzhu_00002" },
+					{ "time": 0.3333, "name": "jiguangzhu/jiguangzhu_00003" },
+					{ "time": 0.3667, "name": "jiguangzhu/jiguangzhu_00004" },
+					{ "time": 0.4, "name": "jiguangzhu/jiguangzhu_00005" },
+					{ "time": 0.4333, "name": "jiguangzhu/jiguangzhu_00000" },
+					{ "time": 0.4667, "name": "jiguangzhu/jiguangzhu_00001" },
+					{ "time": 0.5, "name": "jiguangzhu/jiguangzhu_00002" },
+					{ "time": 0.5333, "name": "jiguangzhu/jiguangzhu_00003" },
+					{ "time": 0.5667, "name": "jiguangzhu/jiguangzhu_00004" },
+					{ "time": 0.6, "name": "jiguangzhu/jiguangzhu_00005" },
+					{ "time": 0.6333, "name": "jiguangzhu/jiguangzhu_00000" },
+					{ "time": 0.6667, "name": "jiguangzhu/jiguangzhu_00001" },
+					{ "time": 0.7, "name": "jiguangzhu/jiguangzhu_00002" },
+					{ "time": 0.7333, "name": "jiguangzhu/jiguangzhu_00003" },
+					{ "time": 0.7667, "name": "jiguangzhu/jiguangzhu_00004" },
+					{ "time": 0.8, "name": "jiguangzhu/jiguangzhu_00005" },
+					{ "time": 0.8333, "name": "jiguangzhu/jiguangzhu_00000" },
+					{ "time": 0.8667, "name": "jiguangzhu/jiguangzhu_00001" },
+					{ "time": 0.9, "name": "jiguangzhu/jiguangzhu_00002" },
+					{ "time": 0.9333, "name": "jiguangzhu/jiguangzhu_00003" },
+					{ "time": 0.9667, "name": "jiguangzhu/jiguangzhu_00004" },
+					{ "time": 1, "name": "jiguangzhu/jiguangzhu_00005" },
+					{ "time": 1.0333, "name": null }
+				]
+			},
+			"xiantiao/xiantiao_0": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "xiantiao/xiantiao_00" },
+					{ "time": 0.0333, "name": "xiantiao/xiantiao_02" },
+					{ "time": 0.0667, "name": "xiantiao/xiantiao_04" },
+					{ "time": 0.1, "name": "xiantiao/xiantiao_06" },
+					{ "time": 0.1333, "name": "xiantiao/xiantiao_08" },
+					{ "time": 0.1667, "name": "xiantiao/xiantiao_10" },
+					{ "time": 0.2, "name": "xiantiao/xiantiao_12" },
+					{ "time": 0.2333, "name": "xiantiao/xiantiao_14" },
+					{ "time": 0.2667, "name": "xiantiao/xiantiao_16" },
+					{ "time": 0.3, "name": "xiantiao/xiantiao_18" },
+					{ "time": 0.3333, "name": "xiantiao/xiantiao_20" },
+					{ "time": 0.3667, "name": "xiantiao/xiantiao_22" },
+					{ "time": 0.4, "name": "xiantiao/xiantiao_24" },
+					{ "time": 0.4333, "name": "xiantiao/xiantiao_26" },
+					{ "time": 0.4667, "name": "xiantiao/xiantiao_28" },
+					{ "time": 0.5, "name": "xiantiao/xiantiao_30" },
+					{ "time": 0.5333, "name": "xiantiao/xiantiao_32" },
+					{ "time": 0.5667, "name": "xiantiao/xiantiao_34" },
+					{ "time": 0.6, "name": "xiantiao/xiantiao_36" },
+					{ "time": 0.6333, "name": "xiantiao/xiantiao_38" },
+					{ "time": 0.6667, "name": null }
+				]
+			},
+			"xiantiao/xiantiao_00": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "xiantiao/xiantiao_00" },
+					{ "time": 0.1667, "name": "xiantiao/xiantiao_02" },
+					{ "time": 0.2, "name": "xiantiao/xiantiao_04" },
+					{ "time": 0.2333, "name": "xiantiao/xiantiao_06" },
+					{ "time": 0.2667, "name": "xiantiao/xiantiao_08" },
+					{ "time": 0.3, "name": "xiantiao/xiantiao_10" },
+					{ "time": 0.3333, "name": "xiantiao/xiantiao_12" },
+					{ "time": 0.3667, "name": "xiantiao/xiantiao_14" },
+					{ "time": 0.4, "name": "xiantiao/xiantiao_16" },
+					{ "time": 0.4333, "name": "xiantiao/xiantiao_18" },
+					{ "time": 0.4667, "name": "xiantiao/xiantiao_20" },
+					{ "time": 0.5, "name": "xiantiao/xiantiao_22" },
+					{ "time": 0.5333, "name": "xiantiao/xiantiao_24" },
+					{ "time": 0.5667, "name": "xiantiao/xiantiao_26" },
+					{ "time": 0.6, "name": "xiantiao/xiantiao_28" },
+					{ "time": 0.6333, "name": "xiantiao/xiantiao_30" },
+					{ "time": 0.6667, "name": "xiantiao/xiantiao_32" },
+					{ "time": 0.7, "name": "xiantiao/xiantiao_34" },
+					{ "time": 0.7333, "name": "xiantiao/xiantiao_04" },
+					{ "time": 0.7667, "name": "xiantiao/xiantiao_38" },
+					{ "time": 0.8, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"jiguangzhu/jiguangzhu_00000": {
+				"translate": [
+					{ "time": 0.0333, "x": -70.47, "y": 136.24, "curve": "stepped" },
+					{ "time": 0.2, "x": -70.47, "y": 136.24 }
+				],
+				"scale": [
+					{
+						"time": 0.0333,
+						"x": 0.845,
+						"y": 0.845,
+						"curve": 0,
+						"c2": 0.52,
+						"c3": 0.75,
+						"c4": 0
+					},
+					{ "time": 0.2, "x": 5.983, "y": 5.983 }
+				]
+			},
+			"xiantiao/xiantiao_00": {
+				"rotate": [
+					{ "time": 0.1333, "angle": 77.46 }
+				],
+				"translate": [
+					{ "time": 0.1333, "x": 86.66, "y": -56.95 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 1.619, "y": 2.688 }
+				]
+			},
+			"xiantiao/xiantiao_0": {
+				"rotate": [
+					{ "angle": 105.99 }
+				],
+				"translate": [
+					{ "x": 371.4, "y": -56.95 }
+				],
+				"scale": [
+					{ "x": 1.619, "y": -2.688 }
+				]
+			}
+		}
+	}
+}
+}

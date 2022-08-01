@@ -1,0 +1,129 @@
+{
+"skeleton": { "hash": "M/euUb02fj9MFEwRJ//IkHyCEzA", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.39, "scaleY": 0.39 },
+	{
+		"name": "guang_00004",
+		"parent": "root",
+		"length": 86.68,
+		"x": 307.56,
+		"y": 193.1,
+		"scaleX": 1.0435,
+		"scaleY": 1.0435,
+		"color": "00ff4fff"
+	},
+	{ "name": "bone12", "parent": "root", "x": 280.68, "y": 1241.5 },
+	{ "name": "weapon14", "parent": "bone12", "rotation": -93.98, "x": -267.83, "y": -63.82 }
+],
+"slots": [
+	{ "name": "guang_4", "bone": "guang_00004", "blend": "additive" },
+	{ "name": "atk1", "bone": "bone12", "attachment": "atk1" },
+	{ "name": "weapon14", "bone": "weapon14" }
+],
+"path": [
+	{
+		"name": "atk1b",
+		"bones": [ "weapon14" ],
+		"target": "atk1",
+		"rotation": -96
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"atk1": {
+				"atk1": {
+					"type": "path",
+					"lengths": [ 397.87, 945.38, 1316.45 ],
+					"vertexCount": 9,
+					"vertices": [ -404.86, -171.22, -209.2, -169.57, 95.36, -166.99, 705.54, -428.47, 570.35, -668.2, 435.15, -907.94, -468.35, -851.27, -787.43, -724.39, -1117.12, -593.29 ],
+					"color": "00ff24ff"
+				}
+			},
+			"guang_4": {
+				"guang_00000": { "width": 256, "height": 256 },
+				"guang_00001": { "width": 256, "height": 256 },
+				"guang_00002": { "width": 256, "height": 256 },
+				"guang_00003": { "width": 256, "height": 256 },
+				"guang_00004": { "width": 256, "height": 256 },
+				"guang_00005": { "width": 256, "height": 256 },
+				"guang_00006": { "width": 256, "height": 256 },
+				"guang_00007": { "width": 256, "height": 256 }
+			},
+			"weapon14": {
+				"weapon1": { "x": 2.6, "y": 0.53, "width": 69, "height": 83 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill188": {
+		"slots": {
+			"guang_4": {
+				"attachment": [
+					{ "time": 0.0333, "name": "guang_00000" },
+					{ "time": 0.0667, "name": "guang_00001" },
+					{ "time": 0.1, "name": "guang_00002" },
+					{ "time": 0.1333, "name": "guang_00003" },
+					{ "time": 0.1667, "name": "guang_00004" },
+					{ "time": 0.2, "name": "guang_00005" },
+					{ "time": 0.2333, "name": "guang_00006" },
+					{ "time": 0.2667, "name": "guang_00007" },
+					{ "time": 0.3, "name": null }
+				]
+			},
+			"weapon14": {
+				"attachment": [
+					{ "name": "weapon1" },
+					{ "time": 0.3, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guang_00004": {
+				"translate": [
+					{ "x": -346.12, "y": 479.15 }
+				],
+				"scale": [
+					{ "x": 9.505, "y": 3.199 },
+					{ "time": 0.1333, "x": 9.622, "y": 3.238 }
+				]
+			},
+			"weapon14": {
+				"scale": [
+					{},
+					{ "time": 0.1333, "x": 2.414, "y": 2.414 },
+					{ "time": 0.3 }
+				]
+			}
+		},
+		"path": {
+			"atk1b": {
+				"position": [
+					{},
+					{ "time": 0.2667, "position": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"atk1": {
+					"atk1": [
+						{
+							"offset": 6,
+							"vertices": [ 107.79581, 29.02197, 108.13364, -17.23718, 107.79581, 29.02197, 107.79581, 29.02197, 107.45798, 75.28113, 107.79581, 29.02197 ]
+						}
+					]
+				}
+			}
+		},
+		"events": [
+			{ "time": 0.2333, "name": "K" }
+		]
+	}
+}
+}

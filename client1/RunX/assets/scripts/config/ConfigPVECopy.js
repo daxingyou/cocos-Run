@@ -1,0 +1,110 @@
+module.exports = [
+    {
+        "PVECopyId": 101,
+        "PVECopyType": 1,
+        "PVECopyNum": 1,
+        "PVECopyArray": "101;5",
+        "PVECopyLevel": 20,
+        "PVECopyName": "关卡难度等级：20",
+        "PVECopyRewardShow": "10019033;1|10014011;50",
+        "PVECopyDropGroup": 144,
+        "PVECopyOpenCondition": "1;15",
+        "PVECopyScene": "textures/lesson-bg/bg_fight1|textures/lesson-bg/bg_fight2|textures/lesson-bg/bg_fight3"
+    },
+    {
+        "PVECopyId": 102,
+        "PVECopyType": 1,
+        "PVECopyNum": 2,
+        "PVECopyArray": "102;5",
+        "PVECopyLevel": 25,
+        "PVECopyName": "关卡难度等级：25",
+        "PVECopyRewardShow": "10010002;50|10014012;50",
+        "PVECopyDropGroup": 145,
+        "PVECopyOpenCondition": "1;20|2;101",
+        "PVECopyScene": "textures/lesson-bg/bg_fight1|textures/lesson-bg/bg_fight2|textures/lesson-bg/bg_fight3"
+    },
+    {
+        "PVECopyId": 103,
+        "PVECopyType": 1,
+        "PVECopyNum": 3,
+        "PVECopyArray": "103;5",
+        "PVECopyLevel": 30,
+        "PVECopyName": "关卡难度等级：30",
+        "PVECopyRewardShow": "10019033;1|10014011;75",
+        "PVECopyDropGroup": 146,
+        "PVECopyOpenCondition": "1;25|2;102",
+        "PVECopyScene": "textures/lesson-bg/bg_fight1|textures/lesson-bg/bg_fight2|textures/lesson-bg/bg_fight3"
+    },
+    {
+        "PVECopyId": 104,
+        "PVECopyType": 1,
+        "PVECopyNum": 4,
+        "PVECopyArray": "104;5",
+        "PVECopyLevel": 35,
+        "PVECopyName": "关卡难度等级：35",
+        "PVECopyRewardShow": "10010002;75|10014012;75",
+        "PVECopyDropGroup": 147,
+        "PVECopyOpenCondition": "1;30|2;103",
+        "PVECopyScene": "textures/lesson-bg/bg_fight1|textures/lesson-bg/bg_fight2|textures/lesson-bg/bg_fight3"
+    },
+    {
+        "PVECopyId": 105,
+        "PVECopyType": 1,
+        "PVECopyNum": 5,
+        "PVECopyArray": "105;5",
+        "PVECopyLevel": 40,
+        "PVECopyName": "关卡难度等级：40",
+        "PVECopyRewardShow": "10019033;1|10014011;100",
+        "PVECopyDropGroup": 148,
+        "PVECopyOpenCondition": "1;35|2;104",
+        "PVECopyScene": "textures/lesson-bg/bg_fight1|textures/lesson-bg/bg_fight2|textures/lesson-bg/bg_fight3"
+    },
+    {
+        "PVECopyId": 106,
+        "PVECopyType": 1,
+        "PVECopyNum": 6,
+        "PVECopyArray": "106;5",
+        "PVECopyLevel": 45,
+        "PVECopyName": "关卡难度等级：45",
+        "PVECopyRewardShow": "10010002;100|10014012;100",
+        "PVECopyDropGroup": 149,
+        "PVECopyOpenCondition": "1;40|2;105",
+        "PVECopyScene": "textures/lesson-bg/bg_fight1|textures/lesson-bg/bg_fight2|textures/lesson-bg/bg_fight3"
+    },
+    {
+        "PVECopyId": 107,
+        "PVECopyType": 1,
+        "PVECopyNum": 7,
+        "PVECopyArray": "107;5",
+        "PVECopyLevel": 50,
+        "PVECopyName": "关卡难度等级：50",
+        "PVECopyRewardShow": "10019033;1|10014011;125",
+        "PVECopyDropGroup": 150,
+        "PVECopyOpenCondition": "1;45|2;106",
+        "PVECopyScene": "textures/lesson-bg/bg_fight1|textures/lesson-bg/bg_fight2|textures/lesson-bg/bg_fight3"
+    },
+    {
+        "PVECopyId": 108,
+        "PVECopyType": 1,
+        "PVECopyNum": 8,
+        "PVECopyArray": "108;5",
+        "PVECopyLevel": 55,
+        "PVECopyName": "关卡难度等级：55",
+        "PVECopyRewardShow": "10010002;150|10014012;125",
+        "PVECopyDropGroup": 151,
+        "PVECopyOpenCondition": "1;50|2;107",
+        "PVECopyScene": "textures/lesson-bg/bg_fight1|textures/lesson-bg/bg_fight2|textures/lesson-bg/bg_fight3"
+    },
+    {
+        "PVECopyId": 109,
+        "PVECopyType": 1,
+        "PVECopyNum": 9,
+        "PVECopyArray": "109;5",
+        "PVECopyLevel": 60,
+        "PVECopyName": "关卡难度等级：60",
+        "PVECopyRewardShow": "10019033;1|10014011;150|10014012;150",
+        "PVECopyDropGroup": 152,
+        "PVECopyOpenCondition": "1;55|2;108",
+        "PVECopyScene": "textures/lesson-bg/bg_fight1|textures/lesson-bg/bg_fight2|textures/lesson-bg/bg_fight3"
+    }
+]

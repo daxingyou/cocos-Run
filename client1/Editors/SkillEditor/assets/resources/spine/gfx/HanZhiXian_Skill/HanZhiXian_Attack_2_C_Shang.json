@@ -1,0 +1,213 @@
+{
+"skeleton": { "hash": "YSX+UIB8OZ2J6H7EBf2Kd85kpXY", "spine": "3.8.99", "images": "", "audio": "Z:/进行中的项目/张晨阳动效项目/第二批冰封特效需求/R-菡芝仙-a/菡芝仙" },
+"bones": [
+	{ "name": "root", "x": 2 },
+	{ "name": "images/dandao/zhongji_00000", "parent": "root", "length": 177.1, "rotation": 90, "x": 4.45, "y": -80.93 },
+	{ "name": "images/attack4shouji/act4sj__00", "parent": "root", "x": 833.54, "y": 221.17, "scaleX": 1.142, "scaleY": 1.142 },
+	{ "name": "images/dandao/drug_hp_00001", "parent": "root" },
+	{ "name": "images/dandao/yanwu_0001", "parent": "root", "length": 264.77, "rotation": -179.79, "x": 134.42, "y": -2.14 }
+],
+"slots": [
+	{ "name": "images/dandao/zhongji_00000", "bone": "images/dandao/zhongji_00000" },
+	{ "name": "images/dandao/zhongji_0", "bone": "images/dandao/zhongji_00000", "blend": "additive" },
+	{ "name": "images/attack4shouji/act4sj__00", "bone": "images/attack4shouji/act4sj__00" },
+	{ "name": "images/dandao/yanwu_0001", "bone": "images/dandao/yanwu_0001" },
+	{ "name": "images/dandao/drug_hp_00001", "bone": "images/dandao/drug_hp_00001", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"images/attack4shouji/act4sj__00": {
+				"images/attack4shouji/act4sj__00": { "x": -22.01, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__01": { "x": -22.02, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__02": { "x": -22.02, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__03": { "x": -22.02, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__04": { "x": -22.02, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__05": { "x": -22.02, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__06": { "x": -22.02, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__07": { "x": -22.02, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__08": { "x": -22.02, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__09": { "x": -22.02, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__10": { "x": -22.01, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__11": { "x": -22.01, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__12": { "x": -22.01, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__13": { "x": -22.01, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__14": { "x": -22.01, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__15": { "x": -22.01, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 },
+				"images/attack4shouji/act4sj__16": { "x": -22.01, "y": -27.98, "scaleX": 4.1804, "scaleY": 4.1804, "width": 502, "height": 176 }
+			},
+			"images/dandao/drug_hp_00001": {
+				"images/dandao/drug_hp_00001": { "width": 500, "height": 500 },
+				"images/dandao/drug_hp_00002": { "width": 500, "height": 500 },
+				"images/dandao/drug_hp_00003": { "width": 500, "height": 500 },
+				"images/dandao/drug_hp_00004": { "width": 500, "height": 500 },
+				"images/dandao/drug_hp_00005": { "width": 500, "height": 500 },
+				"images/dandao/drug_hp_00006": { "width": 500, "height": 500 },
+				"images/dandao/drug_hp_00007": { "width": 500, "height": 500 },
+				"images/dandao/drug_hp_00008": { "width": 500, "height": 500 },
+				"images/dandao/drug_hp_00009": { "width": 500, "height": 500 }
+			},
+			"images/dandao/yanwu_0001": {
+				"images/dandao/yanwu_0001": { "x": 134.41, "y": -2.63, "rotation": 179.79, "width": 400, "height": 119 },
+				"images/dandao/yanwu_0003": { "x": 134.41, "y": -2.63, "rotation": 179.79, "width": 400, "height": 119 },
+				"images/dandao/yanwu_0005": { "x": 134.41, "y": -2.63, "rotation": 179.79, "width": 400, "height": 119 },
+				"images/dandao/yanwu_0007": { "x": 134.41, "y": -2.63, "rotation": 179.79, "width": 400, "height": 119 },
+				"images/dandao/yanwu_0009": { "x": 134.41, "y": -2.63, "rotation": 179.79, "width": 400, "height": 119 },
+				"images/dandao/yanwu_0011": { "x": 134.41, "y": -2.63, "rotation": 179.79, "width": 400, "height": 119 },
+				"images/dandao/yanwu_0013": { "x": 134.41, "y": -2.63, "rotation": 179.79, "width": 400, "height": 119 },
+				"images/dandao/yanwu_0015": { "x": 134.41, "y": -2.63, "rotation": 179.79, "width": 400, "height": 119 },
+				"images/dandao/yanwu_0017": { "x": 134.41, "y": -2.63, "rotation": 179.79, "width": 400, "height": 119 },
+				"images/dandao/yanwu_0019": { "x": 134.41, "y": -2.63, "rotation": 179.79, "width": 400, "height": 119 }
+			},
+			"images/dandao/zhongji_0": {
+				"images/dandao/zhongji_00000": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00001": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00002": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00003": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00004": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00005": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00006": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00007": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00008": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00009": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00010": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00011": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 }
+			},
+			"images/dandao/zhongji_00000": {
+				"images/dandao/zhongji_00000": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00001": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00002": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00003": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00004": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00005": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00006": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00007": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00008": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00009": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00010": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 },
+				"images/dandao/zhongji_00011": { "x": 80.93, "y": 6.45, "rotation": -90, "width": 300, "height": 300 }
+			}
+		}
+	}
+],
+"animations": {
+	"HanZhiXian_Attack_2_C_Shang": {
+		"slots": {
+			"images/attack4shouji/act4sj__00": {
+				"attachment": [
+					{ "time": 0.0667, "name": "images/attack4shouji/act4sj__03" },
+					{ "time": 0.1, "name": "images/attack4shouji/act4sj__04" },
+					{ "time": 0.1333, "name": "images/attack4shouji/act4sj__05" },
+					{ "time": 0.1667, "name": "images/attack4shouji/act4sj__06" },
+					{ "time": 0.2, "name": "images/attack4shouji/act4sj__07" },
+					{ "time": 0.2333, "name": "images/attack4shouji/act4sj__08" },
+					{ "time": 0.2667, "name": "images/attack4shouji/act4sj__09" },
+					{ "time": 0.3, "name": "images/attack4shouji/act4sj__10" },
+					{ "time": 0.3333, "name": "images/attack4shouji/act4sj__11" },
+					{ "time": 0.3667, "name": "images/attack4shouji/act4sj__12" },
+					{ "time": 0.4, "name": "images/attack4shouji/act4sj__13" },
+					{ "time": 0.4333, "name": "images/attack4shouji/act4sj__14" },
+					{ "time": 0.4667, "name": "images/attack4shouji/act4sj__15" },
+					{ "time": 0.5, "name": "images/attack4shouji/act4sj__16" },
+					{ "time": 0.5333, "name": null }
+				]
+			},
+			"images/dandao/drug_hp_00001": {
+				"attachment": [
+					{ "name": "images/dandao/drug_hp_00001" },
+					{ "time": 0.0333, "name": "images/dandao/drug_hp_00002" },
+					{ "time": 0.0667, "name": "images/dandao/drug_hp_00003" },
+					{ "time": 0.1, "name": "images/dandao/drug_hp_00004" },
+					{ "time": 0.1333, "name": "images/dandao/drug_hp_00005" },
+					{ "time": 0.1667, "name": "images/dandao/drug_hp_00006" },
+					{ "time": 0.2, "name": "images/dandao/drug_hp_00007" },
+					{ "time": 0.2333, "name": "images/dandao/drug_hp_00008" },
+					{ "time": 0.2667, "name": "images/dandao/drug_hp_00009" },
+					{ "time": 0.3, "name": null }
+				]
+			},
+			"images/dandao/yanwu_0001": {
+				"attachment": [
+					{ "name": "images/dandao/yanwu_0001" },
+					{ "time": 0.0333, "name": "images/dandao/yanwu_0003" },
+					{ "time": 0.0667, "name": "images/dandao/yanwu_0005" },
+					{ "time": 0.1, "name": "images/dandao/yanwu_0007" },
+					{ "time": 0.1333, "name": "images/dandao/yanwu_0009" },
+					{ "time": 0.1667, "name": "images/dandao/yanwu_0011" },
+					{ "time": 0.2, "name": "images/dandao/yanwu_0013" },
+					{ "time": 0.2333, "name": "images/dandao/yanwu_0015" },
+					{ "time": 0.2667, "name": "images/dandao/yanwu_0017" },
+					{ "time": 0.3, "name": "images/dandao/yanwu_0019" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"images/dandao/zhongji_0": {
+				"attachment": [
+					{ "time": 0.0667, "name": "images/dandao/zhongji_00001" },
+					{ "time": 0.1, "name": "images/dandao/zhongji_00003" },
+					{ "time": 0.1333, "name": "images/dandao/zhongji_00005" },
+					{ "time": 0.1667, "name": "images/dandao/zhongji_00007" },
+					{ "time": 0.2, "name": "images/dandao/zhongji_00008" },
+					{ "time": 0.2333, "name": "images/dandao/zhongji_00010" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"images/dandao/zhongji_00000": {
+				"color": [
+					{ "time": 0.0667, "color": "003d05ff" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "images/dandao/zhongji_00001" },
+					{ "time": 0.1, "name": "images/dandao/zhongji_00003" },
+					{ "time": 0.1333, "name": "images/dandao/zhongji_00005" },
+					{ "time": 0.1667, "name": "images/dandao/zhongji_00007" },
+					{ "time": 0.2, "name": "images/dandao/zhongji_00008" },
+					{ "time": 0.2333, "name": "images/dandao/zhongji_00010" },
+					{ "time": 0.2667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"images/dandao/zhongji_00000": {
+				"rotate": [
+					{ "time": 0.0667, "angle": 90 }
+				],
+				"translate": [
+					{ "time": 0.0667, "x": 718.5, "y": 277.68 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 4.337, "y": -1.502 }
+				]
+			},
+			"images/attack4shouji/act4sj__00": {
+				"translate": [
+					{ "time": 0.0667, "x": 82.39, "y": -22.73 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 1.278, "y": 1.278 }
+				]
+			},
+			"images/dandao/yanwu_0001": {
+				"translate": [
+					{ "x": 751.7, "y": 82.03 }
+				],
+				"scale": [
+					{ "x": 4.337, "y": 4.337 }
+				]
+			},
+			"images/dandao/drug_hp_00001": {
+				"rotate": [
+					{ "angle": -90 }
+				],
+				"translate": [
+					{ "x": 358.87, "y": 159.97 }
+				],
+				"scale": [
+					{ "x": -4.649, "y": 4.65 }
+				]
+			}
+		}
+	}
+}
+}

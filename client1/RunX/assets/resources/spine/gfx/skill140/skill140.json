@@ -1,0 +1,62 @@
+{
+"skeleton": { "hash": "HGBt/oNEbPjJCecKJF281IKcltY", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4548, "scaleY": 0.4548 },
+	{ "name": "taxi_atk4_dixiao_0004", "parent": "root", "x": 131.51, "y": -186.92 }
+],
+"slots": [
+	{ "name": "taxi_atk4_dixiao_0004", "bone": "taxi_atk4_dixiao_0004" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"taxi_atk4_dixiao_0004": {
+				"taxi_atk4_dixiao_0002": { "width": 449, "height": 174 },
+				"taxi_atk4_dixiao_0003": { "width": 449, "height": 174 },
+				"taxi_atk4_dixiao_0004": { "width": 449, "height": 174 },
+				"taxi_atk4_dixiao_0005": { "width": 449, "height": 174 },
+				"taxi_atk4_dixiao_0006": { "width": 449, "height": 174 },
+				"taxi_atk4_dixiao_0007": { "width": 449, "height": 174 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill140": {
+		"slots": {
+			"taxi_atk4_dixiao_0004": {
+				"color": [
+					{ "color": "c1d6ffff" }
+				],
+				"attachment": [
+					{ "name": "taxi_atk4_dixiao_0002" },
+					{ "time": 0.0667, "name": "taxi_atk4_dixiao_0003" },
+					{ "time": 0.1333, "name": "taxi_atk4_dixiao_0004" },
+					{ "time": 0.2, "name": "taxi_atk4_dixiao_0005" },
+					{ "time": 0.2667, "name": "taxi_atk4_dixiao_0006" },
+					{ "time": 0.3333, "name": "taxi_atk4_dixiao_0007" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"taxi_atk4_dixiao_0004": {
+				"translate": [
+					{ "x": -64.29, "y": 246.81 }
+				],
+				"scale": [
+					{ "x": 1.368, "y": 1.368, "curve": 0, "c3": 0.75 },
+					{ "time": 0.2, "x": 2.065, "y": 1.741 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2333, "name": "K" }
+		]
+	}
+}
+}

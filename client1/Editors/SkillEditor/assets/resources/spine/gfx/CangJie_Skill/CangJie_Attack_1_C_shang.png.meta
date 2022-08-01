@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "8a2c7a4d-58dd-4fb3-9566-ab69b3b2526e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1008,
+  "height": 980,
+  "platformSettings": {},
+  "subMetas": {
+    "CangJie_Attack_1_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "54eb3bd3-fc9c-454c-8a5f-5516bce57fb4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "8a2c7a4d-58dd-4fb3-9566-ab69b3b2526e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1004,
+      "height": 976,
+      "rawWidth": 1008,
+      "rawHeight": 980,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

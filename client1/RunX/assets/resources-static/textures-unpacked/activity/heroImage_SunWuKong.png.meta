@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7f9d677c-253d-4f26-bfaa-7894e6b02282",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 1024,
+  "platformSettings": {},
+  "subMetas": {
+    "heroImage_SunWuKong": {
+      "ver": "1.0.6",
+      "uuid": "ff3c6c78-c1f2-4fce-a38c-d09d93b558ab",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7f9d677c-253d-4f26-bfaa-7894e6b02282",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 6,
+      "offsetY": 11.5,
+      "trimX": 12,
+      "trimY": 0,
+      "width": 1012,
+      "height": 1001,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+"skeleton": { "hash": "pkQaqEU5+hvUY6KEAyNsgA0VXMo", "spine": "3.8.99", "images": "./images/", "audio": "D:/beifen/TB4/西游第三批整合/织女/织女" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4669, "scaleY": 0.4669 },
+	{ "name": "bone68", "parent": "root", "x": 431.24, "y": 391.53, "color": "2a1deeff" }
+],
+"slots": [
+	{ "name": "baofaguang0010", "bone": "bone68", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"baofaguang0010": {
+				"baofaguang0008": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 495.05, -495.11, -521.95, -495.11, -521.95, 490.89, 495.05, 490.89 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1017,
+					"height": 986
+				},
+				"baofaguang0010": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 495.05, -495.11, -521.95, -495.11, -521.95, 490.89, 495.05, 490.89 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1017,
+					"height": 986
+				},
+				"baofaguang0012": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 495.05, -495.11, -521.95, -495.11, -521.95, 490.89, 495.05, 490.89 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1017,
+					"height": 986
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill488": {
+		"slots": {
+			"baofaguang0010": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "baofaguang0008" },
+					{ "time": 0.1, "name": "baofaguang0010" },
+					{ "time": 0.1667, "name": "baofaguang0012" },
+					{ "time": 0.2667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone68": {
+				"translate": [
+					{ "x": 498.9, "y": 192.2 }
+				],
+				"scale": [
+					{ "x": 1.288, "y": 1.288 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1333, "name": "K" }
+		]
+	}
+}
+}

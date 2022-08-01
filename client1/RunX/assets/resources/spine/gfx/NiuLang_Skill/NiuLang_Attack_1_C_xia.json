@@ -1,0 +1,86 @@
+{
+"skeleton": { "hash": "BjU6kxYs4SRl7saL/bWGDbLDWrg", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "attack_gj", "parent": "root" }
+],
+"slots": [
+	{ "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00032", "bone": "attack_gj" },
+	{ "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_32", "bone": "attack_gj", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00032": {
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00032": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00034": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00036": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00038": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00040": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00042": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00044": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00046": { "x": 0.5, "width": 721, "height": 316 }
+			},
+			"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_32": {
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00032": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00034": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00036": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00038": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00040": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00042": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00044": { "x": 0.5, "width": 721, "height": 316 },
+				"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00046": { "x": 0.5, "width": 721, "height": 316 }
+			}
+		}
+	}
+],
+"animations": {
+	"NiuLang_Attack_1": {
+		"slots": {
+			"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00032": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00032" },
+					{ "time": 0.0667, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00034" },
+					{ "time": 0.1333, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00036" },
+					{ "time": 0.2, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00038" },
+					{ "time": 0.2667, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00040" },
+					{ "time": 0.3667, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00042" },
+					{ "time": 0.4667, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00044" },
+					{ "time": 0.5667, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00046" }
+				]
+			},
+			"NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_32": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00032" },
+					{ "time": 0.0667, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00034" },
+					{ "time": 0.1333, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00036" },
+					{ "time": 0.2, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00038" },
+					{ "time": 0.2667, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00040" },
+					{ "time": 0.3667, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00042" },
+					{ "time": 0.4667, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00044" },
+					{ "time": 0.5667, "name": "NiuLang_Attack_1/attack1_gj_s/attack1_gj_s_00046" }
+				]
+			}
+		},
+		"bones": {
+			"attack_gj": {
+				"translate": [
+					{ "x": 511.77, "y": 189.17 }
+				],
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

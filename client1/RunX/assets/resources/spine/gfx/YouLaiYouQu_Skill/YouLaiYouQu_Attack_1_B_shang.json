@@ -1,0 +1,64 @@
+{
+"skeleton": {
+	"hash": "KsOUVbPnvHl2+W58jYyIyvjoamc",
+	"spine": "3.8.99",
+	"x": -132.01,
+	"y": -113.5,
+	"width": 428,
+	"height": 227,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "bone" },
+	{ "name": "bone6", "parent": "bone2" }
+],
+"slots": [
+	{ "name": "jian", "bone": "bone6", "color": "ffffff00", "attachment": "jian" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"jian": {
+				"jian": { "x": 81.99, "width": 428, "height": 227 }
+			}
+		}
+	}
+],
+"animations": {
+	"YouLaiYouQu_Attack_1_A_shang": {
+		"slots": {
+			"jian": {
+				"color": [
+					{ "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone6": {
+				"shear": [
+					{ "y": -180 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{},
+					{ "time": 0.1, "x": 532.52 },
+					{ "time": 0.1333, "x": 635.59 }
+				],
+				"scale": [
+					{ "x": 0.7, "y": 0.7 },
+					{ "time": 0.1, "x": 1.098, "y": 0.436 },
+					{ "time": 0.1333, "x": 1.098, "y": 0.222 }
+				]
+			}
+		}
+	}
+}
+}

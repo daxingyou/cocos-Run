@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "cec21f00-7439-4252-841b-847eeb29e05a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 974,
+  "height": 964,
+  "platformSettings": {},
+  "subMetas": {
+    "NvWa_Attack_2_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "44842b12-c506-48d1-bf62-97bb8156b4a6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "cec21f00-7439-4252-841b-847eeb29e05a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 970,
+      "height": 960,
+      "rawWidth": 974,
+      "rawHeight": 964,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

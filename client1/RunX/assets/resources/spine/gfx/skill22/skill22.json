@@ -1,0 +1,117 @@
+{
+"skeleton": { "hash": "625uBt49lQzPqobWUHWnmDVEPIs", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/伏羲" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.462, "scaleY": 0.462, "color": "ff0000ff" },
+	{ "name": "bone5", "parent": "bone", "x": 198.67, "y": -175.9, "scaleY": 0.4045 },
+	{ "name": "009", "parent": "bone", "x": 401.66, "y": 361.79 },
+	{ "name": "d22", "parent": "bone", "length": 70.39, "rotation": 90.54, "x": 526.57, "y": -59.75 },
+	{ "name": "bone8", "parent": "bone5", "x": 0.62, "y": 63.21 }
+],
+"slots": [
+	{ "name": "009", "bone": "009", "blend": "additive" },
+	{ "name": "d22", "bone": "d22", "blend": "additive" },
+	{ "name": "006", "bone": "bone8", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"006": {
+				"006": { "width": 256, "height": 256 }
+			},
+			"009": {
+				"009": { "x": 0.82, "y": 1.18, "width": 50, "height": 50 }
+			},
+			"d22": {
+				"d21": { "x": 67.74, "y": 1.35, "rotation": -90.54, "width": 150, "height": 150 },
+				"d22": { "x": 67.74, "y": 1.35, "rotation": -90.54, "width": 150, "height": 150 },
+				"d23": { "x": 67.74, "y": 1.35, "rotation": -90.54, "width": 150, "height": 150 },
+				"d24": { "x": 67.74, "y": 1.35, "rotation": -90.54, "width": 150, "height": 150 },
+				"d25": { "x": 67.74, "y": 1.35, "rotation": -90.54, "width": 150, "height": 150 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill22": {
+		"slots": {
+			"006": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "006" }
+				]
+			},
+			"009": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "009" }
+				]
+			},
+			"d22": {
+				"attachment": [
+					{ "time": 0.0333, "name": "d21" },
+					{ "time": 0.1, "name": "d22" },
+					{ "time": 0.1667, "name": "d23" },
+					{ "time": 0.2333, "name": "d24" },
+					{ "time": 0.3, "name": "d25" },
+					{ "time": 0.3667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"d22": {
+				"translate": [
+					{ "time": 0.0333, "x": -359.63, "y": 922.96 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 3.005, "y": 2.032 }
+				]
+			},
+			"009": {
+				"translate": [
+					{ "time": 0.0333, "x": -222.26, "y": 530.79 },
+					{ "time": 0.1333, "x": -222.26, "y": 545.73 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 3.1, "y": 1.649 },
+					{ "time": 0.1333, "x": 6.38, "y": 3.395 }
+				]
+			},
+			"bone5": {
+				"translate": [
+					{ "x": -1.12, "y": 1015.1 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 2.466, "y": 2.176 }
+				]
+			},
+			"bone8": {
+				"rotate": [
+					{},
+					{ "time": 0.3667, "angle": -90.9 },
+					{ "time": 0.7, "angle": -177.19 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 1.3333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4667, "name": "k" }
+		]
+	}
+}
+}

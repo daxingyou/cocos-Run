@@ -1,0 +1,86 @@
+{
+"skeleton": {
+	"hash": "owylGKZmBCrn8n7ES+1oYRH/Iyk",
+	"spine": "3.8.99",
+	"x": -131.31,
+	"y": -64,
+	"width": 195.31,
+	"height": 128,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "gg", "parent": "root" },
+	{ "name": "gg2", "parent": "gg", "rotation": 155.6 },
+	{ "name": "jiantou", "parent": "gg2", "length": 59.4, "rotation": -154.93, "x": 110.02, "y": 47.34 },
+	{ "name": "aa4", "parent": "gg" }
+],
+"slots": [
+	{ "name": "ring03_2", "bone": "aa4", "attachment": "4369-1", "blend": "additive" },
+	{ "name": "ring03_3", "bone": "aa4", "attachment": "demon_groundFire_glowRune", "blend": "additive" },
+	{ "name": "jiantou", "bone": "jiantou", "attachment": "jiantou" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"jiantou": {
+				"jiantou": { "x": 51.73, "y": -0.67, "rotation": -179.89, "width": 125, "height": 118 }
+			},
+			"ring03_2": {
+				"4369-1": { "width": 128, "height": 128 }
+			},
+			"ring03_3": {
+				"demon_groundFire_glowRune": { "width": 128, "height": 128 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"ring03_2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"ring03_3": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"jiantou": {
+				"translate": [
+					{ "x": 3.84, "y": 5.77 },
+					{ "time": 0.1667, "x": -11.51, "y": -1.19 },
+					{ "time": 0.5, "x": -15.24, "y": -2.89 },
+					{ "time": 0.6667, "x": 3.84, "y": 5.77 }
+				],
+				"scale": [
+					{ "x": 0.974 },
+					{ "time": 0.1667 },
+					{ "time": 0.5, "x": 1.032, "y": 0.974 },
+					{ "time": 0.6667 }
+				]
+			},
+			"aa4": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": -60.34 }
+				],
+				"scale": [
+					{ "x": 1.141, "y": 1.141 },
+					{ "time": 0.4, "x": 0.912, "y": 0.912 }
+				]
+			}
+		}
+	}
+}
+}

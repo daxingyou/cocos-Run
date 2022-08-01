@@ -1,0 +1,68 @@
+{
+"skeleton": { "hash": "6YYNZNwSBXxKcALQjjf5JmRZ5YY", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/白骨精" },
+"bones": [
+	{ "name": "root" },
+	{
+		"name": "qiw3",
+		"parent": "root",
+		"length": 188.2,
+		"rotation": 179.15,
+		"x": 429.91,
+		"y": -151.64,
+		"scaleX": 0.59,
+		"scaleY": 0.59
+	}
+],
+"slots": [
+	{ "name": "qiw3", "bone": "qiw3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"qiw3": {
+				"qiw1": { "x": 230.43, "y": -34.61, "rotation": -179.15, "width": 500, "height": 199 },
+				"qiw2": { "x": 230.43, "y": -34.61, "rotation": -179.15, "width": 500, "height": 199 },
+				"qiw3": { "x": 230.43, "y": -34.61, "rotation": -179.15, "width": 500, "height": 199 },
+				"qiw4": { "x": 230.43, "y": -34.61, "rotation": -179.15, "width": 500, "height": 199 }
+			}
+		}
+	}
+],
+"animations": {
+	"skill9": {
+		"slots": {
+			"qiw3": {
+				"attachment": [
+					{ "name": "qiw1" },
+					{ "time": 0.0333, "name": "qiw2" },
+					{ "time": 0.0667, "name": "qiw3" },
+					{ "time": 0.1, "name": "qiw4" },
+					{ "time": 0.1333, "name": "qiw1" },
+					{ "time": 0.1667, "name": "qiw2" },
+					{ "time": 0.2, "name": "qiw3" },
+					{ "time": 0.2333, "name": "qiw4" },
+					{ "time": 0.2667, "name": "qiw1" },
+					{ "time": 0.3, "name": "qiw2" },
+					{ "time": 0.3333, "name": "qiw3" },
+					{ "time": 0.3667, "name": "qiw4" },
+					{ "time": 0.4, "name": "qiw1" }
+				]
+			}
+		},
+		"bones": {
+			"qiw3": {
+				"rotate": [
+					{ "angle": -1.37 }
+				],
+				"translate": [
+					{ "x": -360.71, "y": 157.19 }
+				],
+				"scale": [
+					{ "x": 1.796, "y": 3.802 }
+				]
+			}
+		}
+	}
+}
+}

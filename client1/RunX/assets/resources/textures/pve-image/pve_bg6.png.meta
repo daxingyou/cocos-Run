@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a0fba0e1-8b1f-4f4c-8482-2cad1b2179f7",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 244,
+  "height": 564,
+  "platformSettings": {},
+  "subMetas": {
+    "pve_bg6": {
+      "ver": "1.0.6",
+      "uuid": "03264e21-64aa-4e59-b110-7aed8085867f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a0fba0e1-8b1f-4f4c-8482-2cad1b2179f7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 244,
+      "height": 564,
+      "rawWidth": 244,
+      "rawHeight": 564,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

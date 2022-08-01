@@ -1,0 +1,77 @@
+{
+"skeleton": { "hash": "MYYfqGLEiNCoUzzVIlxUVhk6r5U", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "rotation": 0.06, "scaleX": 0.4996, "scaleY": 0.4996 },
+	{ "name": "huo_17", "parent": "root", "length": 71.6, "rotation": -0.93, "x": -459.95, "y": 2.64 }
+],
+"slots": [
+	{ "name": "huo_17", "bone": "huo_17" },
+	{ "name": "huo_18", "bone": "huo_17", "color": "ffffff94", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"huo_17": {
+				"huo_17": { "x": 70.43, "y": 0.81, "rotation": 0.93, "width": 200, "height": 130 },
+				"huo_18": { "x": 70.43, "y": 0.81, "rotation": 0.93, "width": 200, "height": 130 },
+				"huo_20": { "x": 70.43, "y": 0.81, "rotation": 0.93, "width": 200, "height": 130 },
+				"huo_22": { "x": 70.43, "y": 0.81, "rotation": 0.93, "width": 200, "height": 130 },
+				"huo_24": { "x": 70.43, "y": 0.81, "rotation": 0.93, "width": 200, "height": 130 }
+			},
+			"huo_18": {
+				"huo_17": { "x": 70.43, "y": 0.81, "rotation": 0.93, "width": 200, "height": 130 },
+				"huo_18": { "x": 70.43, "y": 0.81, "rotation": 0.93, "width": 200, "height": 130 },
+				"huo_20": { "x": 70.43, "y": 0.81, "rotation": 0.93, "width": 200, "height": 130 },
+				"huo_22": { "x": 70.43, "y": 0.81, "rotation": 0.93, "width": 200, "height": 130 },
+				"huo_24": { "x": 70.43, "y": 0.81, "rotation": 0.93, "width": 200, "height": 130 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill224": {
+		"slots": {
+			"huo_17": {
+				"attachment": [
+					{ "name": "huo_17" },
+					{ "time": 0.0333, "name": "huo_18" },
+					{ "time": 0.0667, "name": "huo_20" },
+					{ "time": 0.1, "name": "huo_22" },
+					{ "time": 0.1333, "name": "huo_24" },
+					{ "time": 0.1667, "name": null }
+				]
+			},
+			"huo_18": {
+				"attachment": [
+					{ "name": "huo_17" },
+					{ "time": 0.0333, "name": "huo_18" },
+					{ "time": 0.0667, "name": "huo_20" },
+					{ "time": 0.1, "name": "huo_22" },
+					{ "time": 0.1333, "name": "huo_24" },
+					{ "time": 0.1667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"huo_17": {
+				"rotate": [
+					{ "angle": -8.71 }
+				],
+				"translate": [
+					{ "x": 794.59, "y": 683.53 }
+				],
+				"scale": [
+					{ "x": 4.06, "y": 5.258 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "K" }
+		]
+	}
+}
+}

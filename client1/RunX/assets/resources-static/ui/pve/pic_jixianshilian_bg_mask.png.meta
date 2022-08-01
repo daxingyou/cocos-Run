@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6a78d6c8-342c-4340-8c89-cb73edb7fb8b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 224,
+  "height": 473,
+  "platformSettings": {},
+  "subMetas": {
+    "pic_jixianshilian_bg_mask": {
+      "ver": "1.0.6",
+      "uuid": "69645dc9-5fd1-4810-9a8d-d47d9dfb4731",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6a78d6c8-342c-4340-8c89-cb73edb7fb8b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -86.5,
+      "trimX": 10,
+      "trimY": 180,
+      "width": 203,
+      "height": 286,
+      "rawWidth": 224,
+      "rawHeight": 473,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

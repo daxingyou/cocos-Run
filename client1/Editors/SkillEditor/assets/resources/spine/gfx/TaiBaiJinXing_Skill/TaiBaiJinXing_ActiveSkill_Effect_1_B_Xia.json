@@ -1,0 +1,128 @@
+{
+"skeleton": { "hash": "wOn5B1yi/G1Rvt6y9e5eF/ABnuQ", "spine": "3.8.99", "images": "./images/", "audio": "D:/work/M3/M3外包/嘉美嘉/20220125提交/太白金星2022.1.24-改" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "ActiveSkill_Effect_1", "parent": "eft" },
+	{ "name": "yuan", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "zhakailizi", "parent": "ActiveSkill_Effect_1" },
+	{ "name": "yuan2", "parent": "ActiveSkill_Effect_1" }
+],
+"slots": [
+	{ "name": "yuan", "bone": "yuan", "blend": "additive" },
+	{ "name": "yuan2", "bone": "yuan2", "blend": "additive" },
+	{ "name": "zhakailizi", "bone": "zhakailizi", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yuan": {
+				"eft/PassiveSkill_Effect_1/yuan/yuan_0114": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/yuan/yuan_0118": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/yuan/yuan_0120": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/yuan/yuan_0124": { "width": 600, "height": 600 }
+			},
+			"yuan2": {
+				"eft/PassiveSkill_Effect_1/yuan/yuan_0114": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/yuan/yuan_0118": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/yuan/yuan_0120": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/yuan/yuan_0124": { "width": 600, "height": 600 }
+			},
+			"zhakailizi": {
+				"eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0114": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0117": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0120": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0123": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0126": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0129": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0132": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0135": { "width": 600, "height": 600 }
+			}
+		}
+	}
+],
+"animations": {
+	"Release": {
+		"slots": {
+			"yuan": {
+				"attachment": [
+					{ "time": 2.3667, "name": "eft/PassiveSkill_Effect_1/yuan/yuan_0114" },
+					{ "time": 2.5, "name": "eft/PassiveSkill_Effect_1/yuan/yuan_0118" },
+					{ "time": 2.5667, "name": "eft/PassiveSkill_Effect_1/yuan/yuan_0120" },
+					{ "time": 2.7, "name": "eft/PassiveSkill_Effect_1/yuan/yuan_0124" },
+					{ "time": 2.7667, "name": null }
+				]
+			},
+			"yuan2": {
+				"color": [
+					{ "time": 2.3333, "color": "ffffff54", "curve": 0, "c2": 0.23, "c3": 0.596, "c4": 0.99 },
+					{ "time": 2.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.3333, "name": "eft/PassiveSkill_Effect_1/yuan/yuan_0118" },
+					{ "time": 2.3667, "name": "eft/PassiveSkill_Effect_1/yuan/yuan_0120" },
+					{ "time": 2.5, "name": "eft/PassiveSkill_Effect_1/yuan/yuan_0124" },
+					{ "time": 2.5667, "name": null }
+				]
+			},
+			"zhakailizi": {
+				"color": [
+					{ "time": 3.0667, "color": "ffffffff" },
+					{ "time": 3.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.3667, "name": "eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0114" },
+					{ "time": 2.4667, "name": "eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0117" },
+					{ "time": 2.5667, "name": "eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0120" },
+					{ "time": 2.6667, "name": "eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0123" },
+					{ "time": 2.7667, "name": "eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0126" },
+					{ "time": 2.8667, "name": "eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0129" },
+					{ "time": 2.9667, "name": "eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0132" },
+					{ "time": 3.0667, "name": "eft/PassiveSkill_Effect_1/zhakailizi/zhakai_lizi0135" },
+					{ "time": 3.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"yuan": {
+				"translate": [
+					{ "time": 2.3667, "y": 308.45 },
+					{ "time": 2.5, "y": 567 }
+				],
+				"scale": [
+					{ "time": 2.3667, "x": 5.92, "y": 5.92 },
+					{ "time": 2.5, "x": 11.84, "y": 11.84 }
+				]
+			},
+			"zhakailizi": {
+				"translate": [
+					{ "time": 2.3667, "x": 20, "y": 329.68 },
+					{ "time": 2.9, "x": 20, "y": 324.59 }
+				],
+				"scale": [
+					{ "time": 2.3667, "x": 9, "y": 9 }
+				]
+			},
+			"yuan2": {
+				"translate": [
+					{ "time": 2.3333, "y": 308.45, "curve": 0, "c2": 0.23, "c3": 0.596, "c4": 0.99 },
+					{ "time": 2.4667, "y": 883.37 }
+				],
+				"scale": [
+					{
+						"time": 2.3333,
+						"x": 7.84,
+						"y": 7.84,
+						"curve": 0,
+						"c2": 0.23,
+						"c3": 0.596,
+						"c4": 0.99
+					},
+					{ "time": 2.4667, "x": 17.44, "y": 17.44 }
+				]
+			}
+		}
+	}
+}
+}

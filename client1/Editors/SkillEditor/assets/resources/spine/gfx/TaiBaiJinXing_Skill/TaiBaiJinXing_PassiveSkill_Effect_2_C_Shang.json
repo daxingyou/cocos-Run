@@ -1,0 +1,301 @@
+{
+"skeleton": {
+	"hash": "DoQ25BPKZIo48h/uatdolZUB2hg",
+	"spine": "3.8.99",
+	"x": -300,
+	"y": -300,
+	"width": 600,
+	"height": 600,
+	"images": "./images/",
+	"audio": "H:/波波外包/new/太白金星/SSR-太白金星"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "PassiveSkill_Effect_2", "parent": "eft" },
+	{ "name": "feiqiu", "parent": "PassiveSkill_Effect_2" },
+	{ "name": "fx_shouji4", "parent": "PassiveSkill_Effect_2" },
+	{ "name": "shine", "parent": "PassiveSkill_Effect_2" }
+],
+"slots": [
+	{ "name": "fx_shouji4", "bone": "fx_shouji4", "blend": "additive" },
+	{ "name": "feiqiu", "bone": "feiqiu", "attachment": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0017", "blend": "additive" },
+	{ "name": "shine", "bone": "shine", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"feiqiu": {
+				"eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0017": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0021": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0025": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0029": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0033": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0037": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0041": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0045": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0049": { "width": 600, "height": 600 }
+			},
+			"fx_shouji4": {
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0023": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0025": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0027": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0029": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0031": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0033": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0035": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0037": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0039": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0041": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0043": { "width": 600, "height": 600 },
+				"eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0045": { "width": 600, "height": 600 }
+			},
+			"shine": {
+				"eft/PassiveSkill_Effect_2/shine/shine_0000": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_2/shine/shine_0002": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_2/shine/shine_0004": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_2/shine/shine_0006": { "width": 600, "height": 600 },
+				"eft/PassiveSkill_Effect_2/shine/shine_0008": { "width": 600, "height": 600 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack3_1": {
+		"slots": {
+			"feiqiu": {
+				"attachment": [
+					{ "time": 0.1333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0021" },
+					{ "time": 0.2667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0025" },
+					{ "time": 0.4, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0029" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0033" },
+					{ "time": 0.6667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0037" },
+					{ "time": 0.8, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0041" },
+					{ "time": 0.9333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0045" },
+					{ "time": 1.0667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0049" }
+				]
+			},
+			"fx_shouji4": {
+				"color": [
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0023" },
+					{ "time": 0.1333, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0025" },
+					{ "time": 0.2, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0027" },
+					{ "time": 0.2667, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0029" },
+					{ "time": 0.3333, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0031" },
+					{ "time": 0.4, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0033" },
+					{ "time": 0.4667, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0035" },
+					{ "time": 0.5333, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0037" },
+					{ "time": 0.6, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0039" },
+					{ "time": 0.6667, "name": "eft/ActiveSkill_Effect_1/fx_shouji/fx_shouji_0041" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"shine": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5667, "color": "ffffff00" },
+					{ "time": 1.0667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 0.0667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" },
+					{ "time": 0.1333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0004" },
+					{ "time": 0.2, "name": "eft/PassiveSkill_Effect_2/shine/shine_0006" },
+					{ "time": 0.2667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0008" },
+					{ "time": 0.3333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 0.4, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" },
+					{ "time": 0.4667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0004" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0006" },
+					{ "time": 0.6, "name": "eft/PassiveSkill_Effect_2/shine/shine_0008" },
+					{ "time": 0.6667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 0.7333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" },
+					{ "time": 0.8, "name": "eft/PassiveSkill_Effect_2/shine/shine_0004" },
+					{ "time": 0.8667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0006" },
+					{ "time": 0.9333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0008" },
+					{ "time": 1, "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 1.0667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" }
+				]
+			}
+		},
+		"bones": {
+			"feiqiu": {
+				"translate": [
+					{ "x": -0.81, "y": 53.54, "curve": 0, "c2": 0.36, "c3": 0.373, "c4": 0.69 },
+					{ "time": 0.7, "x": -0.81, "y": 459.26 }
+				],
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			},
+			"fx_shouji4": {
+				"translate": [
+					{ "x": 0.69, "y": 357.01 }
+				],
+				"scale": [
+					{ "x": 2.5, "y": 2.5, "curve": "stepped" },
+					{ "time": 0.6667, "x": 2.5, "y": 2.5 },
+					{ "time": 0.8333, "x": 3.065, "y": 2.5 }
+				]
+			},
+			"shine": {
+				"translate": [
+					{ "x": -0.81, "y": 135.75 }
+				],
+				"scale": [
+					{ "x": 1.126, "y": 4, "curve": "stepped" },
+					{ "time": 0.5667, "x": 1.126, "y": 4 },
+					{ "time": 1.0667, "x": 4, "y": 4 }
+				]
+			}
+		}
+	},
+	"Attack3_2": {
+		"slots": {
+			"feiqiu": {
+				"attachment": [
+					{ "time": 0.1333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0021" },
+					{ "time": 0.2667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0025" },
+					{ "time": 0.4, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0029" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0033" },
+					{ "time": 0.6667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0037" },
+					{ "time": 0.8, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0041" },
+					{ "time": 0.9333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0045" },
+					{ "time": 1.0667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0049" },
+					{ "time": 1.1333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0017" },
+					{ "time": 1.2667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0021" },
+					{ "time": 1.4, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0025" },
+					{ "time": 1.5333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0029" },
+					{ "time": 1.6667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0033" },
+					{ "time": 1.8, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0037" },
+					{ "time": 1.9333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0041" },
+					{ "time": 2.0667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0045" },
+					{ "time": 2.2, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0049" },
+					{ "time": 2.2333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0017" }
+				]
+			},
+			"shine": {
+				"attachment": [
+					{ "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 0.0667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" },
+					{ "time": 0.1333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0004" },
+					{ "time": 0.2, "name": "eft/PassiveSkill_Effect_2/shine/shine_0006" },
+					{ "time": 0.2667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0008" },
+					{ "time": 0.3333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 0.4, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" },
+					{ "time": 0.4667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0004" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0006" },
+					{ "time": 0.6, "name": "eft/PassiveSkill_Effect_2/shine/shine_0008" },
+					{ "time": 0.6667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 0.7333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" },
+					{ "time": 0.8, "name": "eft/PassiveSkill_Effect_2/shine/shine_0004" },
+					{ "time": 0.8667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0006" },
+					{ "time": 0.9333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0008" },
+					{ "time": 1, "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 1.0667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" },
+					{ "time": 1.1333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0004" },
+					{ "time": 1.2, "name": "eft/PassiveSkill_Effect_2/shine/shine_0006" },
+					{ "time": 1.2667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0008" },
+					{ "time": 1.3333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 1.4, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" },
+					{ "time": 1.4667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0004" },
+					{ "time": 1.5333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0006" },
+					{ "time": 1.6, "name": "eft/PassiveSkill_Effect_2/shine/shine_0008" },
+					{ "time": 1.6667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 1.7333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" },
+					{ "time": 1.8, "name": "eft/PassiveSkill_Effect_2/shine/shine_0004" },
+					{ "time": 1.8667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0006" },
+					{ "time": 1.9333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0008" },
+					{ "time": 2, "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 2.0667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" },
+					{ "time": 2.1333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0004" },
+					{ "time": 2.2, "name": "eft/PassiveSkill_Effect_2/shine/shine_0006" },
+					{ "time": 2.2333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" }
+				]
+			}
+		},
+		"bones": {
+			"shine": {
+				"translate": [
+					{ "x": -0.81, "y": 135.75 }
+				],
+				"scale": [
+					{ "x": 4, "y": 4 }
+				]
+			},
+			"feiqiu": {
+				"translate": [
+					{ "x": -0.81, "y": 459.26 }
+				],
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			}
+		}
+	},
+	"Attack3_3": {
+		"slots": {
+			"feiqiu": {
+				"color": [
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0021" },
+					{ "time": 0.2667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0025" },
+					{ "time": 0.4, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0029" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0033" },
+					{ "time": 0.6667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0037" },
+					{ "time": 0.8, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0041" },
+					{ "time": 0.9333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0045" },
+					{ "time": 1.0667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0049" },
+					{ "time": 1.1333, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0017" },
+					{ "time": 1.2667, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0021" },
+					{ "time": 1.4, "name": "eft/PassiveSkill_Effect_2/feiqiu/feiqiu_0025" }
+				]
+			},
+			"shine": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 0.0667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" },
+					{ "time": 0.1333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0004" },
+					{ "time": 0.2, "name": "eft/PassiveSkill_Effect_2/shine/shine_0006" },
+					{ "time": 0.2667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0008" },
+					{ "time": 0.3333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0000" },
+					{ "time": 0.4, "name": "eft/PassiveSkill_Effect_2/shine/shine_0002" },
+					{ "time": 0.4667, "name": "eft/PassiveSkill_Effect_2/shine/shine_0004" },
+					{ "time": 0.5333, "name": "eft/PassiveSkill_Effect_2/shine/shine_0006" },
+					{ "time": 0.6, "name": "eft/PassiveSkill_Effect_2/shine/shine_0008" },
+					{ "time": 0.6667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shine": {
+				"translate": [
+					{ "x": -0.81, "y": 135.75 }
+				],
+				"scale": [
+					{ "x": 4, "y": 4 }
+				]
+			},
+			"feiqiu": {
+				"translate": [
+					{ "x": -0.81, "y": 459.26 }
+				],
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

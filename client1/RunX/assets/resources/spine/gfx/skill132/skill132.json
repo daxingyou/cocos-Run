@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "s4FFTKxfcYTH/h0FoiAx3mP9xfg", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4548, "scaleY": 0.4548 },
+	{
+		"name": "qi2",
+		"parent": "root",
+		"length": 63.35,
+		"rotation": -179.88,
+		"x": 4.47,
+		"y": -83.81,
+		"scaleX": -1
+	}
+],
+"slots": [
+	{ "name": "qi2", "bone": "qi2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"qi2": {
+				"qi": { "x": 68.12, "y": -15.07, "rotation": -176.82, "width": 150, "height": 86 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill132": {
+		"slots": {
+			"qi2": {
+				"color": [
+					{ "time": 0.0667, "color": "ffffffff", "curve": 0, "c3": 0.75 },
+					{ "time": 0.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "qi" }
+				]
+			}
+		},
+		"bones": {
+			"qi2": {
+				"translate": [
+					{ "x": 404.38, "y": 71.83 }
+				],
+				"scale": [
+					{ "x": 0.444, "y": 0.444, "curve": 0, "c3": 0.75 },
+					{ "time": 0.1667, "x": 4.71, "y": 2.949 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2333, "name": "K" }
+		]
+	}
+}
+}

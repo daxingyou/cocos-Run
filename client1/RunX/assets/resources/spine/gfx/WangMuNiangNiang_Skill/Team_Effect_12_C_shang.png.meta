@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "66ec94ce-3910-4dbd-99f8-a2fe2ea61192",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 910,
+  "height": 910,
+  "platformSettings": {},
+  "subMetas": {
+    "Team_Effect_12_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "c12c72b7-a570-478a-b992-655a88624555",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "66ec94ce-3910-4dbd-99f8-a2fe2ea61192",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -42.5,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 821,
+      "height": 906,
+      "rawWidth": 910,
+      "rawHeight": 910,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

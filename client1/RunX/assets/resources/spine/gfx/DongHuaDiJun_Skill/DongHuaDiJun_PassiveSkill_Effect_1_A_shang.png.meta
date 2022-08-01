@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d112d521-9406-432b-b102-06cb8e4a843e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 922,
+  "height": 840,
+  "platformSettings": {},
+  "subMetas": {
+    "DongHuaDiJun_PassiveSkill_Effect_1_A_shang": {
+      "ver": "1.0.6",
+      "uuid": "c08f8f93-d425-4858-85e0-6a084f1c9ece",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d112d521-9406-432b-b102-06cb8e4a843e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 918,
+      "height": 836,
+      "rawWidth": 922,
+      "rawHeight": 840,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

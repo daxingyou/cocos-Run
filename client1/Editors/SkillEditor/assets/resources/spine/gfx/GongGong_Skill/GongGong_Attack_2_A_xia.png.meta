@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f9e9cef8-893f-43b5-9eba-fc640d6c0718",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 512,
+  "height": 512,
+  "platformSettings": {},
+  "subMetas": {
+    "GongGong_Attack_2_A_xia": {
+      "ver": "1.0.6",
+      "uuid": "8e9291bd-2495-43f4-b894-303b0b526d7a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f9e9cef8-893f-43b5-9eba-fc640d6c0718",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -13,
+      "offsetY": 88,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 482,
+      "height": 332,
+      "rawWidth": 512,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

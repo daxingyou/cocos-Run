@@ -1,0 +1,70 @@
+{
+"skeleton": { "hash": "2lH+8nQpSehDm1EO3OyXReZPgzk", "spine": "3.8.99", "images": "./images/", "audio": "E:/搬砖/门/内部/SSR-万圣公主-a/SSR_00东海龙王1102" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx", "parent": "root" },
+	{ "name": "skill_juqi", "parent": "fx", "scaleX": 4, "scaleY": 4 }
+],
+"slots": [
+	{ "name": "eft/skill_juqi/skill_juqi_00021", "bone": "skill_juqi", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"eft/skill_juqi/skill_juqi_00021": {
+				"eft/skill_juqi/skill_juqi_00021": { "width": 406, "height": 406 },
+				"eft/skill_juqi/skill_juqi_00023": { "width": 406, "height": 406 },
+				"eft/skill_juqi/skill_juqi_00025": { "width": 406, "height": 406 },
+				"eft/skill_juqi/skill_juqi_00027": { "width": 406, "height": 406 },
+				"eft/skill_juqi/skill_juqi_00029": { "width": 406, "height": 406 },
+				"eft/skill_juqi/skill_juqi_00031": { "width": 406, "height": 406 },
+				"eft/skill_juqi/skill_juqi_00033": { "width": 406, "height": 406 },
+				"eft/skill_juqi/skill_juqi_00035": { "width": 406, "height": 406 },
+				"eft/skill_juqi/skill_juqi_00037": { "width": 406, "height": 406 },
+				"eft/skill_juqi/skill_juqi_00039": { "width": 406, "height": 406 },
+				"eft/skill_juqi/skill_juqi_00041": { "width": 406, "height": 406 }
+			}
+		}
+	}
+],
+"animations": {
+	"Release": {
+		"slots": {
+			"eft/skill_juqi/skill_juqi_00021": {
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.5667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "eft/skill_juqi/skill_juqi_00021" },
+					{ "time": 0.2333, "name": "eft/skill_juqi/skill_juqi_00023" },
+					{ "time": 0.2667, "name": "eft/skill_juqi/skill_juqi_00025" },
+					{ "time": 0.3, "name": "eft/skill_juqi/skill_juqi_00027" },
+					{ "time": 0.3333, "name": "eft/skill_juqi/skill_juqi_00029" },
+					{ "time": 0.3667, "name": "eft/skill_juqi/skill_juqi_00031" },
+					{ "time": 0.4, "name": "eft/skill_juqi/skill_juqi_00033" },
+					{ "time": 0.4333, "name": "eft/skill_juqi/skill_juqi_00035" },
+					{ "time": 0.4667, "name": "eft/skill_juqi/skill_juqi_00037" },
+					{ "time": 0.5, "name": "eft/skill_juqi/skill_juqi_00039" },
+					{ "time": 0.5333, "name": "eft/skill_juqi/skill_juqi_00041" },
+					{ "time": 0.5667, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"skill_juqi": {
+				"translate": [
+					{},
+					{ "time": 0.2, "x": -200.42, "y": 673.57 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.2, "x": 1.7, "y": 1.7 }
+				]
+			}
+		}
+	}
+}
+}

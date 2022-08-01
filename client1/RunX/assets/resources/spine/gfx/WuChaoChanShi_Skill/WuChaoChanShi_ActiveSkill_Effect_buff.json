@@ -1,0 +1,126 @@
+{
+"skeleton": { "hash": "V71TDrarvBO6d5exi5EDRucfL2E", "spine": "3.8.99", "images": "./images/skill/", "audio": "E:/阿拆/工作/食之契约/高/2020.7.20京酱肉丝/200254_7【UR】京酱肉丝/200254_7【UR】京酱肉丝" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root", "color": "0dff00ff" },
+	{ "name": "buff", "parent": "effect", "color": "0dff00ff" },
+	{ "name": "buff_xx", "parent": "effect", "color": "0dff00ff" },
+	{ "name": "buff_xx2", "parent": "effect", "color": "0dff00ff" }
+],
+"slots": [
+	{ "name": "buff/buff_77", "bone": "buff" },
+	{ "name": "buff_xx/xx_69", "bone": "buff_xx" },
+	{ "name": "buff_xx/xx_70", "bone": "buff_xx2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"buff/buff_77": {
+				"buff/buff_77": { "width": 180, "height": 180 }
+			},
+			"buff_xx/xx_69": {
+				"buff_xx/xx_69": { "width": 280, "height": 300 },
+				"buff_xx/xx_70": { "width": 280, "height": 300 },
+				"buff_xx/xx_72": { "width": 280, "height": 300 },
+				"buff_xx/xx_73": { "width": 280, "height": 300 },
+				"buff_xx/xx_75": { "width": 280, "height": 300 },
+				"buff_xx/xx_76": { "width": 280, "height": 300 },
+				"buff_xx/xx_78": { "width": 280, "height": 300 },
+				"buff_xx/xx_79": { "width": 280, "height": 300 },
+				"buff_xx/xx_81": { "width": 280, "height": 300 },
+				"buff_xx/xx_82": { "width": 280, "height": 300 }
+			},
+			"buff_xx/xx_70": {
+				"buff_xx/xx_69": { "width": 280, "height": 300 },
+				"buff_xx/xx_70": { "width": 280, "height": 300 },
+				"buff_xx/xx_72": { "width": 280, "height": 300 },
+				"buff_xx/xx_73": { "width": 280, "height": 300 },
+				"buff_xx/xx_75": { "width": 280, "height": 300 },
+				"buff_xx/xx_76": { "width": 280, "height": 300 },
+				"buff_xx/xx_78": { "width": 280, "height": 300 },
+				"buff_xx/xx_79": { "width": 280, "height": 300 },
+				"buff_xx/xx_81": { "width": 280, "height": 300 },
+				"buff_xx/xx_82": { "width": 280, "height": 300 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"buff/buff_77": {
+				"color": [
+					{ "time": 0.2, "color": "ffffffc7" },
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "buff/buff_77" }
+				]
+			},
+			"buff_xx/xx_69": {
+				"attachment": [
+					{ "name": "buff_xx/xx_69" },
+					{ "time": 0.0333, "name": "buff_xx/xx_70" },
+					{ "time": 0.1, "name": "buff_xx/xx_72" },
+					{ "time": 0.1333, "name": "buff_xx/xx_73" },
+					{ "time": 0.2, "name": "buff_xx/xx_75" },
+					{ "time": 0.2333, "name": "buff_xx/xx_76" },
+					{ "time": 0.3, "name": "buff_xx/xx_78" },
+					{ "time": 0.3333, "name": "buff_xx/xx_79" },
+					{ "time": 0.4, "name": "buff_xx/xx_81" },
+					{ "time": 0.4333, "name": "buff_xx/xx_82" },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"buff_xx/xx_70": {
+				"attachment": [
+					{ "time": 0.2, "name": "buff_xx/xx_69" },
+					{ "time": 0.2333, "name": "buff_xx/xx_70" },
+					{ "time": 0.3, "name": "buff_xx/xx_72" },
+					{ "time": 0.3333, "name": "buff_xx/xx_73" },
+					{ "time": 0.4, "name": "buff_xx/xx_75" },
+					{ "time": 0.4333, "name": "buff_xx/xx_76" },
+					{ "time": 0.5, "name": "buff_xx/xx_78" },
+					{ "time": 0.5333, "name": "buff_xx/xx_79" },
+					{ "time": 0.6, "name": "buff_xx/xx_81" },
+					{ "time": 0.6333, "name": "buff_xx/xx_82" },
+					{ "time": 0.7, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"buff_xx": {
+				"translate": [
+					{ "x": 1016.79, "y": 58.54 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			},
+			"buff_xx2": {
+				"translate": [
+					{ "time": 0.2, "x": 1016.79, "y": 58.54 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": -1.5, "y": 1.5 }
+				]
+			},
+			"buff": {
+				"translate": [
+					{ "time": 0.2, "x": 1029.8, "y": 284.01 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 1.7, "y": 1.7 }
+				]
+			},
+			"effect": {
+				"translate": [
+					{ "x": -1027.72 }
+				]
+			}
+		}
+	}
+}
+}

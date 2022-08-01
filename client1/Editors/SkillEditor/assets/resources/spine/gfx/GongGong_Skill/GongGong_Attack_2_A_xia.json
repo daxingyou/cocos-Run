@@ -1,0 +1,91 @@
+{
+"skeleton": { "hash": "ESdFgnDohGZuI0xaxsq7IRX65Ts", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "attack_shx", "parent": "root", "scaleX": 4, "scaleY": 4 },
+	{ "name": "attack_shx2", "parent": "root", "scaleX": -4, "scaleY": 4 }
+],
+"slots": [
+	{ "name": "effect/attack2_shx/attack2_shx_00", "bone": "attack_shx" },
+	{ "name": "effect/attack2_shx/attack2_shx_0", "bone": "attack_shx2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"effect/attack2_shx/attack2_shx_0": {
+				"effect/attack2_shx/attack2_shx_00": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_02": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_04": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_06": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_08": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_10": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_12": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_14": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_16": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_18": { "width": 600, "height": 600 }
+			},
+			"effect/attack2_shx/attack2_shx_00": {
+				"effect/attack2_shx/attack2_shx_00": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_02": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_04": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_06": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_08": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_10": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_12": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_14": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_16": { "width": 600, "height": 600 },
+				"effect/attack2_shx/attack2_shx_18": { "width": 600, "height": 600 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack2": {
+		"slots": {
+			"effect/attack2_shx/attack2_shx_0": {
+				"attachment": [
+					{ "time": 0.2, "name": "effect/attack2_shx/attack2_shx_00" },
+					{ "time": 0.2667, "name": "effect/attack2_shx/attack2_shx_02" },
+					{ "time": 0.3333, "name": "effect/attack2_shx/attack2_shx_04" },
+					{ "time": 0.4, "name": "effect/attack2_shx/attack2_shx_06" },
+					{ "time": 0.4667, "name": "effect/attack2_shx/attack2_shx_08" },
+					{ "time": 0.5333, "name": "effect/attack2_shx/attack2_shx_10" },
+					{ "time": 0.6, "name": "effect/attack2_shx/attack2_shx_12" },
+					{ "time": 0.6667, "name": "effect/attack2_shx/attack2_shx_14" },
+					{ "time": 0.7333, "name": "effect/attack2_shx/attack2_shx_16" },
+					{ "time": 0.8, "name": "effect/attack2_shx/attack2_shx_18" },
+					{ "time": 0.8667, "name": null }
+				]
+			},
+			"effect/attack2_shx/attack2_shx_00": {
+				"attachment": [
+					{ "name": "effect/attack2_shx/attack2_shx_00" },
+					{ "time": 0.0667, "name": "effect/attack2_shx/attack2_shx_02" },
+					{ "time": 0.1333, "name": "effect/attack2_shx/attack2_shx_04" },
+					{ "time": 0.2, "name": "effect/attack2_shx/attack2_shx_06" },
+					{ "time": 0.2667, "name": "effect/attack2_shx/attack2_shx_08" },
+					{ "time": 0.3333, "name": "effect/attack2_shx/attack2_shx_10" },
+					{ "time": 0.4, "name": "effect/attack2_shx/attack2_shx_12" },
+					{ "time": 0.4667, "name": "effect/attack2_shx/attack2_shx_14" },
+					{ "time": 0.5333, "name": "effect/attack2_shx/attack2_shx_16" },
+					{ "time": 0.6, "name": "effect/attack2_shx/attack2_shx_18" },
+					{ "time": 0.6667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"attack_shx": {
+				"translate": [
+					{ "y": 522 }
+				]
+			},
+			"attack_shx2": {
+				"translate": [
+					{ "time": 0.2, "y": 522 }
+				]
+			}
+		}
+	}
+}
+}

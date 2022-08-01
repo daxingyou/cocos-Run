@@ -1,0 +1,46 @@
+{
+"skeleton": { "hash": "4O9kwmJUqsE1t/cYJNBqhvkcDdo", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "ChenQi", "scaleX": 2, "scaleY": 2 },
+	{ "name": "ChenQi_Attack_1_C_shang", "parent": "ChenQi", "rotation": 0.15 }
+],
+"slots": [
+	{ "name": "ChenQi_Attack_1_C_shang", "bone": "ChenQi_Attack_1_C_shang" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ChenQi_Attack_1_C_shang": {
+				"cq_bd01_00": { "width": 190, "height": 180 },
+				"cq_bd01_01": { "width": 190, "height": 180 },
+				"cq_bd01_03": { "width": 190, "height": 180 },
+				"cq_bd01_04": { "width": 190, "height": 180 },
+				"cq_bd01_05": { "width": 190, "height": 180 },
+				"cq_bd01_07": { "width": 190, "height": 180 },
+				"cq_bd01_08": { "width": 190, "height": 180 },
+				"cq_bd01_10": { "width": 190, "height": 180 }
+			}
+		}
+	}
+],
+"animations": {
+	"ChenQi_Attack_1_C_shang": {
+		"slots": {
+			"ChenQi_Attack_1_C_shang": {
+				"attachment": [
+					{ "name": "cq_bd01_00" },
+					{ "time": 0.0333, "name": "cq_bd01_01" },
+					{ "time": 0.1, "name": "cq_bd01_03" },
+					{ "time": 0.1333, "name": "cq_bd01_04" },
+					{ "time": 0.1667, "name": "cq_bd01_05" },
+					{ "time": 0.2333, "name": "cq_bd01_07" },
+					{ "time": 0.2667, "name": "cq_bd01_08" },
+					{ "time": 0.3, "name": "cq_bd01_10" },
+					{ "time": 0.3667, "name": null }
+				]
+			}
+		}
+	}
+}
+}

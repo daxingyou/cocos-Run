@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "68e92384-7616-4662-9e86-6a21646a58a1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 619,
+  "height": 505,
+  "platformSettings": {},
+  "subMetas": {
+    "BaiGuJing_ActiveSkill_Effect_1_A_shang": {
+      "ver": "1.0.6",
+      "uuid": "83f69a61-8736-4e6f-82ec-a2f604dd781d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "68e92384-7616-4662-9e86-6a21646a58a1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 615,
+      "height": 501,
+      "rawWidth": 619,
+      "rawHeight": 505,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

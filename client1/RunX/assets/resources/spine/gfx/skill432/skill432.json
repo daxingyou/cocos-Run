@@ -1,0 +1,113 @@
+{
+"skeleton": { "hash": "Ah9rh1DrY/il29ChFjd5njBX0KQ", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4614, "scaleY": 0.4614 },
+	{ "name": "Nessus_tx_9", "parent": "root", "length": 111.14, "rotation": 88.24, "x": 118.59, "y": -221.62 }
+],
+"slots": [
+	{ "name": "Nessus_tx_9", "bone": "Nessus_tx_9", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Nessus_tx_9": {
+				"Nessus_tx_9": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -16.43, -132.4, -24.12, 117.48, 245.75, 125.78, 253.44, -124.1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 250,
+					"height": 270
+				},
+				"Nessus_tx_10": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -16.43, -132.4, -24.12, 117.48, 245.75, 125.78, 253.44, -124.1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 250,
+					"height": 270
+				},
+				"Nessus_tx_11": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -16.43, -132.4, -24.12, 117.48, 245.75, 125.78, 253.44, -124.1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 250,
+					"height": 270
+				},
+				"Nessus_tx_12": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -16.43, -132.4, -24.12, 117.48, 245.75, 125.78, 253.44, -124.1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 250,
+					"height": 270
+				},
+				"Nessus_tx_13": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -16.43, -132.4, -24.12, 117.48, 245.75, 125.78, 253.44, -124.1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 250,
+					"height": 270
+				},
+				"Nessus_tx_14": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -16.43, -132.4, -24.12, 117.48, 245.75, 125.78, 253.44, -124.1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 250,
+					"height": 270
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill432": {
+		"slots": {
+			"Nessus_tx_9": {
+				"attachment": [
+					{ "name": "Nessus_tx_9" },
+					{ "time": 0.0333, "name": "Nessus_tx_10" },
+					{ "time": 0.0667, "name": "Nessus_tx_11" },
+					{ "time": 0.1, "name": "Nessus_tx_12" },
+					{ "time": 0.1333, "name": "Nessus_tx_13" },
+					{ "time": 0.1667, "name": "Nessus_tx_14" },
+					{ "time": 0.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Nessus_tx_9": {
+				"translate": [
+					{ "x": -366.34, "y": 224.69 },
+					{ "time": 0.1333, "x": -364.08, "y": 222.43 }
+				],
+				"scale": [
+					{ "x": 4.361, "y": 6.433 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1333, "name": "K" }
+		]
+	}
+}
+}

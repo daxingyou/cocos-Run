@@ -1,0 +1,174 @@
+{
+"skeleton": { "hash": "IecIf/VKD+JI6ZHEKP5zJXsUUAM", "spine": "3.8.99", "images": "./images/", "audio": "Z:/进行中的项目/张晨阳动效项目/第三批/特效项目/SR-玉面公主-a/特效" },
+"bones": [
+	{ "name": "root", "x": -6 },
+	{ "name": "txzong", "parent": "root", "x": 297.8, "y": 160.96 },
+	{ "name": "tx/qilang1_0001", "parent": "txzong", "x": 429.62, "y": -468.3 },
+	{ "name": "anguang2", "parent": "txzong", "x": 3130.01, "y": -93.55 },
+	{ "name": "tx/qilang1_1", "parent": "txzong", "x": 429.62, "y": -468.3 },
+	{ "name": "tx/qilang1_2", "parent": "txzong", "x": 429.62, "y": -468.3 },
+	{ "name": "tx/qilang1_3", "parent": "txzong", "x": 429.62, "y": -468.3 },
+	{ "name": "tx/qilang1_4", "parent": "txzong", "x": 429.62, "y": -468.3 }
+],
+"slots": [
+	{ "name": "anguang2", "bone": "anguang2" },
+	{ "name": "tx/qilang1_0001", "bone": "tx/qilang1_0001" },
+	{ "name": "tx/qilang1_4", "bone": "tx/qilang1_4" },
+	{ "name": "tx/qilang1_1", "bone": "tx/qilang1_1" },
+	{ "name": "tx/qilang1_3", "bone": "tx/qilang1_3" },
+	{ "name": "tx/qilang1_2", "bone": "tx/qilang1_2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"anguang2": {
+				"tx/guang": { "width": 90, "height": 91 }
+			},
+			"tx/qilang1_0001": {
+				"tx/qilang1_0001": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0002": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0003": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0004": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0005": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 }
+			},
+			"tx/qilang1_1": {
+				"tx/qilang1_0001": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0002": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0003": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0004": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0005": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 }
+			},
+			"tx/qilang1_2": {
+				"tx/qilang1_0001": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0002": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0003": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0004": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0005": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 }
+			},
+			"tx/qilang1_3": {
+				"tx/qilang1_0001": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0002": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0003": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0004": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0005": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 }
+			},
+			"tx/qilang1_4": {
+				"tx/qilang1_0001": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0002": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0003": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0004": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 },
+				"tx/qilang1_0005": { "x": 308.65, "y": -23.33, "scaleX": 4.3981, "scaleY": 4.3981, "width": 178, "height": 107 }
+			}
+		}
+	}
+],
+"animations": {
+	"action": {
+		"slots": {
+			"anguang2": {
+				"color": [
+					{ "time": 0.5, "color": "9c008761" },
+					{ "time": 0.5667, "color": "6c065ea8" },
+					{ "time": 0.7, "color": "9c008761" },
+					{ "time": 0.9667, "color": "9c008600" }
+				],
+				"attachment": [
+					{ "time": 0.5, "name": "tx/guang" }
+				]
+			},
+			"tx/qilang1_0001": {
+				"color": [
+					{ "time": 0.5, "color": "251034e1", "curve": "stepped" },
+					{ "time": 0.6333, "color": "251034e1" },
+					{ "time": 0.8333, "color": "25103400" }
+				],
+				"attachment": [
+					{ "time": 0.5, "name": "tx/qilang1_0001" },
+					{ "time": 0.5667, "name": "tx/qilang1_0002" },
+					{ "time": 0.6333, "name": "tx/qilang1_0003" },
+					{ "time": 0.7, "name": "tx/qilang1_0004" },
+					{ "time": 0.7667, "name": "tx/qilang1_0005" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"tx/qilang1_1": {
+				"color": [
+					{ "time": 0.6333, "color": "4a3b6b87", "curve": "stepped" },
+					{ "time": 0.7, "color": "4a3b6b87" },
+					{ "time": 0.9667, "color": "493b6b00" }
+				],
+				"attachment": [
+					{ "time": 0.6333, "name": "tx/qilang1_0001" },
+					{ "time": 0.7, "name": "tx/qilang1_0002" },
+					{ "time": 0.7667, "name": "tx/qilang1_0003" },
+					{ "time": 0.8333, "name": "tx/qilang1_0004" },
+					{ "time": 0.9, "name": "tx/qilang1_0005" },
+					{ "time": 0.9667, "name": null }
+				]
+			},
+			"tx/qilang1_4": {
+				"color": [
+					{ "time": 0.5, "color": "251034e1", "curve": "stepped" },
+					{ "time": 0.6333, "color": "251034e1" },
+					{ "time": 0.8333, "color": "25103400" }
+				],
+				"attachment": [
+					{ "time": 0.5, "name": "tx/qilang1_0001" },
+					{ "time": 0.5667, "name": "tx/qilang1_0002" },
+					{ "time": 0.6333, "name": "tx/qilang1_0003" },
+					{ "time": 0.7, "name": "tx/qilang1_0004" },
+					{ "time": 0.7667, "name": "tx/qilang1_0005" },
+					{ "time": 0.8333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"anguang2": {
+				"translate": [
+					{ "time": 0.5, "x": -3160.42, "y": -58.07 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 7.234, "y": 1.914 },
+					{ "time": 0.5667, "x": 13.152, "y": 3.479 },
+					{ "time": 0.9667, "x": 12.917, "y": 7.596 }
+				]
+			},
+			"tx/qilang1_0001": {
+				"translate": [
+					{ "time": 0.5, "x": -499.24, "y": 314.88 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 0.553, "y": 0.303 }
+				]
+			},
+			"tx/qilang1_1": {
+				"translate": [
+					{ "time": 0.6333, "x": -459.68, "y": 311.98 }
+				],
+				"scale": [
+					{ "time": 0.6333, "x": 0.592, "y": 0.324 }
+				]
+			},
+			"txzong": {
+				"translate": [
+					{ "x": -279.33, "y": -12.04 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "x": 1.819, "y": 1.819 }
+				]
+			},
+			"tx/qilang1_4": {
+				"translate": [
+					{ "time": 0.5, "x": -432.89, "y": 313.37 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": -0.478, "y": 0.303 }
+				]
+			}
+		}
+	}
+}
+}

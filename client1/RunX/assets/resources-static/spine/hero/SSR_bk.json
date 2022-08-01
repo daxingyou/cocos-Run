@@ -1,0 +1,74 @@
+{
+"skeleton": {
+	"hash": "LWknUqC2njhaY80QlrXsIho/gKQ",
+	"spine": "3.8.99",
+	"x": -95.84,
+	"y": -143.03,
+	"width": 208.36,
+	"height": 288.62,
+	"images": "",
+	"audio": "D:/work/ui/曹莹/ssr边框(1)/ssr边框"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": -4, "y": 5 },
+	{ "name": "Bianyuan", "parent": "bone" },
+	{
+		"name": "bone6",
+		"parent": "bone",
+		"rotation": -90,
+		"x": 12.34,
+		"y": -3.72,
+		"scaleX": 0.8908,
+		"scaleY": 1.2402
+	}
+],
+"slots": [
+	{ "name": "wfg", "bone": "bone", "attachment": "wfg", "blend": "additive" },
+	{ "name": "image 1", "bone": "bone6", "color": "f9a82cff", "attachment": "1/image 1", "blend": "additive" },
+	{ "name": "image 2", "bone": "bone6", "color": "f9a82cff", "attachment": "1/image 1", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"image 1": {
+				"1/image 1": { "width": 324, "height": 168 }
+			},
+			"image 2": {
+				"1/image 1": { "width": 324, "height": 168 }
+			},
+			"wfg": {
+				"wfg": { "x": 3.31, "y": -3.3, "scaleX": 0.99, "scaleY": 0.99, "width": 128, "height": 202 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"image 1": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "color": "bd74006c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"image 2": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "color": "bd74006c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"wfg": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "color": "ffffff42", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

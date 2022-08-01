@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "94edb1fa-e3fa-4d0a-b7d7-71e84bbfa41e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2048,
+  "height": 2048,
+  "platformSettings": {},
+  "subMetas": {
+    "ZhuRong_ActiveSkill_Effect_1_C_xia": {
+      "ver": "1.0.6",
+      "uuid": "bde0042e-1348-44fa-b37a-6de8904c8504",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "94edb1fa-e3fa-4d0a-b7d7-71e84bbfa41e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -4,
+      "offsetY": 356,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 2036,
+      "height": 1332,
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

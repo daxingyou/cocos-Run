@@ -1,0 +1,110 @@
+{
+"skeleton": {
+	"hash": "wNGyFjQYUhTjbKPrH+fItBss4sU",
+	"spine": "3.8.99",
+	"x": -59.95,
+	"y": -40.7,
+	"width": 150.72,
+	"height": 111.24,
+	"images": "./images/",
+	"audio": "D:/work/ui/倒计时-炸弹/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.55, "scaleY": 0.55 },
+	{ "name": "bone2", "parent": "bone", "x": 100.04, "y": 56.25 }
+],
+"slots": [
+	{ "name": "zhadan2", "bone": "bone", "attachment": "zhadan" },
+	{ "name": "zhadan3", "bone": "bone", "color": "ffffff8b", "attachment": "zhadan", "blend": "additive" },
+	{ "name": "ef01", "bone": "bone2", "attachment": "ef01" },
+	{ "name": "ef1", "bone": "bone2", "attachment": "ef01", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ef01": {
+				"ef01": { "y": 0.5, "width": 130, "height": 143 },
+				"ef02": { "y": 0.5, "width": 130, "height": 143 }
+			},
+			"ef1": {
+				"ef01": { "y": 0.5, "width": 130, "height": 143 },
+				"ef02": { "y": 0.5, "width": 130, "height": 143 }
+			},
+			"zhadan2": {
+				"zhadan": { "width": 218, "height": 148 }
+			},
+			"zhadan3": {
+				"zhadan": { "width": 218, "height": 148 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"ef01": {
+				"attachment": [
+					{ "name": "ef02" },
+					{ "time": 0.0667, "name": "ef01" },
+					{ "time": 0.1333, "name": "ef02" },
+					{ "time": 0.2, "name": "ef01" },
+					{ "time": 0.2667, "name": "ef02" },
+					{ "time": 0.3333, "name": "ef01" },
+					{ "time": 0.4, "name": "ef02" },
+					{ "time": 0.4667, "name": "ef01" },
+					{ "time": 0.5333, "name": "ef02" },
+					{ "time": 0.6, "name": "ef01" },
+					{ "time": 0.6667, "name": "ef02" },
+					{ "time": 0.7333, "name": "ef01" },
+					{ "time": 0.8, "name": "ef02" }
+				]
+			},
+			"ef1": {
+				"attachment": [
+					{ "name": "ef02" },
+					{ "time": 0.0667, "name": "ef01" },
+					{ "time": 0.1333, "name": "ef02" },
+					{ "time": 0.2, "name": "ef01" },
+					{ "time": 0.2667, "name": "ef02" },
+					{ "time": 0.3333, "name": "ef01" },
+					{ "time": 0.4, "name": "ef02" },
+					{ "time": 0.4667, "name": "ef01" },
+					{ "time": 0.5333, "name": "ef02" },
+					{ "time": 0.6, "name": "ef01" },
+					{ "time": 0.6667, "name": "ef02" },
+					{ "time": 0.7333, "name": "ef01" },
+					{ "time": 0.8, "name": "ef02" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "y": 2.7, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0667, "angle": -79.9, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 43.74, "curve": "stepped" },
+					{ "time": 0.2, "angle": -93.17, "curve": "stepped" },
+					{ "time": 0.2667, "angle": -29, "curve": "stepped" },
+					{ "time": 0.3333, "angle": -105.69, "curve": "stepped" },
+					{ "time": 0.4, "curve": "stepped" },
+					{ "time": 0.4667, "angle": -45.82, "curve": "stepped" },
+					{ "time": 0.5333, "curve": "stepped" },
+					{ "time": 0.6, "angle": -106.44, "curve": "stepped" },
+					{ "time": 0.6667, "curve": "stepped" },
+					{ "time": 0.7333, "angle": -61.48, "curve": "stepped" },
+					{ "time": 0.8 }
+				]
+			}
+		}
+	}
+}
+}

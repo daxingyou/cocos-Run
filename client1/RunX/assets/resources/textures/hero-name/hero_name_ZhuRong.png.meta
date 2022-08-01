@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9841ad1f-e49e-4b16-a177-9b259f1e0a28",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 63,
+  "height": 240,
+  "platformSettings": {},
+  "subMetas": {
+    "hero_name_ZhuRong": {
+      "ver": "1.0.6",
+      "uuid": "a8994bda-0128-4a79-9fad-3de57ab42afb",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9841ad1f-e49e-4b16-a177-9b259f1e0a28",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 64,
+      "trimX": 2,
+      "trimY": 0,
+      "width": 59,
+      "height": 112,
+      "rawWidth": 63,
+      "rawHeight": 240,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

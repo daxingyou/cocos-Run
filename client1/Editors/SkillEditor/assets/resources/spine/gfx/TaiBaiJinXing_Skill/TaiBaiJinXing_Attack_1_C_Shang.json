@@ -1,0 +1,321 @@
+{
+"skeleton": { "hash": "qXXgu20w2KcniWWFbK7RhU435N0", "spine": "3.8.99", "images": "./images/", "audio": "H:/波波外包/new/太白金星/SSR-太白金星" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "attack1", "parent": "eft" },
+	{ "name": "guangzhu", "parent": "attack1", "x": -1323.17, "y": 213.86 },
+	{ "name": "ssguangzhu", "parent": "attack1", "x": -1323.17, "y": 213.86 },
+	{ "name": "atk1_baodian", "parent": "attack1", "x": -1323.17, "y": 213.86 },
+	{ "name": "guangquan_1_2", "parent": "attack1", "x": -1323.17, "y": 213.86 },
+	{ "name": "guangquan_1R2", "parent": "guangquan_1_2" },
+	{ "name": "guangquan_2_2", "parent": "attack1", "x": -1323.17, "y": 213.86 },
+	{ "name": "guangquan_2R2", "parent": "guangquan_2_2" }
+],
+"slots": [
+	{ "name": "guangzhu", "bone": "guangzhu", "blend": "additive" },
+	{ "name": "ssguangzhu", "bone": "ssguangzhu", "blend": "additive" },
+	{ "name": "atk1_baodian", "bone": "atk1_baodian", "blend": "additive" },
+	{ "name": "guangquan_4", "bone": "guangquan_2R2", "blend": "additive" },
+	{ "name": "guangquan_1R2", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R3", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R4", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R6", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R7", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R8", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R9", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R10", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R11", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R12", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R13", "bone": "guangquan_1R2", "blend": "additive" },
+	{ "name": "guangquan_1R14", "bone": "guangquan_1R2", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"atk1_baodian": {
+				"eft/attack1/atk1_baodian/atk1_baodian_0039": { "width": 600, "height": 600 },
+				"eft/attack1/atk1_baodian/atk1_baodian_0041": { "width": 600, "height": 600 },
+				"eft/attack1/atk1_baodian/atk1_baodian_0043": { "width": 600, "height": 600 },
+				"eft/attack1/atk1_baodian/atk1_baodian_0045": { "width": 600, "height": 600 },
+				"eft/attack1/atk1_baodian/atk1_baodian_0047": { "width": 600, "height": 600 }
+			},
+			"guangquan_1R2": {
+				"eft/attack1/guangquan_1_0000A": { "x": 83.49, "y": 68.75, "rotation": -51.32, "width": 63, "height": 29 }
+			},
+			"guangquan_1R3": {
+				"eft/attack1/guangquan_1_0000A": { "x": 109.15, "y": 18.52, "rotation": -81.4, "width": 63, "height": 29 }
+			},
+			"guangquan_1R4": {
+				"eft/attack1/guangquan_1_0000A": { "x": 102.06, "y": -42.63, "rotation": -114.06, "width": 63, "height": 29 }
+			},
+			"guangquan_1R6": {
+				"eft/attack1/guangquan_1_0000A": { "x": 68.75, "y": -86.86, "rotation": -145.56, "width": 63, "height": 29 }
+			},
+			"guangquan_1R7": {
+				"eft/attack1/guangquan_1_0000A": { "x": 17.43, "y": -110.34, "rotation": -172.3, "width": 63, "height": 29 }
+			},
+			"guangquan_1R8": {
+				"eft/attack1/guangquan_1_0000A": { "x": -38.81, "y": -103.79, "rotation": 154.98, "width": 63, "height": 29 }
+			},
+			"guangquan_1R9": {
+				"eft/attack1/guangquan_1_0000A": { "x": -83.04, "y": -71.03, "rotation": 127.09, "width": 63, "height": 29 }
+			},
+			"guangquan_1R10": {
+				"eft/attack1/guangquan_1_0000A": { "x": -108.15, "y": -20.79, "rotation": 97.43, "width": 63, "height": 29 }
+			},
+			"guangquan_1R11": {
+				"eft/attack1/guangquan_1_0000A": { "x": -102.69, "y": 36.54, "rotation": 67.27, "width": 63, "height": 29 }
+			},
+			"guangquan_1R12": {
+				"eft/attack1/guangquan_1_0000A": { "x": -69.93, "y": 81.31, "rotation": 38.03, "width": 63, "height": 29 }
+			},
+			"guangquan_1R13": {
+				"eft/attack1/guangquan_1_0000A": { "x": -18.61, "y": 105.88, "rotation": 5.89, "width": 63, "height": 29 }
+			},
+			"guangquan_1R14": {
+				"eft/attack1/guangquan_1_0000A": { "x": 36.54, "y": 100.96, "rotation": -22.68, "width": 63, "height": 29 }
+			},
+			"guangquan_4": {
+				"eft/attack1/guangquan_2_0000": { "width": 600, "height": 600 }
+			},
+			"guangzhu": {
+				"eft/attack1/guangzhu_0038": { "width": 600, "height": 600 }
+			},
+			"ssguangzhu": {
+				"eft/attack1/ssguangzhu/ssguangzhu_0038": { "width": 600, "height": 600 },
+				"eft/attack1/ssguangzhu/ssguangzhu_0041": { "width": 600, "height": 600 },
+				"eft/attack1/ssguangzhu/ssguangzhu_0044": { "width": 600, "height": 600 },
+				"eft/attack1/ssguangzhu/ssguangzhu_0047": { "width": 600, "height": 600 },
+				"eft/attack1/ssguangzhu/ssguangzhu_0050": { "width": 600, "height": 600 },
+				"eft/attack1/ssguangzhu/ssguangzhu_0053": { "width": 600, "height": 600 },
+				"eft/attack1/ssguangzhu/ssguangzhu_0056": { "width": 600, "height": 600 },
+				"eft/attack1/ssguangzhu/ssguangzhu_0059": { "width": 600, "height": 600 },
+				"eft/attack1/ssguangzhu/ssguangzhu_0062": { "width": 600, "height": 600 },
+				"eft/attack1/ssguangzhu/ssguangzhu_0065": { "width": 600, "height": 600 },
+				"eft/attack1/ssguangzhu/ssguangzhu_0068": { "width": 600, "height": 600 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack1": {
+		"slots": {
+			"atk1_baodian": {
+				"attachment": [
+					{ "time": 1.3, "name": "eft/attack1/atk1_baodian/atk1_baodian_0039" },
+					{ "time": 1.3667, "name": "eft/attack1/atk1_baodian/atk1_baodian_0041" },
+					{ "time": 1.4333, "name": "eft/attack1/atk1_baodian/atk1_baodian_0043" },
+					{ "time": 1.5, "name": "eft/attack1/atk1_baodian/atk1_baodian_0045" },
+					{ "time": 1.5667, "name": "eft/attack1/atk1_baodian/atk1_baodian_0047" },
+					{ "time": 1.6, "name": null }
+				]
+			},
+			"guangquan_1R2": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R3": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R4": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R6": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R7": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R8": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R9": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R10": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R11": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R12": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R13": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_1R14": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_1_0000A" }
+				]
+			},
+			"guangquan_4": {
+				"color": [
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9333, "name": "eft/attack1/guangquan_2_0000" },
+					{ "time": 1.7, "name": null }
+				]
+			},
+			"guangzhu": {
+				"color": [
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 1.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.2667, "name": "eft/attack1/guangzhu_0038" },
+					{ "time": 1.7333, "name": null }
+				]
+			},
+			"ssguangzhu": {
+				"attachment": [
+					{ "time": 1.2667, "name": "eft/attack1/ssguangzhu/ssguangzhu_0038" },
+					{ "time": 1.3667, "name": "eft/attack1/ssguangzhu/ssguangzhu_0041" },
+					{ "time": 1.4667, "name": "eft/attack1/ssguangzhu/ssguangzhu_0044" },
+					{ "time": 1.5667, "name": "eft/attack1/ssguangzhu/ssguangzhu_0047" },
+					{ "time": 1.6667, "name": "eft/attack1/ssguangzhu/ssguangzhu_0050" },
+					{ "time": 1.7667, "name": "eft/attack1/ssguangzhu/ssguangzhu_0053" },
+					{ "time": 1.8667, "name": "eft/attack1/ssguangzhu/ssguangzhu_0056" },
+					{ "time": 1.9667, "name": "eft/attack1/ssguangzhu/ssguangzhu_0059" },
+					{ "time": 2.0667, "name": "eft/attack1/ssguangzhu/ssguangzhu_0062" },
+					{ "time": 2.1667, "name": "eft/attack1/ssguangzhu/ssguangzhu_0065" },
+					{ "time": 2.2667, "name": "eft/attack1/ssguangzhu/ssguangzhu_0068" },
+					{ "time": 2.3, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guangzhu": {
+				"translate": [
+					{ "time": 1.2667, "x": 1308.06, "y": 314.34 }
+				],
+				"scale": [
+					{ "time": 1.2667, "x": 3, "y": 5.2 },
+					{ "time": 1.4667, "x": 4.56, "y": 5.2 },
+					{ "time": 1.7, "x": 5.4, "y": 5.2 }
+				]
+			},
+			"ssguangzhu": {
+				"translate": [
+					{ "time": 1.2667, "x": 1302.43, "y": 175.4 }
+				],
+				"scale": [
+					{ "time": 1.2667, "x": 3, "y": 4 }
+				]
+			},
+			"atk1_baodian": {
+				"translate": [
+					{ "time": 1.3, "x": 1344 }
+				],
+				"scale": [
+					{ "time": 1.3, "x": 4, "y": 4 }
+				]
+			},
+			"guangquan_1R2": {
+				"rotate": [
+					{ "time": 0.9333 },
+					{ "time": 1.8333, "angle": 90 }
+				]
+			},
+			"guangquan_1_2": {
+				"translate": [
+					{ "time": 0.9333, "x": 1341.06, "y": 545.08 }
+				],
+				"scale": [
+					{ "time": 0.9333, "x": 1.1, "y": 0.44, "curve": 0, "c2": 0.37, "c3": 0.365 },
+					{ "time": 1.2333, "x": 4, "y": 1.6 }
+				]
+			},
+			"guangquan_2R2": {
+				"rotate": [
+					{ "time": 0.9333 },
+					{ "time": 1.8333, "angle": -90 }
+				]
+			},
+			"guangquan_2_2": {
+				"translate": [
+					{ "time": 0.9333, "x": 1341.06, "y": 545.08, "curve": 0, "c2": 0.24, "c3": 0.75 },
+					{ "time": 1.3, "x": 1341.06, "y": -242.26 }
+				],
+				"scale": [
+					{ "time": 0.9333, "x": 1.5, "y": 0.6, "curve": 0, "c2": 0.24, "c3": 0.75 },
+					{ "time": 1.3, "x": 4.5, "y": 1.8 }
+				]
+			}
+		}
+	}
+}
+}

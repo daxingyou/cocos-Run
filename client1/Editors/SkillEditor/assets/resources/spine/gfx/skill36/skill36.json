@@ -1,0 +1,79 @@
+{
+"skeleton": { "hash": "JAssIrNfU0jamvtHpfIBJH/tmoY", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/精卫" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.483, "scaleY": 0.483 },
+	{
+		"name": "yanwu0001",
+		"parent": "bone",
+		"length": 145.2,
+		"rotation": 179.06,
+		"x": 297.23,
+		"y": -127.26,
+		"scaleX": 0.483,
+		"scaleY": 0.483
+	}
+],
+"slots": [
+	{ "name": "yanwu0001", "bone": "yanwu0001" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yanwu0001": {
+				"yanwu0001": { "x": 239.78, "y": -34.15, "rotation": -179.06, "width": 500, "height": 199 },
+				"yanwu0002": { "x": 239.78, "y": -34.15, "rotation": -179.06, "width": 500, "height": 199 },
+				"yanwu0003": { "x": 239.78, "y": -34.15, "rotation": -179.06, "width": 500, "height": 199 },
+				"yanwu0004": { "x": 239.78, "y": -34.15, "rotation": -179.06, "width": 500, "height": 199 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill36": {
+		"slots": {
+			"yanwu0001": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "yanwu0001" },
+					{ "time": 0.0333, "name": "yanwu0002" },
+					{ "time": 0.0667, "name": "yanwu0003" },
+					{ "time": 0.1, "name": "yanwu0004" },
+					{ "time": 0.1333, "name": "yanwu0001" },
+					{ "time": 0.1667, "name": "yanwu0002" },
+					{ "time": 0.2, "name": "yanwu0003" },
+					{ "time": 0.2333, "name": "yanwu0004" },
+					{ "time": 0.2667, "name": "yanwu0001" },
+					{ "time": 0.3, "name": "yanwu0002" },
+					{ "time": 0.3333, "name": "yanwu0003" },
+					{ "time": 0.3667, "name": "yanwu0004" },
+					{ "time": 0.4, "name": "yanwu0001" },
+					{ "time": 0.4333, "name": "yanwu0002" },
+					{ "time": 0.4667, "name": "yanwu0003" },
+					{ "time": 0.5, "name": "yanwu0004" }
+				]
+			}
+		},
+		"bones": {
+			"yanwu0001": {
+				"translate": [
+					{ "x": 292.46, "y": 140.12 }
+				],
+				"scale": [
+					{ "x": 1.655, "y": 1.655 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.9333, "name": "k" }
+		]
+	}
+}
+}

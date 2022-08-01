@@ -1,0 +1,56 @@
+{
+"skeleton": { "hash": "mJr8e7WavrqEoiNbG1lnME3/q2Q", "spine": "3.8.99", "images": "./images/", "audio": "E:/搬砖/门/内部/第一批美佳美(4)/第一批美佳美/SR-金角大王-a/SSR_05金角大王" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx", "parent": "root" },
+	{ "name": "attack2", "parent": "fx" }
+],
+"slots": [
+	{ "name": "eft/attack_baodian2/attack_baodian2_00029", "bone": "attack2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"eft/attack_baodian2/attack_baodian2_00029": {
+				"eft/attack_baodian2/attack_baodian2_00029": { "width": 550, "height": 321 },
+				"eft/attack_baodian2/attack_baodian2_00031": { "width": 550, "height": 321 },
+				"eft/attack_baodian2/attack_baodian2_00033": { "width": 550, "height": 321 },
+				"eft/attack_baodian2/attack_baodian2_00035": { "width": 550, "height": 321 },
+				"eft/attack_baodian2/attack_baodian2_00037": { "width": 550, "height": 321 },
+				"eft/attack_baodian2/attack_baodian2_00039": { "width": 550, "height": 321 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack2": {
+		"slots": {
+			"eft/attack_baodian2/attack_baodian2_00029": {
+				"attachment": [
+					{ "time": 0.3, "name": "eft/attack_baodian2/attack_baodian2_00029" },
+					{ "time": 0.3667, "name": "eft/attack_baodian2/attack_baodian2_00031" },
+					{ "time": 0.4333, "name": "eft/attack_baodian2/attack_baodian2_00033" },
+					{ "time": 0.5, "name": "eft/attack_baodian2/attack_baodian2_00035" },
+					{ "time": 0.5667, "name": "eft/attack_baodian2/attack_baodian2_00037" },
+					{ "time": 0.6333, "name": "eft/attack_baodian2/attack_baodian2_00039" },
+					{ "time": 0.6667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"attack2": {
+				"translate": [
+					{},
+					{ "time": 0.3, "x": 334.88, "y": 325.22 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.3, "x": 3, "y": 3, "curve": "stepped" },
+					{ "time": 1.1, "x": 3, "y": 3 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,770 @@
+{
+"skeleton": { "hash": "DS6nRNZ87Ue6EezIAFyjwGrjUIE", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "dsqzt", "parent": "effect" },
+	{ "name": "dsqsh", "parent": "dsqzt" },
+	{ "name": "dsq", "parent": "dsqzt" },
+	{ "name": "shuidao", "parent": "effect" },
+	{ "name": "sd", "parent": "shuidao" },
+	{ "name": "sdcj", "parent": "shuidao" },
+	{ "name": "sdtw", "parent": "shuidao" },
+	{ "name": "sd2", "parent": "shuidao" },
+	{ "name": "sdcj2", "parent": "shuidao" },
+	{ "name": "sdtw2", "parent": "shuidao" },
+	{ "name": "sd3", "parent": "shuidao" },
+	{ "name": "sdcj3", "parent": "shuidao" },
+	{ "name": "sdtw3", "parent": "shuidao" },
+	{ "name": "sd4", "parent": "shuidao" },
+	{ "name": "sdcj4", "parent": "shuidao" },
+	{ "name": "sdtw4", "parent": "shuidao" },
+	{ "name": "sd5", "parent": "shuidao" },
+	{ "name": "sdcj5", "parent": "shuidao" },
+	{ "name": "sdtw5", "parent": "shuidao" },
+	{ "name": "dbz", "parent": "effect" }
+],
+"slots": [
+	{ "name": "effect/gg_skill_sdcj/gg_skill_sdcj_00", "bone": "sdcj" },
+	{ "name": "effect/gg_skill_sdcj/gg_skill_sdcj_1", "bone": "sdcj3" },
+	{ "name": "effect/gg_skill_sdcj/gg_skill_sdcj_2", "bone": "sdcj4" },
+	{ "name": "effect/gg_skill_sdcj/gg_skill_sdcj_3", "bone": "sdcj5" },
+	{ "name": "effect/gg_skill_sdcj/gg_skill_sdcj_0", "bone": "sdcj2" },
+	{ "name": "effect/gg_skill_sdtw/gg_skill_sdtw_00", "bone": "sdtw" },
+	{ "name": "effect/gg_skill_sdtw/gg_skill_sdtw_1", "bone": "sdtw3" },
+	{ "name": "effect/gg_skill_sdtw/gg_skill_sdtw_2", "bone": "sdtw4" },
+	{ "name": "effect/gg_skill_sdtw/gg_skill_sdtw_3", "bone": "sdtw5" },
+	{ "name": "effect/gg_skill_sdtw/gg_skill_sdtw_0", "bone": "sdtw2" },
+	{ "name": "effect/gg_skill_sd/gg_skill_sd_16", "bone": "sd" },
+	{ "name": "effect/gg_skill_sd/gg_skill_sd_1", "bone": "sd3" },
+	{ "name": "effect/gg_skill_sd/gg_skill_sd_2", "bone": "sd4" },
+	{ "name": "effect/gg_skill_sd/gg_skill_sd_3", "bone": "sd5" },
+	{ "name": "effect/gg_skill_sd/gg_skill_sd_0", "bone": "sd2" },
+	{ "name": "effect/gg_skill_dsq/gg_skill_dsq_00", "bone": "dsq" },
+	{ "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00", "bone": "dsqsh", "blend": "additive" },
+	{ "name": "effect/gg_skill_dsbz/gg_skill_dsbz_00", "bone": "dbz" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"effect/gg_skill_dsbz/gg_skill_dsbz_00": {
+				"effect/gg_skill_dsbz/gg_skill_dsbz_00": { "width": 313, "height": 225 },
+				"effect/gg_skill_dsbz/gg_skill_dsbz_01": { "width": 313, "height": 225 },
+				"effect/gg_skill_dsbz/gg_skill_dsbz_02": { "width": 313, "height": 225 },
+				"effect/gg_skill_dsbz/gg_skill_dsbz_04": { "width": 313, "height": 225 },
+				"effect/gg_skill_dsbz/gg_skill_dsbz_06": { "width": 313, "height": 225 },
+				"effect/gg_skill_dsbz/gg_skill_dsbz_08": { "width": 313, "height": 225 },
+				"effect/gg_skill_dsbz/gg_skill_dsbz_10": { "width": 313, "height": 225 },
+				"effect/gg_skill_dsbz/gg_skill_dsbz_12": { "width": 313, "height": 225 },
+				"effect/gg_skill_dsbz/gg_skill_dsbz_14": { "width": 313, "height": 225 },
+				"effect/gg_skill_dsbz/gg_skill_dsbz_16": { "width": 313, "height": 225 }
+			},
+			"effect/gg_skill_dsq/gg_skill_dsq_00": {
+				"effect/gg_skill_dsq/gg_skill_dsq_14": { "width": 138, "height": 100 },
+				"effect/gg_skill_dsq/gg_skill_dsq_16": { "width": 138, "height": 100 },
+				"effect/gg_skill_dsq/gg_skill_dsq_18": { "width": 138, "height": 100 },
+				"effect/gg_skill_dsq/gg_skill_dsq_20": { "width": 138, "height": 100 },
+				"effect/gg_skill_dsq/gg_skill_dsq_22": { "width": 138, "height": 100 },
+				"effect/gg_skill_dsq/gg_skill_dsq_24": { "width": 138, "height": 100 },
+				"effect/gg_skill_dsq/gg_skill_dsq_26": { "width": 138, "height": 100 },
+				"effect/gg_skill_dsq/gg_skill_dsq_28": { "width": 138, "height": 100 },
+				"effect/gg_skill_dsq/gg_skill_dsq_30": { "width": 138, "height": 100 }
+			},
+			"effect/gg_skill_dsqsh/gg_skill_dsqsh_00": {
+				"effect/gg_skill_dsqsh/gg_skill_dsqsh_00": { "width": 250, "height": 75 },
+				"effect/gg_skill_dsqsh/gg_skill_dsqsh_02": { "width": 250, "height": 75 },
+				"effect/gg_skill_dsqsh/gg_skill_dsqsh_04": { "width": 250, "height": 75 }
+			},
+			"effect/gg_skill_sd/gg_skill_sd_0": {
+				"effect/gg_skill_sd/gg_skill_sd_16": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_18": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_20": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_22": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_24": { "width": 175, "height": 50 }
+			},
+			"effect/gg_skill_sd/gg_skill_sd_1": {
+				"effect/gg_skill_sd/gg_skill_sd_16": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_18": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_20": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_22": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_24": { "width": 175, "height": 50 }
+			},
+			"effect/gg_skill_sd/gg_skill_sd_2": {
+				"effect/gg_skill_sd/gg_skill_sd_16": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_18": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_20": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_22": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_24": { "width": 175, "height": 50 }
+			},
+			"effect/gg_skill_sd/gg_skill_sd_3": {
+				"effect/gg_skill_sd/gg_skill_sd_16": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_18": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_20": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_22": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_24": { "width": 175, "height": 50 }
+			},
+			"effect/gg_skill_sd/gg_skill_sd_16": {
+				"effect/gg_skill_sd/gg_skill_sd_16": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_18": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_20": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_22": { "width": 175, "height": 50 },
+				"effect/gg_skill_sd/gg_skill_sd_24": { "width": 175, "height": 50 }
+			},
+			"effect/gg_skill_sdcj/gg_skill_sdcj_0": {
+				"effect/gg_skill_sdcj/gg_skill_sdcj_00": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_02": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_04": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_06": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_12": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_18": { "width": 150, "height": 200 }
+			},
+			"effect/gg_skill_sdcj/gg_skill_sdcj_00": {
+				"effect/gg_skill_sdcj/gg_skill_sdcj_00": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_02": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_04": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_06": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_12": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_18": { "width": 150, "height": 200 }
+			},
+			"effect/gg_skill_sdcj/gg_skill_sdcj_1": {
+				"effect/gg_skill_sdcj/gg_skill_sdcj_00": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_02": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_04": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_06": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_12": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_18": { "width": 150, "height": 200 }
+			},
+			"effect/gg_skill_sdcj/gg_skill_sdcj_2": {
+				"effect/gg_skill_sdcj/gg_skill_sdcj_00": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_02": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_04": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_06": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_12": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_18": { "width": 150, "height": 200 }
+			},
+			"effect/gg_skill_sdcj/gg_skill_sdcj_3": {
+				"effect/gg_skill_sdcj/gg_skill_sdcj_00": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_02": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_04": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_06": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_12": { "width": 150, "height": 200 },
+				"effect/gg_skill_sdcj/gg_skill_sdcj_18": { "width": 150, "height": 200 }
+			},
+			"effect/gg_skill_sdtw/gg_skill_sdtw_0": {
+				"effect/gg_skill_sdtw/gg_skill_sdtw_01": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_03": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_05": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_07": { "width": 75, "height": 350 }
+			},
+			"effect/gg_skill_sdtw/gg_skill_sdtw_00": {
+				"effect/gg_skill_sdtw/gg_skill_sdtw_01": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_03": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_05": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_07": { "width": 75, "height": 350 }
+			},
+			"effect/gg_skill_sdtw/gg_skill_sdtw_1": {
+				"effect/gg_skill_sdtw/gg_skill_sdtw_01": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_03": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_05": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_07": { "width": 75, "height": 350 }
+			},
+			"effect/gg_skill_sdtw/gg_skill_sdtw_2": {
+				"effect/gg_skill_sdtw/gg_skill_sdtw_01": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_03": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_05": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_07": { "width": 75, "height": 350 }
+			},
+			"effect/gg_skill_sdtw/gg_skill_sdtw_3": {
+				"effect/gg_skill_sdtw/gg_skill_sdtw_01": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_03": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_05": { "width": 75, "height": 350 },
+				"effect/gg_skill_sdtw/gg_skill_sdtw_07": { "width": 75, "height": 350 }
+			}
+		}
+	}
+],
+"animations": {
+	"Skill": {
+		"slots": {
+			"effect/gg_skill_dsbz/gg_skill_dsbz_00": {
+				"attachment": [
+					{ "time": 3.1333, "name": "effect/gg_skill_dsbz/gg_skill_dsbz_00" },
+					{ "time": 3.1667, "name": "effect/gg_skill_dsbz/gg_skill_dsbz_01" },
+					{ "time": 3.2, "name": "effect/gg_skill_dsbz/gg_skill_dsbz_02" },
+					{ "time": 3.2667, "name": "effect/gg_skill_dsbz/gg_skill_dsbz_04" },
+					{ "time": 3.3333, "name": "effect/gg_skill_dsbz/gg_skill_dsbz_06" },
+					{ "time": 3.4, "name": "effect/gg_skill_dsbz/gg_skill_dsbz_08" },
+					{ "time": 3.4667, "name": "effect/gg_skill_dsbz/gg_skill_dsbz_10" },
+					{ "time": 3.5333, "name": "effect/gg_skill_dsbz/gg_skill_dsbz_12" },
+					{ "time": 3.6, "name": "effect/gg_skill_dsbz/gg_skill_dsbz_14" },
+					{ "time": 3.6667, "name": "effect/gg_skill_dsbz/gg_skill_dsbz_16" },
+					{ "time": 3.7333, "name": null }
+				]
+			},
+			"effect/gg_skill_dsq/gg_skill_dsq_00": {
+				"attachment": [
+					{ "name": "effect/gg_skill_dsq/gg_skill_dsq_14" },
+					{ "time": 0.0667, "name": "effect/gg_skill_dsq/gg_skill_dsq_16" },
+					{ "time": 0.1333, "name": "effect/gg_skill_dsq/gg_skill_dsq_18" },
+					{ "time": 0.2, "name": "effect/gg_skill_dsq/gg_skill_dsq_20" },
+					{ "time": 0.2667, "name": "effect/gg_skill_dsq/gg_skill_dsq_22" },
+					{ "time": 0.3333, "name": "effect/gg_skill_dsq/gg_skill_dsq_24" },
+					{ "time": 0.4, "name": "effect/gg_skill_dsq/gg_skill_dsq_26" },
+					{ "time": 0.4667, "name": "effect/gg_skill_dsq/gg_skill_dsq_28" },
+					{ "time": 0.5333, "name": "effect/gg_skill_dsq/gg_skill_dsq_30" },
+					{ "time": 0.6, "name": "effect/gg_skill_dsq/gg_skill_dsq_14" },
+					{ "time": 0.6667, "name": "effect/gg_skill_dsq/gg_skill_dsq_16" },
+					{ "time": 0.7333, "name": "effect/gg_skill_dsq/gg_skill_dsq_18" },
+					{ "time": 0.8, "name": "effect/gg_skill_dsq/gg_skill_dsq_20" },
+					{ "time": 0.8667, "name": "effect/gg_skill_dsq/gg_skill_dsq_22" },
+					{ "time": 0.9333, "name": "effect/gg_skill_dsq/gg_skill_dsq_24" },
+					{ "time": 1, "name": "effect/gg_skill_dsq/gg_skill_dsq_26" },
+					{ "time": 1.0667, "name": "effect/gg_skill_dsq/gg_skill_dsq_28" },
+					{ "time": 1.1333, "name": "effect/gg_skill_dsq/gg_skill_dsq_30" },
+					{ "time": 1.2, "name": "effect/gg_skill_dsq/gg_skill_dsq_14" },
+					{ "time": 1.2667, "name": "effect/gg_skill_dsq/gg_skill_dsq_16" },
+					{ "time": 1.3333, "name": "effect/gg_skill_dsq/gg_skill_dsq_18" },
+					{ "time": 1.4, "name": "effect/gg_skill_dsq/gg_skill_dsq_20" },
+					{ "time": 1.4667, "name": "effect/gg_skill_dsq/gg_skill_dsq_22" },
+					{ "time": 1.5333, "name": "effect/gg_skill_dsq/gg_skill_dsq_24" },
+					{ "time": 1.6, "name": "effect/gg_skill_dsq/gg_skill_dsq_26" },
+					{ "time": 1.6667, "name": "effect/gg_skill_dsq/gg_skill_dsq_28" },
+					{ "time": 1.7333, "name": "effect/gg_skill_dsq/gg_skill_dsq_30" },
+					{ "time": 1.8, "name": "effect/gg_skill_dsq/gg_skill_dsq_14" },
+					{ "time": 1.8667, "name": "effect/gg_skill_dsq/gg_skill_dsq_16" },
+					{ "time": 1.9333, "name": "effect/gg_skill_dsq/gg_skill_dsq_18" },
+					{ "time": 2, "name": "effect/gg_skill_dsq/gg_skill_dsq_20" },
+					{ "time": 2.0667, "name": "effect/gg_skill_dsq/gg_skill_dsq_22" },
+					{ "time": 2.1333, "name": "effect/gg_skill_dsq/gg_skill_dsq_24" },
+					{ "time": 2.2, "name": "effect/gg_skill_dsq/gg_skill_dsq_26" },
+					{ "time": 2.2667, "name": "effect/gg_skill_dsq/gg_skill_dsq_28" },
+					{ "time": 2.3333, "name": "effect/gg_skill_dsq/gg_skill_dsq_30" },
+					{ "time": 2.4, "name": "effect/gg_skill_dsq/gg_skill_dsq_14" },
+					{ "time": 2.4667, "name": "effect/gg_skill_dsq/gg_skill_dsq_16" },
+					{ "time": 2.5333, "name": "effect/gg_skill_dsq/gg_skill_dsq_18" },
+					{ "time": 2.6, "name": "effect/gg_skill_dsq/gg_skill_dsq_20" },
+					{ "time": 2.6667, "name": "effect/gg_skill_dsq/gg_skill_dsq_22" },
+					{ "time": 2.7333, "name": "effect/gg_skill_dsq/gg_skill_dsq_24" },
+					{ "time": 2.8, "name": "effect/gg_skill_dsq/gg_skill_dsq_26" },
+					{ "time": 2.8667, "name": "effect/gg_skill_dsq/gg_skill_dsq_28" },
+					{ "time": 2.9333, "name": "effect/gg_skill_dsq/gg_skill_dsq_30" },
+					{ "time": 3, "name": "effect/gg_skill_dsq/gg_skill_dsq_14" },
+					{ "time": 3.0667, "name": "effect/gg_skill_dsq/gg_skill_dsq_16" },
+					{ "time": 3.1333, "name": "effect/gg_skill_dsq/gg_skill_dsq_18" },
+					{ "time": 3.1667, "name": null }
+				]
+			},
+			"effect/gg_skill_dsqsh/gg_skill_dsqsh_00": {
+				"attachment": [
+					{ "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 0.0667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 0.1333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 0.2, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 0.2667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 0.3333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 0.4, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 0.4667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 0.5333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 0.6, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 0.6667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 0.7333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 0.8, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 0.8667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 0.9333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 1, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 1.0667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 1.1333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 1.2, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 1.2667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 1.3333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 1.4, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 1.4667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 1.5333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 1.6, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 1.6667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 1.7333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 1.8, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 1.8667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 1.9333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 2, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 2.0667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 2.1333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 2.2, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 2.2667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 2.3333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 2.4, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 2.4667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 2.5333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 2.6, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 2.6667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 2.7333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 2.8, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 2.8667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 2.9333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 3, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_00" },
+					{ "time": 3.0667, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_02" },
+					{ "time": 3.1333, "name": "effect/gg_skill_dsqsh/gg_skill_dsqsh_04" },
+					{ "time": 3.1667, "name": null }
+				]
+			},
+			"effect/gg_skill_sd/gg_skill_sd_0": {
+				"color": [
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 0.7333, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 0.8, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 0.8667, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 0.9333, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 1, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.0667, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.1333, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.2, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.2667, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 1.3333, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.4, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.4667, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.5333, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.6, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 1.6667, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.7333, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.8, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.8667, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.9333, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"effect/gg_skill_sd/gg_skill_sd_1": {
+				"color": [
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 1, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.0667, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.1333, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.2, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.2667, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 1.3333, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.4, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.4667, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.5333, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.6, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 1.6667, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.7333, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.8, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.8667, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.9333, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 2, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 2.0667, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 2.1333, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 2.2, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 2.2667, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"effect/gg_skill_sd/gg_skill_sd_2": {
+				"color": [
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 1, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.0667, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.1333, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.2, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.2667, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 1.3333, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.4, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.4667, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.5333, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.6, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 1.6667, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.7333, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.8, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.8667, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.9333, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 2, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 2.0667, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 2.1333, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 2.2, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 2.2667, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"effect/gg_skill_sd/gg_skill_sd_3": {
+				"color": [
+					{ "time": 1.3333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 1.3333, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.4, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.4667, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.5333, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.6, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 1.6667, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.7333, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.8, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.8667, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.9333, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 2, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 2.0667, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 2.1333, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 2.2, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 2.2667, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 2.3333, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 2.4, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 2.4667, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 2.5333, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 2.6, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 2.6667, "name": null }
+				]
+			},
+			"effect/gg_skill_sd/gg_skill_sd_16": {
+				"color": [
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 0.7333, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 0.8, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 0.8667, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 0.9333, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 1, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.0667, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.1333, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.2, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.2667, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 1.3333, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.4, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.4667, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.5333, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.6, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 1.6667, "name": "effect/gg_skill_sd/gg_skill_sd_16" },
+					{ "time": 1.7333, "name": "effect/gg_skill_sd/gg_skill_sd_18" },
+					{ "time": 1.8, "name": "effect/gg_skill_sd/gg_skill_sd_20" },
+					{ "time": 1.8667, "name": "effect/gg_skill_sd/gg_skill_sd_22" },
+					{ "time": 1.9333, "name": "effect/gg_skill_sd/gg_skill_sd_24" },
+					{ "time": 1.9667, "name": null }
+				]
+			},
+			"effect/gg_skill_sdcj/gg_skill_sdcj_0": {
+				"attachment": [
+					{ "time": 1.9333, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_00" },
+					{ "time": 2, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_02" },
+					{ "time": 2.0667, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_04" },
+					{ "time": 2.1333, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_06" },
+					{ "time": 2.2, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_12" },
+					{ "time": 2.2667, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_18" },
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"effect/gg_skill_sdcj/gg_skill_sdcj_00": {
+				"attachment": [
+					{ "time": 1.9333, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_00" },
+					{ "time": 2, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_02" },
+					{ "time": 2.0667, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_04" },
+					{ "time": 2.1333, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_06" },
+					{ "time": 2.2, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_12" },
+					{ "time": 2.2667, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_18" },
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"effect/gg_skill_sdcj/gg_skill_sdcj_1": {
+				"attachment": [
+					{ "time": 2.2667, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_00" },
+					{ "time": 2.3333, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_02" },
+					{ "time": 2.4, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_04" },
+					{ "time": 2.4667, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_06" },
+					{ "time": 2.5333, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_12" },
+					{ "time": 2.6, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_18" },
+					{ "time": 2.6667, "name": null }
+				]
+			},
+			"effect/gg_skill_sdcj/gg_skill_sdcj_2": {
+				"attachment": [
+					{ "time": 2.2667, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_00" },
+					{ "time": 2.3333, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_02" },
+					{ "time": 2.4, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_04" },
+					{ "time": 2.4667, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_06" },
+					{ "time": 2.5333, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_12" },
+					{ "time": 2.6, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_18" },
+					{ "time": 2.6667, "name": null }
+				]
+			},
+			"effect/gg_skill_sdcj/gg_skill_sdcj_3": {
+				"attachment": [
+					{ "time": 2.6333, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_00" },
+					{ "time": 2.7, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_02" },
+					{ "time": 2.7667, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_04" },
+					{ "time": 2.8333, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_06" },
+					{ "time": 2.9, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_12" },
+					{ "time": 2.9667, "name": "effect/gg_skill_sdcj/gg_skill_sdcj_18" },
+					{ "time": 3.0333, "name": null }
+				]
+			},
+			"effect/gg_skill_sdtw/gg_skill_sdtw_0": {
+				"attachment": [
+					{ "time": 1.9, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_01" },
+					{ "time": 1.9667, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_03" },
+					{ "time": 2.0333, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_05" },
+					{ "time": 2.1, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_07" },
+					{ "time": 2.1667, "name": null }
+				]
+			},
+			"effect/gg_skill_sdtw/gg_skill_sdtw_00": {
+				"attachment": [
+					{ "time": 1.9, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_01" },
+					{ "time": 1.9667, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_03" },
+					{ "time": 2.0333, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_05" },
+					{ "time": 2.1, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_07" },
+					{ "time": 2.1667, "name": null }
+				]
+			},
+			"effect/gg_skill_sdtw/gg_skill_sdtw_1": {
+				"attachment": [
+					{ "time": 2.2333, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_01" },
+					{ "time": 2.3, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_03" },
+					{ "time": 2.3667, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_05" },
+					{ "time": 2.4333, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_07" },
+					{ "time": 2.5, "name": null }
+				]
+			},
+			"effect/gg_skill_sdtw/gg_skill_sdtw_2": {
+				"attachment": [
+					{ "time": 2.2333, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_01" },
+					{ "time": 2.3, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_03" },
+					{ "time": 2.3667, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_05" },
+					{ "time": 2.4333, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_07" },
+					{ "time": 2.5, "name": null }
+				]
+			},
+			"effect/gg_skill_sdtw/gg_skill_sdtw_3": {
+				"attachment": [
+					{ "time": 2.5667, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_01" },
+					{ "time": 2.6333, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_03" },
+					{ "time": 2.7, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_05" },
+					{ "time": 2.7667, "name": "effect/gg_skill_sdtw/gg_skill_sdtw_07" },
+					{ "time": 2.8333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"dsq": {
+				"translate": [
+					{ "y": 214.49 }
+				],
+				"scale": [
+					{ "x": 7.6, "y": 8 }
+				]
+			},
+			"dsqsh": {
+				"translate": [
+					{ "y": -7 }
+				],
+				"scale": [
+					{ "x": 3.8, "y": 4 }
+				]
+			},
+			"dsqzt": {
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 0.2, "curve": "stepped" },
+					{ "time": 1.9 },
+					{ "time": 1.9333, "x": 1.2, "y": 1.2 },
+					{ "time": 2, "x": 1.1, "y": 1.1, "curve": "stepped" },
+					{ "time": 2.2667, "x": 1.1, "y": 1.1 },
+					{ "time": 2.3, "x": 1.3, "y": 1.3 },
+					{ "time": 2.3667, "x": 1.2, "y": 1.2, "curve": "stepped" },
+					{ "time": 2.5667, "x": 1.2, "y": 1.2 },
+					{ "time": 2.6, "x": 1.5, "y": 1.5 },
+					{ "time": 2.6667, "x": 1.4, "y": 1.4 },
+					{ "time": 3.1667, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"sd": {
+				"rotate": [
+					{ "time": 0.6667, "angle": -60 }
+				],
+				"translate": [
+					{ "time": 0.6667, "x": -546.4, "y": 946.4, "curve": "stepped" },
+					{ "time": 1.8667, "x": -546.4, "y": 946.4 },
+					{ "time": 1.9667, "x": -245.93, "y": 425.97 }
+				],
+				"scale": [
+					{ "time": 0.6667, "x": 2, "y": 2 }
+				]
+			},
+			"sdtw": {
+				"rotate": [
+					{ "time": 1.9, "angle": 30 }
+				],
+				"translate": [
+					{ "time": 1.9, "x": -416.48, "y": 721.47 }
+				],
+				"scale": [
+					{ "time": 1.9, "x": 2, "y": 2 }
+				]
+			},
+			"sdcj": {
+				"rotate": [
+					{ "time": 1.9333, "angle": 30 }
+				],
+				"translate": [
+					{ "time": 1.9333, "x": -308.38, "y": 557.94 }
+				],
+				"scale": [
+					{ "time": 1.9333, "x": -2, "y": 2 }
+				]
+			},
+			"sd2": {
+				"rotate": [
+					{ "time": 0.6667, "angle": -120 }
+				],
+				"translate": [
+					{ "time": 0.6667, "x": 509.35, "y": 943.02, "curve": "stepped" },
+					{ "time": 1.8667, "x": 509.35, "y": 943.02 },
+					{ "time": 1.9667, "x": 172.65, "y": 439.98 }
+				],
+				"scale": [
+					{ "time": 0.6667, "x": 2, "y": 2 }
+				]
+			},
+			"sdcj2": {
+				"rotate": [
+					{ "time": 1.9333, "angle": -30 }
+				],
+				"translate": [
+					{ "time": 1.9333, "x": 268.39, "y": 560.91 }
+				],
+				"scale": [
+					{ "time": 1.9333, "x": 2, "y": 2 }
+				]
+			},
+			"sdtw2": {
+				"rotate": [
+					{ "time": 1.9, "angle": -30 }
+				],
+				"translate": [
+					{ "time": 1.9, "x": 371.57, "y": 732.5 }
+				],
+				"scale": [
+					{ "time": 1.9, "x": -2, "y": 2 }
+				]
+			},
+			"sd3": {
+				"rotate": [
+					{ "time": 1, "angle": -75 }
+				],
+				"translate": [
+					{ "time": 1, "x": -279.94, "y": 1090.16, "curve": "stepped" },
+					{ "time": 2.2, "x": -279.94, "y": 1090.16 },
+					{ "time": 2.3, "x": -111.29, "y": 460.74 }
+				],
+				"scale": [
+					{ "time": 1, "x": 2, "y": 2 }
+				]
+			},
+			"sdcj3": {
+				"rotate": [
+					{ "time": 2.2667, "angle": 15 }
+				],
+				"translate": [
+					{ "time": 2.2667, "x": -151.43, "y": 583.38 }
+				],
+				"scale": [
+					{ "time": 2.2667, "x": -2, "y": 2 }
+				]
+			},
+			"sdtw3": {
+				"rotate": [
+					{ "time": 2.2333, "angle": 15 }
+				],
+				"translate": [
+					{ "time": 2.2333, "x": -245.3, "y": 886.19 }
+				],
+				"scale": [
+					{ "time": 2.2333, "x": 2, "y": 2 }
+				]
+			},
+			"sd4": {
+				"rotate": [
+					{ "time": 1, "angle": -105 }
+				],
+				"translate": [
+					{ "time": 1, "x": 230.09, "y": 1081.58, "curve": "stepped" },
+					{ "time": 2.2, "x": 230.09, "y": 1081.58 },
+					{ "time": 2.3, "x": 65.14, "y": 465.99 }
+				],
+				"scale": [
+					{ "time": 1, "x": 2, "y": 2 }
+				]
+			},
+			"sdcj4": {
+				"rotate": [
+					{ "time": 2.2667, "angle": -15 }
+				],
+				"translate": [
+					{ "time": 2.2667, "x": 107.26, "y": 599.11 }
+				],
+				"scale": [
+					{ "time": 2.2667, "x": 2, "y": 2 }
+				]
+			},
+			"sdtw4": {
+				"rotate": [
+					{ "time": 2.2333, "angle": -15 }
+				],
+				"translate": [
+					{ "time": 2.2333, "x": 155.08, "y": 836.51 }
+				],
+				"scale": [
+					{ "time": 2.2333, "x": -2, "y": 2 }
+				]
+			},
+			"sd5": {
+				"rotate": [
+					{ "time": 1.3333, "angle": -90 }
+				],
+				"translate": [
+					{ "time": 1.3333, "y": 1246.98, "curve": "stepped" },
+					{ "time": 2.5333, "y": 1246.98 },
+					{ "time": 2.6333, "y": 477.86 }
+				],
+				"scale": [
+					{ "time": 1.3333, "x": 2.6, "y": 2.6 }
+				]
+			},
+			"sdcj5": {
+				"translate": [
+					{ "time": 2.6333, "y": 765.6 }
+				],
+				"scale": [
+					{ "time": 2.6333, "x": 3, "y": 2.6 }
+				]
+			},
+			"sdtw5": {
+				"translate": [
+					{ "time": 2.5667, "x": -15.12, "y": 1020.41 }
+				],
+				"scale": [
+					{ "time": 2.5667, "x": 2.6, "y": 2.6 }
+				]
+			},
+			"dbz": {
+				"translate": [
+					{ "time": 3.1333, "y": 456.5 }
+				],
+				"scale": [
+					{ "time": 3.1333, "x": 8, "y": 8 }
+				]
+			}
+		}
+	}
+}
+}

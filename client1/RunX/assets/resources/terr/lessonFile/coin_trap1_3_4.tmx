@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="1.1.3413" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="29" nextobjectid="1">
+ <tileset firstgid="1" source="../tiledImage/run_basic32.tsx"/>
+ <tileset firstgid="7" source="../tiledImage/run_stones.tsx"/>
+ <tileset firstgid="17" source="../tiledImage/run_chapter5.tsx"/>
+ <tileset firstgid="273" source="../tiledImage/run_item32.tsx"/>
+ <layer id="25" name="floor" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztl1VvG0EQgOfKkMJfKr63adO+lvtarlRmhtcyMzMzMzMzM3M/d326U2THe96z68TzSZ8u64lHsx7N6lZEURRFURRFURRFURRFURRFURRFURRFURRFURRF+V+UJZ9tsG3y71bYGkuTn5eG4mUO63T52mH7UD2pvi/l4mH8/y9ft2u9tutw/ZWBDtgRO2Hn0LMLdnVYp8vXDbvnoG7Xem3XcdWfL3pgT+yFvUPPPtjXYZ0uXz/sn4O6Xeu1XcdVf74YhsNxBI4MPUfhaId1unxjcGwO6nat13YdV/2KolQdmmBTbIbNsQW2jCn3PJyPC3AhLsLFuASXWsQVd7K9D1T0Pj8AB+I6XI8bcCNuws24BbdaxAfhYByCQ2PeX1z3kULPn+19oKL3+Qk4EffhfjyAB/EQHsYjeNQiPgkn4xScarGXKPvL9X2qUPJnex9I9T4/XkxvZ+BMPIfn8QJexEt4Ga/gVYv4LJyNcyT7OU63v1zfpwolf7b3gVTv89PF9HYFrsR7eB8f4EN8hI/xCT61iK/C1bhGzBxn0+N0+8v1faqy5M/EOAnmdrmY3u7AnfgO3+MH/Iif8DN+wa8W8V24G/eImWPXs1qJzjQJ5na7mN6ewJPiPr+n8DSeETPH/lk9Nx8bU/6xTIK5PS6mtzfwprjP7y28jXfEzLF/Vq/Ny86qBq53mG0SzO11Mb19gS/FfX4T/X2Nb8TMsX9W741QX7HHXe8wxySY2+fJ3v7AnxLP/P7GP2Lm2D+rz0aor9jjrneYaxLM7fdkb+t7IiVePPPbkDyNPDPH/ll9N0J9xR537cEzCea2nhf0No7z+ZUEvU3MsX9Wv42Qo9jjrmfoNwnm1u9zordxnM+/kv1M9DYxx/5ZLZ59jmKPe/xW1bA61sCaWAtrYx0vc7yuF8xtuL8lFt/NFG/gmf76Z7T/bBwhR7HH/wJpAkjC
+  </data>
+ </layer>
+ <layer id="26" name="shade" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2TEKwCAMQNG23v/OnbIXiYnS98A1RP4ieF0AAAAAAAAAAAAAZLibzql7Z+0PAADMW/WeHwmzn4L7/X3+jJE4K6MxeTLbBo33sKJt0LjXyrZB4x4VbYPGtSrbBo2/O/W/o/uf55QDwJ5e1xQA9A==
+  </data>
+ </layer>
+ <layer id="27" name="loot" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt18ENACAIBEEsQfsv1qcNkABx5kMFl7ARAAAAAAAAAAAAkGOv2gsAAOQ5Tf7s6k7QI0zUZb9V7BLmsVvgJ9oCAACeC7c0Ap0=
+  </data>
+ </layer>
+ <layer id="28" name="stones" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2TENAAAIA0Fm/AvGAgOQkNwtv9VAIwAAAAAAAAAAAIBreVQAAAAAAADo2P6dvu8DAPMK47sA+w==
+  </data>
+ </layer>
+</map>

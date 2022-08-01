@@ -1,0 +1,167 @@
+{
+"skeleton": { "hash": "jJ1OOKKlSrfZlinK+tk5yLWg4oU", "spine": "3.8.99", "images": "", "audio": "D:/阿拆/wb/xq/2022冲鸭/月月需求/九天玄女项目/2.21灞波儿奔/灞波儿奔导出" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root", "color": "00ffeeff" },
+	{ "name": "zha", "parent": "effect", "color": "00ffeeff" },
+	{ "name": "shui1", "parent": "effect", "color": "00ffeeff" },
+	{ "name": "shui2", "parent": "effect", "color": "00ffeeff" },
+	{ "name": "shui3", "parent": "effect", "color": "00ffeeff" }
+],
+"slots": [
+	{ "name": "images/attack1/shui1/shui1_15", "bone": "shui1" },
+	{ "name": "images/attack1/shui2/shui2_15", "bone": "shui2" },
+	{ "name": "images/attack1/shui2/shui2_16", "bone": "shui3" },
+	{ "name": "images/attack1/zha/zha_15", "bone": "zha" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"images/attack1/shui1/shui1_15": {
+				"images/attack1/shui1/shui1_15": { "width": 200, "height": 120 },
+				"images/attack1/shui1/shui1_16": { "width": 200, "height": 120 },
+				"images/attack1/shui1/shui1_17": { "width": 200, "height": 120 },
+				"images/attack1/shui1/shui1_19": { "width": 200, "height": 120 },
+				"images/attack1/shui1/shui1_20": { "width": 200, "height": 120 },
+				"images/attack1/shui1/shui1_21": { "width": 200, "height": 120 },
+				"images/attack1/shui1/shui1_23": { "width": 200, "height": 120 },
+				"images/attack1/shui1/shui1_24": { "width": 200, "height": 120 },
+				"images/attack1/shui1/shui1_25": { "width": 200, "height": 120 }
+			},
+			"images/attack1/shui2/shui2_15": {
+				"images/attack1/shui2/shui2_15": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_16": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_18": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_19": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_21": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_22": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_24": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_25": { "width": 200, "height": 120 }
+			},
+			"images/attack1/shui2/shui2_16": {
+				"images/attack1/shui2/shui2_15": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_16": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_18": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_19": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_21": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_22": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_24": { "width": 200, "height": 120 },
+				"images/attack1/shui2/shui2_25": { "width": 200, "height": 120 }
+			},
+			"images/attack1/zha/zha_15": {
+				"images/attack1/zha/zha_15": { "width": 250, "height": 180 },
+				"images/attack1/zha/zha_16": { "width": 250, "height": 180 },
+				"images/attack1/zha/zha_17": { "width": 250, "height": 180 },
+				"images/attack1/zha/zha_18": { "width": 250, "height": 180 },
+				"images/attack1/zha/zha_19": { "width": 250, "height": 180 },
+				"images/attack1/zha/zha_20": { "width": 250, "height": 180 },
+				"images/attack1/zha/zha_21": { "width": 250, "height": 180 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"images/attack1/shui1/shui1_15": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "images/attack1/shui1/shui1_15" },
+					{ "time": 0.0333, "name": "images/attack1/shui1/shui1_16" },
+					{ "time": 0.0667, "name": "images/attack1/shui1/shui1_17" },
+					{ "time": 0.1333, "name": "images/attack1/shui1/shui1_19" },
+					{ "time": 0.1667, "name": "images/attack1/shui1/shui1_20" },
+					{ "time": 0.2, "name": "images/attack1/shui1/shui1_21" },
+					{ "time": 0.2667, "name": "images/attack1/shui1/shui1_23" },
+					{ "time": 0.3, "name": "images/attack1/shui1/shui1_24" },
+					{ "time": 0.3333, "name": "images/attack1/shui1/shui1_25" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"images/attack1/shui2/shui2_15": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "images/attack1/shui2/shui2_15" },
+					{ "time": 0.0333, "name": "images/attack1/shui2/shui2_16" },
+					{ "time": 0.1, "name": "images/attack1/shui2/shui2_18" },
+					{ "time": 0.1333, "name": "images/attack1/shui2/shui2_19" },
+					{ "time": 0.2, "name": "images/attack1/shui2/shui2_21" },
+					{ "time": 0.2333, "name": "images/attack1/shui2/shui2_22" },
+					{ "time": 0.3, "name": "images/attack1/shui2/shui2_24" },
+					{ "time": 0.3333, "name": "images/attack1/shui2/shui2_25" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"images/attack1/shui2/shui2_16": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "images/attack1/shui2/shui2_15" },
+					{ "time": 0.0333, "name": "images/attack1/shui2/shui2_16" },
+					{ "time": 0.1, "name": "images/attack1/shui2/shui2_18" },
+					{ "time": 0.1333, "name": "images/attack1/shui2/shui2_19" },
+					{ "time": 0.2, "name": "images/attack1/shui2/shui2_21" },
+					{ "time": 0.2333, "name": "images/attack1/shui2/shui2_22" },
+					{ "time": 0.3, "name": "images/attack1/shui2/shui2_24" },
+					{ "time": 0.3333, "name": "images/attack1/shui2/shui2_25" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"images/attack1/zha/zha_15": {
+				"attachment": [
+					{ "name": "images/attack1/zha/zha_15" },
+					{ "time": 0.0333, "name": "images/attack1/zha/zha_16" },
+					{ "time": 0.0667, "name": "images/attack1/zha/zha_17" },
+					{ "time": 0.1, "name": "images/attack1/zha/zha_18" },
+					{ "time": 0.1333, "name": "images/attack1/zha/zha_19" },
+					{ "time": 0.1667, "name": "images/attack1/zha/zha_20" },
+					{ "time": 0.2, "name": "images/attack1/zha/zha_21" },
+					{ "time": 0.2333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"zha": {
+				"translate": [
+					{ "x": 110.4, "y": 76.43 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			},
+			"shui1": {
+				"translate": [
+					{ "x": 108.72, "y": 21.04 }
+				]
+			},
+			"shui2": {
+				"translate": [
+					{ "x": 45.59, "y": 9.35 }
+				]
+			},
+			"shui3": {
+				"translate": [
+					{ "x": 183.53, "y": 14.03 }
+				],
+				"scale": [
+					{ "x": -1 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "x": -112.58, "y": 14.21 }
+				]
+			}
+		}
+	}
+}
+}

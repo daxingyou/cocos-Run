@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "31f781b1-2a70-49d8-8531-ddb7fd8b3a03",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 688,
+  "height": 452,
+  "platformSettings": {},
+  "subMetas": {
+    "bg_gonggaoxitong_BOSS_yun_right": {
+      "ver": "1.0.6",
+      "uuid": "596e9c77-b11f-4683-80c4-d67f4c82504a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "31f781b1-2a70-49d8-8531-ddb7fd8b3a03",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 3.5,
+      "offsetY": 0,
+      "trimX": 7,
+      "trimY": 0,
+      "width": 681,
+      "height": 452,
+      "rawWidth": 688,
+      "rawHeight": 452,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

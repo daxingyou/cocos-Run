@@ -1,0 +1,54 @@
+{
+"skeleton": { "hash": "rOk9f8WStvbk4r16fi1WZBRyqkk", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "attack2_hit", "parent": "root", "scaleX": 4, "scaleY": 4 }
+],
+"slots": [
+	{ "name": "attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_00", "bone": "attack2_hit" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_00": {
+				"attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_00": { "width": 200, "height": 200 },
+				"attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_01": { "width": 200, "height": 200 },
+				"attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_02": { "width": 200, "height": 200 },
+				"attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_04": { "width": 200, "height": 200 },
+				"attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_06": { "width": 200, "height": 200 },
+				"attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_08": { "width": 200, "height": 200 },
+				"attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_10": { "width": 200, "height": 200 },
+				"attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_12": { "width": 200, "height": 200 },
+				"attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_14": { "width": 200, "height": 200 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_00": {
+				"attachment": [
+					{ "name": "attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_00" },
+					{ "time": 0.0333, "name": "attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_01" },
+					{ "time": 0.0667, "name": "attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_02" },
+					{ "time": 0.1333, "name": "attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_04" },
+					{ "time": 0.2, "name": "attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_06" },
+					{ "time": 0.2667, "name": "attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_08" },
+					{ "time": 0.3333, "name": "attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_10" },
+					{ "time": 0.4, "name": "attack/ZhuRong_Attack_hit/ZhuRong_Attack_hit_12" },
+					{ "time": 0.4667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"attack2_hit": {
+				"rotate": [
+					{ "angle": 30 }
+				]
+			}
+		}
+	}
+}
+}

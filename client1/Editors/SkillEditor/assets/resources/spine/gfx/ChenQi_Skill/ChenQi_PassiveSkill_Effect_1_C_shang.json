@@ -1,0 +1,47 @@
+{
+"skeleton": { "hash": "E7v1Yq5wE/Ok/E3wj+qhWvn1Ylg", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "ChenQi_PassiveSkill_Effect_1_C_shang", "scaleX": 1.35, "scaleY": 1.35 }
+],
+"slots": [
+	{ "name": "ChenQi_PassiveSkill_Effect_1_C_shang", "bone": "ChenQi_PassiveSkill_Effect_1_C_shang" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ChenQi_PassiveSkill_Effect_1_C_shang": {
+				"buff_shang_00": { "width": 300, "height": 340 },
+				"buff_shang_02": { "width": 300, "height": 340 },
+				"buff_shang_04": { "width": 300, "height": 340 },
+				"buff_shang_06": { "width": 300, "height": 340 },
+				"buff_shang_08": { "width": 300, "height": 340 },
+				"buff_shang_10": { "width": 300, "height": 340 },
+				"buff_shang_12": { "width": 300, "height": 340 }
+			}
+		}
+	}
+],
+"animations": {
+	"ChenQi_PassiveSkill_Effect_1_C_shang": {
+		"slots": {
+			"ChenQi_PassiveSkill_Effect_1_C_shang": {
+				"color": [
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "buff_shang_00" },
+					{ "time": 0.0667, "name": "buff_shang_02" },
+					{ "time": 0.1333, "name": "buff_shang_04" },
+					{ "time": 0.2, "name": "buff_shang_06" },
+					{ "time": 0.2667, "name": "buff_shang_08" },
+					{ "time": 0.3333, "name": "buff_shang_10" },
+					{ "time": 0.4, "name": "buff_shang_12" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,76 @@
+{
+"skeleton": { "hash": "NgqrCPxjd2+hmGK25ZOlj4vOuRs", "spine": "3.8.99", "images": "./images/", "audio": "F:/7.29/跑酷项目-动作特效10个/牛魔王" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.1405, "scaleY": 0.1405 },
+	{
+		"name": "qi_atk2_4",
+		"parent": "bone",
+		"length": 56.82,
+		"rotation": -1.88,
+		"x": 616.99,
+		"y": 19.78,
+		"scaleX": 3.7118,
+		"scaleY": 3.7118,
+		"color": "000affff"
+	}
+],
+"slots": [
+	{ "name": "qi_atk2_4", "bone": "qi_atk2_4", "dark": "791774" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"qi_atk2_4": {
+				"qi_atk2_1": { "x": 59.3, "y": 25.89, "rotation": 1.88, "width": 150, "height": 100 },
+				"qi_atk2_2": { "x": 59.3, "y": 25.89, "rotation": 1.88, "width": 150, "height": 100 },
+				"qi_atk2_3": { "x": 59.3, "y": 25.89, "rotation": 1.88, "width": 150, "height": 100 },
+				"qi_atk2_4": { "x": 59.3, "y": 25.89, "rotation": 1.88, "width": 150, "height": 100 },
+				"qi_atk2_5": { "x": 59.3, "y": 25.89, "rotation": 1.88, "width": 150, "height": 100 },
+				"qi_atk2_6": { "x": 59.3, "y": 25.89, "rotation": 1.88, "width": 150, "height": 100 },
+				"qi_atk2_7": { "x": 59.3, "y": 25.89, "rotation": 1.88, "width": 150, "height": 100 }
+			}
+		}
+	}
+],
+"events": {
+	"k": {}
+},
+"animations": {
+	"skill59": {
+		"slots": {
+			"qi_atk2_4": {
+				"attachment": [
+					{ "name": "qi_atk2_1" },
+					{ "time": 0.0333, "name": "qi_atk2_2" },
+					{ "time": 0.0667, "name": "qi_atk2_3" },
+					{ "time": 0.1, "name": "qi_atk2_4" },
+					{ "time": 0.1333, "name": "qi_atk2_5" },
+					{ "time": 0.1667, "name": "qi_atk2_6" },
+					{ "time": 0.2, "name": "qi_atk2_7" },
+					{ "time": 0.2333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"qi_atk2_4": {
+				"translate": [
+					{ "x": 68.46, "y": 22.64 }
+				],
+				"scale": [
+					{ "x": 3.583, "y": 3.583 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4333, "name": "k" }
+		]
+	}
+}
+}

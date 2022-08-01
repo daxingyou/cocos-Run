@@ -1,0 +1,173 @@
+{
+"skeleton": { "hash": "pSxtEQXLZPvKqGI76WKYYZY4b+w", "spine": "3.8.99", "images": "./images/", "audio": "H:/波波外包/new/SSR_05银角大王" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eft", "parent": "root" },
+	{ "name": "attack_01_C_shang", "parent": "eft" },
+	{ "name": "guangzhu", "parent": "attack_01_C_shang" },
+	{ "name": "gz_hit", "parent": "attack_01_C_shang", "scaleX": 2, "scaleY": 2 },
+	{ "name": "gz_hit2", "parent": "attack_01_C_shang", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "gz_hit", "bone": "gz_hit" },
+	{ "name": "guangzhu", "bone": "guangzhu" },
+	{ "name": "gz_hit2", "bone": "gz_hit2", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"guangzhu": {
+				"eft/attack1/guangzhu/guangzhu_39": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_40": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_41": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_43": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_45": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_47": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_49": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_51": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_53": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_55": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_57": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_59": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_60": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_61": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_62": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_63": { "width": 200, "height": 450 },
+				"eft/attack1/guangzhu/guangzhu_64": { "width": 200, "height": 450 }
+			},
+			"gz_hit": {
+				"eft/attack1/gz_hit/gz_hit_42": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_43": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_44": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_45": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_46": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_47": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_48": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_49": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_50": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_51": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_52": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_53": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_54": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_55": { "width": 475, "height": 475 },
+				"eft/attack1/gz_hit/gz_hit_56": { "width": 475, "height": 475 }
+			},
+			"gz_hit2": {
+				"eft/attack1/gz_hit2/gz_hit2_42": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_43": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_44": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_45": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_46": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_47": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_48": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_49": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_50": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_51": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_52": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_53": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_54": { "width": 200, "height": 200 },
+				"eft/attack1/gz_hit2/gz_hit2_55": { "width": 200, "height": 200 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack1": {
+		"slots": {
+			"guangzhu": {
+				"attachment": [
+					{ "name": "eft/attack1/guangzhu/guangzhu_39" },
+					{ "time": 0.0333, "name": "eft/attack1/guangzhu/guangzhu_40" },
+					{ "time": 0.0667, "name": "eft/attack1/guangzhu/guangzhu_41" },
+					{ "time": 0.1333, "name": "eft/attack1/guangzhu/guangzhu_43" },
+					{ "time": 0.2, "name": "eft/attack1/guangzhu/guangzhu_45" },
+					{ "time": 0.2667, "name": "eft/attack1/guangzhu/guangzhu_47" },
+					{ "time": 0.3333, "name": "eft/attack1/guangzhu/guangzhu_49" },
+					{ "time": 0.4, "name": "eft/attack1/guangzhu/guangzhu_51" },
+					{ "time": 0.4667, "name": "eft/attack1/guangzhu/guangzhu_53" },
+					{ "time": 0.5333, "name": "eft/attack1/guangzhu/guangzhu_55" },
+					{ "time": 0.6, "name": "eft/attack1/guangzhu/guangzhu_57" },
+					{ "time": 0.6667, "name": "eft/attack1/guangzhu/guangzhu_59" },
+					{ "time": 0.7, "name": "eft/attack1/guangzhu/guangzhu_60" },
+					{ "time": 0.7333, "name": "eft/attack1/guangzhu/guangzhu_61" },
+					{ "time": 0.7667, "name": "eft/attack1/guangzhu/guangzhu_62" },
+					{ "time": 0.8, "name": "eft/attack1/guangzhu/guangzhu_63" },
+					{ "time": 0.8333, "name": "eft/attack1/guangzhu/guangzhu_64" },
+					{ "time": 0.8667, "name": null }
+				]
+			},
+			"gz_hit": {
+				"attachment": [
+					{ "time": 0.1, "name": "eft/attack1/gz_hit/gz_hit_42" },
+					{ "time": 0.1333, "name": "eft/attack1/gz_hit/gz_hit_43" },
+					{ "time": 0.1667, "name": "eft/attack1/gz_hit/gz_hit_44" },
+					{ "time": 0.2, "name": "eft/attack1/gz_hit/gz_hit_45" },
+					{ "time": 0.2333, "name": "eft/attack1/gz_hit/gz_hit_46" },
+					{ "time": 0.2667, "name": "eft/attack1/gz_hit/gz_hit_47" },
+					{ "time": 0.3, "name": "eft/attack1/gz_hit/gz_hit_48" },
+					{ "time": 0.3333, "name": "eft/attack1/gz_hit/gz_hit_49" },
+					{ "time": 0.3667, "name": "eft/attack1/gz_hit/gz_hit_50" },
+					{ "time": 0.4, "name": "eft/attack1/gz_hit/gz_hit_51" },
+					{ "time": 0.4333, "name": "eft/attack1/gz_hit/gz_hit_52" },
+					{ "time": 0.4667, "name": "eft/attack1/gz_hit/gz_hit_53" },
+					{ "time": 0.5, "name": "eft/attack1/gz_hit/gz_hit_54" },
+					{ "time": 0.5333, "name": "eft/attack1/gz_hit/gz_hit_55" },
+					{ "time": 0.5667, "name": "eft/attack1/gz_hit/gz_hit_56" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"gz_hit2": {
+				"attachment": [
+					{ "time": 0.1, "name": "eft/attack1/gz_hit2/gz_hit2_42" },
+					{ "time": 0.1333, "name": "eft/attack1/gz_hit2/gz_hit2_43" },
+					{ "time": 0.1667, "name": "eft/attack1/gz_hit2/gz_hit2_44" },
+					{ "time": 0.2, "name": "eft/attack1/gz_hit2/gz_hit2_45" },
+					{ "time": 0.2333, "name": "eft/attack1/gz_hit2/gz_hit2_46" },
+					{ "time": 0.2667, "name": "eft/attack1/gz_hit2/gz_hit2_47" },
+					{ "time": 0.3, "name": "eft/attack1/gz_hit2/gz_hit2_48" },
+					{ "time": 0.3333, "name": "eft/attack1/gz_hit2/gz_hit2_49" },
+					{ "time": 0.3667, "name": "eft/attack1/gz_hit2/gz_hit2_50" },
+					{ "time": 0.4, "name": "eft/attack1/gz_hit2/gz_hit2_51" },
+					{ "time": 0.4333, "name": "eft/attack1/gz_hit2/gz_hit2_52" },
+					{ "time": 0.4667, "name": "eft/attack1/gz_hit2/gz_hit2_53" },
+					{ "time": 0.5, "name": "eft/attack1/gz_hit2/gz_hit2_54" },
+					{ "time": 0.5333, "name": "eft/attack1/gz_hit2/gz_hit2_55" },
+					{ "time": 0.5667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guangzhu": {
+				"translate": [
+					{ "x": 1183.89, "y": 537.7 }
+				],
+				"scale": [
+					{ "x": 4, "y": 4 }
+				]
+			},
+			"gz_hit": {
+				"translate": [
+					{ "time": 0.1, "x": 1209.5, "y": 431.97 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 2, "y": 2 }
+				]
+			},
+			"gz_hit2": {
+				"translate": [
+					{ "time": 0.1, "x": 1209.5, "y": 131.91 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 4, "y": 4 }
+				]
+			},
+			"attack_01_C_shang": {
+				"translate": [
+					{ "x": -1242 }
+				]
+			}
+		}
+	}
+}
+}

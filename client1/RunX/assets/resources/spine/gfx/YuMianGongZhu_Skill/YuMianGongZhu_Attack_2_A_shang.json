@@ -1,0 +1,66 @@
+{
+"skeleton": { "hash": "LnoIxyzALYp7AYc5jQLmjSQPJ9E", "spine": "3.8.99", "images": "./images/", "audio": "Z:/进行中的项目/张晨阳动效项目/第三批/特效项目/SR-玉面公主-a/特效" },
+"bones": [
+	{ "name": "root", "x": -6 },
+	{ "name": "tx/daoguang 2_00000", "parent": "root", "x": 237.67, "y": 79.46, "scaleX": 0.9284, "scaleY": 0.9284 }
+],
+"slots": [
+	{ "name": "tx/daoguang 2_00000", "bone": "tx/daoguang 2_00000" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"tx/daoguang 2_00000": {
+				"tx/daoguang 2_00000": { "x": -5, "y": 200.94, "scaleX": 3.3817, "scaleY": 3.3817, "width": 480, "height": 270 },
+				"tx/daoguang 2_00001": { "x": -5, "y": 200.94, "scaleX": 3.3817, "scaleY": 3.3817, "width": 480, "height": 270 },
+				"tx/daoguang 2_00002": { "x": -5, "y": 200.94, "scaleX": 3.3817, "scaleY": 3.3817, "width": 480, "height": 270 },
+				"tx/daoguang 2_00003": { "x": -5, "y": 200.94, "scaleX": 3.3817, "scaleY": 3.3817, "width": 480, "height": 270 },
+				"tx/daoguang 2_00004": { "x": -5, "y": 200.94, "scaleX": 3.3817, "scaleY": 3.3817, "width": 480, "height": 270 },
+				"tx/daoguang 2_00005": { "x": -5, "y": 200.94, "scaleX": 3.3817, "scaleY": 3.3817, "width": 480, "height": 270 },
+				"tx/daoguang 2_00006": { "x": -5, "y": 200.94, "scaleX": 3.3817, "scaleY": 3.3817, "width": 480, "height": 270 }
+			}
+		}
+	}
+],
+"animations": {
+	"action": {
+		"slots": {
+			"tx/daoguang 2_00000": {
+				"attachment": [
+					{ "time": 0.3333, "name": "tx/daoguang 2_00000" },
+					{ "time": 0.3667, "name": "tx/daoguang 2_00001" },
+					{ "time": 0.4, "name": "tx/daoguang 2_00002" },
+					{ "time": 0.4333, "name": "tx/daoguang 2_00003" },
+					{ "time": 0.4667, "name": "tx/daoguang 2_00004" },
+					{ "time": 0.5, "name": "tx/daoguang 2_00005" },
+					{ "time": 0.5333, "name": "tx/daoguang 2_00006" },
+					{ "time": 0.5667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "x": 906.08, "y": 16.18 }
+				],
+				"scale": [
+					{ "x": 1.819, "y": 1.819 }
+				]
+			},
+			"tx/daoguang 2_00000": {
+				"rotate": [
+					{ "time": 0.3667, "angle": -13.1 }
+				],
+				"translate": [
+					{ "time": 0.3333, "x": -663.61, "y": 3.94 },
+					{ "time": 0.3667, "x": -714.8, "y": -15.75 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 0.456, "y": 0.456 }
+				]
+			}
+		}
+	}
+}
+}

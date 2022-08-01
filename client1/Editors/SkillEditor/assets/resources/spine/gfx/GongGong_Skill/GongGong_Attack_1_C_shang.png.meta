@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a6b77e40-c571-4e84-b80e-d22bb3f1356b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 885,
+  "height": 454,
+  "platformSettings": {},
+  "subMetas": {
+    "GongGong_Attack_1_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "50af7500-3d54-412f-b4e2-a1c9141e09e6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a6b77e40-c571-4e84-b80e-d22bb3f1356b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 881,
+      "height": 450,
+      "rawWidth": 885,
+      "rawHeight": 454,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

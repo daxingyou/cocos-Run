@@ -1,0 +1,13 @@
+升级引擎流程
+1. 下载引擎
+2. 清除tamp文件夹，用新版本引擎打开，根据提示修改接口
+3. 比较buildTamplate里面的文件看需不需要对应调整
+4. Contents/Resources/static/tools/texture-compress/mail/OSX_x86文件夹下面的etcpack改名成etcpacktool，用ToolChain\other_scripts\etc_compress目录下的etcpack替代原来的
+5. client\RunX 下面更新js引擎（主要针对PV组件）
+6. 构建机
+    - 脚本使用新版本的Cocos
+    - 删除tamp文件，步骤2之后拉最新代码，重新生成tamp文件
+    - 构建脚本指定最新版本的Cocos
+    - build上面测试出包（留意日志）
+    - 更新版本号
+7. 技能编辑器对应调整接口

@@ -1,0 +1,61 @@
+{
+"skeleton": { "hash": "KgvkMDzilW0VS52q9F805sYtLWU", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "attack1_dg", "parent": "root", "scaleX": 4, "scaleY": 4 }
+],
+"slots": [
+	{ "name": "effect/attack1_dg/gg_attack1_dg_00", "bone": "attack1_dg" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"effect/attack1_dg/gg_attack1_dg_00": {
+				"effect/attack1_dg/gg_attack1_dg_00": { "width": 400, "height": 200 },
+				"effect/attack1_dg/gg_attack1_dg_01": { "width": 400, "height": 200 },
+				"effect/attack1_dg/gg_attack1_dg_02": { "width": 400, "height": 200 },
+				"effect/attack1_dg/gg_attack1_dg_03": { "width": 400, "height": 200 },
+				"effect/attack1_dg/gg_attack1_dg_04": { "width": 400, "height": 200 },
+				"effect/attack1_dg/gg_attack1_dg_06": { "width": 400, "height": 200 },
+				"effect/attack1_dg/gg_attack1_dg_08": { "width": 400, "height": 200 },
+				"effect/attack1_dg/gg_attack1_dg_10": { "width": 400, "height": 200 },
+				"effect/attack1_dg/gg_attack1_dg_12": { "width": 400, "height": 200 },
+				"effect/attack1_dg/gg_attack1_dg_14": { "width": 400, "height": 200 },
+				"effect/attack1_dg/gg_attack1_dg_16": { "width": 400, "height": 200 },
+				"effect/attack1_dg/gg_attack1_dg_18": { "width": 400, "height": 200 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack1": {
+		"slots": {
+			"effect/attack1_dg/gg_attack1_dg_00": {
+				"attachment": [
+					{ "time": 0.2, "name": "effect/attack1_dg/gg_attack1_dg_00" },
+					{ "time": 0.2333, "name": "effect/attack1_dg/gg_attack1_dg_01" },
+					{ "time": 0.2667, "name": "effect/attack1_dg/gg_attack1_dg_02" },
+					{ "time": 0.3, "name": "effect/attack1_dg/gg_attack1_dg_03" },
+					{ "time": 0.3333, "name": "effect/attack1_dg/gg_attack1_dg_04" },
+					{ "time": 0.4, "name": "effect/attack1_dg/gg_attack1_dg_06" },
+					{ "time": 0.4667, "name": "effect/attack1_dg/gg_attack1_dg_08" },
+					{ "time": 0.5333, "name": "effect/attack1_dg/gg_attack1_dg_10" },
+					{ "time": 0.6, "name": "effect/attack1_dg/gg_attack1_dg_12" },
+					{ "time": 0.6667, "name": "effect/attack1_dg/gg_attack1_dg_14" },
+					{ "time": 0.7333, "name": "effect/attack1_dg/gg_attack1_dg_16" },
+					{ "time": 0.8, "name": "effect/attack1_dg/gg_attack1_dg_18" },
+					{ "time": 0.8667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"attack1_dg": {
+				"translate": [
+					{ "time": 0.2, "x": 90, "y": 152 }
+				]
+			}
+		}
+	}
+}
+}

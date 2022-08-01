@@ -1,0 +1,45 @@
+{
+"skeleton": { "hash": "RXKem7dZOHYy7NYLvyihD7/1oQs", "spine": "3.8.99", "images": "./image/", "audio": "I:/项目/外包/祝融_技能特效输出" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "skill_A", "parent": "root" },
+	{ "name": "skill_xlcddm", "parent": "skill_A", "scaleX": 4, "scaleY": 4 }
+],
+"slots": [
+	{ "name": "effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_71", "bone": "skill_xlcddm" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_71": {
+				"effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_71": { "width": 300, "height": 100 },
+				"effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_72": { "width": 300, "height": 100 },
+				"effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_73": { "width": 300, "height": 100 },
+				"effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_75": { "width": 300, "height": 100 },
+				"effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_77": { "width": 300, "height": 100 },
+				"effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_79": { "width": 300, "height": 100 },
+				"effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_81": { "width": 300, "height": 100 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_71": {
+				"attachment": [
+					{ "name": "effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_71" },
+					{ "time": 0.0333, "name": "effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_72" },
+					{ "time": 0.0667, "name": "effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_73" },
+					{ "time": 0.1333, "name": "effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_75" },
+					{ "time": 0.2, "name": "effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_77" },
+					{ "time": 0.2667, "name": "effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_79" },
+					{ "time": 0.3333, "name": "effect1/ZhuRong_Effect1_xlcddm/ZhuRong_Effect1_xlcddm_81" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		}
+	}
+}
+}

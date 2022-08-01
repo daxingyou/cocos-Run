@@ -1,0 +1,99 @@
+{
+"skeleton": { "hash": "BzF7P3AJwEHFrwMeS0mVDVF7wHM", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.525, "scaleY": 0.525 },
+	{
+		"name": "xin0001",
+		"parent": "bone",
+		"x": 557.73,
+		"y": 237.35,
+		"scaleX": 1.088,
+		"scaleY": 1.088,
+		"color": "ff0000ff"
+	}
+],
+"slots": [
+	{ "name": "xin1", "bone": "xin0001", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"xin1": {
+				"xin0001": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0002": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0003": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0004": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0005": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0006": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0007": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0008": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0009": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0010": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0011": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0012": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0013": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0014": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0015": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0016": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0017": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0018": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0019": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0020": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0021": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0022": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0023": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 },
+				"xin0024": { "x": 3.88, "y": 2.79, "width": 400, "height": 400 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill113": {
+		"slots": {
+			"xin1": {
+				"attachment": [
+					{ "name": "xin0001" },
+					{ "time": 0.0333, "name": "xin0003" },
+					{ "time": 0.0667, "name": "xin0005" },
+					{ "time": 0.1, "name": "xin0007" },
+					{ "time": 0.1333, "name": "xin0009" },
+					{ "time": 0.1667, "name": "xin0010" },
+					{ "time": 0.2, "name": "xin0011" },
+					{ "time": 0.2333, "name": "xin0012" },
+					{ "time": 0.2667, "name": "xin0013" },
+					{ "time": 0.3, "name": "xin0014" },
+					{ "time": 0.3333, "name": "xin0015" },
+					{ "time": 0.3667, "name": "xin0016" },
+					{ "time": 0.4, "name": "xin0017" },
+					{ "time": 0.4333, "name": "xin0019" },
+					{ "time": 0.4667, "name": "xin0020" },
+					{ "time": 0.5, "name": "xin0021" },
+					{ "time": 0.5333, "name": "xin0022" },
+					{ "time": 0.5667, "name": "xin0023" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"xin0001": {
+				"translate": [
+					{ "x": -797.34, "y": 177.98 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 1.3333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.7333, "name": "K" }
+		]
+	}
+}
+}

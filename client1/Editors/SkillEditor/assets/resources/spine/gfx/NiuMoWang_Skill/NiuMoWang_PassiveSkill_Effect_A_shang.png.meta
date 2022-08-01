@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f487eed6-5f88-400b-90bb-ea67e0f38868",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 943,
+  "height": 579,
+  "platformSettings": {},
+  "subMetas": {
+    "NiuMoWang_PassiveSkill_Effect_A_shang": {
+      "ver": "1.0.6",
+      "uuid": "8c3bccc1-a00f-4b7b-ba00-f3dd86deda29",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f487eed6-5f88-400b-90bb-ea67e0f38868",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 939,
+      "height": 575,
+      "rawWidth": 943,
+      "rawHeight": 579,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

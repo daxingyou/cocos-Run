@@ -1,0 +1,222 @@
+{
+"skeleton": { "hash": "Q/CLnxtQ4nGuITuIQ4DVGAfx0oo", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.47, "scaleY": 0.47 },
+	{ "name": "diqi0005", "parent": "root", "length": 111.74, "rotation": 91.08, "x": -27.44, "y": -113.33 },
+	{ "name": "di", "parent": "root", "x": 35.9, "y": -57.4 }
+],
+"slots": [
+	{ "name": "diqi0005", "bone": "diqi0005", "blend": "additive" },
+	{ "name": "di", "bone": "di", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"di": {
+				"di": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 43.62, -0.18, -44.38, -0.18, -44.38, 25.82, 43.62, 25.82 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 88,
+					"height": 26
+				}
+			},
+			"diqi0005": {
+				"diqi0001": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -132.66, -272.55, -122.29, 277.36, 132.66, 272.55, 122.29, -277.36 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 550,
+					"height": 255
+				},
+				"diqi0003": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -132.66, -272.55, -122.29, 277.36, 132.66, 272.55, 122.29, -277.36 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 550,
+					"height": 255
+				},
+				"diqi0005": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -132.66, -272.55, -122.29, 277.36, 132.66, 272.55, 122.29, -277.36 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 550,
+					"height": 255
+				},
+				"diqi0007": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -132.66, -272.55, -122.29, 277.36, 132.66, 272.55, 122.29, -277.36 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 550,
+					"height": 255
+				},
+				"diqi0009": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -132.66, -272.55, -122.29, 277.36, 132.66, 272.55, 122.29, -277.36 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 550,
+					"height": 255
+				},
+				"diqi0011": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -132.66, -272.55, -122.29, 277.36, 132.66, 272.55, 122.29, -277.36 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 550,
+					"height": 255
+				},
+				"diqi0013": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -132.66, -272.55, -122.29, 277.36, 132.66, 272.55, 122.29, -277.36 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 550,
+					"height": 255
+				},
+				"diqi0015": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -132.66, -272.55, -122.29, 277.36, 132.66, 272.55, 122.29, -277.36 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 550,
+					"height": 255
+				},
+				"diqi0017": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -132.66, -272.55, -122.29, 277.36, 132.66, 272.55, 122.29, -277.36 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 550,
+					"height": 255
+				},
+				"diqi0019": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -132.66, -272.55, -122.29, 277.36, 132.66, 272.55, 122.29, -277.36 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 550,
+					"height": 255
+				}
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill410": {
+		"slots": {
+			"di": {
+				"attachment": [
+					{ "name": "di" }
+				]
+			},
+			"diqi0005": {
+				"attachment": [
+					{ "name": "diqi0001" },
+					{ "time": 0.0333, "name": "diqi0003" },
+					{ "time": 0.0667, "name": "diqi0005" },
+					{ "time": 0.1, "name": "diqi0007" },
+					{ "time": 0.1333, "name": "diqi0009" },
+					{ "time": 0.1667, "name": "diqi0011" },
+					{ "time": 0.2, "name": "diqi0013" },
+					{ "time": 0.2333, "name": "diqi0015" },
+					{ "time": 0.2667, "name": "diqi0017" },
+					{ "time": 0.3, "name": "diqi0019" },
+					{ "time": 0.3333, "name": "diqi0001" },
+					{ "time": 0.3667, "name": "diqi0003" },
+					{ "time": 0.4, "name": "diqi0005" },
+					{ "time": 0.4333, "name": "diqi0007" },
+					{ "time": 0.4667, "name": "diqi0009" },
+					{ "time": 0.5, "name": "diqi0011" },
+					{ "time": 0.5333, "name": "diqi0013" },
+					{ "time": 0.5667, "name": "diqi0015" },
+					{ "time": 0.6, "name": "diqi0017" },
+					{ "time": 0.6333, "name": "diqi0019" },
+					{ "time": 0.6667, "name": "diqi0001" },
+					{ "time": 0.7, "name": "diqi0003" },
+					{ "time": 0.7333, "name": "diqi0005" },
+					{ "time": 0.7667, "name": "diqi0007" },
+					{ "time": 0.8, "name": "diqi0009" },
+					{ "time": 0.8333, "name": "diqi0011" },
+					{ "time": 0.8667, "name": "diqi0013" },
+					{ "time": 0.9, "name": "diqi0015" },
+					{ "time": 0.9333, "name": "diqi0017" },
+					{ "time": 0.9667, "name": "diqi0019" },
+					{ "time": 1, "name": "diqi0001" },
+					{ "time": 1.0333, "name": "diqi0003" },
+					{ "time": 1.0667, "name": "diqi0005" },
+					{ "time": 1.1, "name": "diqi0007" },
+					{ "time": 1.1333, "name": "diqi0009" },
+					{ "time": 1.1667, "name": "diqi0011" },
+					{ "time": 1.2, "name": "diqi0013" },
+					{ "time": 1.2333, "name": "diqi0015" },
+					{ "time": 1.2667, "name": "diqi0017" },
+					{ "time": 1.3, "name": "diqi0019" },
+					{ "time": 1.3333, "name": "diqi0001" },
+					{ "time": 1.3667, "name": "diqi0003" },
+					{ "time": 1.4, "name": "diqi0005" },
+					{ "time": 1.4333, "name": "diqi0007" },
+					{ "time": 1.4667, "name": "diqi0009" },
+					{ "time": 1.5, "name": "diqi0011" },
+					{ "time": 1.5333, "name": "diqi0013" },
+					{ "time": 1.5667, "name": "diqi0015" },
+					{ "time": 1.6, "name": "diqi0017" },
+					{ "time": 1.6333, "name": "diqi0019" },
+					{ "time": 1.6667, "name": "diqi0001" }
+				]
+			}
+		},
+		"bones": {
+			"diqi0005": {
+				"translate": [
+					{ "x": 35.84, "y": 216.07 }
+				],
+				"scale": [
+					{ "x": 1.209, "y": 1.209 }
+				]
+			},
+			"di": {
+				"translate": [
+					{ "x": -31.32, "y": 61.72 }
+				],
+				"scale": [
+					{ "x": 5.532, "y": 14.286, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "x": 5.532, "y": 26.129, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667, "x": 5.532, "y": 14.286 }
+				]
+			}
+		}
+	}
+}
+}

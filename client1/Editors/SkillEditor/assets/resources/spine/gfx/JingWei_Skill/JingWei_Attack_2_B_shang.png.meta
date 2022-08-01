@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fbbf5765-e281-4a0b-aaf8-bcab4c7ed5e5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2016,
+  "height": 616,
+  "platformSettings": {},
+  "subMetas": {
+    "JingWei_Attack_2_B_shang": {
+      "ver": "1.0.6",
+      "uuid": "7e853f15-9959-4d5a-86e7-f3f8ddaab1cb",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fbbf5765-e281-4a0b-aaf8-bcab4c7ed5e5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 2012,
+      "height": 612,
+      "rawWidth": 2016,
+      "rawHeight": 616,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c3b4d979-c6fd-4c59-a108-b062a635395a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 284,
+  "height": 511,
+  "platformSettings": {},
+  "subMetas": {
+    "ChenQi_Attack_1_C_shang": {
+      "ver": "1.0.6",
+      "uuid": "e5b22e20-6cba-4155-825d-e3f36249a5b5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c3b4d979-c6fd-4c59-a108-b062a635395a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 280,
+      "height": 507,
+      "rawWidth": 284,
+      "rawHeight": 511,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

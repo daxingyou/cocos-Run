@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="1.1.3413" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
+ <tileset firstgid="1" source="../tiledImage/run_basic32.tsx"/>
+ <tileset firstgid="7" source="../tiledImage/run_stones.tsx"/>
+ <tileset firstgid="17" source="../tiledImage/run_chapter5.tsx"/>
+ <tileset firstgid="273" source="../tiledImage/run_item32.tsx"/>
+ <layer id="9" name="floor" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1f0zVFEcx/FzVeKX6g+m/gEPRdEPoigyQ4kiM+QhoZkKPWGmIk8x0wMq6Yfw9oPZy+zezsyeu3PP7uc98xo/HM7Y/e73rjFKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSil1vFtoRgtu4w5a0Ya7FucqmV1BGR6gGz14iEfoRR8eW5yX4yIu5fbfz/uy3bt2VGAEo3iKMTzDOCYwaXFeiSpUx/tyCyZXe9ePBszgNd7gLd7hPWYxZ3F+A41oivNFe1RS9u45OvAZS1jGClaxhi9YtzjvxD3cN6k9vuzs3fKnpO3dPAawhW38xC/8xg7+YNfifBBPMGRSe3zTzVuW0/Jt7zbwwmQ/35d4hSnj5x7n6979xQcH93zEJyyY9Hsc94y1d+nPSwNjvjq45xu+44dxu8eHe1WDWlzFNdShHteN9i5X9/zDHvZN9B6nm0/U/Hzbu6TNJY79zbTHXaF52T43fds7V++nq3tcfU7C8820x8Ohedk+N337viuk/T25x9Ohedk+N337viuE/c20x4uhedk+Nwt175L2eYva36Ofm6F52T43fXs/8/WeqPke7bEJUvfY3hvwN0U4hdM4g2KcRUmQ+nz+7/d0T3b3RM33HOfncSF0j+29BwdhcUM=
+  </data>
+ </layer>
+ <layer id="10" name="shade" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1FEKgCAURFHL/e+5lhA11jPPAX9FuIytAQAAAAAAAAAAAAAAUF0/z/bw7K+/mit68C6NsxK7S9M4I7m7tNUbV9xd2qqNK+8ubbbGK+wubZbGK+0ubXRju/veqMZ2V8edxnY3F/8mwD8cqqsAlw==
+  </data>
+ </layer>
+ <layer id="11" name="loot" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEOgCAMBEB4gvr/vxpvxoToAWioM0e4NN0slAIAAAAAAAAAAAAA8G6r385Yzz3HvbbvmC+qd3IfL7p3Mm7L8t+tOPNo0b3rbcWZW7L0rrcMO8jWu94id6B3c0TsVO/mstP8ZPwPz/fycsgeAGCKE5ynApE=
+  </data>
+ </layer>
+ <layer id="12" name="stones" width="120" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+</map>

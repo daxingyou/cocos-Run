@@ -1,0 +1,135 @@
+{
+"skeleton": { "hash": "wfwCS8mLci4oXYJsxTNddD+V1Fo", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.4548, "scaleY": 0.4548 },
+	{ "name": "bone4", "parent": "root", "x": 760.01, "y": -72.98 },
+	{ "name": "guang_00005", "parent": "bone4", "x": 45.16, "y": 1.67, "color": "13ff00ff" },
+	{ "name": "guang_5", "parent": "bone4", "x": 45.16, "y": 1.67, "color": "13ff00ff" },
+	{ "name": "xcvbnnm", "parent": "root", "x": 705.51, "y": 343.14 }
+],
+"slots": [
+	{ "name": "guang_00005", "bone": "guang_00005", "blend": "additive" },
+	{ "name": "guang_6", "bone": "guang_5", "blend": "additive" },
+	{ "name": "guang_5", "bone": "guang_00005", "blend": "additive" },
+	{ "name": "guang_7", "bone": "guang_5", "blend": "additive" },
+	{ "name": "xcvbnnm", "bone": "xcvbnnm", "color": "ffffff4a" },
+	{ "name": "xcvbnnm2", "bone": "xcvbnnm", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"guang_00005": {
+				"guang_00000": { "width": 256, "height": 256 },
+				"guang_00001": { "width": 256, "height": 256 },
+				"guang_00002": { "width": 256, "height": 256 },
+				"guang_00003": { "width": 256, "height": 256 },
+				"guang_00004": { "width": 256, "height": 256 },
+				"guang_00005": { "width": 256, "height": 256 },
+				"guang_00006": { "width": 256, "height": 256 },
+				"guang_00007": { "width": 256, "height": 256 }
+			},
+			"guang_5": {
+				"guang_00000": { "width": 256, "height": 256 },
+				"guang_00001": { "width": 256, "height": 256 },
+				"guang_00002": { "width": 256, "height": 256 },
+				"guang_00003": { "width": 256, "height": 256 },
+				"guang_00004": { "width": 256, "height": 256 },
+				"guang_00005": { "width": 256, "height": 256 },
+				"guang_00006": { "width": 256, "height": 256 },
+				"guang_00007": { "width": 256, "height": 256 }
+			},
+			"guang_6": {
+				"guang_00000": { "width": 256, "height": 256 },
+				"guang_00001": { "width": 256, "height": 256 },
+				"guang_00002": { "width": 256, "height": 256 },
+				"guang_00003": { "width": 256, "height": 256 },
+				"guang_00004": { "width": 256, "height": 256 },
+				"guang_00005": { "width": 256, "height": 256 },
+				"guang_00006": { "width": 256, "height": 256 },
+				"guang_00007": { "width": 256, "height": 256 }
+			},
+			"guang_7": {
+				"guang_00000": { "width": 256, "height": 256 },
+				"guang_00001": { "width": 256, "height": 256 },
+				"guang_00002": { "width": 256, "height": 256 },
+				"guang_00003": { "width": 256, "height": 256 },
+				"guang_00004": { "width": 256, "height": 256 },
+				"guang_00005": { "width": 256, "height": 256 },
+				"guang_00006": { "width": 256, "height": 256 },
+				"guang_00007": { "width": 256, "height": 256 }
+			},
+			"xcvbnnm": {
+				"xcvbnnm": { "x": -206.69, "y": 6.56, "scaleX": 3.4773, "scaleY": 3.4773, "width": 202, "height": 237 }
+			},
+			"xcvbnnm2": {
+				"xcvbnnm": { "x": -206.69, "y": 6.56, "scaleX": 3.4773, "scaleY": 3.4773, "width": 202, "height": 237 }
+			}
+		}
+	}
+],
+"events": {
+	"K": {}
+},
+"animations": {
+	"skill137": {
+		"slots": {
+			"guang_6": {
+				"attachment": [
+					{ "name": "guang_00000" },
+					{ "time": 0.0333, "name": "guang_00001" },
+					{ "time": 0.0667, "name": "guang_00002" },
+					{ "time": 0.1, "name": "guang_00003" },
+					{ "time": 0.1333, "name": "guang_00004" },
+					{ "time": 0.1667, "name": "guang_00005" },
+					{ "time": 0.2, "name": "guang_00006" },
+					{ "time": 0.2333, "name": "guang_00007" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"guang_7": {
+				"attachment": [
+					{ "name": "guang_00000" },
+					{ "time": 0.0333, "name": "guang_00001" },
+					{ "time": 0.0667, "name": "guang_00002" },
+					{ "time": 0.1, "name": "guang_00003" },
+					{ "time": 0.1333, "name": "guang_00004" },
+					{ "time": 0.1667, "name": "guang_00005" },
+					{ "time": 0.2, "name": "guang_00006" },
+					{ "time": 0.2333, "name": "guang_00007" },
+					{ "time": 0.2667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guang_00005": {
+				"translate": [
+					{ "time": 0.2, "x": -473.89, "y": 659.54 }
+				]
+			},
+			"guang_5": {
+				"translate": [
+					{ "x": -506.05, "y": 544.3 }
+				],
+				"scale": [
+					{ "x": 8.467, "y": -2.574 }
+				],
+				"shear": [
+					{ "y": -3.17 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.2667,
+				"offsets": [
+					{ "slot": "guang_00005", "offset": 3 }
+				]
+			}
+		],
+		"events": [
+			{ "time": 0.2, "name": "K" }
+		]
+	}
+}
+}

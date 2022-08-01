@@ -1,0 +1,91 @@
+{
+"skeleton": { "hash": "g7kpDfSb0UkZ+Lp9dX4ggFuSvtQ", "spine": "3.8.99", "images": "./images/", "audio": "E:/搬砖/门/内部/SSR-万圣公主-a/SSR_00东海龙王1102" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx", "parent": "root" },
+	{ "name": "shifa1", "parent": "fx" }
+],
+"slots": [
+	{ "name": "eft/shifa_1/shifa_1_00014", "bone": "shifa1" },
+	{ "name": "eft/shifa_1/shifa_1_14", "bone": "shifa1", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"eft/shifa_1/shifa_1_00014": {
+				"eft/shifa_1/shifa_1_00014": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00016": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00018": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00020": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00022": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00024": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00026": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00028": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 }
+			},
+			"eft/shifa_1/shifa_1_14": {
+				"eft/shifa_1/shifa_1_00014": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00016": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00018": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00020": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00022": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00024": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00026": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 },
+				"eft/shifa_1/shifa_1_00028": { "x": 0.5, "y": 0.5, "width": 497, "height": 359 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack2": {
+		"slots": {
+			"eft/shifa_1/shifa_1_00014": {
+				"color": [
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4333, "name": "eft/shifa_1/shifa_1_00014" },
+					{ "time": 0.4667, "name": "eft/shifa_1/shifa_1_00016" },
+					{ "time": 0.5, "name": "eft/shifa_1/shifa_1_00018" },
+					{ "time": 0.5333, "name": "eft/shifa_1/shifa_1_00020" },
+					{ "time": 0.5667, "name": "eft/shifa_1/shifa_1_00022" },
+					{ "time": 0.6, "name": "eft/shifa_1/shifa_1_00024" },
+					{ "time": 0.6667, "name": "eft/shifa_1/shifa_1_00026" },
+					{ "time": 0.7333, "name": "eft/shifa_1/shifa_1_00028" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"eft/shifa_1/shifa_1_14": {
+				"color": [
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4333, "name": "eft/shifa_1/shifa_1_00014" },
+					{ "time": 0.4667, "name": "eft/shifa_1/shifa_1_00016" },
+					{ "time": 0.5, "name": "eft/shifa_1/shifa_1_00018" },
+					{ "time": 0.5333, "name": "eft/shifa_1/shifa_1_00020" },
+					{ "time": 0.5667, "name": "eft/shifa_1/shifa_1_00022" },
+					{ "time": 0.6, "name": "eft/shifa_1/shifa_1_00024" },
+					{ "time": 0.6667, "name": "eft/shifa_1/shifa_1_00026" },
+					{ "time": 0.7333, "name": "eft/shifa_1/shifa_1_00028" },
+					{ "time": 0.8333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shifa1": {
+				"translate": [
+					{},
+					{ "time": 0.4333, "x": 230.05, "y": 212.58 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.4333, "x": 2.3, "y": 2.3 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,45 @@
+{
+"skeleton": { "hash": "NOtTu2ii8xGAA8Y2jW/+f27/f/c", "spine": "3.8.99", "images": "./images/skill/", "audio": "E:/阿拆/工作/食之契约/高/2020.7.20京酱肉丝/200254_7【UR】京酱肉丝/200254_7【UR】京酱肉丝" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root", "color": "0dff00ff" },
+	{ "name": "black", "parent": "effect", "color": "0dff00ff" }
+],
+"slots": [
+	{ "name": "black_00", "bone": "black" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"black_00": {
+				"black_00": { "width": 156, "height": 72 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"black_00": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffff4f", "curve": "stepped" },
+					{ "time": 2.1667, "color": "ffffff4f" },
+					{ "time": 2.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "black_00" }
+				]
+			}
+		},
+		"bones": {
+			"black": {
+				"scale": [
+					{ "x": 20, "y": 20 }
+				]
+			}
+		}
+	}
+}
+}

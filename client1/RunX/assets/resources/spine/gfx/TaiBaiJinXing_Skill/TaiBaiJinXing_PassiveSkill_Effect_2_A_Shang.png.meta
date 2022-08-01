@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a1a9c993-edaf-4671-bf70-6daccad8fb5e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 309,
+  "height": 284,
+  "platformSettings": {},
+  "subMetas": {
+    "TaiBaiJinXing_PassiveSkill_Effect_2_A_Shang": {
+      "ver": "1.0.6",
+      "uuid": "a366ecaa-ac8b-4873-972c-f8813924b78c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a1a9c993-edaf-4671-bf70-6daccad8fb5e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 305,
+      "height": 280,
+      "rawWidth": 309,
+      "rawHeight": 284,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

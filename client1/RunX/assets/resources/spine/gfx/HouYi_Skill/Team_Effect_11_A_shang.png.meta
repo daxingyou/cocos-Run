@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "177bcfe2-7576-474d-a12d-b04d99365013",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1010,
+  "height": 899,
+  "platformSettings": {},
+  "subMetas": {
+    "Team_Effect_11_A_shang": {
+      "ver": "1.0.6",
+      "uuid": "736a5ae0-4859-43d0-be5c-088e906903c4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "177bcfe2-7576-474d-a12d-b04d99365013",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1006,
+      "height": 895,
+      "rawWidth": 1010,
+      "rawHeight": 899,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
